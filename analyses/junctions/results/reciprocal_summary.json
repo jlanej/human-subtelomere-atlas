@@ -1,0 +1,512 @@
+{
+ "forms": 104,
+ "carriers": 3917,
+ "carriers_samples": 230,
+ "donor_status": {
+  "donor_end_absent": 1418,
+  "donor_native": 1157,
+  "donor_replaced_other": 979,
+  "donor_has_recipient_window": 233,
+  "reciprocal": 95,
+  "donor_unassessed": 35
+ },
+ "donor_assessed": 2464,
+ "donor_native_frac": 0.4696,
+ "reciprocal": 95,
+ "reciprocal_frac": 0.0386,
+ "forms_with_any_reciprocal": 30,
+ "forms_reciprocal_enriched_p05": 1,
+ "forms_reciprocal_enriched_bonf": 0,
+ "forms_native_depleted_bonf": 0,
+ "forms_absent_enriched_bonf": 0,
+ "pooled": {
+  "carriers": {
+   "assessed": 2464,
+   "native": 1157,
+   "reciprocal": 95,
+   "has_recipient_window": 233,
+   "replaced_other": 979,
+   "absent": 1418,
+   "total": 3917
+  },
+  "noncarriers": {
+   "assessed": 17814,
+   "native": 8453,
+   "reciprocal": 696,
+   "has_recipient_window": 1599,
+   "replaced_other": 7066,
+   "absent": 8870,
+   "total": 26889
+  },
+  "chi2_donor_status": {
+   "categories": [
+    "native",
+    "reciprocal",
+    "has_recipient_window",
+    "replaced_other"
+   ],
+   "chi2": 0.6814118664990907,
+   "p": 0.8775671108281028,
+   "dof": 3
+  },
+  "frac": {
+   "carriers": {
+    "native": 0.4696,
+    "reciprocal": 0.0386,
+    "has_recipient_window": 0.0946,
+    "replaced_other": 0.3973
+   },
+   "noncarriers": {
+    "native": 0.4745,
+    "reciprocal": 0.0391,
+    "has_recipient_window": 0.0898,
+    "replaced_other": 0.3967
+   }
+  }
+ },
+ "donor_native_covers_block": 457,
+ "blk_hapdonor_ident_median": 0.94671,
+ "blk_hapdonor_cov_median": 0.7061,
+ "complement_clusters_tested": 233,
+ "complement_clusters_with_reverse_form": 155,
+ "complement_clusters_matched": 30,
+ "complement_clusters_matched_list": [
+  {
+   "junction_cluster": "10p>18p#1",
+   "cluster_samples": 5,
+   "reverse_form": "18p>10p",
+   "reverse_tips_complementary": 12,
+   "reverse_samples_complementary": 12
+  },
+  {
+   "junction_cluster": "10p>18p#2",
+   "cluster_samples": 1,
+   "reverse_form": "18p>10p",
+   "reverse_tips_complementary": 5,
+   "reverse_samples_complementary": 4
+  },
+  {
+   "junction_cluster": "11p>15q#1",
+   "cluster_samples": 2,
+   "reverse_form": "15q>11p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "12p>20q#0",
+   "cluster_samples": 4,
+   "reverse_form": "20q>12p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "12p>20q#1",
+   "cluster_samples": 4,
+   "reverse_form": "20q>12p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "12p>20q#2",
+   "cluster_samples": 1,
+   "reverse_form": "20q>12p",
+   "reverse_tips_complementary": 2,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "15q>11p#0",
+   "cluster_samples": 1,
+   "reverse_form": "11p>15q",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "16q>20p#0",
+   "cluster_samples": 2,
+   "reverse_form": "20p>16q",
+   "reverse_tips_complementary": 23,
+   "reverse_samples_complementary": 23
+  },
+  {
+   "junction_cluster": "16q>7p#0",
+   "cluster_samples": 1,
+   "reverse_form": "7p>16q",
+   "reverse_tips_complementary": 3,
+   "reverse_samples_complementary": 3
+  },
+  {
+   "junction_cluster": "18p>10p#1",
+   "cluster_samples": 12,
+   "reverse_form": "10p>18p",
+   "reverse_tips_complementary": 5,
+   "reverse_samples_complementary": 5
+  },
+  {
+   "junction_cluster": "18p>10p#2",
+   "cluster_samples": 2,
+   "reverse_form": "10p>18p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "19p>11p#1",
+   "cluster_samples": 1,
+   "reverse_form": "11p>19p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "19p>15q#0",
+   "cluster_samples": 13,
+   "reverse_form": "15q>19p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "19q>21q#0",
+   "cluster_samples": 17,
+   "reverse_form": "21q>19q",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "19q>21q#1",
+   "cluster_samples": 12,
+   "reverse_form": "21q>19q",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "20q>3q#3",
+   "cluster_samples": 121,
+   "reverse_form": "3q>20q",
+   "reverse_tips_complementary": 6,
+   "reverse_samples_complementary": 6
+  },
+  {
+   "junction_cluster": "22p>15p#0",
+   "cluster_samples": 3,
+   "reverse_form": "15p>22p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "2q>7p#2",
+   "cluster_samples": 3,
+   "reverse_form": "7p>2q",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "2q>7p#3",
+   "cluster_samples": 4,
+   "reverse_form": "7p>2q",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "4p>15p#0",
+   "cluster_samples": 2,
+   "reverse_form": "15p>4p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "4p>15p#1",
+   "cluster_samples": 1,
+   "reverse_form": "15p>4p",
+   "reverse_tips_complementary": 2,
+   "reverse_samples_complementary": 2
+  },
+  {
+   "junction_cluster": "4q>10q#3",
+   "cluster_samples": 3,
+   "reverse_form": "10q>4q",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "4q>10q#6",
+   "cluster_samples": 9,
+   "reverse_form": "10q>4q",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  },
+  {
+   "junction_cluster": "5q>6q#0",
+   "cluster_samples": 19,
+   "reverse_form": "6q>5q",
+   "reverse_tips_complementary": 14,
+   "reverse_samples_complementary": 13
+  },
+  {
+   "junction_cluster": "5q>7p#0",
+   "cluster_samples": 4,
+   "reverse_form": "7p>5q",
+   "reverse_tips_complementary": 5,
+   "reverse_samples_complementary": 5
+  },
+  {
+   "junction_cluster": "6q>5q#0",
+   "cluster_samples": 2,
+   "reverse_form": "5q>6q",
+   "reverse_tips_complementary": 9,
+   "reverse_samples_complementary": 8
+  },
+  {
+   "junction_cluster": "6q>5q#1",
+   "cluster_samples": 13,
+   "reverse_form": "5q>6q",
+   "reverse_tips_complementary": 21,
+   "reverse_samples_complementary": 19
+  },
+  {
+   "junction_cluster": "7p>16q#0",
+   "cluster_samples": 5,
+   "reverse_form": "16q>7p",
+   "reverse_tips_complementary": 2,
+   "reverse_samples_complementary": 2
+  },
+  {
+   "junction_cluster": "7p>5q#0",
+   "cluster_samples": 1,
+   "reverse_form": "5q>7p",
+   "reverse_tips_complementary": 12,
+   "reverse_samples_complementary": 11
+  },
+  {
+   "junction_cluster": "9p>20q#0",
+   "cluster_samples": 1,
+   "reverse_form": "20q>9p",
+   "reverse_tips_complementary": 1,
+   "reverse_samples_complementary": 1
+  }
+ ],
+ "complement_tips_in_matched": 137,
+ "R_window_elsewhere": {
+  "carriers": 2279,
+  "carriers_total": 3917,
+  "noncarriers": 17004,
+  "noncarriers_total": 26889
+ },
+ "rlost_tested": 2146,
+ "rlost_named_elsewhere": 1456,
+ "rlost_in_donor": 222,
+ "rlost_unnamed": 334,
+ "rl_found": 761,
+ "rl_found_above_paralogue": 49,
+ "hg002": [
+  {
+   "q": "HG002|chr13_PATERNAL|p",
+   "form": "13p>21p",
+   "donor_status": "reciprocal",
+   "donor_form": "21p>13p",
+   "rlost_named_arms": "21p",
+   "rl_best_arm": NaN,
+   "rl_best_cov": NaN,
+   "rl_best_ident": NaN
+  },
+  {
+   "q": "HG002|chr14_PATERNAL|p",
+   "form": "14p>15p",
+   "donor_status": "reciprocal",
+   "donor_form": "15p>14p",
+   "rlost_named_arms": "15p",
+   "rl_best_arm": "15p",
+   "rl_best_cov": 1.0,
+   "rl_best_ident": 0.92818
+  },
+  {
+   "q": "HG002|chr15_MATERNAL|p",
+   "form": "15p>22p",
+   "donor_status": "donor_has_recipient_window",
+   "donor_form": NaN,
+   "rlost_named_arms": "13p,22p,4p",
+   "rl_best_arm": "22p",
+   "rl_best_cov": 0.9812,
+   "rl_best_ident": 0.89682
+  },
+  {
+   "q": "HG002|chr15_MATERNAL|q",
+   "form": "15q>11p",
+   "donor_status": "donor_has_recipient_window",
+   "donor_form": NaN,
+   "rlost_named_arms": "11p,9p",
+   "rl_best_arm": "11p",
+   "rl_best_cov": 0.994,
+   "rl_best_ident": 0.98978
+  },
+  {
+   "q": "HG002|chr16_PATERNAL|p",
+   "form": "16p>9q",
+   "donor_status": "donor_replaced_other",
+   "donor_form": "9q>11p",
+   "rlost_named_arms": "12p",
+   "rl_best_arm": NaN,
+   "rl_best_cov": NaN,
+   "rl_best_ident": NaN
+  },
+  {
+   "q": "HG002|chr17_MATERNAL|p",
+   "form": "17p>11p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": "16q",
+   "rl_best_cov": 0.8533,
+   "rl_best_ident": 0.80119
+  },
+  {
+   "q": "HG002|chr17_PATERNAL|p",
+   "form": "17p>11p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": "7p",
+   "rl_best_cov": 0.7658,
+   "rl_best_ident": 0.942
+  },
+  {
+   "q": "HG002|chr19_PATERNAL|q",
+   "form": "19q>21q",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": "16p",
+   "rl_best_cov": 0.9824,
+   "rl_best_ident": 0.93498
+  },
+  {
+   "q": "HG002|chr3_MATERNAL|q",
+   "form": "3q>11p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "6p,8p,9q",
+   "rl_best_arm": "19p",
+   "rl_best_cov": 0.9964,
+   "rl_best_ident": 0.92206
+  },
+  {
+   "q": "HG002|chr3_PATERNAL|q",
+   "form": "3q>11p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "15q,19p,6p,8p,9p,9q",
+   "rl_best_arm": "9q",
+   "rl_best_cov": 0.9989,
+   "rl_best_ident": 0.98076
+  },
+  {
+   "q": "HG002|chr4_PATERNAL|q",
+   "form": "4q>15p",
+   "donor_status": "donor_replaced_other",
+   "donor_form": "15p>14p",
+   "rlost_named_arms": "19q",
+   "rl_best_arm": "10q",
+   "rl_best_cov": 0.9998,
+   "rl_best_ident": 0.97249
+  },
+  {
+   "q": "HG002|chr6_MATERNAL|p",
+   "form": "6p>11p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": NaN,
+   "rl_best_cov": NaN,
+   "rl_best_ident": NaN
+  },
+  {
+   "q": "HG002|chr6_PATERNAL|p",
+   "form": "6p>11p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": NaN,
+   "rl_best_cov": NaN,
+   "rl_best_ident": NaN
+  },
+  {
+   "q": "HG002|chr6_MATERNAL|q",
+   "form": "6q>5q",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "8p",
+   "rl_best_arm": "1p",
+   "rl_best_cov": 0.8293,
+   "rl_best_ident": 0.97646
+  },
+  {
+   "q": "HG002|chr6_PATERNAL|q",
+   "form": "6q>5q",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "15q,17q,1p,8p",
+   "rl_best_arm": "1p",
+   "rl_best_cov": 0.9752,
+   "rl_best_ident": 0.93559
+  },
+  {
+   "q": "HG002|chr8_MATERNAL|p",
+   "form": "8p>1p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": NaN,
+   "rl_best_cov": NaN,
+   "rl_best_ident": NaN
+  },
+  {
+   "q": "HG002|chr8_PATERNAL|p",
+   "form": "8p>1p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": NaN,
+   "rl_best_cov": NaN,
+   "rl_best_ident": NaN
+  },
+  {
+   "q": "HG002|chr9_MATERNAL|p",
+   "form": "9p>15q",
+   "donor_status": "donor_has_recipient_window",
+   "donor_form": "15q>11p",
+   "rlost_named_arms": "15q,19p",
+   "rl_best_arm": "12p",
+   "rl_best_cov": 0.9928,
+   "rl_best_ident": 0.97504
+  },
+  {
+   "q": "HG002|chr9_PATERNAL|q",
+   "form": "9q>11p",
+   "donor_status": "donor_native",
+   "donor_form": NaN,
+   "rlost_named_arms": "16p,8p",
+   "rl_best_arm": "16p",
+   "rl_best_cov": 1.0,
+   "rl_best_ident": 0.99953
+  },
+  {
+   "q": "HG002|chrX_MATERNAL|p",
+   "form": "Xp>Yp",
+   "donor_status": "donor_end_absent",
+   "donor_form": NaN,
+   "rlost_named_arms": "",
+   "rl_best_arm": NaN,
+   "rl_best_cov": NaN,
+   "rl_best_ident": NaN
+  }
+ ],
+ "params": {
+  "min_carriers": 10,
+  "named_forms": [
+   "20q>3q",
+   "3q>11p",
+   "6p>11p",
+   "8p>1p",
+   "16p>9q"
+  ],
+  "rl_found": "best non-self hit covers >= 50% of the lost CHM13 segment at >= 98% identity",
+  "rl_found_above_paralogue": "rl_found and cov*ident exceeds the best other-CHM13-end cov*ident by > 0.05"
+ }
+}

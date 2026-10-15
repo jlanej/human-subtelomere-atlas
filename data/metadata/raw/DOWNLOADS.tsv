@@ -1,0 +1,4 @@
+file	url	download_date
+hprc_release2_sample_metadata.csv	https://raw.githubusercontent.com/human-pangenomics/hprc_intermediate_assembly/main/data_tables/sample/hprc_release2_sample_metadata.csv	2026-10-15
+20130606_g1k_3202_samples_ped_population.txt	https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/20130606_g1k_3202_samples_ped_population.txt	2026-10-15
+20131219.populations.tsv	https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/20131219.populations.tsv	2026-10-15

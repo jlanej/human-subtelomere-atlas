@@ -1,0 +1,35 @@
+# E1_20q-3q 20q>3q cluster #3 representative (HPRC Release 2)
+# carrier HG02647.pat.hifiasm|HG02647#1#CM086569.1|R subtelomere positions 31391-31690 (tip frame = +7500); junction x = 31541 (carrier base x is the first recipient-derived base)
+# donor chr3q telomere-frame 34430-34729; recipient chr20q telomere-frame 31313-31612
+# rows: D = donor CHM13 base aligned to the carrier base, C = carrier, R = recipient CHM13 base; "-" = no aligned base
+# marks: "|" shared by all three, "d" carrier = donor only, "r" carrier = recipient only, "." neither; "^" = junction
+
+  -150 D GGTGGTGACAGACAGACTCTAAGGTGAGCAGACTGTTGCTAGATATCTGGGCTTGGAGGA
+       C GGTGGTGACAGACAGACTCTAAGGTGAGCAGACTGTTGCTAGATATCTGGGCTTGGAGGA
+       R GGTGGTGACAGACAGACTCTAAGGTGAGCAGACTGTTGCTAGATATCTGGGCTTGGAGGA
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+                                                                     
+
+   -90 D CTCGCCACTGCTCAAAGGCAGTGAGGATTTTCGCACTAGAAGCTGGAGGACAGGGATCCT
+       C CTCGCCACTGCTCAAAGGCAGTGAGGATTTTCGCACTAGAAGCTGGAGGACAGGGATCCT
+       R CTCGCCACTGCTCAAAGGCAGTGAGGATTTTCGCACTAGAAGCTGGAGGACAGGGATCCT
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+                                                                     
+
+   -30 D TGTTAGGTAGGAGCAGAAAGCTTAGAAAAGTGGTCTCCTGCAGTTATGTGGAAAACACAT
+       C TGTTAGGTAGGAGCAGAAAGCTTAGAAAAGTGGTCTCCTGCAGTTATGTGGAAAACACAT
+       R TGTTAGGTAGGAGCAGAAAGCTTAGAAAAATGGTCTCCTGCAGTTATGTGGAAAACACAT
+         |||||||||||||||||||||||||||||d||||||||||||||||||||||||||||||
+                                       ^                             
+
+    30 D CATGTAAGTGATAAATTGGGTATGCAGTTGAGGAGATTTCCAAGTAAAATGTTGAGGATG
+       C CATGTAAGTGATAAATTGGGTATGCAGTTGAGGAGATTTCGAAGTAAAATGTTGAGGATG
+       R CATGTAAGTGATAAATTGGGTATGCAGTTGAGGAGATTTCCAAGTAAAATGTTGAGGATG
+         ||||||||||||||||||||||||||||||||||||||||.|||||||||||||||||||
+                                                                     
+
+    90 D CTGCCTGGTTTCTTCTTACTGCTTATAATATAGTGTGAGAGAAGAGAGATAAATTGAGAA
+       C CTGCCTGGTTTCTTCTTACTGCTTATAATATAGTGTGAGAGAAGAGAGATAAATTGAGAA
+       R CTGCCTGGTTTCTTCTTACTGCTTATAATATAGTGTGAGAGAAGAGAGATAAATTGAGAA
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+                                                                     

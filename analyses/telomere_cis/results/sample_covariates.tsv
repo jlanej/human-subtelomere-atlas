@@ -1,0 +1,231 @@
+sample	n_tips	mean_tl	median_tl	assembler	hifi_input	hifi_n50	hifi_cov	revio_frac	ont_cov_100kb
+HG00097	60	3805	3304	hifiasm	Revio only	2.046e+04	63.7	1	25.34
+HG00099	51	9527	9550	hifiasm	DeepConsensus + Revio	2.046e+04	120	0.165	20.75
+HG00126	53	4761	4129	hifiasm	Revio only	2.13e+04	63.8	1	38.34
+HG00128	63	2851	2583	hifiasm	Revio only	1.81e+04	66.3	1	27.52
+HG00133	61	4405	4300	hifiasm	Revio only	2.373e+04	66	1	35.02
+HG00140	60	9580	9800	hifiasm	DeepConsensus + Revio	2.128e+04	96.24	0.2057	29.76
+HG00146	40	6828	6817	hifiasm	Revio only	2.025e+04	72.6	1	38.56
+HG00232	47	6299	6348	hifiasm	Revio only	1.891e+04	62.3	1	23.97
+HG00235	55	5550	5016	hifiasm	Revio only	2.068e+04	61.6	1	36.62
+HG00253	40	3986	3925	hifiasm	Revio only	2.056e+04	64.9	1	32.86
+HG00272	62	4148	4128	hifiasm	Revio only	2.223e+04	67.8	1	23.76
+HG00280	46	7468	7268	hifiasm	DeepConsensus + Revio	2.017e+04	108.2	0.1654	20.4
+HG00290	46	7215	7561	hifiasm	Revio only	2.342e+04	63.3	1	35.56
+HG00320	59	6230	6230	hifiasm	Revio only	1.935e+04	68.3	1	31.63
+HG00321	66	5171	5122	hifiasm	Revio only	1.978e+04	61.2	1	26.01
+HG00323	58	6909	7952	hifiasm	DeepConsensus + Revio	1.934e+04	95.42	0.2264	22.39
+HG00329	46	4725	4644	hifiasm	Revio only	2.347e+04	62.1	1	26.39
+HG00344	44	5027	4744	hifiasm	Revio only	1.934e+04	65.3	1	24.6
+HG00350	48	4660	3831	hifiasm	Revio only	1.828e+04	65.8	1	29.81
+HG00408	50	9837	1.025e+04	hifiasm	DeepConsensus + Revio	1.845e+04	100.8	0.1985	28.53
+HG00423	60	1.002e+04	1.022e+04	hifiasm	DeepConsensus + Revio	1.875e+04	107.4	0.06981	27.51
+HG00438	72	9652	9866	hifiasm	DeepConsensus only	2.227e+04	118.9	0	39.84
+HG005	44	7324	7600	hifiasm	DeepConsensus only	1.724e+04	56.9	0	58.34
+HG00544	54	8198	8172	hifiasm	DeepConsensus + Revio	2.002e+04	106.3	0.1993	16.23
+HG00558	60	1.227e+04	1.402e+04	hifiasm	DeepConsensus + Revio	2.165e+04	96.98	0.232	26.69
+HG00597	54	8269	8225	hifiasm	DeepConsensus + Revio	1.935e+04	103	0.2174	29.57
+HG00609	48	7737	7442	hifiasm	unknown	1.966e+04	103.5	0.2977	28.36
+HG00621	60	1.056e+04	1.082e+04	hifiasm	DeepConsensus + Revio	2.2e+04	97.91	0.1072	26.43
+HG00639	56	1.37e+04	1.318e+04	hifiasm	DeepConsensus + Revio	2.072e+04	98.37	0.2267	37.44
+HG00642	46	9369	9232	hifiasm	unknown	1.994e+04	105.9	0.1605	32.34
+HG00658	51	7943	7934	hifiasm	DeepConsensus + Revio	1.844e+04	104.2	0.2638	30.8
+HG00673	50	1.026e+04	1.019e+04	hifiasm	DeepConsensus + Revio	2.138e+04	100.7	0.1251	21.88
+HG00706	54	5828	5142	hifiasm	other/standard CCS	1.832e+04	61.1	0.4157	22.83
+HG00733	50	6159	5647	hifiasm	other/standard CCS	2.055e+04	66.1	0	4.83
+HG00735	37	1.049e+04	1.065e+04	hifiasm	DeepConsensus only	2.243e+04	95.77	0	21.9
+HG00738	24	1.205e+04	1.268e+04	hifiasm	unknown	2.078e+04	102.6	0.2974	26.7
+HG00741	50	1.267e+04	1.364e+04	hifiasm	DeepConsensus + Revio	2.467e+04	100.7	0.1431	31.21
+HG01071	62	7700	7223	hifiasm	DeepConsensus + Revio	2.5e+04	125.8	0.132	47.62
+HG01074	46	9787	9688	hifiasm	DeepConsensus + Revio	1.973e+04	104.6	0.1702	35.01
+HG01081	62	5609	5513	hifiasm	DeepConsensus + Revio	2.076e+04	95.49	0.1927	40.4
+HG01099	46	1.162e+04	1.161e+04	hifiasm	unknown	1.971e+04	96.98	0.2681	22.89
+HG01106	50	8792	9052	hifiasm	DeepConsensus only	2.223e+04	103.2	0	24.34
+HG01109	47	6497	7020	hifiasm	DeepConsensus only	2.129e+04	41.38	0	28.28
+HG01123	60	9452	9608	hifiasm	DeepConsensus + Revio	1.717e+04	110.3	0.2384	23.42
+HG01150	66	1.175e+04	1.184e+04	hifiasm	DeepConsensus + Revio	1.941e+04	96.2	0.1913	37.33
+HG01167	58	3609	3358	hifiasm	Revio only	2.055e+04	62.5	1	33.32
+HG01175	56	1.127e+04	1.151e+04	hifiasm	DeepConsensus + Revio	2.197e+04	98.41	0.1666	27.79
+HG01192	54	5311	4676	hifiasm	DeepConsensus + Revio	2.025e+04	104.5	0.2355	23.72
+HG01243	46	8115	8636	hifiasm	DeepConsensus only	1.961e+04	42.18	0	5.72
+HG01252	54	9845	1.059e+04	hifiasm	DeepConsensus + Revio	2.007e+04	95.7	0.1745	17.45
+HG01255	54	1.261e+04	1.274e+04	hifiasm	unknown	2.116e+04	102.7	0.3358	26.51
+HG01258	52	6437	5466	hifiasm	DeepConsensus + Revio	2.044e+04	94.94	0.1706	24
+HG01261	39	6827	6803	hifiasm	DeepConsensus + Revio	2.02e+04	103.9	0.2502	19.91
+HG01346	49	9310	9800	hifiasm	unknown	1.869e+04	108.6	0.1989	23.48
+HG01358	59	8505	8230	hifiasm	DeepConsensus + Revio	1.906e+04	97.8	0.1534	18.97
+HG01361	64	1.494e+04	1.44e+04	hifiasm	DeepConsensus + Revio	2.024e+04	162	0.2346	55.88
+HG01433	54	7528	7148	hifiasm	unknown	2.129e+04	104.3	0.2578	19.89
+HG01496	63	1.415e+04	1.521e+04	hifiasm	unknown	2.211e+04	96.39	0.2531	30.93
+HG01530	46	4158	4394	hifiasm	DeepConsensus + Revio	1.848e+04	104.6	0.1014	20.59
+HG01784	56	9702	8847	hifiasm	DeepConsensus + Revio	2.301e+04	105.9	0.1982	25.1
+HG01786	37	4361	4091	hifiasm	Revio only	1.823e+04	73.6	1	23.47
+HG01884	63	5020	4963	hifiasm	unknown	1.798e+04	94.32	0.229	19.83
+HG01891	34	1.064e+04	1.197e+04	hifiasm	DeepConsensus + Revio	1.719e+04	101.8	0.2083	29.02
+HG01928	71	8968	9228	hifiasm	DeepConsensus + Revio	2.296e+04	125.7	0.1599	50.12
+HG01934	64	1.233e+04	1.348e+04	hifiasm	DeepConsensus + Revio	2.146e+04	110.4	0.3704	33.63
+HG01940	62	1.222e+04	1.38e+04	hifiasm	DeepConsensus + Revio	1.93e+04	93.76	0.1973	32.25
+HG01943	31	9246	9679	hifiasm	DeepConsensus + Revio	1.903e+04	98.78	0.324	19.38
+HG01952	48	9981	1.024e+04	hifiasm	DeepConsensus + Revio	2.141e+04	100	0.09199	23.73
+HG01960	48	7528	7236	hifiasm	DeepConsensus + Revio	1.872e+04	94.02	0.1766	16.18
+HG01969	54	1.199e+04	1.311e+04	hifiasm	DeepConsensus + Revio	2.107e+04	94.07	0.2062	26.74
+HG01975	60	8513	8947	hifiasm	DeepConsensus + Revio	1.906e+04	97.96	0.2419	29.29
+HG01978	53	1.317e+04	1.435e+04	hifiasm	DeepConsensus + Revio	2.462e+04	124.9	0.06725	43.37
+HG01981	54	1.434e+04	1.496e+04	hifiasm	unknown	2.176e+04	97.08	0.2503	17.76
+HG01993	52	1.11e+04	1.114e+04	hifiasm	unknown	2.093e+04	106	0.3141	37.03
+HG02004	36	9061	8706	hifiasm	unknown	1.935e+04	101.9	0.2149	37.02
+HG02015	32	1.197e+04	1.232e+04	hifiasm	DeepConsensus + Revio	1.859e+04	112.7	0.1499	17.21
+HG02027	42	6439	6669	hifiasm	unknown	1.914e+04	110.4	0.1639	16.27
+HG02040	52	2530	2041	hifiasm	DeepConsensus + Revio	2.106e+04	106.4	0.142	34.24
+HG02055	44	5691	5396	hifiasm	DeepConsensus only	1.91e+04	83.45	0.4182	82.05
+HG02056	42	6756	6172	hifiasm	DeepConsensus + Revio	1.992e+04	102.3	0.2033	19.48
+HG02071	54	6878	5971	hifiasm	DeepConsensus + Revio	1.887e+04	94.82	0.2594	20.82
+HG02074	50	1.031e+04	1.045e+04	hifiasm	DeepConsensus + Revio	1.913e+04	104.9	0.3405	18.66
+HG02080	56	7560	8515	hifiasm	DeepConsensus only	2.175e+04	63.06	0	46.33
+HG02083	48	1.002e+04	1.049e+04	hifiasm	unknown	1.971e+04	108.6	0.1603	26.85
+HG02109	56	6366	6393	hifiasm	DeepConsensus only	1.937e+04	70.67	0.4995	82.51
+HG02129	42	5034	5050	hifiasm	DeepConsensus + Revio	1.869e+04	96.99	0.2093	16.26
+HG02132	52	9414	8630	hifiasm	unknown	1.991e+04	106.1	0.2045	22.92
+HG02135	38	8792	8894	hifiasm	DeepConsensus + Revio	1.775e+04	98.36	0.1871	25.32
+HG02145	60	6405	5937	hifiasm	DeepConsensus only	1.896e+04	81.18	0.4669	45.67
+HG02148	48	8605	8534	hifiasm	DeepConsensus + Revio	1.793e+04	101.6	0.1467	19.16
+HG02155	48	7494	7269	hifiasm	DeepConsensus + Revio	1.925e+04	103.7	0.2672	30.86
+HG02165	60	1.414e+04	1.712e+04	hifiasm	DeepConsensus + Revio	2.052e+04	108.9	0.1341	30.19
+HG02178	51	7441	7685	hifiasm	Revio only	2.203e+04	63.3	1	22.52
+HG02257	50	9730	8415	hifiasm	DeepConsensus + Revio	1.93e+04	103.3	0.2391	16.54
+HG02258	52	1.254e+04	1.292e+04	hifiasm	DeepConsensus + Revio	1.966e+04	99.02	0.1979	25.01
+HG02273	46	1.058e+04	1.062e+04	hifiasm	DeepConsensus + Revio	2.087e+04	96.08	0.1291	30.55
+HG02280	44	6994	7121	hifiasm	unknown	2.09e+04	103.4	0.3337	26.97
+HG02293	20	9172	1.064e+04	hifiasm	unknown	1.884e+04	93.24	0.2681	35.26
+HG02300	43	8957	1.004e+04	hifiasm	unknown	1.79e+04	93.19	0.3069	27.43
+HG02391	58	8102	8006	hifiasm	DeepConsensus + Revio	2.505e+04	101.7	0.09834	20.55
+HG02392	40	7031	6798	hifiasm	Revio only	2.087e+04	62.2	1	36.66
+HG02451	44	9650	9675	hifiasm	unknown	1.797e+04	105.9	0.152	19.23
+HG02486	58	7570	7773	hifiasm	DeepConsensus + Revio	1.897e+04	103.9	0.1607	23.34
+HG02514	62	5790	5430	hifiasm	DeepConsensus + Revio	1.888e+04	87.57	0.225	30.3
+HG02523	59	9149	8115	hifiasm	unknown	2.166e+04	97.37	0.3184	26.71
+HG02559	52	9136	9934	hifiasm	DeepConsensus + Revio	2.034e+04	108.8	0.1425	24.63
+HG02572	66	6128	5624	hifiasm	DeepConsensus + Revio	1.92e+04	90.44	0.2499	22.24
+HG02583	62	6976	7418	hifiasm	Revio only	2.311e+04	64.9	1	30.19
+HG02602	58	9955	1.042e+04	hifiasm	DeepConsensus + Revio	2.061e+04	97.67	0.2795	20.1
+HG02615	42	1.074e+04	1.076e+04	hifiasm	unknown	1.867e+04	103.1	0.3521	20.92
+HG02622	47	1.006e+04	1.008e+04	hifiasm	DeepConsensus only	2.299e+04	103.4	0	23.48
+HG02630	54	8266	8547	hifiasm	DeepConsensus only	1.925e+04	106.7	0	30.45
+HG02647	62	9788	1.003e+04	hifiasm	unknown	1.798e+04	99.9	0.1491	16.99
+HG02668	54	1.245e+04	1.404e+04	hifiasm	other/standard CCS	1.79e+04	65	0.4815	14.8
+HG02698	42	6250	6300	hifiasm	unknown	1.958e+04	103	0.3623	22.73
+HG02717	56	4931	4925	hifiasm	DeepConsensus only	1.777e+04	126.7	0	48.03
+HG02723	72	8558	1.02e+04	hifiasm	DeepConsensus only	1.704e+04	89.07	0.4075	51.87
+HG02735	54	9883	1.037e+04	hifiasm	DeepConsensus + Revio	1.975e+04	101	0.2277	19.99
+HG02738	42	1.026e+04	1.146e+04	hifiasm	unknown	1.897e+04	97.08	0.2853	23.08
+HG02809	70	1.181e+04	1.294e+04	hifiasm	DeepConsensus + Revio	2.241e+04	111.2	0.2779	28.34
+HG02818	45	8650	8844	hifiasm	DeepConsensus only	1.657e+04	44.11	0	31.42
+HG02841	61	8217	7850	hifiasm	DeepConsensus + Revio	1.638e+04	99.85	0.2534	22
+HG02886	53	9000	9802	hifiasm	DeepConsensus only	1.769e+04	98.81	0	20.51
+HG02922	50	1.088e+04	1.115e+04	hifiasm	DeepConsensus + Revio	2.206e+04	114	0.05702	35.21
+HG02965	64	1.169e+04	1.198e+04	hifiasm	DeepConsensus + Revio	2.003e+04	102.6	0.2125	33.69
+HG02976	38	7133	7388	hifiasm	DeepConsensus + Revio	1.909e+04	98.74	0.2238	27.48
+HG02984	59	1.242e+04	1.415e+04	hifiasm	DeepConsensus only	1.846e+04	91.27	0.2564	24.9
+HG03017	64	4668	4706	hifiasm	DeepConsensus + Revio	2.077e+04	99.58	0.1707	34.14
+HG03041	68	9130	9924	hifiasm	DeepConsensus + Revio	1.953e+04	95.53	0.1748	27.28
+HG03050	56	8006	8165	hifiasm	DeepConsensus only	1.91e+04	71.01	0.1479	27.88
+HG03098	54	5384	4096	hifiasm	DeepConsensus only	1.954e+04	42.06	0	51.7
+HG03130	54	5639	5824	hifiasm	DeepConsensus + Revio	1.984e+04	102	0.1873	21.29
+HG03139	60	9892	1.002e+04	hifiasm	DeepConsensus + Revio	2.186e+04	102.9	0.1225	24.8
+HG03195	56	8239	8366	hifiasm	DeepConsensus + Revio	2.052e+04	101.7	0.2634	18.08
+HG03209	65	9522	9400	hifiasm	DeepConsensus + Revio	1.876e+04	100.6	0.176	29.79
+HG03225	58	4801	4514	hifiasm	DeepConsensus + Revio	2.078e+04	85.72	0.2158	35.51
+HG03239	58	7484	7666	hifiasm	DeepConsensus + Revio	2.083e+04	95.5	0.1895	25.48
+HG03270	46	5112	4114	hifiasm	Revio only	1.975e+04	64.6	1	17.28
+HG03369	50	7882	7706	hifiasm	Revio only	1.971e+04	61.5	1	27.54
+HG03453	50	1.019e+04	9881	hifiasm	DeepConsensus only	1.993e+04	111.7	0	25.49
+HG03470	70	7923	7704	hifiasm	DeepConsensus + Revio	2.672e+04	111.5	0.1982	30.65
+HG03471	48	8330	7321	hifiasm	DeepConsensus only	1.928e+04	111.5	0	24
+HG03486	56	4978	4684	hifiasm	DeepConsensus only	1.885e+04	47.8	0	24.99
+HG03516	58	1.238e+04	1.287e+04	hifiasm	DeepConsensus + Revio	1.983e+04	127.9	0.1759	55.75
+HG03521	45	5728	5862	hifiasm	Revio only	2.058e+04	67.3	1	32.13
+HG03540	52	1.703e+04	1.773e+04	hifiasm	DeepConsensus only	2.059e+04	108.1	0	27.84
+HG03579	58	5612	5508	hifiasm	DeepConsensus only	1.959e+04	132.9	0	42.3
+HG03583	42	6159	6063	hifiasm	Revio only	2.307e+04	57.1	1	18.21
+HG03654	44	1.036e+04	1.054e+04	hifiasm	unknown	1.83e+04	102.9	0.2409	24.42
+HG03669	26	9769	1.038e+04	hifiasm	unknown	1.947e+04	108.4	0.2814	21.44
+HG03688	46	8451	8456	hifiasm	unknown	1.759e+04	98.16	0.1997	27.76
+HG03704	45	9371	9650	hifiasm	unknown	2.03e+04	91.44	0.2067	27.02
+HG03710	57	8438	8031	hifiasm	unknown	2.074e+04	109.4	0.3728	21.84
+HG03742	62	7686	7528	hifiasm	DeepConsensus + Revio	1.981e+04	91.17	0.1448	22.38
+HG03784	48	7286	6750	hifiasm	Revio only	1.969e+04	62.5	1	24.01
+HG03804	56	9979	1.078e+04	hifiasm	other/standard CCS	1.805e+04	69.6	0.4828	37.8
+HG03816	60	9367	9518	hifiasm	other/standard CCS	1.786e+04	59.9	0.4324	24.32
+HG03831	40	6572	6450	hifiasm	unknown	2.123e+04	107.2	0.3722	30.1
+HG03834	58	1.094e+04	1.134e+04	hifiasm	DeepConsensus + Revio	1.956e+04	106.5	0.245	26.33
+HG03874	66	5103	4610	hifiasm	Revio only	2.105e+04	61.6	1	33.46
+HG03927	50	7884	8168	hifiasm	unknown	1.645e+04	96.8	0.1653	23.82
+HG03942	44	6783	7270	hifiasm	DeepConsensus + Revio	1.866e+04	98.77	0.2268	15.22
+HG04115	46	1.156e+04	1.203e+04	hifiasm	unknown	2.082e+04	99.66	0.3331	20.47
+HG04157	40	9424	1.036e+04	hifiasm	other/standard CCS	1.785e+04	60.3	0.4229	29.33
+HG04160	49	7108	7350	hifiasm	other/standard CCS	1.742e+04	58.5	0.4632	20.05
+HG04184	50	7375	6520	hifiasm	unknown	1.89e+04	97.66	0.2027	21.95
+HG04187	58	5505	5562	hifiasm	DeepConsensus + Revio	1.827e+04	67.2	0.4226	16.28
+HG04199	50	9271	8347	hifiasm	unknown	1.907e+04	99.58	0.3023	21.33
+HG04204	20	6718	5699	hifiasm	DeepConsensus + Revio	1.948e+04	94.31	0.2131	23.36
+HG04228	58	8061	8765	hifiasm	DeepConsensus + Revio	1.933e+04	107.9	0.1427	25.35
+NA18505	38	7306	7329	hifiasm	Revio only	1.983e+04	61.4	1	17.18
+NA18508	31	9284	1.046e+04	hifiasm	Revio only	2.148e+04	61.3	1	42.12
+NA18522	62	7199	7796	hifiasm	DeepConsensus + Revio	2.048e+04	109	0.1734	30.82
+NA18565	50	4320	3765	hifiasm	Revio only	1.78e+04	62.9	1	24.57
+NA18570	74	7176	7700	hifiasm	DeepConsensus + Revio	2.276e+04	109.2	0.1483	26.85
+NA18608	40	7084	8582	hifiasm	Revio only	1.922e+04	61.7	1	34.48
+NA18620	39	6391	4750	hifiasm	Revio only	1.963e+04	68.2	1	36.6
+NA18747	34	9747	1.008e+04	hifiasm	DeepConsensus + Revio	2.065e+04	99.99	0.171	31.12
+NA18879	50	6363	5810	hifiasm	Revio only	1.902e+04	63.8	1	20.7
+NA18906	52	1.069e+04	1.071e+04	hifiasm	DeepConsensus only	2.151e+04	51.45	0	29.58
+NA18940	57	4634	4921	hifiasm	unknown	2.057e+04	40	0	27.08
+NA18943	58	4895	4852	hifiasm	unknown	1.706e+04	40.7	0	29.55
+NA18944	58	4036	3585	hifiasm	unknown	1.848e+04	35.3	0	24.89
+NA18945	59	7054	6901	hifiasm	unknown	1.817e+04	39.7	0	26.3
+NA18948	48	9628	9675	hifiasm	unknown	1.933e+04	38.4	0	37.5
+NA18952	44	5762	5340	hifiasm	Revio only	1.855e+04	76.3	1	27.28
+NA18959	53	5663	5172	hifiasm	unknown	1.544e+04	35.8	0	31.16
+NA18960	65	6176	6243	hifiasm	unknown	2.158e+04	49.7	0	32.93
+NA18967	62	7490	7908	hifiasm	unknown	1.793e+04	47.5	0	28.73
+NA18970	58	5313	4918	hifiasm	unknown	2.116e+04	54.9	0	27.98
+NA18971	46	8055	9132	hifiasm	DeepConsensus + Revio	1.969e+04	104.3	0.254	29.98
+NA18974	54	3169	3136	hifiasm	Revio only	2.011e+04	81.6	1	33.47
+NA18976	37	4365	4200	hifiasm	Revio only	1.992e+04	73.4	1	23.24
+NA18982	48	6085	6435	hifiasm	unknown	2.287e+04	47.4	0	24.95
+NA18983	47	7450	7550	hifiasm	DeepConsensus + Revio	2.114e+04	107.5	0.1628	26.4
+NA19036	58	4266	4316	hifiasm	Revio only	1.769e+04	64.3	1	34.74
+NA19043	54	8473	8229	hifiasm	DeepConsensus + Revio	2.132e+04	102.1	0.1185	21.82
+NA19087	54	6921	6882	hifiasm	DeepConsensus + Revio	2.099e+04	108.6	0.1732	22.34
+NA19159	68	8814	9718	hifiasm	DeepConsensus + Revio	2.342e+04	87.19	0.08717	23.73
+NA19185	70	5443	4925	hifiasm	DeepConsensus + Revio	2.144e+04	106.8	0.08242	19.96
+NA19240	58	7205	7570	hifiasm	DeepConsensus only	1.778e+04	35.24	0	38.03
+NA19338	68	1.118e+04	1.188e+04	hifiasm	DeepConsensus + Revio	2.463e+04	100.3	0.2053	30.44
+NA19391	55	1.008e+04	1.055e+04	hifiasm	DeepConsensus + Revio	2.173e+04	103.3	0.2217	36.24
+NA19443	52	3480	3606	hifiasm	Revio only	2.446e+04	62.8	1	25.63
+NA19468	62	6671	6810	hifiasm	DeepConsensus + Revio	2.518e+04	109.8	0.1803	26.89
+NA19682	44	3350	3050	hifiasm	Revio only	2.116e+04	62.6	1	27.68
+NA19700	59	4039	3895	hifiasm	Revio only	2.048e+04	60.6	1	35.45
+NA19776	59	5256	4795	hifiasm	Revio only	1.812e+04	62.4	1	34.01
+NA19835	46	5633	5477	hifiasm	Revio only	1.976e+04	62.4	1	37.3
+NA19909	52	3152	3130	hifiasm	Revio only	1.896e+04	189.8	1	27.1
+NA20129	53	9030	9931	hifiasm	DeepConsensus only	1.78e+04	42.33	0	32.36
+NA20282	33	6931	7195	hifiasm	Revio only	2e+04	69.8	1	25.69
+NA20346	47	4612	4264	hifiasm	Revio only	1.971e+04	60.1	1	26.49
+NA20503	72	8976	9026	verkko	unknown	1.99e+04	41.7	0	23.67
+NA20752	53	1.034e+04	9600	hifiasm	DeepConsensus + Revio	2.124e+04	117.9	0.1806	29.85
+NA20762	60	2879	2699	verkko	unknown	2.138e+04	45.7	0	37.37
+NA20799	57	4094	3850	hifiasm	DeepConsensus + Revio	2.249e+04	100.8	0.2103	18.26
+NA20805	24	6754	6722	hifiasm	DeepConsensus + Revio	2.045e+04	97	0.1505	18.96
+NA20806	72	9403	9502	verkko	unknown	1.814e+04	47	0	36.75
+NA20809	32	4226	3593	hifiasm	Revio only	1.866e+04	59.1	1	24.82
+NA20827	86	9597	9591	verkko	unknown	2.291e+04	48.9	0	36.41
+NA20850	52	4834	4522	hifiasm	Revio only	1.837e+04	60.6	1	19.54
+NA20870	54	3554	3285	hifiasm	Revio only	1.638e+04	70.3	1	25.71
+NA20905	45	9406	1.084e+04	hifiasm	DeepConsensus + Revio	2.022e+04	103	0.1194	21.99
+NA21093	41	5184	4515	hifiasm	Revio only	1.965e+04	62.5	1	33.96
+NA21102	46	5783	5020	hifiasm	Revio only	1.852e+04	62.3	1	28.47
+NA21106	54	5562	5498	hifiasm	Revio only	2.017e+04	63	1	20.86
+NA21110	63	5226	5050	hifiasm	Revio only	2.349e+04	61.9	1	36.01
+NA21144	61	5631	5850	hifiasm	Revio only	1.861e+04	77.4	1	35.31
+NA21309	40	5637	5466	hifiasm	DeepConsensus only	1.707e+04	45.34	0	30.79

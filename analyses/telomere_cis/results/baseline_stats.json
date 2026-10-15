@@ -1,0 +1,41 @@
+{
+ "n_arms_compared": 38,
+ "mean_rel_tl": {
+  "n": 38,
+  "spearman_rho": 0.7327,
+  "spearman_p": 1.699555779313065e-07,
+  "pearson_r": 0.6938,
+  "pearson_p": 1.3644083398125444e-06,
+  "slope_hprc_kb_per_karimian_kb": 0.754
+ },
+ "mean_rel_tl_own": {
+  "n": 38,
+  "spearman_rho": 0.6495,
+  "spearman_p": 1.024993728255173e-05,
+  "pearson_r": 0.6384,
+  "pearson_p": 1.612538084610221e-05,
+  "slope_hprc_kb_per_karimian_kb": 0.902
+ },
+ "hprc_rank_of_karimian_shortest3": {
+  "17p": 17,
+  "20q": 3,
+  "12p": 10
+ },
+ "hprc_rank_of_karimian_longest3": {
+  "4q": 23,
+  "12q": 33,
+  "3p": 38
+ },
+ "arm_anova": {
+  "arms": 46,
+  "F": 5.32,
+  "p": 5.119890489633459e-28,
+  "eta2": 0.0197
+ },
+ "split_half_spearman_median": 0.6319,
+ "split_half_spearman_5_95": [
+  0.5261,
+  0.724
+ ],
+ "sd_rel_tl_bp": 3416.9
+}

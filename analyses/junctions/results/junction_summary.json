@@ -1,0 +1,68 @@
+{
+ "clusters": 383,
+ "analysed": 383,
+ "status": {
+  "ok": 383
+ },
+ "x_match": 383,
+ "mh_classes_obs": {
+  "homology_26_200": 156,
+  "homology_gt200": 105,
+  "micro_5_25": 66,
+  "blunt_0": 33,
+  "micro_1_4": 23
+ },
+ "mh_classes_null_frac": {
+  "blunt_0": 0.56132,
+  "micro_1_4": 0.43247,
+  "micro_5_25": 0.0062,
+  "homology_26_200": 1e-05,
+  "homology_gt200": 0.0
+ },
+ "dr_span_both": 327,
+ "junction_class": {
+  "homology_spanning": 327,
+  "blunt": 22,
+  "microhomology": 19,
+  "short_homology": 15
+ },
+ "junction_class_clusters_ge5_samples": {
+  "homology_spanning": 60,
+  "blunt": 4,
+  "short_homology": 3,
+  "microhomology": 3
+ },
+ "far_from_telomere": 302,
+ "dedup_physical_junctions": 218,
+ "dedup_junction_class": {
+  "homology_spanning": 180,
+  "blunt": 16,
+  "microhomology": 12,
+  "short_homology": 10
+ },
+ "dedup_mh_classes_obs": {
+  "homology_26_200": 81,
+  "homology_gt200": 68,
+  "micro_5_25": 33,
+  "blunt_0": 21,
+  "micro_1_4": 15
+ },
+ "dedup_mh_gt25_frac": 0.6835,
+ "its_run_c_far": 3,
+ "its_run_P_far": 3,
+ "bp_interval_median": 87.0,
+ "its_run_c_junctions_with_run": 42,
+ "its_run_P_junctions_with_run": 57,
+ "params": {
+  "NPERM": 2000,
+  "NPW": 200,
+  "MHCAP": 5000,
+  "half_window_homology": 500,
+  "half_window_its": 1000,
+  "parental_null_range": [
+   5000,
+   200000
+  ],
+  "seed": 20260715
+ }
+}

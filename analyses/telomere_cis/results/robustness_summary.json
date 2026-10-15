@@ -1,0 +1,65 @@
+{
+ "karimian_vs_hprc_own_S20": {
+  "n": 38,
+  "rho": 0.6702,
+  "p": 4.172905081922133e-06
+ },
+ "karimian_vs_hprc[hifi_input=DeepConsensus + Revio]": {
+  "n_arms": 38,
+  "rho": 0.6795,
+  "p": 2.7215371390415955e-06
+ },
+ "karimian_vs_hprc[hifi_input=DeepConsensus only]": {
+  "n_arms": 33,
+  "rho": 0.5178,
+  "p": 0.0020264205869983554
+ },
+ "karimian_vs_hprc[hifi_input=Revio only]": {
+  "n_arms": 34,
+  "rho": 0.5418,
+  "p": 0.0009357161353149856
+ },
+ "karimian_vs_hprc[hifi_input=unknown]": {
+  "n_arms": 34,
+  "rho": 0.4747,
+  "p": 0.004561733218947439
+ },
+ "karimian_vs_hprc[hifiasm_only]": {
+  "n": 38,
+  "rho": 0.7375
+ },
+ "state_effects_bp[T20R]": {
+  "foreign": {
+   "beta": 514.6,
+   "se": 77.4,
+   "n": 4595
+  },
+  "none": {
+   "beta": 8469.5,
+   "se": 233.1,
+   "n": 200
+  },
+  "tie": {
+   "beta": 516.3,
+   "se": 131.8,
+   "n": 794
+  }
+ },
+ "state_effects_bp[S20]": {
+  "foreign": {
+   "beta": -171.5,
+   "se": 86.3,
+   "n": 4098
+  },
+  "none": {
+   "beta": -7027.5,
+   "se": 1962.1,
+   "n": 3
+  },
+  "tie": {
+   "beta": 509.3,
+   "se": 155.1,
+   "n": 709
+  }
+ }
+}

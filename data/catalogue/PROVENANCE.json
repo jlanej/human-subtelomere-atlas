@@ -1,0 +1,70 @@
+{
+ "input_sha256": {
+  "hg002/hg002v1.1.fasta.gz.fai": "836220cfb3ca888205995c68b15c3dbcd2f467317b034c7eeaa3335d9576f73e",
+  "meta/explorer_assemblies.csv": "bc6653f68fb069f9976b4453ba5b6e670b872acdbbfb42a77fbb12ace1de33c5",
+  "meta/r2_assemblies_index.csv": "6779354f3b08c4fa274d44bdc6d20bb4b5dc2dd815730e79de4ce4efe9ada630",
+  "ref/chm13v2.0.fa.gz.fai": "cec84e8875f740fea679b08cb042529deae56f8276f567c2d5dca232d6172c1b",
+  "results/subtel_foreign_tips.tsv": "86ce6bb7ad8f6436a798dc5b952e418771776728d3285ff9be6df80225d5c294",
+  "results/subtel_hg002_ends.tsv": "e276e282b6e652803008c66c655243bed40ab9cd8f97ab697c05ef26f8f0181b",
+  "results/subtel_pedigree_transmission.tsv": "9ba4bd65ce5e5c62643003b734e87deca16e01fa49ef3d3eb6119e4cfa3f86ff",
+  "subtel/pedigree/ends250k.fa": "fc9bccc13d09bb8b8aa7b007ad7d78fcf9e94df6bceb1a4de31a450fa8ac0388",
+  "subtel/pedigree/ends250k_PAN028_h2.fa": "4d09ceb3a7a427804d0f2a64151a2e1a6c92e0384ecafe69ae57ea28caeee69b",
+  "tipdup/tip_placement.tsv": "b0284ca2b22f77694df07e3dad5ff319492618ab67cf607625c58f1e1c489684",
+  "tipdup/tips_masked.fa": "8c171fce7c9430a93e67b06a4847da8e4e47f63138d2a2821c6dd744d520c104",
+  "tipdup/tips_meta.tsv": "68553412a3d4e610108064ba32a8cf7be032bafdcbccf91ed8081aa2fa3d7bf1"
+ },
+ "parameters": {
+  "arm_probes": "10 kb at 250 kb and 1 Mb from the tip; minimap2 -x asm5 vs CHM13 v2.0; MAPQ >= 20",
+  "bin_bp": 5000,
+  "haplogroup_ani": 0.995,
+  "haplogroup_compared_bp": 80000,
+  "min_core_block_bp": 10000,
+  "near_tie": 0.98,
+  "sketch": "FracMinHash k=21 scale=1/10 splitmix64",
+  "smoothing": 0.9,
+  "switch_tolerance_bp": 10000,
+  "window_bp": 100000
+ },
+ "range_reads": {
+  "first": "2026-10-15T14:51:54Z",
+  "last": "2026-10-15T16:03:35Z",
+  "n_marker_files": 911,
+  "reused_earlier_100kb_windows": 5840
+ },
+ "release": "v0.1",
+ "sibling_sha256": {
+  "analyses/telomere_cis/results/fixed_window_states.tsv": "fcf6a490a4b049d79f0ca7cdf09cf5bd38d3ece05443b3de13fd0bded00bc839",
+  "data/metadata/samples.tsv": "cc31a6c65d8c5ecbc1bf61dbabeb2bf9fa6d54f6d40ff306de0af0823b0a7518"
+ },
+ "sources": {
+  "chm13": {
+   "accession": "GCA_009914755.4",
+   "doi": "10.1126/science.abj6987",
+   "name": "T2T-CHM13 v2.0",
+   "url": "https://human-pangenomics.s3.amazonaws.com/T2T/CHM13/assemblies/chm13v2.0.fa"
+  },
+  "hg002_q100": {
+   "name": "HG002 Q100 v1.1",
+   "url": "https://human-pangenomics.s3.amazonaws.com/T2T/HG002/assemblies/hg002v1.1.fasta.gz"
+  },
+  "hprc_release2": {
+   "accessions": "per end in ends.tsv (assembly_accession)",
+   "url_base": "https://human-pangenomics.s3.amazonaws.com/working/HPRC/<sample>/assemblies/release2/"
+  },
+  "pedigree": {
+   "name": "WashU PAN010/PAN011/PAN027/PAN028 v1.1",
+   "url_base": "https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/v1.1/"
+  },
+  "samples": "data/metadata/samples.tsv (sibling track; see data/metadata/README.md)",
+  "telomere_cis_states": "analyses/telomere_cis/results/fixed_window_states.tsv (sibling track, read only)"
+ },
+ "tools": {
+  "mappy": "2.31",
+  "minimap2": "2.31-r1302",
+  "numpy": "2.4.6",
+  "pandas": "3.0.6",
+  "python": "3.11.17",
+  "samtools": "samtools 1.24",
+  "scipy": "1.17.1"
+ }
+}

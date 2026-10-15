@@ -1,0 +1,9 @@
+allele_definition	arm	foreign_end	own_end	donor	n_f_ont_ul_dorado	n_o_ont_ul_dorado	d_ont_ul_dorado	ci_lo_ont_ul_dorado	ci_hi_ont_ul_dorado	mwu_p_ont_ul_dorado	n_f_revio_3cells	n_o_revio_3cells	d_revio_3cells	ci_lo_revio_3cells	ci_hi_revio_3cells	mwu_p_revio_3cells	x_hprc	x_karimian
+S20	14p	HG002|chr14_PATERNAL|p	HG002|chr14_MATERNAL|p	22p	48	46	103	-13.56	290	0.06173	6	31	1127	-937	3849	0.6652	-68.97	
+S20	16p	HG002|chr16_PATERNAL|p	HG002|chr16_MATERNAL|p	9q	16	57	-923	-1190	-706.4	2.793e-08	6	15	599.5	-1559	1940	0.9096	-895.7	-165
+S20	17p	HG002|chr17_MATERNAL|p	HG002|chr17_PATERNAL|p	11p	33	18	252	112	476.5	0.0001603	28	7	-1338	-2589	-246	0.01166	193.1	936
+S20	1p	HG002|chr1_PATERNAL|p	HG002|chr1_MATERNAL|p	6q	11	45	-1060	-1235	-777	6.014e-07	1	21					-96.77	-158
+S20	4q	HG002|chr4_PATERNAL|q	HG002|chr4_MATERNAL|q	15p	43	20	481	155	751.6	0.0002362	22	9	-1716	-2322	854.6	0.8447	1997	
+t20	14p	HG002|chr14_PATERNAL|p	HG002|chr14_MATERNAL|p	15p	48	46	103	-18.05	295	0.06173	6	31	1127	-937	3849	0.6652	2322	
+t20	16p	HG002|chr16_PATERNAL|p	HG002|chr16_MATERNAL|p	9q	16	57	-923	-1195	-702	2.793e-08	6	15	599.5	-1559	1878	0.9096	-895.7	-165
+t20	4q	HG002|chr4_PATERNAL|q	HG002|chr4_MATERNAL|q	15p	43	20	481	161	744	0.0002362	22	9	-1716	-2322	869	0.8447	1997	

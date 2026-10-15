@@ -1,0 +1,28 @@
+diagnostic	value	note
+named_tips	11998.0	
+samples	230.0	
+tips_reaching_20kb_window	114.0	
+remeasured_on_100kb	114.0	
+still_censored_at_20kb	0.0	
+median_telo_len_bp	7452.0	
+frac_telo_gt_15kb	0.0616	
+median_telo_len_bp[hifi_input=DeepConsensus + Revio]	8674.5	n=5150
+median_telo_len_bp[hifi_input=DeepConsensus only]	8040.0	n=1475
+median_telo_len_bp[hifi_input=Revio only]	4687.0	n=2571
+median_telo_len_bp[hifi_input=other/standard CCS]	8140.0	n=363
+median_telo_len_bp[hifi_input=unknown]	8085.0	n=2439
+kruskal_p_telo_len_by_hifi_input	2.7187819033027183e-307	
+median_telo_len_bp[assembler=hifiasm]	7418.5	n=11708
+median_telo_len_bp[assembler=verkko]	8657.5	n=290
+spearman_sample_mean_tl_vs_hifi_n50	0.1207	p=0.0678; n=230 samples
+spearman_sample_mean_tl_vs_hifi_cov	0.4457	p=1.27e-12
+spearman_sample_mean_tl_vs_ont_cov_100kb	-0.0277	p=0.676; n=230
+lm_sample_mean_tl_per_kb_hifi_n50_bp	201.9	SE 84.2; adjusted for hifi_input
+verkko_vs_hifiasm_same_end_n	485.0	
+verkko_minus_hifiasm_median_bp	-200.0	Wilcoxon p=0.00048
+spearman_verkko_vs_hifiasm_telo_len	0.2693	
+layout_tips	441.0	10 hifiasm haplotypes with read layouts
+layout_median_outer_read_len_bp	20169.0	
+layout_spearman_telo_len_vs_outer_read_len	-0.2021	p=1.9e-05
+layout_frac_telo_ge_0.8_of_outer_read	0.0816	
+layout_frac_telomere_inside_one_read_zone	0.322	whole telomere supported by a single read

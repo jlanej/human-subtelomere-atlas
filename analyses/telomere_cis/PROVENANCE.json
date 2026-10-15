@@ -1,0 +1,44 @@
+{
+ "track": "analyses/telomere_cis",
+ "run_date_utc": "2026-10-15",
+ "inputs_relative_to_ATLAS_INPUT_DIR": {
+  "results/subtel_foreign_tips.tsv": "86ce6bb7ad8f6436a798dc5b952e418771776728d3285ff9be6df80225d5c294",
+  "results/subtel_hg002_ends.tsv": "e276e282b6e652803008c66c655243bed40ab9cd8f97ab697c05ef26f8f0181b",
+  "results/single_read_zone_by_tip.tsv": "648ee2af7bfb71441b038d1de725e6ba25d683f67c01ce9c045e50993d65f76c",
+  "meta/explorer_seqdata.csv": "0b5ee25590ea3807959e59c70be6801ab314259770905b83e48b6d70a7ba6a16",
+  "subtel/foreign/ref/chm13_ends500k.fa": "d9aa7ac9cf6cba62b4ecbac3e4d7c676ae960571d39c851a3756cd16264a4d85",
+  "hg002/ref_ends.fa": "007fa3190e73f0f353b83368466c2f5ea7ca159c89bde1e10a7ffeab4a1d6689",
+  "hg002/hg002v1.1.fasta.gz.fai": "836220cfb3ca888205995c68b15c3dbcd2f467317b034c7eeaa3335d9576f73e",
+  "hg002/bams/ont_ul_dorado.bam": "3fd35712dc3945a3acf07f898dbdab38bcf5528d58e5840f75db96d3b32cac3a",
+  "hg002/bams/revio_3cells.bam": "adc29d87b016b2e2b6dfe9adf4ff1050ffda0d43388bffe62d132fd615dec78f",
+  "hg002/bams/hifi_dcv1.1.bam": "4983b142e9ee82542c3d7026fc39ab785ef2d26de352bbe98179d6d88925f4ea"
+ },
+ "work_intermediates": [
+  "work/windows/fetch/<asm>.fa (100 kb tip windows, pipeline/catalogue_02_fetch_windows.sh)",
+  "work/telomere_cis/hg002_ends40k.fa (outer 40 kb of 92 HG002 v1.1 ends, samtools faidx range read)",
+  "work/telomere_cis/fixed_windows.paf, hg002_fixed.paf, hg002_reads.tsv.gz"
+ ],
+ "public_sources": {
+  "HPRC Release 2 assemblies": "s3://human-pangenomics/working/HPRC/<sample>/assemblies/release2/ (index: HPRC release 2 assembly index)",
+  "HG002 Q100 v1.1 assembly": "https://human-pangenomics.s3.amazonaws.com/T2T/HG002/assemblies/hg002v1.1.fasta.gz",
+  "HG002 read alignments to v1.1": "https://human-pangenomics.s3.amazonaws.com/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ (ont_r10_ul_dorado/hg002v1.1_ont_r10_ul_dorado.pri.bam; hifi_revio_3cell/hg002v1.1_hifi_revio_3cells.bam; hifi_dcv1.1/hg002v1.1_hifi_dcv1.1.pri.bam), primary alignments overlapping the outer 20 kb of each end",
+  "CHM13 v2.0": "https://human-pangenomics.s3.amazonaws.com/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz (outer 500 kb of 48 ends)",
+  "HPRC sequencing metadata": "HPRC data explorer sequencing table (explorer_seqdata.csv)"
+ },
+ "literature": {
+  "Karimian et al. 2024 Science 384:533-539": "doi:10.1126/science.ado0431",
+  "Karimian et al. bioRxiv 2023 (figure source, v1 PDF)": "doi:10.1101/2023.12.21.572870; https://www.biorxiv.org/content/biorxiv/early/2024/01/13/2023.12.21.572870.full.pdf",
+  "figure source sha256": "23a80165d80275cca77a58db211a63bf081c32031c220c38a08f031307a838c1"
+ },
+ "software": {
+  "python": "3.11.17",
+  "numpy": "2.4.6",
+  "pandas": "3.0.6",
+  "scipy": "1.17.1",
+  "pysam": "0.24.1",
+  "matplotlib": "3.11.2",
+  "minimap2": "2.31-r1302",
+  "samtools": "samtools 1.24"
+ },
+ "random_seed": 20261015
+}

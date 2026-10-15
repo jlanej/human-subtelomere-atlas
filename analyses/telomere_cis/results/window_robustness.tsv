@@ -1,0 +1,45 @@
+test	n	mean_d	median_d	ci95_lo	ci95_hi	se_boot	wilcoxon_p	frac_foreign_longer	mde80	window	subset
+T20R	1089	407.9	359	183.1	646.2	120	0.006813	0.5381	389.8	T20R	all
+S20	1018	-210.8	-133	-494.5	71.52	144	0.09863	0.4843	407.8	S20	all
+S10	1130	-319.9	-238	-611.2	-41.06	147	0.01433	0.4708	385.1	S10	all
+S5	1173	-515.3	-319	-770.2	-271.7	130.4	6.199e-05	0.4493	391.6	S5	all
+W515	891	-110.4	-46	-397.3	177.2	148.1	0.3967	0.4961	432.6	W515	all
+T20R | boundary-robust TL_ext	1089	529.4	401	294.2	763.9	119.7	0.0002089	0.551	381.7	T20R	tl_ext
+S20 | boundary-clean (tail<0.2, no ITS)	107	172.9	100	-668.2	1009	431.5	0.846	0.5047	1171	S20	boundary_clean
+S20 | no premature boundary (tail<0.5)	311	72.05	-81	-458.5	609.3	272.3	0.998	0.4984	751.2	S20	no_premature
+S20 | no ITS in first 5 kb	208	27.68	-116	-558.4	669.4	313.5	0.7754	0.4904	843.3	S20	no_its
+S20 | boundary-robust TL_ext	1018	-78.14	-92	-354.4	210.9	144.4	0.3612	0.4872	400.8	S20	tl_ext
+S10 | boundary-clean (tail<0.2, no ITS)	103	100.6	152	-644.7	890.5	387.5	0.5373	0.5146	1139	S10	boundary_clean
+S10 | no premature boundary (tail<0.5)	330	-45.89	-218	-564.7	458.5	257.5	0.7188	0.4788	723.6	S10	no_premature
+S10 | no ITS in first 5 kb	211	269.2	100	-292.3	907.4	307.5	0.3398	0.5024	823.5	S10	no_its
+S10 | boundary-robust TL_ext	1130	-45.76	-61	-313	228	140.3	0.729	0.4929	369.9	S10	tl_ext
+S5 | boundary-clean (tail<0.2, no ITS)	104	-575.5	-277.5	-1449	242.9	420.3	0.249	0.4712	1263	S5	boundary_clean
+S5 | no premature boundary (tail<0.5)	353	-438	-290	-872.3	40.48	229.2	0.06086	0.4533	699	S5	no_premature
+S5 | no ITS in first 5 kb	223	-105.3	-158	-631.5	420.4	268.9	0.5542	0.4709	844.2	S5	no_its
+S5 | boundary-robust TL_ext	1173	-133.3	-23	-399.7	114.4	130.9	0.3715	0.4945	377.5	S5	tl_ext
+W515 | boundary-clean (tail<0.2, no ITS)	90	-42.18	-116	-867.4	896	453.9	0.7414	0.4778	1304	W515	boundary_clean
+W515 | no premature boundary (tail<0.5)	274	12.91	-131.5	-534.6	558.9	280.8	0.9475	0.4854	785.6	W515	no_premature
+W515 | no ITS in first 5 kb	185	-232.9	-213	-813	366.8	300.2	0.3832	0.4649	861.7	W515	no_its
+W515 | boundary-robust TL_ext	891	13.95	-50	-290.3	318	155.1	0.7373	0.4905	429.3	W515	tl_ext
+concordant S5=S10=S20	632	-269.6	-184.5	-629.3	94.31	184	0.1368	0.4778	507.7	S5=S10=S20	concordant3
+concordant S5=S10=S20=W5_15	481	-275.1	-100	-686.9	122.1	209.5	0.2782	0.4844	570.5	S5=S10=S20=W5_15	concordant4
+concordant S5=S10=S20 | no premature boundary	192	-175.9	-284	-883.3	558.1	361.8	0.4922	0.4635	928.8	S5=S10=S20	concordant3_nopre
+concordant S5=S10=S20 | TL_ext	632	-69.89	0	-452.3	283	188.3	0.8505	0.4968	498.6	S5=S10=S20	concordant3_tl_ext
+concordant3 | hifi_input=DeepConsensus + Revio	281	-332.8	-265	-859.6	279.5	296	0.1966	0.4733	822	S20	concordant3_hifi_input
+concordant3 | hifi_input=DeepConsensus only	73	-935.2	-723	-2332	466.5	727.8	0.1191	0.411	1703	S20	concordant3_hifi_input
+concordant3 | hifi_input=Revio only	133	142.7	20	-476.1	792.1	326	0.7413	0.5188	874.7	S20	concordant3_hifi_input
+concordant3 | hifi_input=other/standard CCS	14	585.4	1060	-474.4	2342	731.2	0.3258	0.7143	2122	S20	concordant3_hifi_input
+concordant3 | hifi_input=unknown	131	-273.1	-213	-878.3	343.7	315.8	0.5611	0.458	1074	S20	concordant3_hifi_input
+concordant3 | assembler=hifiasm	614	-282.5	-210	-651.9	72.01	187	0.1172	0.4772	516.9	S20	concordant3_assembler
+concordant3 | assembler=verkko	18	171.4	373.5	-527.2	2479	840.2	0.7337	0.5	2691	S20	concordant3_assembler
+concordant3 | phasing=hic	284	142.5	28	-318.9	586.7	227.7	0.7119	0.5106	668.4	S20	concordant3_phasing
+concordant3 | phasing=trio	348	-605.9	-533.5	-1137	-56.96	274.8	0.02936	0.4511	740.5	S20	concordant3_phasing
+S20 | hifi_input=DeepConsensus + Revio	449	-380.7	-215	-838.2	82.36	228.9	0.07703	0.4744	653.8	S20	S20_hifi_input
+S20 | hifi_input=DeepConsensus only	135	-523.1	-240	-1471	483.8	496.7	0.3523	0.4815	1300	S20	S20_hifi_input
+S20 | hifi_input=Revio only	204	96.83	-121.5	-402.7	665.5	272.7	0.7921	0.4804	690	S20	S20_hifi_input
+S20 | hifi_input=other/standard CCS	32	223.4	872.5	-1052	2128	810.6	0.8034	0.625	2243	S20	S20_hifi_input
+S20 | hifi_input=unknown	198	0.4899	-76	-490.1	472.5	247.8	0.9009	0.4899	883.4	S20	S20_hifi_input
+S20 | assembler=hifiasm	991	-208.6	-163	-496.1	74.1	146.1	0.1012	0.4834	415.5	S20	S20_assembler
+S20 | assembler=verkko	27	-290.5	139	-406.8	-128.1	71.68	0.9341	0.5185	2004	S20	S20_assembler
+S20 | phasing=hic	444	65.45	-44.5	-261.3	395.2	168.8	0.9715	0.4977	525.4	S20	S20_phasing
+S20 | phasing=trio	574	-424.4	-275	-867.3	-10.06	214.1	0.03613	0.4739	597.5	S20	S20_phasing

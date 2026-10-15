@@ -1,0 +1,71 @@
+junction_cluster	form	samples	species_carrier_junction	species_nativeA_junction	species_nativeB_junction	carrier_species	species_carrier_specific	species_non_diagnostic	carrier_specific_species
+20q>3q#3	20q>3q	121	1	1	0	chimpanzee	0	1	
+20p>16q#2	20p>16q	57	0	0	0		0	0	
+3q>11p#1	3q>11p	50	0	0	0		0	0	
+4q>15p#1	4q>15p	42	0	0	2		0	0	
+Xq>16p#0	Xq>16p	37	0	0	0		0	0	
+9p>3q#2	9p>3q	33	2	2	2	sumatran_orangutan,bornean_orangutan	0	2	
+2q>16q#4	2q>16q	32	0	0	0		0	0	
+19q>10q#1	19q>10q	32	0	1	0		0	0	
+17q>16q#1	17q>16q	31	0	0	3		0	0	
+6q>16q#0	6q>16q	30	0	0	3		0	0	
+1p>11p#0	1p>11p	29	0	2	0		0	0	
+Xq>15q#0	Xq>15q	26	0	0	0		0	0	
+20p>7p#1	20p>7p	25	0	0	0		0	0	
+3q>11p#2	3q>11p	22	3	3	3	bonobo,sumatran_orangutan,bornean_orangutan	0	3	
+4p>15p#2	4p>15p	21	0	0	0		0	0	
+19q>16q#1	19q>16q	21	0	1	0		0	0	
+5q>6q#0	5q>6q	19	0	0	0		0	0	
+17q>6q#1	17q>6q	19	0	0	0		0	0	
+19q>21q#0	19q>21q	17	1	1	1	chimpanzee	1	0	chimpanzee
+2q>16q#0	2q>16q	16	0	0	0		0	0	
+19p>20p#0	19p>20p	16	2	2	2	sumatran_orangutan,bornean_orangutan	0	2	
+4q>4p#0	4q>4p	15	0	0	2		0	0	
+4q>10q#1	4q>10q	15	1	1	0	chimpanzee	0	1	
+9p>11p#2	9p>11p	15	2	2	2	sumatran_orangutan,bornean_orangutan	0	2	
+3q>11p#0	3q>11p	15	0	0	0		0	0	
+4p>15p#3	4p>15p	14	0	1	1		0	0	
+19p>15q#0	19p>15q	13	0	0	0		0	0	
+6q>5q#1	6q>5q	13	0	0	0		0	0	
+19q>20p#1	19q>20p	13	1	1	0	chimpanzee	1	0	chimpanzee
+3q>15q#0	3q>15q	13	0	0	0		0	0	
+12p>16p#1	12p>16p	13	0	0	0		0	0	
+19q>21q#1	19q>21q	12	1	1	1	chimpanzee	1	0	chimpanzee
+18p>10p#1	18p>10p	12	2	2	2	sumatran_orangutan,bornean_orangutan	0	2	
+1p>3q#0	1p>3q	11	0	2	0		0	0	
+11p>20q#2	11p>20q	11	0	0	0		0	0	
+2q>16q#7	2q>16q	11	0	0	0		0	0	
+1p>6q#0	1p>6q	10	0	0	0		0	0	
+4q>15p#2	4q>15p	10	0	0	2		0	0	
+6q>2q#1	6q>2q	10	2	2	2	chimpanzee,bonobo	0	2	
+10p>18p#0	10p>18p	9	0	0	0		0	0	
+5q>1p#0	5q>1p	9	0	0	0		0	0	
+19q>5q#0	19q>5q	9	0	1	0		0	0	
+6q>7p#0	6q>7p	9	0	0	0		0	0	
+9p>15q#1	9p>15q	9	2	2	2	sumatran_orangutan,bornean_orangutan	0	2	
+9p>20p#1	9p>20p	9	0	0	0		0	0	
+11p>3q#0	11p>3q	9	0	1	0		0	0	
+4q>10q#6	4q>10q	9	0	0	0		0	0	
+17q>7p#1	17q>7p	8	0	0	0		0	0	
+Xq>16p#3	Xq>16p	7	0	0	0		0	0	
+19q>21q#2	19q>21q	7	2	2	2	sumatran_orangutan,bornean_orangutan	0	2	
+17q>7p#2	17q>7p	7	0	0	0		0	0	
+17q>16q#0	17q>16q	7	0	2	0		0	0	
+16p>Xq#0	16p>Xq	6	0	0	0		0	0	
+3q>20q#0	3q>20q	6	0	0	1		0	0	
+2q>20p#0	2q>20p	6	0	0	1		0	0	
+11p>15q#3	11p>15q	6	0	1	0		0	0	
+20p>5q#1	20p>5q	6	0	0	0		0	0	
+1q>20p#0	1q>20p	6	0	0	0		0	0	
+4q>10q#0	4q>10q	5	0	0	0		0	0	
+11p>1p#1	11p>1p	5	0	0	0		0	0	
+11p>20q#0	11p>20q	5	0	0	0		0	0	
+9p>20q#1	9p>20q	5	2	2	2	chimpanzee,bornean_orangutan	0	2	
+14p>22p#1	14p>22p	5	0	1	0		0	0	
+17q>6q#0	17q>6q	5	0	2	0		0	0	
+16q>20p#1	16q>20p	5	3	3	0	bonobo,sumatran_orangutan,bornean_orangutan	0	3	
+7p>16q#0	7p>16q	5	0	0	0		0	0	
+4q>15p#0	4q>15p	5	0	0	2		0	0	
+10p>18p#1	10p>18p	5	2	2	2	sumatran_orangutan,bornean_orangutan	2	0	sumatran_orangutan,bornean_orangutan
+4q>17q#0	4q>17q	5	2	2	2	sumatran_orangutan,bornean_orangutan	0	2	
+2q>10q#1	2q>10q	5	0	0	0		0	0	

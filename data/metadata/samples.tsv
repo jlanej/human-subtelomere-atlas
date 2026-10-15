@@ -1,0 +1,235 @@
+sample	population	superpopulation	sex	source	population_descriptor	biosample_id	alternative_id	paternal_id	maternal_id	in_1kgp_3202	has_telomeric_tips	related_in_set
+CHM13	NA	NA	NA	NA	NA	SAMN03255769	NA	NA	NA	False	False	False
+GRCh38	NA	NA	NA	NA	NA	SAMN12121739	NA	NA	NA	False	False	False
+HG00097	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021660	NA	NA	NA	True	True	False
+HG00099	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN33758778	NA	NA	NA	True	True	False
+HG00126	GBR	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021637	NA	NA	NA	True	True	False
+HG00128	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021641	NA	NA	NA	True	True	False
+HG00133	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021638	NA	NA	NA	True	True	False
+HG00140	GBR	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN33621941	NA	NA	NA	True	True	False
+HG00146	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021634	NA	NA	NA	True	True	False
+HG002	ASJ_GIAB	EUR	male	manual:GIAB Ashkenazi Jewish trio son (no 1kGP population code)	NA	SAMN03283347	NA24385	NA24694	NA24695	False	False	False
+HG00232	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021635	NA	NA	NA	True	True	False
+HG00235	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021667	NA	NA	NA	True	True	False
+HG00253	GBR	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	British from England and Scotland	SAMN41021666	NA	NA	NA	True	True	False
+HG00272	FIN	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN41021659	NA	NA	NA	True	True	False
+HG00280	FIN	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN33758779	NA	NA	NA	True	True	False
+HG00290	FIN	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN41021639	NA	NA	NA	True	True	False
+HG00320	FIN	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN41021632	NA	NA	NA	True	True	False
+HG00321	FIN	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN41021636	NA	NA	NA	True	True	False
+HG00323	FIN	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN33621942	NA	NA	NA	True	True	False
+HG00329	FIN	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN41021646	NA	NA	NA	True	True	False
+HG00344	FIN	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN41021653	NA	NA	NA	True	True	False
+HG00350	FIN	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Finnish in Finland	SAMN41021654	NA	NA	NA	True	True	False
+HG00408	CHS	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN33621943	NA	HG00406	HG00407	True	True	False
+HG00423	CHS	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN26237490	NA	HG00421	HG00422	True	True	False
+HG00438	CHS	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN17861652	NA	HG00436	HG00437	True	True	False
+HG005	CHN_GIAB	EAS	male	manual:GIAB Han Chinese trio son (no 1kGP population code)	NA	SAMN03283350	NA26107	HG003	HG004	False	True	False
+HG00544	CHS	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN26237491	NA	HG00542	HG00543	True	True	False
+HG00558	CHS	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN33758780	NA	HG00556	HG00557	True	True	False
+HG00597	CHS	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN33621944	NA	HG00595	HG00596	True	True	False
+HG00609	CHS	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN26237492	NA	HG00607	HG00608	True	True	False
+HG00621	CHS	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN17861653	NA	HG00619	HG00620	True	True	False
+HG00639	PUR	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN33758781	NA	HG00637	HG00638	True	True	False
+HG00642	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN26267378	NA	HG00640	HG00641	True	True	False
+HG00658	CHS	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN37797096	NA	HG00656	HG00657	True	True	False
+HG00673	CHS	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN17861654	NA	HG00671	HG00672	True	True	False
+HG00706	CHS	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese South, China	SAMN37706905	NA	HG00704	HG00705	True	True	False
+HG00733	PUR	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN00006581	NA	HG00731	HG00732	True	True	False
+HG00735	PUR	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN17861655	NA	HG01047	HG00734	True	True	False
+HG00738	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN26237493	NA	HG00736	HG00737	True	True	False
+HG00741	PUR	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN17861656	NA	HG00739	HG00740	True	True	False
+HG01071	PUR	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN17861657	NA	HG01069	HG01070	True	True	False
+HG01074	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN33758782	NA	HG01072	HG01073	True	True	False
+HG01081	PUR	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN33758783	NA	HG01079	HG01080	True	True	False
+HG01099	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN26237494	NA	HG01097	HG01098	True	True	False
+HG01106	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN17861658	NA	HG01104	HG01105	True	True	False
+HG01109	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN12162846	NA	HG01107	HG01108	True	True	False
+HG01123	CLM	AMR	female	HPRC_R2_metadata;IGSR_population_table	Colombian in Medellin, Colombia	SAMN17861232	NA	HG01121	HG01122	False	True	False
+HG01150	CLM	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN37797097	NA	HG01148	HG01149	True	True	False
+HG01167	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN41021679	NA	NA	NA	True	True	False
+HG01175	PUR	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN17861659	NA	HG01173	HG01174	True	True	False
+HG01192	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN33621945	NA	HG01190	HG01191	True	True	False
+HG01243	PUR	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Puerto Rican in Puerto Rico	SAMN13957917	NA	HG01241	HG01242	True	True	False
+HG01252	CLM	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN37797098	NA	HG01250	HG01251	True	True	False
+HG01255	CLM	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN26237495	NA	HG01253	HG01254	True	True	False
+HG01258	CLM	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN17861233	NA	HG01256	HG01257	True	True	False
+HG01261	CLM	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN33621946	NA	HG01259	HG01260	True	True	False
+HG01346	CLM	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN26267379	NA	HG01344	HG01345	True	True	False
+HG01358	CLM	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN17861234	NA	HG01356	HG01357	True	True	False
+HG01361	CLM	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN17861235	NA	HG01359	HG01360	True	True	False
+HG01433	CLM	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN26237496	NA	HG01431	HG01432	True	True	False
+HG01496	CLM	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Colombian in Medellin, Colombia	SAMN26237497	NA	HG01494	HG01495	True	True	False
+HG01530	IBS	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Iberian Populations in Spain	SAMN37797099	NA	NA	NA	True	True	False
+HG01784	IBS	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Iberian Populations in Spain	SAMN37797100	NA	NA	NA	True	True	False
+HG01786	IBS	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Iberian Populations in Spain	SAMN41021633	NA	NA	NA	True	True	False
+HG01884	ACB	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN26267393	NA	HG01885	HG01956	True	True	False
+HG01891	ACB	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN17861236	NA	HG01890	HG01889	True	True	False
+HG01928	PEL	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN17861660	NA	HG01926	HG01927	True	True	False
+HG01934	PEL	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN26237498	NA	HG01932	HG01933	True	True	False
+HG01940	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN37797101	NA	HG01938	HG01939	True	True	False
+HG01943	PEL	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN26237499	NA	HG01941	HG01942	True	True	False
+HG01952	PEL	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN17861661	NA	HG01950	HG01951	True	True	False
+HG01960	ACB	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN37797102	NA	HG01988	HG01989	True	True	False
+HG01969	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN37797103	NA	HG01967	HG01968	True	True	False
+HG01975	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN33621947	NA	HG01974	HG01973	True	True	False
+HG01978	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN17861662	NA	HG01977	HG01976	True	True	False
+HG01981	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN26237500	NA	HG01979	HG01980	True	True	False
+HG01993	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN26237501	NA	HG01991	HG01992	True	True	False
+HG02004	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN26237502	NA	HG02002	HG02003	True	True	False
+HG02015	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN33621948	NA	HG02017	HG02016	True	True	False
+HG02027	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN26237503	NA	HG02029	HG02028	True	True	False
+HG02040	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN33758784	NA	NA	NA	True	True	False
+HG02055	ACB	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN12162856	NA	HG02053	HG02054	True	True	False
+HG02056	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN33621949	NA	HG02058	HG02057	True	True	False
+HG02071	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN26267380	NA	HG02073	HG02072	True	True	False
+HG02074	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN26267381	NA	HG02076	HG02075	True	True	False
+HG02080	KHV	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN13957942	NA	HG02082	HG02081	True	True	False
+HG02083	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN26237504	NA	HG02085	HG02084	True	True	False
+HG02109	ACB	AFR	female	HPRC_R2_metadata;IGSR_population_table	African Caribbean in Barbados	SAMN13958415	NA	HG02107	HG02108	False	True	False
+HG02129	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN33621950	NA	HG02131	HG02130	True	True	False
+HG02132	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN26267382	NA	HG02134	HG02133	True	True	False
+HG02135	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN26267392	NA	HG02137	HG02136	True	True	False
+HG02145	ACB	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN13961514	NA	HG02143	HG02144	True	True	False
+HG02148	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN17861663	NA	HG02146	HG02147	True	True	False
+HG02155	CDX	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Chinese Dai in Xishuangbanna	SAMN33621951	NA	NA	NA	True	True	False
+HG02165	CDX	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Chinese Dai in Xishuangbanna	SAMN33758785	NA	NA	NA	True	True	False
+HG02178	CDX	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Chinese Dai in Xishuangbanna	SAMN41021617	NA	NA	NA	True	True	False
+HG02257	ACB	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN17861237	NA	HG02255	HG02256	True	True	False
+HG02258	ACB	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN33621952	NA	HG02314	HG02315	True	True	False
+HG02273	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN33621953	NA	HG02271	HG02272	True	True	False
+HG02280	ACB	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN26237505	NA	HG02307	HG02308	True	True	False
+HG02293	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN26267394	NA	HG02291	HG02292	True	True	False
+HG02300	PEL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Peruvian in Lima, Peru	SAMN26267395	NA	HG02299	HG02298	True	True	False
+HG02391	CDX	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Chinese Dai in Xishuangbanna	SAMN37797104	NA	NA	NA	True	True	False
+HG02392	CDX	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Chinese Dai in Xishuangbanna	SAMN41021615	NA	NA	NA	True	True	False
+HG02451	ACB	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Caribbean in Barbados	SAMN33758786	NA	HG02449	HG02450	True	True	False
+HG02486	ACB	AFR	male	HPRC_R2_metadata;IGSR_population_table	African Caribbean in Barbados	SAMN17861238	NA	HG02484	HG02485	False	True	False
+HG02514	KHV	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN37797105	NA	HG02512	HG02513	True	True	False
+HG02523	KHV	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Kinh in Ho Chi Minh City, Vietnam	SAMN26237506	NA	HG02521	HG02522	True	True	False
+HG02559	ACB	AFR	female	HPRC_R2_metadata;IGSR_population_table	African Caribbean in Barbados	SAMN17861239	NA	HG02557	HG02558	False	True	False
+HG02572	GWD	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN17861240	NA	HG02570	HG02571	True	True	False
+HG02583	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN41021657	NA	NA	NA	True	True	False
+HG02602	PJL	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN26237507	NA	HG02600	HG02601	True	True	False
+HG02615	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN26237508	NA	HG02613	HG02614	True	True	False
+HG02622	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN17861664	NA	HG02620	HG02621	True	True	False
+HG02630	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN17861665	NA	HG02628	HG02629	True	True	False
+HG02647	GWD	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN26267383	NA	HG02645	HG02646	True	True	False
+HG02668	GWD	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN37706906	NA	HG02666	HG02667	True	True	False
+HG02698	PJL	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN26237509	NA	HG02696	HG02697	True	True	False
+HG02717	GWD	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN17861666	NA	HG02715	HG02716	True	True	False
+HG02723	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN13958364	NA	HG02721	HG02722	True	True	False
+HG02735	PJL	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN33758787	NA	HG02733	HG02734	True	True	False
+HG02738	PJL	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN26267396	NA	HG02736	HG02737	True	True	False
+HG02809	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN26237510	NA	HG02807	HG02808	True	True	False
+HG02818	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN05603745	NA	HG02816	HG02817	True	True	False
+HG02841	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN37797106	NA	HG02839	HG02840	True	True	False
+HG02886	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN17861667	NA	HG02884	HG02885	True	True	False
+HG02922	ESN	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN33758788	NA	NA	NA	True	True	False
+HG02965	ESN	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN33621954	NA	NA	NA	True	True	False
+HG02976	ESN	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN33621955	NA	NA	NA	True	True	False
+HG02984	GWD	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN37797107	NA	HG02982	HG02983	True	True	False
+HG03017	PJL	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN33758789	NA	HG03015	HG03016	True	True	False
+HG03041	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN33758790	NA	HG03039	HG03040	True	True	False
+HG03050	GWD	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN37797108	NA	HG03048	HG03049	True	True	False
+HG03098	MSL	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN13957944	NA	HG03096	HG03097	True	True	False
+HG03130	ESN	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN33758791	NA	NA	NA	True	True	False
+HG03139	ESN	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN33758792	NA	NA	NA	True	True	False
+HG03195	ESN	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN33621956	NA	NA	NA	True	True	False
+HG03209	MSL	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN33758793	NA	NA	NA	True	True	False
+HG03225	MSL	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN33621957	NA	NA	NA	True	True	False
+HG03239	PJL	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN33758794	NA	HG03237	HG03238	True	True	False
+HG03270	ESN	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN41021631	NA	NA	NA	True	True	False
+HG03369	ESN	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN41021668	NA	NA	NA	True	True	False
+HG03453	MSL	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN17861668	NA	HG03451	HG03452	True	True	False
+HG03470	MSL	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN37797110	NA	NA	NA	True	True	False
+HG03471	MSL	AFR	male	HPRC_R2_metadata;IGSR_population_table	Mende in Sierra Leone	SAMN17861669	NA	HG03469	NA	False	True	False
+HG03486	MSL	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN08723473	NA	HG03484	HG03485	True	True	False
+HG03516	ESN	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN17861241	NA	HG03515	HG03514	True	True	False
+HG03521	ESN	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Esan in Nigeria	SAMN41021651	NA	NA	NA	True	True	False
+HG03540	GWD	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Gambian in Western Division Ð Mandinka	SAMN17861670	NA	HG03538	HG03539	True	True	False
+HG03579	MSL	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN17861671	NA	HG03577	HG03578	True	True	False
+HG03583	MSL	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Mende in Sierra Leone	SAMN41021645	NA	NA	NA	True	True	False
+HG03654	PJL	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN26237511	NA	HG03652	HG03653	True	True	False
+HG03669	PJL	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN26237512	NA	HG03667	HG03668	True	True	False
+HG03688	STU	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Sri Lankan Tamil in the UK	SAMN26267385	NA	HG03885	HG03886	True	True	False
+HG03704	PJL	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN33758795	NA	HG03702	HG03703	True	True	False
+HG03710	PJL	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Punjabi in Lahore, Pakistan	SAMN26237513	NA	HG03708	HG03709	True	True	False
+HG03742	ITU	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Indian Telugu in the UK	SAMN37797111	NA	NA	NA	True	True	False
+HG03784	ITU	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Indian Telugu in the UK	SAMN41021647	NA	NA	NA	True	True	False
+HG03804	BEB	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN37706907	NA	HG03803	HG03802	True	True	False
+HG03816	BEB	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN37706908	NA	HG03815	HG03814	True	True	False
+HG03831	BEB	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN26237514	NA	HG03830	HG03829	True	True	False
+HG03834	BEB	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN33621958	NA	HG03833	HG03832	True	True	False
+HG03874	ITU	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Indian Telugu in the UK	SAMN41021625	NA	NA	NA	True	True	False
+HG03927	BEB	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN26267386	NA	HG03926	HG03925	True	True	False
+HG03942	BEB	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN26267387	NA	HG03941	HG03940	True	True	False
+HG04115	STU	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Sri Lankan Tamil in the UK	SAMN26267388	NA	HG03896	HG03894	True	True	False
+HG04157	BEB	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN37706909	NA	HG04155	HG04156	True	True	False
+HG04160	BEB	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN37706910	NA	HG04158	HG04159	True	True	False
+HG04184	BEB	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN26267397	NA	HG04182	HG04183	True	True	False
+HG04187	BEB	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Bengali in Bangladesh	SAMN37706911	NA	HG04185	HG04186	True	True	False
+HG04199	STU	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Sri Lankan Tamil in the UK	SAMN26267389	NA	HG04100	HG04099	True	True	False
+HG04204	STU	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Sri Lankan Tamil in the UK	SAMN26267390	NA	HG03679	HG03642	True	True	False
+HG04228	STU	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Sri Lankan Tamil in the UK	SAMN26267391	NA	HG04229	HG04227	True	True	False
+HG06807	ASL	AFR	female	HPRC_R2_metadata;manual_superpop_from_descriptor	African Americans living in St. Louis, Missouri	SAMN33621959	PAN027	HG06804	HG06803	False	False	False
+NA18505	YRI	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN41021643	NA	NA	NA	True	True	False
+NA18508	YRI	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN41021626	NA	NA	NA	True	True	False
+NA18522	YRI	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN33758796	NA	NA	NA	True	True	False
+NA18565	CHB	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese in Beijing, China	SAMN41021669	NA	NA	NA	True	True	False
+NA18570	CHB	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese in Beijing, China	SAMN37797086	NA	NA	NA	True	True	False
+NA18608	CHB	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese in Beijing, China	SAMN41021619	NA	NA	NA	True	True	False
+NA18620	CHB	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese in Beijing, China	SAMN41021618	NA	NA	NA	True	True	False
+NA18747	CHB	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Han Chinese in Beijing, China	SAMN33758797	NA	NA	NA	True	True	False
+NA18879	YRI	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN41021661	NA	NA	NA	True	True	False
+NA18906	YRI	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN13957875	NA	NA18877	NA18876	True	True	False
+NA18940	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671128	NA	NA	NA	True	True	False
+NA18943	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671129	NA	NA	NA	True	True	False
+NA18944	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671130	NA	NA	NA	True	True	False
+NA18945	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671131	NA	NA	NA	True	True	False
+NA18948	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671132	NA	NA	NA	True	True	False
+NA18952	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN41021621	NA	NA	NA	True	True	False
+NA18959	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671133	NA	NA	NA	True	True	False
+NA18960	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671134	NA	NA	NA	True	True	False
+NA18967	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671135	NA	NA	NA	True	True	False
+NA18970	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671136	NA	NA	NA	True	True	False
+NA18971	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN33621961	NA	NA	NA	True	True	False
+NA18974	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN41021620	NA	NA	NA	True	True	False
+NA18976	JPT	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN41021622	NA	NA	NA	True	True	False
+NA18982	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN44671137	NA	NA	NA	True	True	False
+NA18983	JPT	EAS	male	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN33758798	NA	NA	NA	True	True	False
+NA19036	LWK	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Luhya in Webuye, Kenya	SAMN41021642	NA	NA	NA	True	True	False
+NA19043	LWK	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Luhya in Webuye, Kenya	SAMN33758799	NA	NA	NA	True	True	False
+NA19087	JPT	EAS	female	HPRC_R2_metadata;1kGP_3202_ped	Japanese in Tokyo, Japan	SAMN37797087	NA	NA	NA	True	True	False
+NA19159	YRI	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN37797089	NA	NA	NA	True	True	False
+NA19185	YRI	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN37797090	NA	NA	NA	True	True	False
+NA19240	YRI	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Yoruba in Ibadan, Nigeria	SAMN03838746	NA	NA19239	NA19238	True	True	False
+NA19338	LWK	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Luhya in Webuye, Kenya	SAMN37797091	NA	NA	NA	True	True	False
+NA19391	LWK	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Luhya in Webuye, Kenya	SAMN37797092	NA	NA	NA	True	True	False
+NA19443	LWK	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	Luhya in Webuye, Kenya	SAMN41021640	NA	NA	NA	True	True	False
+NA19468	LWK	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	Luhya in Webuye, Kenya	SAMN37797093	NA	NA	NA	True	True	False
+NA19682	MXL	AMR	male	HPRC_R2_metadata;1kGP_3202_ped	Mexican Ancestry in Los Angeles, California, USA	SAMN41021611	NA	NA	NA	True	True	False
+NA19700	ASW	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	African Ancestry in Southwest USA	SAMN41021612	NA	NA	NA	True	True	False
+NA19776	MXL	AMR	female	HPRC_R2_metadata;1kGP_3202_ped	Mexican Ancestry in Los Angeles, California, USA	SAMN41021610	NA	NA	NA	True	True	False
+NA19835	ASW	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Ancestry in Southwest USA	SAMN41021665	NA	NA	NA	True	True	False
+NA19909	ASW	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Ancestry in Southwest USA	SAMN41021607	NA	NA	NA	True	True	False
+NA20129	ASW	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Ancestry in Southwest USA	SAMN13207712	NA	NA19920	NA19921	True	True	False
+NA20282	ASW	AFR	female	HPRC_R2_metadata;1kGP_3202_ped	African Ancestry in Southwest USA	SAMN41021608	NA	NA	NA	True	True	False
+NA20346	ASW	AFR	male	HPRC_R2_metadata;1kGP_3202_ped	African Ancestry in Southwest USA	SAMN41021609	NA	NA	NA	True	True	False
+NA20503	TSI	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN41021630	NA	NA	NA	True	True	False
+NA20752	TSI	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN33758800	NA	NA	NA	True	True	False
+NA20762	TSI	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN41021652	NA	NA	NA	True	True	False
+NA20799	TSI	EUR	female	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN37797094	NA	NA	NA	True	True	False
+NA20805	TSI	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN33621962	NA	NA	NA	True	True	False
+NA20806	TSI	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN41021648	NA	NA	NA	True	True	False
+NA20809	TSI	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN41021671	NA	NA	NA	True	True	False
+NA20827	TSI	EUR	male	HPRC_R2_metadata;1kGP_3202_ped	Toscani in Italia	SAMN41021650	NA	NA	NA	True	True	False
+NA20850	GIH	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN41021664	NA	NA	NA	True	True	False
+NA20870	GIH	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN41021623	NA	NA	NA	True	True	False
+NA20905	GIH	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN33758801	NA	NA	NA	True	True	False
+NA21093	GIH	SAS	male	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN41021627	NA	NA	NA	True	True	False
+NA21102	GIH	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN41021672	NA	NA	NA	True	True	False
+NA21106	GIH	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN41021629	NA	NA	NA	True	True	False
+NA21110	GIH	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN41021624	NA	NA	NA	True	True	False
+NA21144	GIH	SAS	female	HPRC_R2_metadata;1kGP_3202_ped	Gujarati Indians in Houston, Texas, USA	SAMN41021649	NA	NA	NA	True	True	False
+NA21309	MKK	AFR	female	HPRC_R2_metadata;manual_superpop_from_descriptor	Maasai in Kinyawa, Kenya	SAMN11308573	NA	NA21307	NA21308	False	True	False

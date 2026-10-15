@@ -1,0 +1,109 @@
+{
+ "allele_definition": "t20",
+ "n_two_haplotype_arms": 4237,
+ "n_het_pairs": 1088,
+ "n_forms_with_pairs": 204,
+ "n_forms_tested_ge10": 33,
+ "n_forms_bh_q_lt_0_05": 1,
+ "T2_within_arm_shuffle": {
+  "observed_mean_d": 395.45680147058823,
+  "n_het_pairs": 1088,
+  "null_mean": 0.4044552273906522,
+  "null_sd": 122.18398363633537,
+  "perm_p_two_sided": 0.0009998000399920016
+ },
+ "T3_unpaired": {
+  "n_tips": 11009,
+  "n_foreign": 4594,
+  "beta_foreign_bp": 506.1965050022502,
+  "se_bp": 78.23439808932477,
+  "beta_hap2_bp": 66.06115456784516,
+  "perm_p": 0.0004997501249375312,
+  "mde80_bp": 219.05631465010936,
+  "beta_foreign_adj_nnear_bp": 409.20343137867746,
+  "se_adj_nnear_bp": 79.0353933784269,
+  "beta_per_near_end_bp": 405.7787446074012,
+  "se_per_near_end_bp": 52.654941891753325,
+  "own_tips_beta_per_near_end_bp": 771.0046430256831,
+  "own_tips_se_per_near_end_bp": 96.31279689705389
+ },
+ "T4_donor_likeness": [
+  {
+   "test": "d ~ base(D)-base(R) [HPRC own-form, leave-sample-out]",
+   "n": 1030,
+   "n_forms": 193,
+   "slope": 0.4227933983702842,
+   "slope_se_cluster": 0.3055772151120565,
+   "slope_ci95": [
+    -0.1761379432493465,
+    1.021724739989915
+   ],
+   "intercept": 421.3925792480383,
+   "r": 0.06071470656012721,
+   "p": 0.16809070009739877,
+   "perm_p_forms": 0.14142928535732133,
+   "p_slope_eq_1": 0.0604119732959416,
+   "sd_x": 658.9975729549391
+  },
+  {
+   "test": "d ~ Karimian(D)-Karimian(R)",
+   "n": 937,
+   "n_forms": 182,
+   "slope": -0.4784085409879204,
+   "slope_se_cluster": 0.537702050056186,
+   "slope_ci95": [
+    -1.5323045590980449,
+    0.575487477122204
+   ],
+   "intercept": 396.0551607992804,
+   "r": -0.04120566217771613,
+   "p": 0.374792998568886,
+   "perm_p_forms": 0.3743128435782109,
+   "p_slope_eq_1": 0.006574273068775438,
+   "sd_x": 392.19437302369613
+  },
+  {
+   "test": "form-level mean d ~ x (forms with >= 5 pairs)",
+   "n": 66,
+   "n_forms": 66,
+   "slope": -0.09019656465029378,
+   "slope_se_cluster": 0.4302634410416144,
+   "slope_ci95": [
+    -0.933512909091858,
+    0.7531197797912704
+   ],
+   "intercept": 216.46892383625098,
+   "r": -0.027695710010500856,
+   "p": 0.8346113262421193,
+   "perm_p_forms": 0.8220889555222389,
+   "p_slope_eq_1": 0.013703640457246006,
+   "sd_x": 685.3300373678803
+  },
+  {
+   "test": "all foreign tips: rel_tl ~ base(R) + base(D) [cluster-robust by form]",
+   "n": 4164,
+   "n_forms": 305,
+   "beta_R": 0.1276257189586314,
+   "se_R": 0.1951703471789963,
+   "beta_D": 0.3375910230202088,
+   "se_D": 0.22963552769972637,
+   "p_D": 0.14256434555538178,
+   "p_R": 0.513657936094489
+  },
+  {
+   "test": "all foreign tips: rel_tl ~ Karimian(R) + Karimian(D) [cluster-robust by form]",
+   "n": 3893,
+   "n_forms": 286,
+   "beta_R": 0.5440742006721393,
+   "se_R": 0.3226746800674976,
+   "beta_D": 0.2980184854474244,
+   "se_D": 0.32601225067804923,
+   "p_D": 0.3614197914938479,
+   "p_R": 0.09286348513087278
+  }
+ ],
+ "own_own_pairs": 1947,
+ "own_own_hap_spearman": 0.3918493778095172,
+ "mean_abs_x_bp": 535.0288687913377,
+ "sd_x_bp": 658.9975729549392
+}

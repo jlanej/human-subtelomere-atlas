@@ -1,0 +1,51 @@
+{
+ "haplotypes": 455,
+ "samples": 230,
+ "haplotypes_by_superpop": {
+  "AFR": 138,
+  "AMR": 86,
+  "EAS": 102,
+  "EUR": 59,
+  "SAS": 70
+ },
+ "samples_by_superpop": {
+  "AFR": 69,
+  "AMR": 44,
+  "EAS": 51,
+  "EUR": 30,
+  "SAS": 36
+ },
+ "foreign_frac_by_superpop": {
+  "AFR": 0.4383,
+  "AMR": 0.3691,
+  "EAS": 0.3482,
+  "EUR": 0.3488,
+  "SAS": 0.3669
+ },
+ "forms_tested": 104,
+ "min_carriers": 10,
+ "n_perm": 10000,
+ "seed": 20261015,
+ "forms_q05_perm": 41,
+ "forms_q05_perm_batch": 36,
+ "forms_q05_fisher_AFR": 31,
+ "forms_in_all_5_superpops": 66,
+ "median_fst_anova": 0.02265,
+ "max_fst_anova": 0.2217,
+ "forms_freq_AFR_higher_q05": 22,
+ "forms_freq_AFR_lower_q05": 9,
+ "junction_clusters_ge2_samples": 191,
+ "junction_clusters_ge2_shared_AFR_nonAFR": 99,
+ "junction_clusters_ge2_expected_shared_random": 131.74,
+ "samples_AFR_continental": 51,
+ "samples_EUR_EAS_SAS": 117,
+ "junction_clusters_ge2_shared_AFRcont_OOA": 76,
+ "junction_clusters_ge2_expected_shared_AFRcont_OOA_random": 104.49,
+ "junction_clusters_ge5_shared_AFRcont_OOA": 50,
+ "junction_clusters_ge10_samples": 39,
+ "junction_clusters_ge10_shared_AFRcont_OOA": 34,
+ "junction_cluster_samples_ge2_total": 1445,
+ "junction_clusters_ge5_samples": 70,
+ "junction_clusters_ge5_shared_AFR_nonAFR": 58,
+ "junction_clusters_ge5_in_all5": 26
+}
