@@ -1,0 +1,10 @@
+# large intermediates and downloads (regenerable with pipeline/)
+work/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+*.bam
+*.bai
+*.paf
+*.paf.gz
