@@ -1,15 +1,22 @@
 path	bytes	sha256	rows	description
-data/catalogue/PROVENANCE.json	3144	1447cc529b90d02c6552577790d421a828af7da8c5793fedf108a80d371a9d31		sources, input checksums, fetch dates, tool versions, parameters
-data/catalogue/QC.md	11806	802c5ddcd37da14344563a5a659efd2888f6a9313b25dab5b5301a47b7a4cbf9		QC report
-data/catalogue/SCHEMA.md	14722	6a00d7caf7cfbf24854911a861534917bc5e545a55add1d1a1e2bdd784a42dd7		column definitions
-data/catalogue/allele_frequencies_by_superpop.tsv	243249	c78fc640f8643a5c0b46232222e4d2c5367bed82ae31b47600e3a3fb32b9aebc	5092	Release 2 haplotype frequencies by superpopulation
-data/catalogue/alleles_structural.tsv	226087	cf85b4a346a4ce57e94f75551ecf2ded704ca87eab849edbae698be05b094ff6	1221	structural alleles per catalogue arm
-data/catalogue/catalogue.json	1725423	706f5294ad3a38317d5013fd03c37ad41333a12a294352b39c14cbe51518cee0		compact per-arm catalogue for the website
-data/catalogue/ends.tsv	15861252	ed4c821351a83c85323441591407311317d0ec3b8f3b54147c522f53bf825a8a	20652	one row per chromosome end (window provenance, mosaic summary, allele calls, evidence, flags)
-data/catalogue/haplogroups.tsv	113861	a6e5cdc32f8aed24282c49c3a3f62f8f8640986ebc6abfda90f14f5b5c9dcef0	598	sequence haplogroups per catalogue arm
-data/catalogue/mosaic_blocks.tsv	7475554	79c4dcb0c8eb4a74d6bfac926b0eac5ad0aec6e461a5c3e46607aadbff801672	81034	raw and core mosaic blocks per end
-data/catalogue/representatives.fa.gz	15738476	d1e3fa6a235777fd9e79aca237cf3a212cb4b0cd25d76c1ae369f67e3fc64048		medoid window sequence per structural allele and haplogroup
+data/catalogue/PROVENANCE.json	3336	db322fed325cd9b27c33b1ed623c0d522f04ab864b2047770a0aafadc35557b4		sources, input checksums, fetch dates, tool versions, parameters
+data/catalogue/QC.md	35372	eebe9b1541a42edf3aa18e6439e71c3528f409df810da38c336121f1b9c22d36		QC report
+data/catalogue/SCHEMA.md	22461	669587b43ece07b821df02a6b83de7f0f8f3ed23f468e924d3e9c7b6290347be		column definitions
+data/catalogue/allele_frequencies_by_superpop.tsv	177465	46521d746155792d06accc1c0371242c2121627e56f071b66fcadfc32c7e676a	3760	Release 2 haplotype frequencies by superpopulation
+data/catalogue/alleles_structural.tsv	123744	565e225ad1c00409e73bd89e8a12df88d92773899b22390ccc60f572d1ca36e3	647	structural alleles per catalogue arm
+data/catalogue/catalogue.json	1501066	6862158ce64312e14e2ba83961e0151d1b16e7aec8ca8700593f0391dd1cea05		compact per-arm catalogue for the website
+data/catalogue/ends.tsv	19221022	c10db9e6f04c55e316743b057360e0d8be4223f445ed52eb25ae59e8a11fbf97	20652	one row per chromosome end (window provenance, mosaic summary, allele calls, evidence, flags)
+data/catalogue/haplogroups.tsv	111336	e22080c84703f7aa80c0955f4bd54d3367dca6df118d59015d95890b1c05044e	593	sequence haplogroups per catalogue arm
+data/catalogue/id_history.tsv	133275	c799ddddc12f43c340cb6334edea045a936894d0e19c1260b49cbc0e6757d6ec	1995	allele/haplogroup ID changes relative to the previous build
+data/catalogue/mosaic_blocks.tsv	8642475	740d1ddd84eb8a84232eca0195fd45209827019cbb05b641e6a79fd1d0b1d430	88145	raw and core mosaic blocks per end
+data/catalogue/paralog_families.tsv	515	995508e15da7f5089f267653f84fe921580cd0bedf94d0f3d7d8c98b0afa5a99	6	paralog families of CHM13 ends used as mosaic labels
+data/catalogue/representatives.fa.gz	13141082	fed4aecdf7db4106f8f60598cb94d5eea5a8a7d69856f0ef1bbac50d2f3b8ef2		medoid window sequence per structural allele and haplogroup
+data/catalogue/qc/public_rebuild_subset_check.json	207	ac5144f0b4af008a289d5dee394ec24e1fcbd639ae6812cce0819e87df70c21d		summary of the public-mode subset rebuild check
+data/catalogue/qc/public_rebuild_subset_check.tsv	1383	1252ad173d584f2a43fe3b7444a3884feed879c8e38ad166c2d4952d087e9253	36	public-mode rebuild of arms 20q, 3q, 16p (steps 01-08b) vs the release, per column (pipeline/CATALOGUE.md)
+data/catalogue/qc/public_window_verification.tsv	63720	8d543d68834129600f3701b4eba57c8170255b2072cd14a899864e2f45f38cfa	348	public re-fetch of released windows (stratified sample + all CHM13 ends) vs window_sha256 (pipeline/CATALOGUE.md)
+data/catalogue/qc/stability_summary.tsv	5596	4ebbe2e57166c633932c852d00132af63ee0e9208e02e7c613558318b566a0d0	60	boundary-shift acceptance test: stability by shift and stratum with Wilson 95% intervals (QC section 9)
+data/catalogue/qc/stability_tau_scan.tsv	2664	ee65a6989a89d0e218e3f2ffca886aeb3fbfc1e646b3f16fc7831657abfbab57	72	boundary-shift stability by paralog-family threshold tau (QC section 9)
 figures/qc/arm_inference_calibration.png	56504	4c83232873f90d493eacd7c0b7fca6ded3f34cc59f6313f467a5ce9c6dfb51c3		QC figure
-figures/qc/haplogroup_threshold.png	115141	a2db5458b4cdaf827707d2c2a81612b07fa8b969c68387f495f4c02452cc1828		QC figure
-figures/qc/haplogroup_threshold_scan.png	61086	d5356f27db2b8be71de44e990d839b500d281aa29700fa56aabedb91eaeaea18		QC figure
-figures/qc/structure_thresholds.png	62402	47eac8870228d37fe42851cc289263a0bbb77e91c0762843c6aebb2e2f41986e		QC figure
+figures/qc/haplogroup_threshold.png	114847	df8bea9af25bb0b3934ba7593977ba279cafd90628e629089d2a288374a03584		QC figure
+figures/qc/haplogroup_threshold_scan.png	61037	c4fcd90a1e636ab95fa3028ef78323cd2a12d8e7b556c10ab15d1867703e4f6c		QC figure
+figures/qc/structure_thresholds.png	61326	519856ba362558d6e89030bd8eafc12f06010745c55521eb0edbadc167b801ec		QC figure

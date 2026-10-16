@@ -1,4 +1,5 @@
 {
+ "input_mode": "analysis_home",
  "input_sha256": {
   "hg002/hg002v1.1.fasta.gz.fai": "836220cfb3ca888205995c68b15c3dbcd2f467317b034c7eeaa3335d9576f73e",
   "meta/explorer_assemblies.csv": "bc6653f68fb069f9976b4453ba5b6e670b872acdbbfb42a77fbb12ace1de33c5",
@@ -26,10 +27,11 @@
   "window_bp": 100000
  },
  "range_reads": {
+  "extended_windows": 195,
   "first": "2026-10-15T14:51:54Z",
-  "last": "2026-10-15T16:03:35Z",
-  "n_marker_files": 911,
-  "reused_earlier_100kb_windows": 5840
+  "last": "2026-10-15T23:39:08Z",
+  "n_marker_files": 992,
+  "reused_earlier_100kb_windows": 5727
  },
  "release": "v0.1",
  "sibling_sha256": {
@@ -58,6 +60,7 @@
   "samples": "data/metadata/samples.tsv (sibling track; see data/metadata/README.md)",
   "telomere_cis_states": "analyses/telomere_cis/results/fixed_window_states.tsv (sibling track, read only)"
  },
+ "telomere_boundary": "called on each window with subtel_atlas.telomere.find_block (Release 2 tip-table values kept as tiptable_*)",
  "tools": {
   "mappy": "2.31",
   "minimap2": "2.31-r1302",

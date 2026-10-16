@@ -13,12 +13,14 @@
       evaluated at group level. A mosaic fallback inside a pooled group gets confidence 'mosaic_group' (group-level accuracy is
       measured on named ends); other mosaic fallbacks are 'low'; ends with neither an informative probe nor any CHM13-aligned bin
       get home_arm 'unassigned' (confidence 'none'). Ends with 'low', 'conflict' or 'none' confidence do not define alleles.
+Shared code: atlas/subtel_atlas/arms.py (probe, mosaic and decision rules; also used by the query tool).
 Outputs: work/catalogue/arms.tsv (end_id, contig_arm, home_arm, arm_source, arm_confidence, probe_arm, probe_n_inf, probe_detail,
          mosaic_arm, mosaic_arm_score_frac), work/catalogue/arm_calibration.tsv
 """
 import os, sys, subprocess, glob, pandas as pd, numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import catalogue_common as C
+from subtel_atlas import arms as AR     # arm rules shared with the query tool
 W = pd.read_csv(f'{C.WIN}/ends_windows.tsv', sep='\t')
 PR = pd.read_csv(f'{C.WIN}/probe_plan.tsv', sep='\t')
 # ---- probe mapping
@@ -39,16 +41,10 @@ clen = {l.split('\t')[0]: int(l.split('\t')[1]) for l in open(C.inp('ref/chm13v2
 side = dict(zip(W.end_id, W.side))
 best = {}
 for line in open(paf):
-    f = line.split('\t'); q = f[0]; aln = int(f[3]) - int(f[2]); mq = int(f[11])
-    if q not in best or aln * (mq + 1) > best[q][0]: best[q] = (aln * (mq + 1), f[5], int(f[7]), int(f[8]), f[4], mq, aln)
+    f = line.split('\t'); AR.best_probe_hit(best, f[0], int(f[3]) - int(f[2]), int(f[11]), f[5], int(f[7]), int(f[8]), f[4])
 prow = []
-for q, (sc, chrom, ts, te, st, mq, aln) in best.items():
-    e, off = q.rsplit('@', 1); L = clen[chrom]; mid = (ts + te) / 2; arm = chrom[3:] + ('p' if mid < L / 2 else 'q')
-    tipst = st if side[e] == 'L' else ('+' if st == '-' else '-')
-    consistent = (arm.endswith('p') and tipst == '+') or (arm.endswith('q') and tipst == '-')
-    dist = mid if arm.endswith('p') else L - mid
-    prow.append(dict(end_id=e, offset=int(off), arm=arm, mapq=mq, aln=aln, consistent=consistent, dist_from_end=int(dist),
-                     informative=mq >= 20 and aln >= 5000 and consistent, score=mq * aln))
+for q, hit in best.items():
+    e, off = q.rsplit('@', 1); prow.append(AR.probe_row(e, off, side[e], hit, clen))
 PB = pd.DataFrame(prow)
 # ---- mosaic fallback rule (summed AS per CHM13 end over proximal bins)
 Bn = pd.read_csv(f'{C.CW}/bins.tsv.gz', sep='\t', dtype={'bin': str, 'cand': str})
@@ -56,26 +52,14 @@ Bn = Bn[~Bn.bin.isin(['S5', 'S10', 'S20', 't20'])]
 s0 = dict(zip(W.end_id, W.junk_len + W.telo_len))
 mos = {}
 for e, g in Bn.groupby('end_id'):
-    prox = g[g.qstart - s0[e] >= 50000]; prox = prox if len(prox) else g; sc = {}
-    for c in prox.cand.dropna():
-        for x in c.split(';'):
-            t, a, _ = x.split(':'); sc[t] = sc.get(t, 0) + int(a)
-    if sc:
-        b = max(sorted(sc), key=sc.get); mos[e] = (C.arm_of(b), round(sc[b] / sum(sc.values()), 3))
+    m = AR.mosaic_arm(g, s0[e])
+    if m: mos[e] = m
 rows = []; PBg = {e: g for e, g in PB.groupby('end_id')}
 for w in W.itertuples():
     e = w.end_id; p = PBg.get(e, PB.iloc[0:0])
-    inf = p[p.informative]; parm, conf = '', ''
-    if len(inf):
-        groups = set(inf.arm.map(C.group_of)); parm = inf.sort_values(['score', 'offset']).arm.iloc[-1]
-        conf = ('high' if len(inf) >= 2 else 'medium') if len(groups) == 1 else 'conflict'
+    inf = p[p.informative]; parm, conf = AR.probe_consensus(inf)
     ma, mf = mos.get(e, ('', np.nan))
-    if isinstance(w.contig_arm, str) and w.contig_arm:
-        home, src, hc = w.contig_arm, 'contig_name', 'named'
-    elif parm:
-        home, src, hc = parm, 'probe', conf
-    else:
-        home, src, hc = (ma, 'mosaic', ('mosaic_group' if C.group_of(ma) != ma else 'low')) if ma else ('unassigned', 'none', 'none')
+    home, src, hc = AR.decide(w.contig_arm, parm, conf, ma)
     rows.append(dict(end_id=e, contig_arm=w.contig_arm if isinstance(w.contig_arm, str) else '', home_arm=home,
                      catalogue_arm=C.group_of(home), arm_source=src,
                      arm_confidence=hc, probe_arm=parm, probe_confidence=conf, probe_n_inf=len(inf), probe_n=len(p),

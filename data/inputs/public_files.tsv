@@ -1,0 +1,4 @@
+path	url	bytes	sha256
+ref/chm13v2.0.fa.gz	https://human-pangenomics.s3.amazonaws.com/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz	981185361	f274b0ee8bc1bca18d231d0eb80d764650d7f02d1fe07c43819e21168224304d
+subtel/pedigree/ends250k.fa	range reads of https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/v1.1/ (7 haplotypes)	80509502	fc9bccc13d09bb8b8aa7b007ad7d78fcf9e94df6bceb1a4de31a450fa8ac0388
+subtel/pedigree/ends250k_PAN028_h2.fa	range reads of https://public.gi.ucsc.edu/~mcechova/pedigree/assemblies/v1.1/ (PAN028 hap2)	11501344	4d09ceb3a7a427804d0f2a64151a2e1a6c92e0384ecafe69ae57ea28caeee69b

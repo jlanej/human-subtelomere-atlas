@@ -21,7 +21,8 @@ from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import squareform
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import catalogue_common as C, catalogue_sketch as S
-HG_LEN, K, SCALE = 80_000, 21, 10
+from subtel_atlas import haplo as H     # shared with the query tool
+HG_LEN, K, SCALE = H.HG_LEN, H.K, H.SCALE
 HG_ANI = float(sys.argv[1]) if len(sys.argv) > 1 else float(os.environ.get('ATLAS_HG_ANI', '0.995'))
 CALIB_PAIRS, SEED = 2000, 20260715
 
@@ -34,17 +35,10 @@ def jacc_matrix(sk):
 
 _SEQ = {}
 def gc_ident(args):
-    """gap-compressed identity (1 - de) over primary hits, weighted by aligned query length, and aligned fraction"""
-    import mappy, re
-    q, t = args; a = mappy.Aligner(seq=_SEQ[t], preset='asm20'); qs = _SEQ[q]
-    cov = np.zeros(len(qs), bool); w = d = 0.0
-    for h in a.map(qs, cs=True):
-        if not h.is_primary: continue
-        cov[h.q_st:h.q_en] = True
-        sub = len(re.findall(r'\*', h.cs)); ins = len(re.findall(r'\+', h.cs)); dl = len(re.findall(r'-', h.cs))
-        mt = sum(int(x) for x in re.findall(r':(\d+)', h.cs)); L = mt + sub + ins + dl
-        w += L; d += sub + ins + dl
-    return q, t, (1 - d / w if w else np.nan), float(cov.mean())
+    """gap-compressed identity (1 - de) over primary hits, weighted by aligned query length, and aligned fraction
+    (atlas/subtel_atlas/haplo.py, shared with the query tool)"""
+    q, t = args; ident, frac = H.gc_ident(_SEQ[q], _SEQ[t])
+    return q, t, ident, frac
 
 def main():
     W = pd.read_csv(f'{C.WIN}/ends_windows.tsv', sep='\t').set_index('end_id')

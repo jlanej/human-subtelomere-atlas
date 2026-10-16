@@ -1,6 +1,8 @@
 """Step 1a: plan telomere-anchored 100 kb windows for every Release 2 telomeric tip (named and unnamed contigs).
-Inputs : $ATLAS_INPUT_DIR/tipdup/tips_meta.tsv (20,144 tips), meta/r2_assemblies_index.csv (S3 paths),
-         subtel/foreign/r2_100k/<asm>.fa (outer 100 kb windows fetched earlier; reused, not re-downloaded).
+Inputs : tipdup/tips_meta.tsv (20,144 tips), meta/r2_assemblies_index.csv (S3 paths) - from ATLAS_INPUT_DIR or, in public mode,
+         data/inputs/ (catalogue_common.inp); optional cache subtel/foreign/r2_100k/<asm>.fa (outer 100 kb windows fetched earlier
+         in the analysis home; reused, not re-downloaded; absent in public mode, where every window is fetched).
+         ATLAS_SUBSET_ENDS restricts the plan to the listed end_ids (verification runs).
 Window : contig bases [1, min(100000, contig_len)] for L ends, [contig_len - w + 1, contig_len] for R ends (1-based, inclusive).
 Outputs: work/windows/r2_plan.tsv (one row per tip: end_id, region, url, reuse source), work/windows/fetch/<asm>.regions +
          work/windows/fetch/jobs.txt for the regions not already present locally.
@@ -9,8 +11,11 @@ import os, sys, re, glob, pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import catalogue_common as C
 os.makedirs(f'{C.WIN}/fetch', exist_ok=True)
 M = pd.read_csv(C.inp('tipdup/tips_meta.tsv'), sep='\t')
+NAMED_CAL = set(M[M.arm.notna()].sample(1000, random_state=20260715).q)   # probe calibration set, drawn from all tips
+SUB = C.subset_ids()
+if SUB is not None: M = M[(M.contig + '#' + M.end).isin(SUB)].reset_index(drop=True)
 urls = {}
-for line in open(C.inp('meta/r2_assemblies_index.csv')):
+for line in C.open_text(C.inp('meta/r2_assemblies_index.csv')):
     u = line.strip().split(',')[-1]; b = os.path.basename(u)
     m = re.match(r'(.+?)_(hap1|hap2|mat|pat)_hprc_r2', b)
     if u.endswith('.fa.gz') and m: urls[f'{m.group(1)}.{m.group(2)}'] = u
@@ -48,7 +53,7 @@ print('tips', len(P), 'reuse', (P.source == 'r2_100k').sum(), 'to fetch', (P.sou
 # contig's tip-side half (so that it cannot reach the other end).
 PROBES = [(250_000, 10_000), (1_000_000, 10_000)]
 os.makedirs(f'{C.WIN}/probes', exist_ok=True)
-named = M[M.arm.notna()].sample(1000, random_state=20260715).q
+named = M[M.q.isin(NAMED_CAL)].q            # same calibration tips as the full build (subset runs keep their share)
 sel = M[M.arm.isna() | M.q.isin(named)]
 prow = []
 for r in sel.itertuples():

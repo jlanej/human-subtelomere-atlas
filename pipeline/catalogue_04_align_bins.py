@@ -12,11 +12,12 @@ Output   : work/catalogue/bins.tsv.gz: end_id, bin (k, S5, S10, S20 or t20), qst
            best_dist1 (distance of the best alignment from that CHM13 end's telomere), best_strand, cand (all ends with AS >= 0.5 x best:
            'end:AS:ident' joined by ';'), n_ends
 Usage    : python catalogue_04_align_bins.py
+Shared code: tiling, PAF parsing and summarise() are atlas/subtel_atlas/bins.py (also used by the query tool).
 """
 import os, sys, subprocess, gzip, pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import catalogue_common as C
-BIN, MINW, EL = 5000, 2000, 500_000
+from subtel_atlas.bins import BIN, MINW, EL, MM2_ARGS, COLS, tile, summarise, paf_alignment   # shared with the query tool
 os.makedirs(C.CW, exist_ok=True)
 REF = f'{C.CW}/chm13_ends500k.fa'
 
@@ -38,39 +39,16 @@ def queries(ends_fa, W, out):
     s0 = dict(zip(W.end_id, W.junk_len + W.telo_len)); spans = {}
     with open(out, 'w') as f:
         for n, s in C.readfa(ends_fa):
-            a0 = int(s0[n]); L = len(s)
-            for k in range((L - a0 + BIN - 1) // BIN):
-                a, b = a0 + k * BIN, min(a0 + (k + 1) * BIN, L)
-                if b - a >= MINW: f.write(f'>{n}@{k}\n{s[a:b]}\n'); spans[f'{n}@{k}'] = (a, b)
-            for tag, w in (('S5', 5000), ('S10', 10000), ('S20', 20000)):
-                b = min(a0 + w, L)
-                if b - a0 >= 1000: f.write(f'>{n}@{tag}\n{s[a0:b]}\n'); spans[f'{n}@{tag}'] = (a0, b)
-            b = min(20000, L)
-            if b - a0 >= 1000: f.write(f'>{n}@t20\n{s[a0:b]}\n'); spans[f'{n}@t20'] = (a0, b)
+            for tag, a, b in tile(int(s0[n]), len(s)):
+                f.write(f'>{n}@{tag}\n{s[a:b]}\n'); spans[f'{n}@{tag}'] = (a, b)
     return spans
-
-def summarise(qn, al, span):
-    best = {}
-    for a in al:
-        if a[2] - a[1] < 0.5 * a[0]: continue
-        if a[4] not in best or a[7] > best[a[4]][7]: best[a[4]] = a
-    end_id, k = qn.rsplit('@', 1)
-    rec = dict(end_id=end_id, bin=k, qstart=span[0], qend=span[1])
-    if not best:
-        rec.update(best_end='', best_AS=0, best_ident='', best_dist0='', best_dist1='', best_strand='', cand='', n_ends=0); return rec
-    b = max(best.values(), key=lambda a: (a[7], a[4]))
-    d0, d1 = (b[5], b[6]) if b[4].endswith('p') else (EL - b[6], EL - b[5])
-    cand = sorted((a for a in best.values() if a[7] >= 0.5 * b[7]), key=lambda a: (-a[7], a[4]))
-    rec.update(best_end=b[4], best_AS=b[7], best_ident=round(b[8], 4), best_dist0=d0, best_dist1=d1, best_strand=b[3],
-               cand=';'.join(f'{a[4]}:{a[7]}:{a[8]:.4f}' for a in cand), n_ends=len(best))
-    return rec
 
 def run(ends_fa, wtab, out, threads):
     make_ref()
     W = pd.read_csv(wtab, sep='\t'); qfa = out + '.queries.fa'; spans = queries(ends_fa, W, qfa)
-    cmd = f'minimap2 -x asm20 -c --secondary=yes -N 50 -p 0.2 -t {threads} {REF} {qfa} 2> {out}.mm2.log'
+    cmd = f"minimap2 {' '.join(MM2_ARGS)} -t {threads} {REF} {qfa} 2> {out}.mm2.log"
     p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, text=True, bufsize=1 << 20)
-    cols = ['end_id', 'bin', 'qstart', 'qend', 'best_end', 'best_AS', 'best_ident', 'best_dist0', 'best_dist1', 'best_strand', 'cand', 'n_ends']
+    cols = COLS
     seen = set()
     with gzip.open(out + '.tmp', 'wt') as fo:
         fo.write('\t'.join(cols) + '\n'); cur, al = None, []
@@ -78,16 +56,54 @@ def run(ends_fa, wtab, out, threads):
             if cur is None: return
             r = summarise(cur, al, spans[cur]); seen.add(cur); fo.write('\t'.join(str(r[c]) for c in cols) + '\n')
         for line in p.stdout:
-            f = line.split('\t')
-            if f[0] != cur: flush(); cur, al = f[0], []
-            AS = next(int(t[5:]) for t in f[12:] if t.startswith('AS:i:'))
-            de = next(float(t[5:]) for t in f[12:] if t.startswith('de:f:'))
-            al.append((int(f[1]), int(f[2]), int(f[3]), f[4], f[5], int(f[7]), int(f[8]), AS, 1 - de))
+            qn, a = paf_alignment(line)
+            if qn != cur: flush(); cur, al = qn, []
+            al.append(a)
         flush()
         for qn in spans:                       # queries without any alignment
             if qn not in seen: r = summarise(qn, [], spans[qn]); fo.write('\t'.join(str(r[c]) for c in cols) + '\n')
     if p.wait() != 0: raise SystemExit('minimap2 failed')
     os.replace(out + '.tmp', out); os.remove(qfa)
 
+STAMP = f'{C.CW}/bins_stamp.tsv'      # end_id, s0, window_sha256 of the windows the current bins.tsv.gz was computed from
+
+def write_stamp(W):
+    W.assign(s0=W.junk_len + W.telo_len)[['end_id', 's0', 'window_sha256']].to_csv(STAMP, sep='\t', index=False)
+
+def update(threads, n_control=300, seed=20261015):
+    """Recompute bins only for ends whose boundary (s0) or window changed since bins.tsv.gz was made (bins_stamp.tsv), plus a
+    seeded control set of unchanged ends whose recomputed rows must equal the stored rows (minimap2 maps every query
+    independently, so a subset run reproduces a full run). Rows are written sorted by end_id (stable within an end)."""
+    import numpy as np
+    W = pd.read_csv(f'{C.WIN}/ends_windows.tsv', sep='\t'); W['s0'] = W.junk_len + W.telo_len
+    S = pd.read_csv(STAMP, sep='\t').set_index('end_id')
+    m = W.set_index('end_id').join(S, rsuffix='_old')
+    changed = sorted(m.index[(m.s0 != m.s0_old) | (m.window_sha256 != m.window_sha256_old)])
+    rng = np.random.default_rng(seed); pool = sorted(set(W.end_id) - set(changed))
+    control = sorted(rng.choice(pool, min(n_control, len(pool)), replace=False).tolist())
+    todo = set(changed) | set(control)
+    sub_fa = f'{C.CW}/bins_update.fa'
+    with open(sub_fa, 'w') as f:
+        for n, sq in C.readfa(f'{C.WIN}/ends.fa'):
+            if n in todo: f.write(f'>{n}\n{sq}\n')
+    run(sub_fa, f'{C.WIN}/ends_windows.tsv', f'{C.CW}/bins_update.tsv.gz', threads)
+    old = pd.read_csv(f'{C.CW}/bins.tsv.gz', sep='\t', dtype=str, keep_default_na=False)
+    new = pd.read_csv(f'{C.CW}/bins_update.tsv.gz', sep='\t', dtype=str, keep_default_na=False)
+    key = lambda d: d.assign(_o=np.arange(len(d))).sort_values(['end_id', '_o']).drop(columns='_o').reset_index(drop=True)
+    oc, nc = key(old[old.end_id.isin(control)]), key(new[new.end_id.isin(control)])
+    same = oc.equals(nc)
+    print(f'bins update: changed ends {len(changed)}, control ends {len(control)}, control rows identical: {same} ({len(nc)} rows)')
+    if not same: raise SystemExit('control ends differ from stored bins; run a full step 04')
+    out = pd.concat([old[~old.end_id.isin(changed)], new[new.end_id.isin(changed)]])
+    out = key(out)
+    with gzip.open(f'{C.CW}/bins.tsv.gz.tmp', 'wt') as fo: out.to_csv(fo, sep='\t', index=False)
+    os.replace(f'{C.CW}/bins.tsv.gz.tmp', f'{C.CW}/bins.tsv.gz')
+    write_stamp(W.drop(columns='s0'))
+    pd.DataFrame(dict(end_id=changed)).to_csv(f'{C.CW}/bins_update_changed.tsv', sep='\t', index=False)
+
 if __name__ == '__main__':
-    run(f'{C.WIN}/ends.fa', f'{C.WIN}/ends_windows.tsv', f'{C.CW}/bins.tsv.gz', C.THREADS)
+    if len(sys.argv) > 1 and sys.argv[1] == 'update':
+        update(C.THREADS)
+    else:
+        run(f'{C.WIN}/ends.fa', f'{C.WIN}/ends_windows.tsv', f'{C.CW}/bins.tsv.gz', C.THREADS)
+        write_stamp(pd.read_csv(f'{C.WIN}/ends_windows.tsv', sep='\t'))

@@ -43,6 +43,12 @@ TR = rd(C.inp('results/subtel_pedigree_transmission.tsv')); PL = rd(C.inp('tipdu
 
 E = W.merge(A.drop(columns=['contig_arm']), on='end_id').merge(ME.drop(columns=['catalogue_arm']), on='end_id', how='left')
 E['q'] = np.where(E.set == 'HPRC_R2', E.assembly + '|' + E.contig + '|' + E.side, '')
+BS = f'{C.CW}/boundary_stable.tsv'
+BSC = ['boundary_stable', 'boundary_stable_S20', 'boundary_stable_allele', 'S20_state_minus500', 'S20_state_plus500', 'allele_minus500', 'allele_plus500']
+if os.path.exists(BS):
+    E = E.merge(rd(BS)[['end_id'] + BSC], on='end_id', how='left')
+else:
+    for c in BSC: E[c] = ''
 E = E.merge(S[['sample', 'population', 'superpopulation', 'sex']], on='sample', how='left')
 E = E.merge(SM[['end_id', 'structure', 'switches', 'n_core_blocks', 'sub_len', 'allele_id', 'assignment', 'candidates']].rename(
     columns={'structure': 'core_structure', 'switches': 'core_switches_sub', 'allele_id': 'structural_allele_id',
@@ -97,6 +103,8 @@ def flags(r, d):
     if r.junk_len > 1000: f.append('junk_gt_1kb')
     if r.q in junk_hit: f.append('junk_chimeric')
     if r.telo_len < 1000: f.append('short_telomere')
+    if r.telomere_to_window_end: f.append('telomere_to_window_end')
+    if r.window_extended: f.append('window_extended')
     if r.window_len < C.WINDOW or (r.sub_len == r.sub_len and r.sub_len < 80000): f.append('partial_window')
     if r.arm_source != 'contig_name': f.append('arm_inferred')
     if r.arm_confidence == 'low': f.append('arm_low_confidence')
@@ -115,7 +123,10 @@ def t20cmp(r):
     if r.t20_state == 'foreign' and r.t20_best_end != r.prior_t20_best_end: return 'foreign_end_differs'
     return 'concordant'
 E['t20_vs_prior'] = [t20cmp(r) for r in E.itertuples()]
-E['form'] = np.where(E.S20_state == 'foreign', E.home_arm.astype(str) + '>' + E.S20_best_end.astype(str).str[3:], '')
+E['form'] = np.where(E.S20_state == 'foreign', E.home_arm.astype(str) + '>' + E.S20_family.astype(str), '')   # over paralog families
+from subtel_atlas import tracks as TK
+FAMS = TK.load_families(f'{C.CAT}/paralog_families.tsv')
+E['nativity_class'] = [TK.nativity_class(s_, a_, FAMS) for s_, a_ in zip(E.core_structure, E.catalogue_arm)]   # native / within_family / foreign
 E['prior_switch_sub'] = E.prior_switch_final - E.s0
 # boundary-anchored states of the telomere_cis track (if present)
 CIS = f'{C.REPO}/analyses/telomere_cis/results/fixed_window_states.tsv'
@@ -179,6 +190,7 @@ HGx['structural_purity'] = HGx.haplogroup_id.map({a: round(g.max() / g.sum(), 4)
 jc = mem_sa[mem_sa.prior_junction_cluster.notna()].groupby('structural_allele_id').prior_junction_cluster.agg(lambda x: ';'.join(f'{k}:{v}' for k, v in x.value_counts().head(3).items()))
 SAx['prior_junction_clusters'] = SAx.allele_id.map(jc)
 SAx['form'] = [f"{a}>{s.split('|')[0]}" if s.split('|')[0] not in ('home', 'none') else '' for a, s in zip(SAx.arm, SAx.structure)]
+SAx['nativity_class'] = [TK.nativity_class(s_, a_, FAMS) for s_, a_ in zip(SAx.structure, SAx.arm)]
 REP_MIN_SAMPLES = 3
 SAx['representative_in_fasta'] = SAx.n_samples >= REP_MIN_SAMPLES; HGx['representative_in_fasta'] = HGx.n_samples >= REP_MIN_SAMPLES
 # ---- frequencies by superpopulation
@@ -194,9 +206,11 @@ FR = pd.DataFrame(fr).sort_values(['allele_type', 'arm', 'allele_id', 'superpopu
 # ---- tables
 endcols = ['end_id', 'set', 'sample', 'haplotype', 'pansn_hap', 'population', 'superpopulation', 'sex', 'assembly', 'assembly_name',
            'assembly_accession', 'assembly_url', 'assembler', 'hifi_input', 'contig', 'contig_len', 'side', 'win_start', 'win_end', 'strand', 'window_len',
-           'window_sha256', 'junk_len', 'telo_len', 'telo_source', 'home_arm', 'catalogue_arm', 'arm_source', 'arm_confidence', 'probe_arm', 'mosaic_arm',
-           'profile', 'structure', 'switches_sub', 'switch_res', 'core_structure', 'core_switches_sub', 'n_core_blocks', 'sub_len',
-           'S5_state', 'S5_best_end', 'S10_state', 'S10_best_end', 'S20_state', 'S20_best_end', 'S20_best_ident', 'form',
+           'window_sha256', 'window_extended', 'junk_len', 'telo_len', 'telo_source', 'telomere_to_window_end', 'tiptable_junk_len', 'tiptable_telo_len', 'home_arm', 'catalogue_arm', 'arm_source', 'arm_confidence', 'probe_arm', 'mosaic_arm',
+           'profile', 'structure', 'switches_sub', 'switch_res', 'core_structure', 'core_switches_sub', 'n_core_blocks', 'nativity_class', 'sub_len',
+           'S5_state', 'S5_family', 'S5_best_end', 'S10_state', 'S10_family', 'S10_best_end', 'S20_state', 'S20_family', 'S20_best_end',
+           'S20_best_ident', 'form', 'boundary_stable', 'boundary_stable_S20', 'boundary_stable_allele', 'S20_state_minus500', 'S20_state_plus500',
+           'allele_minus500', 'allele_plus500',
            't20_state', 't20_best_end', 't20_best_ident', 'structural_allele_id', 'sa_assignment', 'sa_candidates',
            'haplogroup_id', 'hg_assignment', 'ani_to_medoid', 'hg_nn_ani', 'medoid_aln_ident', 'medoid_aln_frac',
            'vk_status', 'lay_status', 'reads_status', 'hg002_ont_crossing', 'hg002_ont_conflict', 'ped_status', 'flags',
@@ -206,16 +220,19 @@ endcols = ['end_id', 'set', 'sample', 'haplotype', 'pansn_hap', 'population', 's
 E = E.sort_values(['set', 'end_id'])
 C.write_tsv_atomic(E[endcols].rename(columns={'q': 'tip_key_r2'}), f'{C.CAT}/ends.tsv')
 MB = rd(f'{C.CW}/mosaic_blocks.tsv'); CB = rd(f'{C.CW}/core_blocks.tsv')
-MB = MB.assign(level='raw', source_arm=MB.source.map(lambda s: C.arm_of(s) if s != 'none' else 'none'))
+MB = MB.rename(columns={'n_grid': 'n_grid_points'}).assign(level='raw', source_arm=MB.source.map(lambda s: C.arm_of(s) if s != 'none' else 'none'))
+MB['family'] = np.where(MB.label.isin(['home', 'none']), '', MB.label)
 CB = CB.rename(columns={'core_block': 'block'}).assign(level='core', source_arm=CB.source.map(lambda s: C.arm_of(s) if s != 'none' else 'none'))
-bc = ['end_id', 'level', 'block', 'source', 'source_arm', 'is_home', 'sub_start', 'sub_end', 'tip_start', 'tip_end', 'n_bins', 'ident',
-      'chm13_dist_start', 'chm13_dist_end', 'next_switch_res', 'next_sw_outer_chm13_dist', 'next_sw_inner_chm13_dist',
-      'next_sw_outer_ident_5kb', 'next_sw_inner_ident_5kb']
+bc = ['end_id', 'level', 'block', 'label', 'family', 'source', 'source_arm', 'best_end', 'is_home', 'sub_start', 'sub_end', 'tip_start', 'tip_end',
+      'n_grid_points', 'ident', 'mean_tied', 'chm13_dist_start', 'chm13_dist_end', 'next_switch_res']
+CB['label'] = np.where(CB.is_home, 'home', CB.source); CB['family'] = np.where(CB.label.isin(['home', 'none']), '', CB.label)
+for c in ['label', 'family', 'best_end', 'mean_tied', 'n_grid_points']:
+    if c not in CB: CB[c] = np.nan
 MBo = pd.concat([MB, CB], ignore_index=True)[bc].sort_values(['end_id', 'level', 'block'], ascending=[True, False, True])
-for c in ['chm13_dist_start', 'chm13_dist_end', 'next_sw_outer_chm13_dist', 'next_sw_inner_chm13_dist', 'tip_start', 'tip_end', 'n_bins']:
+for c in ['chm13_dist_start', 'chm13_dist_end', 'tip_start', 'tip_end', 'n_grid_points']:
     MBo[c] = MBo[c].astype('Int64')
 C.write_tsv_atomic(MBo, f'{C.CAT}/mosaic_blocks.tsv')
-sac = ['allele_id', 'arm', 'structure', 'form', 'is_native', 'n_core_blocks', 'switches_median', 'switches_min', 'switches_max', 'tier', 'evidence',
+sac = ['allele_id', 'arm', 'structure', 'form', 'is_native', 'nativity_class', 'n_core_blocks', 'switches_median', 'switches_min', 'switches_max', 'tier', 'evidence',
        'singleton', 'n_ends', 'n_defining', 'n_full', 'n_r2_ends', 'r2_freq', 'n_samples', 'n_chm13', 'n_hg002_q100', 'n_pedigree_aux', 'n_pedigree_intact',
        'n_vk_concordant', 'n_vk_discordant', 'n_layout_supported', 'n_hg002_reads_supported', 'n_artefact_candidates', 'n_flagged_junk',
        'n_arm_inferred', 'representative_end_id', 'representative_in_fasta', 'haplogroups_top', 'prior_junction_clusters']
@@ -250,7 +267,7 @@ for arm in sorted(set(SAx.arm) | set(HGx.arm)):
     sa = SAx[SAx.arm == arm].sort_values('allele_id'); hg = HGx[HGx.arm == arm].sort_values('haplogroup_id')
     J['arms'][arm] = dict(
         n_r2_ends=int((r2.catalogue_arm == arm).sum()),
-        structural_alleles=[dict(id=r.allele_id, structure=r.structure, native=bool(r.is_native), tier=r.tier, evidence=r.evidence,
+        structural_alleles=[dict(id=r.allele_id, structure=r.structure, native=bool(r.is_native), nativity_class=r.nativity_class, tier=r.tier, evidence=r.evidence,
                                  n_ends=int(r.n_ends), n_samples=int(r.n_samples), freq=frj[r.allele_id], switches=r.switches_median if isinstance(r.switches_median, str) else '',
                                  representative=r.representative_end_id,
                                  blocks=[dict(source=b.source_arm if b.source_arm != arm else 'home', start=int(b.sub_start), end=int(b.sub_end))
@@ -263,6 +280,8 @@ for arm in sorted(set(SAx.arm) | set(HGx.arm)):
                      for r in hg.itertuples()])
 C.write_tsv_atomic(SAx[sac].sort_values(['arm', 'allele_id']), f'{C.CAT}/alleles_structural.tsv')
 C.write_tsv_atomic(HGx[hgc].sort_values(['arm', 'haplogroup_id']), f'{C.CAT}/haplogroups.tsv')
+if os.path.exists(f'{C.CW}/id_history.tsv'):
+    import shutil; shutil.copyfile(f'{C.CW}/id_history.tsv', f'{C.CAT}/id_history.tsv.tmp'); os.replace(f'{C.CAT}/id_history.tsv.tmp', f'{C.CAT}/id_history.tsv')
 tmp = f'{C.CAT}/catalogue.json.tmp'; json.dump(J, open(tmp, 'w'), separators=(',', ':'), sort_keys=True); os.replace(tmp, f'{C.CAT}/catalogue.json')
 TR.to_csv(f'{C.CW}/pedigree_transmission_alleles.tsv', sep='\t', index=False)
 print('ends', len(E), 'SA', len(SAx), SAx.tier.value_counts().to_dict(), 'HG', len(HGx), HGx.tier.value_counts().to_dict(),

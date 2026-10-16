@@ -1,0 +1,14 @@
+{
+ "n_ends": 1339,
+ "by_set": {
+  "HPRC_R2": 1306,
+  "pedigree_aux": 24,
+  "HG002_Q100": 6,
+  "CHM13": 3
+ },
+ "columns": 36,
+ "values": 48204,
+ "identical": 48204,
+ "mismatching": 0,
+ "all_identical": true
+}

@@ -1,0 +1,1996 @@
+type	arm	id	status	merged	n_members	previous_sources	split	now_in
+SA	10p	SA-10p-01	kept_changed	True	431	SA-10p-01:411;SA-10p-02:20	False	SA-10p-01:411
+SA	10p	SA-10p-03	kept_changed	False	4	SA-10p-03:3;SA-10p-04:1	False	SA-10p-03:3
+SA	10p	SA-10p-02	kept_changed	False	1	SA-10p-02:1	False	SA-10p-01:20;SA-10p-02:1
+SA	10p	SA-10p-04	retired	False	0		False	SA-10p-03:1
+SA	10q	SA-10q-01	kept_changed	True	405	SA-10q-01:397;SA-10q-03:6	True	SA-10q-01:397;SA-10q-03:4;SA-10q-15:1;SA-10q-18:2
+SA	10q	SA-10q-02	kept_changed	True	16	SA-10q-02:9;SA-10q-04:4;SA-10q-11:1;SA-10q-12:1;SA-10q-13:1	False	SA-10q-02:9
+SA	10q	SA-10q-03	kept_changed	False	6	SA-10q-01:4;SA-10q-03:1;SA-10q-09:1	False	SA-10q-01:6;SA-10q-03:1
+SA	10q	SA-10q-05	unchanged	False	4	SA-10q-05:4	False	SA-10q-05:4
+SA	10q	SA-10q-07	unchanged	False	2	SA-10q-07:2	False	SA-10q-07:2
+SA	10q	SA-10q-08	kept_changed	False	3	SA-10q-08:1;SA-10q-10:1	False	SA-10q-08:1
+SA	10q	SA-10q-06	unchanged	False	2	SA-10q-06:2	False	SA-10q-06:2
+SA	10q	SA-10q-15	kept_changed	False	3	SA-10q-01:1;SA-10q-15:1	False	SA-10q-15:1
+SA	10q	SA-10q-14	kept_changed	False	2	SA-10q-14:1	False	SA-10q-14:1;SA-10q-17:1
+SA	10q	SA-10q-17	new	False	2	SA-10q-14:1;SA-10q-16:1		
+SA	10q	SA-10q-18	new	False	2	SA-10q-01:2		
+SA	10q	SA-10q-04	retired	False	0		False	SA-10q-02:4
+SA	10q	SA-10q-09	retired	False	0		False	SA-10q-03:1
+SA	10q	SA-10q-10	retired	False	0		False	SA-10q-08:1
+SA	10q	SA-10q-11	retired	False	0		False	SA-10q-02:1
+SA	10q	SA-10q-12	retired	False	0		False	SA-10q-02:1
+SA	10q	SA-10q-13	retired	False	0		False	SA-10q-02:1
+SA	10q	SA-10q-16	retired	False	0		False	SA-10q-17:1
+SA	11p	SA-11p-01	kept_changed	True	165	SA-11p-01:133;SA-11p-03:13;SA-11p-08:7;SA-11p-11:5;SA-11p-20:3;SA-11p-16:2;SA-11p-131:1;SA-11p-23:1	False	SA-11p-01:133;SA-11p-04:1;SA-11p-166:1;SA-11p-17:1
+SA	11p	SA-11p-09	kept_changed	True	46	SA-11p-09:6;SA-11p-14:4;SA-11p-15:4;SA-11p-26:3;SA-11p-31:3;SA-11p-43:2;SA-11p-45:2;SA-11p-47:2;SA-11p-52:2;SA-11p-100:1;SA-11p-104:1;SA-11p-106:1;SA-11p-107:1;SA-11p-108:1;SA-11p-121:1;SA-11p-122:1;SA-11p-124:1;SA-11p-150:1;SA-11p-22:1;SA-11p-73:1;SA-11p-77:1;SA-11p-80:1;SA-11p-81:1;SA-11p-82:1;SA-11p-83:1;SA-11p-85:1;SA-11p-86:1	False	SA-11p-09:6
+SA	11p	SA-11p-21	kept_changed	True	40	SA-11p-21:3;SA-11p-24:3;SA-11p-25:3;SA-11p-37:2;SA-11p-38:2;SA-11p-39:2;SA-11p-40:2;SA-11p-41:2;SA-11p-42:2;SA-11p-44:2;SA-11p-55:2;SA-11p-56:2;SA-11p-102:1;SA-11p-120:1;SA-11p-127:1;SA-11p-149:1;SA-11p-74:1;SA-11p-75:1;SA-11p-76:1;SA-11p-78:1;SA-11p-79:1;SA-11p-87:1;SA-11p-97:1;SA-11p-98:1;SA-11p-99:1	False	SA-11p-21:3
+SA	11p	SA-11p-05	kept_changed	True	25	SA-11p-05:4;SA-11p-06:4;SA-11p-07:3;SA-11p-28:3;SA-11p-12:2;SA-11p-32:2;SA-11p-49:2;SA-11p-109:1;SA-11p-110:1;SA-11p-111:1;SA-11p-13:1;SA-11p-27:1	True	SA-11p-05:4;SA-11p-07:1;SA-11p-13:3;SA-11p-154:2
+SA	11p	SA-11p-04	kept_changed	True	22	SA-11p-04:13;SA-11p-33:3;SA-11p-50:2;SA-11p-01:1;SA-11p-62:1;SA-11p-89:1;SA-11p-95:1	False	SA-11p-04:13
+SA	11p	SA-11p-19	kept_changed	False	18	SA-11p-19:2;SA-11p-115:1;SA-11p-116:1;SA-11p-117:1;SA-11p-119:1;SA-11p-145:1;SA-11p-35:1;SA-11p-61:1;SA-11p-63:1;SA-11p-65:1;SA-11p-66:1;SA-11p-67:1;SA-11p-70:1;SA-11p-72:1;SA-11p-90:1;SA-11p-92:1;SA-11p-93:1	False	SA-11p-156:1;SA-11p-19:2
+SA	11p	SA-11p-13	kept_changed	True	13	SA-11p-13:4;SA-11p-05:3;SA-11p-27:2;SA-11p-48:2;SA-11p-06:1;SA-11p-12:1	False	SA-11p-05:1;SA-11p-13:4
+SA	11p	SA-11p-02	kept_changed	True	13	SA-11p-02:9;SA-11p-10:4	True	SA-11p-02:9;SA-11p-151:5;SA-11p-161:1
+SA	11p	SA-11p-151	new	True	11	SA-11p-02:5;SA-11p-30:3;SA-11p-10:2;SA-11p-113:1		
+SA	11p	SA-11p-07	kept_changed	True	9	SA-11p-07:5;SA-11p-06:2;SA-11p-05:1;SA-11p-12:1	True	SA-11p-05:3;SA-11p-07:5
+SA	11p	SA-11p-17	kept_changed	True	9	SA-11p-17:3;SA-11p-34:3;SA-11p-01:1;SA-11p-147:1;SA-11p-148:1	False	SA-11p-158:1;SA-11p-17:3
+SA	11p	SA-11p-58	kept_changed	True	7	SA-11p-58:2;SA-11p-60:2;SA-11p-141:1;SA-11p-142:1;SA-11p-32:1	False	SA-11p-58:2
+SA	11p	SA-11p-152	new	False	6	SA-11p-101:1;SA-11p-126:1;SA-11p-22:1;SA-11p-46:1;SA-11p-53:1;SA-11p-84:1		
+SA	11p	SA-11p-57	kept_changed	False	5	SA-11p-112:1;SA-11p-133:1;SA-11p-135:1;SA-11p-139:1;SA-11p-57:1	False	SA-11p-157:1;SA-11p-57:1
+SA	11p	SA-11p-16	kept_changed	False	4	SA-11p-16:2;SA-11p-03:1;SA-11p-129:1	True	SA-11p-01:2;SA-11p-16:2
+SA	11p	SA-11p-29	kept_changed	False	4	SA-11p-29:2;SA-11p-114:1;SA-11p-59:1	False	SA-11p-157:1;SA-11p-29:2
+SA	11p	SA-11p-153	new	False	4	SA-11p-134:1;SA-11p-144:1;SA-11p-35:1;SA-11p-61:1		
+SA	11p	SA-11p-18	unchanged	False	3	SA-11p-18:3	False	SA-11p-18:3
+SA	11p	SA-11p-54	kept_changed	False	3	SA-11p-54:2;SA-11p-128:1	False	SA-11p-54:2
+SA	11p	SA-11p-51	kept_changed	False	3	SA-11p-51:2;SA-11p-137:1	False	SA-11p-165:1;SA-11p-51:2
+SA	11p	SA-11p-23	kept_changed	False	3	SA-11p-23:1;SA-11p-88:1;SA-11p-94:1	False	SA-11p-01:1;SA-11p-163:1;SA-11p-23:1
+SA	11p	SA-11p-68	kept_changed	False	3	SA-11p-136:1;SA-11p-68:1;SA-11p-69:1	False	SA-11p-68:1
+SA	11p	SA-11p-154	new	False	2	SA-11p-05:2		
+SA	11p	SA-11p-155	new	False	2	SA-11p-06:1;SA-11p-12:1		
+SA	11p	SA-11p-156	new	False	2	SA-11p-19:1;SA-11p-64:1		
+SA	11p	SA-11p-36	unchanged	False	2	SA-11p-36:2	False	SA-11p-36:2
+SA	11p	SA-11p-157	new	False	2	SA-11p-29:1;SA-11p-57:1		
+SA	11p	SA-11p-158	new	False	2	SA-11p-146:1;SA-11p-17:1		
+SA	11p	SA-11p-159	new	False	1	SA-11p-53:1		
+SA	11p	SA-11p-160	new	False	1	SA-11p-22:1		
+SA	11p	SA-11p-105	unchanged	False	1	SA-11p-105:1	False	SA-11p-105:1
+SA	11p	SA-11p-103	unchanged	False	1	SA-11p-103:1	False	SA-11p-103:1
+SA	11p	SA-11p-161	new	False	1	SA-11p-02:1		
+SA	11p	SA-11p-123	unchanged	False	1	SA-11p-123:1	False	SA-11p-123:1
+SA	11p	SA-11p-96	unchanged	False	1	SA-11p-96:1	False	SA-11p-96:1
+SA	11p	SA-11p-125	unchanged	False	1	SA-11p-125:1	False	SA-11p-125:1
+SA	11p	SA-11p-162	new	False	1	SA-11p-03:1		
+SA	11p	SA-11p-130	unchanged	False	1	SA-11p-130:1	False	SA-11p-130:1
+SA	11p	SA-11p-163	new	False	1	SA-11p-23:1		
+SA	11p	SA-11p-164	new	False	1	SA-11p-59:1		
+SA	11p	SA-11p-118	unchanged	False	1	SA-11p-118:1	False	SA-11p-118:1
+SA	11p	SA-11p-91	unchanged	False	1	SA-11p-91:1	False	SA-11p-91:1
+SA	11p	SA-11p-165	new	False	2	SA-11p-51:1;SA-11p-71:1		
+SA	11p	SA-11p-132	unchanged	False	1	SA-11p-132:1	False	SA-11p-132:1
+SA	11p	SA-11p-143	unchanged	False	1	SA-11p-143:1	False	SA-11p-143:1
+SA	11p	SA-11p-138	unchanged	False	1	SA-11p-138:1	False	SA-11p-138:1
+SA	11p	SA-11p-166	new	False	2	SA-11p-01:1;SA-11p-112:1		
+SA	11p	SA-11p-03	retired	False	0		False	SA-11p-01:13;SA-11p-16:1;SA-11p-162:1
+SA	11p	SA-11p-06	retired	False	0		True	SA-11p-05:4;SA-11p-07:2;SA-11p-13:1;SA-11p-155:1
+SA	11p	SA-11p-08	retired	False	0		False	SA-11p-01:7
+SA	11p	SA-11p-10	retired	False	0		True	SA-11p-02:4;SA-11p-151:2
+SA	11p	SA-11p-11	retired	False	0		False	SA-11p-01:5
+SA	11p	SA-11p-12	retired	False	0		False	SA-11p-05:2;SA-11p-07:1;SA-11p-13:1;SA-11p-155:1
+SA	11p	SA-11p-14	retired	False	0		False	SA-11p-09:4
+SA	11p	SA-11p-15	retired	False	0		False	SA-11p-09:4
+SA	11p	SA-11p-20	retired	False	0		False	SA-11p-01:3
+SA	11p	SA-11p-22	retired	False	0		False	SA-11p-09:1;SA-11p-152:1;SA-11p-160:1
+SA	11p	SA-11p-24	retired	False	0		False	SA-11p-21:3
+SA	11p	SA-11p-25	retired	False	0		False	SA-11p-21:3
+SA	11p	SA-11p-26	retired	False	0		False	SA-11p-09:3
+SA	11p	SA-11p-27	retired	False	0		False	SA-11p-05:1;SA-11p-13:2
+SA	11p	SA-11p-28	retired	False	0		False	SA-11p-05:3
+SA	11p	SA-11p-30	retired	False	0		False	SA-11p-151:3
+SA	11p	SA-11p-31	retired	False	0		False	SA-11p-09:3
+SA	11p	SA-11p-32	retired	False	0		False	SA-11p-05:2;SA-11p-58:1
+SA	11p	SA-11p-33	retired	False	0		False	SA-11p-04:3
+SA	11p	SA-11p-34	retired	False	0		False	SA-11p-17:3
+SA	11p	SA-11p-35	retired	False	0		False	SA-11p-153:1;SA-11p-19:1
+SA	11p	SA-11p-37	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-38	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-39	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-40	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-41	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-42	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-43	retired	False	0		False	SA-11p-09:2
+SA	11p	SA-11p-44	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-45	retired	False	0		False	SA-11p-09:2
+SA	11p	SA-11p-46	retired	False	0		False	SA-11p-152:1
+SA	11p	SA-11p-47	retired	False	0		False	SA-11p-09:2
+SA	11p	SA-11p-48	retired	False	0		False	SA-11p-13:2
+SA	11p	SA-11p-49	retired	False	0		False	SA-11p-05:2
+SA	11p	SA-11p-50	retired	False	0		False	SA-11p-04:2
+SA	11p	SA-11p-52	retired	False	0		False	SA-11p-09:2
+SA	11p	SA-11p-53	retired	False	0		False	SA-11p-152:1;SA-11p-159:1
+SA	11p	SA-11p-55	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-56	retired	False	0		False	SA-11p-21:2
+SA	11p	SA-11p-59	retired	False	0		False	SA-11p-164:1;SA-11p-29:1
+SA	11p	SA-11p-60	retired	False	0		False	SA-11p-58:2
+SA	11p	SA-11p-61	retired	False	0		False	SA-11p-153:1;SA-11p-19:1
+SA	11p	SA-11p-62	retired	False	0		False	SA-11p-04:1
+SA	11p	SA-11p-63	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-64	retired	False	0		False	SA-11p-156:1
+SA	11p	SA-11p-65	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-66	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-67	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-69	retired	False	0		False	SA-11p-68:1
+SA	11p	SA-11p-70	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-71	retired	False	0		False	SA-11p-165:1
+SA	11p	SA-11p-72	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-73	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-74	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-75	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-76	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-77	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-78	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-79	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-80	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-81	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-82	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-83	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-84	retired	False	0		False	SA-11p-152:1
+SA	11p	SA-11p-85	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-86	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-87	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-88	retired	False	0		False	SA-11p-23:1
+SA	11p	SA-11p-89	retired	False	0		False	SA-11p-04:1
+SA	11p	SA-11p-90	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-92	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-93	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-94	retired	False	0		False	SA-11p-23:1
+SA	11p	SA-11p-95	retired	False	0		False	SA-11p-04:1
+SA	11p	SA-11p-97	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-98	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-99	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-100	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-101	retired	False	0		False	SA-11p-152:1
+SA	11p	SA-11p-102	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-104	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-106	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-107	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-108	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-109	retired	False	0		False	SA-11p-05:1
+SA	11p	SA-11p-110	retired	False	0		False	SA-11p-05:1
+SA	11p	SA-11p-111	retired	False	0		False	SA-11p-05:1
+SA	11p	SA-11p-112	retired	False	0		False	SA-11p-166:1;SA-11p-57:1
+SA	11p	SA-11p-113	retired	False	0		False	SA-11p-151:1
+SA	11p	SA-11p-114	retired	False	0		False	SA-11p-29:1
+SA	11p	SA-11p-115	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-116	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-117	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-119	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-120	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-121	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-122	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-124	retired	False	0		False	SA-11p-09:1
+SA	11p	SA-11p-126	retired	False	0		False	SA-11p-152:1
+SA	11p	SA-11p-127	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-128	retired	False	0		False	SA-11p-54:1
+SA	11p	SA-11p-129	retired	False	0		False	SA-11p-16:1
+SA	11p	SA-11p-131	retired	False	0		False	SA-11p-01:1
+SA	11p	SA-11p-133	retired	False	0		False	SA-11p-57:1
+SA	11p	SA-11p-134	retired	False	0		False	SA-11p-153:1
+SA	11p	SA-11p-135	retired	False	0		False	SA-11p-57:1
+SA	11p	SA-11p-136	retired	False	0		False	SA-11p-68:1
+SA	11p	SA-11p-137	retired	False	0		False	SA-11p-51:1
+SA	11p	SA-11p-139	retired	False	0		False	SA-11p-57:1
+SA	11p	SA-11p-141	retired	False	0		False	SA-11p-58:1
+SA	11p	SA-11p-142	retired	False	0		False	SA-11p-58:1
+SA	11p	SA-11p-144	retired	False	0		False	SA-11p-153:1
+SA	11p	SA-11p-145	retired	False	0		False	SA-11p-19:1
+SA	11p	SA-11p-146	retired	False	0		False	SA-11p-158:1
+SA	11p	SA-11p-147	retired	False	0		False	SA-11p-17:1
+SA	11p	SA-11p-148	retired	False	0		False	SA-11p-17:1
+SA	11p	SA-11p-149	retired	False	0		False	SA-11p-21:1
+SA	11p	SA-11p-150	retired	False	0		False	SA-11p-09:1
+SA	11q	SA-11q-01	kept_changed	False	444	SA-11q-01:443;SA-11q-02:1	False	SA-11q-01:443
+SA	11q	SA-11q-02	retired	False	0		False	SA-11q-01:1
+SA	12p	SA-12p-01	kept_changed	True	427	SA-12p-01:421;SA-12p-03:6	False	SA-12p-01:421;SA-12p-07:1
+SA	12p	SA-12p-02	kept_changed	True	11	SA-12p-02:8;SA-12p-05:3	False	SA-12p-02:8
+SA	12p	SA-12p-06	unchanged	False	3	SA-12p-06:3	False	SA-12p-06:3
+SA	12p	SA-12p-04	unchanged	False	3	SA-12p-04:3	False	SA-12p-04:3
+SA	12p	SA-12p-07	kept_changed	False	2	SA-12p-01:1;SA-12p-07:1	False	SA-12p-07:1
+SA	12p	SA-12p-03	retired	False	0		False	SA-12p-01:6
+SA	12p	SA-12p-05	retired	False	0		False	SA-12p-02:3
+SA	12q	SA-12q-01	unchanged	False	447	SA-12q-01:447	False	SA-12q-01:447
+SA	12q	SA-12q-02	unchanged	False	1	SA-12q-02:1	False	SA-12q-02:1
+SA	13q	SA-13q-01	unchanged	False	442	SA-13q-01:442	False	SA-13q-01:442
+SA	13q	SA-13q-02	unchanged	False	2	SA-13q-02:2	False	SA-13q-02:2
+SA	13q	SA-13q-03	unchanged	False	1	SA-13q-03:1	False	SA-13q-03:1
+SA	14q	SA-14q-01	kept_changed	False	438	SA-14q-01:438	False	SA-14q-01:438;SA-14q-02:1
+SA	14q	SA-14q-02	kept_changed	False	3	SA-14q-02:2;SA-14q-01:1	False	SA-14q-02:2
+SA	14q	SA-14q-03	unchanged	False	1	SA-14q-03:1	False	SA-14q-03:1
+SA	15q	SA-15q-01	kept_changed	True	185	SA-15q-01:165;SA-15q-04:7;SA-15q-03:3;SA-15q-07:3;SA-15q-02:1;SA-15q-08:1;SA-15q-09:1;SA-15q-16:1;SA-15q-25:1;SA-15q-28:1;SA-15q-35:1	True	SA-15q-01:165;SA-15q-03:18;SA-15q-05:26;SA-15q-09:6;SA-15q-77:9;SA-15q-78:1;SA-15q-79:1;SA-15q-90:1
+SA	15q	SA-15q-05	kept_changed	True	54	SA-15q-01:26;SA-15q-05:11;SA-15q-04:6;SA-15q-07:4;SA-15q-34:2;SA-15q-33:1;SA-15q-41:1;SA-15q-63:1;SA-15q-70:1;SA-15q-76:1	False	SA-15q-05:11
+SA	15q	SA-15q-11	kept_changed	True	40	SA-15q-11:4;SA-15q-14:3;SA-15q-15:3;SA-15q-18:3;SA-15q-23:2;SA-15q-24:2;SA-15q-26:2;SA-15q-27:2;SA-15q-30:2;SA-15q-43:1;SA-15q-44:1;SA-15q-45:1;SA-15q-46:1;SA-15q-47:1;SA-15q-48:1;SA-15q-49:1;SA-15q-50:1;SA-15q-51:1;SA-15q-52:1;SA-15q-55:1;SA-15q-56:1;SA-15q-57:1;SA-15q-58:1;SA-15q-59:1;SA-15q-67:1;SA-15q-68:1	False	SA-15q-11:4
+SA	15q	SA-15q-03	kept_changed	True	39	SA-15q-01:18;SA-15q-03:7;SA-15q-04:4;SA-15q-10:3;SA-15q-09:2;SA-15q-17:2;SA-15q-19:1;SA-15q-33:1;SA-15q-35:1	True	SA-15q-01:3;SA-15q-02:1;SA-15q-03:7;SA-15q-31:1;SA-15q-79:1;SA-15q-80:4;SA-15q-81:4;SA-15q-88:1
+SA	15q	SA-15q-02	kept_changed	True	32	SA-15q-02:24;SA-15q-08:2;SA-15q-03:1;SA-15q-12:1;SA-15q-21:1;SA-15q-37:1;SA-15q-38:1;SA-15q-71:1	True	SA-15q-01:1;SA-15q-02:24;SA-15q-09:1;SA-15q-78:2;SA-15q-87:1
+SA	15q	SA-15q-06	kept_changed	True	16	SA-15q-06:8;SA-15q-13:3;SA-15q-22:2;SA-15q-40:1;SA-15q-42:1;SA-15q-60:1	False	SA-15q-06:8
+SA	15q	SA-15q-09	kept_changed	True	12	SA-15q-01:6;SA-15q-09:3;SA-15q-32:2;SA-15q-02:1	True	SA-15q-01:1;SA-15q-03:2;SA-15q-09:3
+SA	15q	SA-15q-31	kept_changed	False	11	SA-15q-31:2;SA-15q-03:1;SA-15q-04:1;SA-15q-10:1;SA-15q-16:1;SA-15q-17:1;SA-15q-36:1;SA-15q-53:1;SA-15q-69:1;SA-15q-74:1	False	SA-15q-31:2
+SA	15q	SA-15q-77	new	False	9	SA-15q-01:9		
+SA	15q	SA-15q-78	new	False	5	SA-15q-02:2;SA-15q-01:1;SA-15q-08:1;SA-15q-39:1		
+SA	15q	SA-15q-08	kept_changed	False	4	SA-15q-08:4	True	SA-15q-01:1;SA-15q-02:2;SA-15q-08:4;SA-15q-78:1
+SA	15q	SA-15q-79	new	False	4	SA-15q-01:1;SA-15q-03:1;SA-15q-36:1;SA-15q-75:1		
+SA	15q	SA-15q-80	new	False	4	SA-15q-03:4		
+SA	15q	SA-15q-81	new	False	4	SA-15q-03:4		
+SA	15q	SA-15q-29	unchanged	False	2	SA-15q-29:2	False	SA-15q-29:2
+SA	15q	SA-15q-12	kept_changed	False	2	SA-15q-12:2	False	SA-15q-02:1;SA-15q-12:2
+SA	15q	SA-15q-64	kept_changed	False	2	SA-15q-64:1;SA-15q-73:1	False	SA-15q-64:1
+SA	15q	SA-15q-62	unchanged	False	1	SA-15q-62:1	False	SA-15q-62:1
+SA	15q	SA-15q-82	new	False	1	SA-15q-19:1		
+SA	15q	SA-15q-61	unchanged	False	1	SA-15q-61:1	False	SA-15q-61:1
+SA	15q	SA-15q-83	new	False	1	SA-15q-21:1		
+SA	15q	SA-15q-84	new	False	1	SA-15q-07:1		
+SA	15q	SA-15q-85	new	False	1	SA-15q-19:1		
+SA	15q	SA-15q-66	unchanged	False	1	SA-15q-66:1	False	SA-15q-66:1
+SA	15q	SA-15q-20	kept_changed	False	1	SA-15q-20:1	False	SA-15q-20:1;SA-15q-86:1
+SA	15q	SA-15q-86	new	False	1	SA-15q-20:1		
+SA	15q	SA-15q-87	new	False	1	SA-15q-02:1		
+SA	15q	SA-15q-54	unchanged	False	1	SA-15q-54:1	False	SA-15q-54:1
+SA	15q	SA-15q-65	unchanged	False	1	SA-15q-65:1	False	SA-15q-65:1
+SA	15q	SA-15q-28	kept_changed	False	1	SA-15q-28:1	False	SA-15q-01:1;SA-15q-28:1
+SA	15q	SA-15q-88	new	False	1	SA-15q-03:1		
+SA	15q	SA-15q-25	kept_changed	False	1	SA-15q-25:1	False	SA-15q-01:1;SA-15q-25:1
+SA	15q	SA-15q-72	unchanged	False	1	SA-15q-72:1	False	SA-15q-72:1
+SA	15q	SA-15q-89	new	False	1	SA-15q-16:1		
+SA	15q	SA-15q-90	new	False	1	SA-15q-01:1		
+SA	15q	SA-15q-04	retired	False	0		True	SA-15q-01:7;SA-15q-03:4;SA-15q-05:6;SA-15q-31:1
+SA	15q	SA-15q-07	retired	False	0		True	SA-15q-01:3;SA-15q-05:4;SA-15q-84:1
+SA	15q	SA-15q-10	retired	False	0		False	SA-15q-03:3;SA-15q-31:1
+SA	15q	SA-15q-13	retired	False	0		False	SA-15q-06:3
+SA	15q	SA-15q-14	retired	False	0		False	SA-15q-11:3
+SA	15q	SA-15q-15	retired	False	0		False	SA-15q-11:3
+SA	15q	SA-15q-16	retired	False	0		False	SA-15q-01:1;SA-15q-31:1;SA-15q-89:1
+SA	15q	SA-15q-17	retired	False	0		False	SA-15q-03:2;SA-15q-31:1
+SA	15q	SA-15q-18	retired	False	0		False	SA-15q-11:3
+SA	15q	SA-15q-19	retired	False	0		False	SA-15q-03:1;SA-15q-82:1;SA-15q-85:1
+SA	15q	SA-15q-21	retired	False	0		False	SA-15q-02:1;SA-15q-83:1
+SA	15q	SA-15q-22	retired	False	0		False	SA-15q-06:2
+SA	15q	SA-15q-23	retired	False	0		False	SA-15q-11:2
+SA	15q	SA-15q-24	retired	False	0		False	SA-15q-11:2
+SA	15q	SA-15q-26	retired	False	0		False	SA-15q-11:2
+SA	15q	SA-15q-27	retired	False	0		False	SA-15q-11:2
+SA	15q	SA-15q-30	retired	False	0		False	SA-15q-11:2
+SA	15q	SA-15q-32	retired	False	0		False	SA-15q-09:2
+SA	15q	SA-15q-33	retired	False	0		False	SA-15q-03:1;SA-15q-05:1
+SA	15q	SA-15q-34	retired	False	0		False	SA-15q-05:2
+SA	15q	SA-15q-35	retired	False	0		False	SA-15q-01:1;SA-15q-03:1
+SA	15q	SA-15q-36	retired	False	0		False	SA-15q-31:1;SA-15q-79:1
+SA	15q	SA-15q-37	retired	False	0		False	SA-15q-02:1
+SA	15q	SA-15q-38	retired	False	0		False	SA-15q-02:1
+SA	15q	SA-15q-39	retired	False	0		False	SA-15q-78:1
+SA	15q	SA-15q-40	retired	False	0		False	SA-15q-06:1
+SA	15q	SA-15q-41	retired	False	0		False	SA-15q-05:1
+SA	15q	SA-15q-42	retired	False	0		False	SA-15q-06:1
+SA	15q	SA-15q-43	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-44	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-45	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-46	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-47	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-48	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-49	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-50	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-51	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-52	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-53	retired	False	0		False	SA-15q-31:1
+SA	15q	SA-15q-55	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-56	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-57	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-58	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-59	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-60	retired	False	0		False	SA-15q-06:1
+SA	15q	SA-15q-63	retired	False	0		False	SA-15q-05:1
+SA	15q	SA-15q-67	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-68	retired	False	0		False	SA-15q-11:1
+SA	15q	SA-15q-69	retired	False	0		False	SA-15q-31:1
+SA	15q	SA-15q-70	retired	False	0		False	SA-15q-05:1
+SA	15q	SA-15q-71	retired	False	0		False	SA-15q-02:1
+SA	15q	SA-15q-73	retired	False	0		False	SA-15q-64:1
+SA	15q	SA-15q-74	retired	False	0		False	SA-15q-31:1
+SA	15q	SA-15q-75	retired	False	0		False	SA-15q-79:1
+SA	15q	SA-15q-76	retired	False	0		False	SA-15q-05:1
+SA	16p	SA-16p-01	kept_changed	True	311	SA-16p-01:306;SA-16p-16:2;SA-16p-20:2;SA-16p-25:1	False	SA-16p-01:306
+SA	16p	SA-16p-04	kept_changed	True	21	SA-16p-04:7;SA-16p-03:4;SA-16p-05:3;SA-16p-06:1;SA-16p-08:1;SA-16p-09:1;SA-16p-10:1;SA-16p-21:1;SA-16p-30:1;SA-16p-31:1	True	SA-16p-03:2;SA-16p-04:7;SA-16p-63:1;SA-16p-64:1
+SA	16p	SA-16p-02	unchanged	False	20	SA-16p-02:20	False	SA-16p-02:20
+SA	16p	SA-16p-03	kept_changed	True	10	SA-16p-03:7;SA-16p-04:2;SA-16p-09:1	True	SA-16p-03:7;SA-16p-04:4;SA-16p-68:1
+SA	16p	SA-16p-63	new	False	6	SA-16p-05:2;SA-16p-04:1;SA-16p-06:1;SA-16p-08:1;SA-16p-10:1		
+SA	16p	SA-16p-07	kept_changed	False	4	SA-16p-07:2;SA-16p-44:1;SA-16p-45:1	False	SA-16p-07:2;SA-16p-65:1;SA-16p-66:1
+SA	16p	SA-16p-18	kept_changed	False	4	SA-16p-18:2;SA-16p-49:1;SA-16p-55:1	False	SA-16p-18:2
+SA	16p	SA-16p-06	kept_changed	False	3	SA-16p-06:2;SA-16p-32:1	False	SA-16p-04:1;SA-16p-06:2;SA-16p-63:1
+SA	16p	SA-16p-64	new	False	3	SA-16p-04:1;SA-16p-08:1;SA-16p-09:1		
+SA	16p	SA-16p-15	kept_changed	False	3	SA-16p-15:2;SA-16p-40:1	False	SA-16p-15:2
+SA	16p	SA-16p-11	kept_changed	False	3	SA-16p-11:1;SA-16p-39:1;SA-16p-59:1	False	SA-16p-11:1;SA-16p-71:1
+SA	16p	SA-16p-13	unchanged	False	2	SA-16p-13:2	False	SA-16p-13:2
+SA	16p	SA-16p-52	kept_changed	False	2	SA-16p-52:1;SA-16p-60:1	False	SA-16p-52:1
+SA	16p	SA-16p-42	kept_changed	False	3	SA-16p-42:1;SA-16p-43:1	False	SA-16p-42:1
+SA	16p	SA-16p-65	new	False	2	SA-16p-07:1;SA-16p-46:1		
+SA	16p	SA-16p-14	unchanged	False	2	SA-16p-14:2	False	SA-16p-14:2
+SA	16p	SA-16p-26	kept_changed	False	2	SA-16p-26:1;SA-16p-50:1	False	SA-16p-26:1
+SA	16p	SA-16p-12	unchanged	False	2	SA-16p-12:2	False	SA-16p-12:2
+SA	16p	SA-16p-34	unchanged	False	1	SA-16p-34:1	False	SA-16p-34:1
+SA	16p	SA-16p-33	unchanged	False	1	SA-16p-33:1	False	SA-16p-33:1
+SA	16p	SA-16p-29	unchanged	False	1	SA-16p-29:1	False	SA-16p-29:1
+SA	16p	SA-16p-54	unchanged	False	1	SA-16p-54:1	False	SA-16p-54:1
+SA	16p	SA-16p-41	unchanged	False	1	SA-16p-41:1	False	SA-16p-41:1
+SA	16p	SA-16p-66	new	False	1	SA-16p-07:1		
+SA	16p	SA-16p-67	new	False	1	SA-16p-10:1		
+SA	16p	SA-16p-68	new	False	1	SA-16p-03:1		
+SA	16p	SA-16p-53	unchanged	False	1	SA-16p-53:1	False	SA-16p-53:1
+SA	16p	SA-16p-58	unchanged	False	1	SA-16p-58:1	False	SA-16p-58:1
+SA	16p	SA-16p-19	kept_changed	False	1	SA-16p-19:1	False	SA-16p-19:1;SA-16p-69:1
+SA	16p	SA-16p-69	new	False	1	SA-16p-19:1		
+SA	16p	SA-16p-28	unchanged	False	1	SA-16p-28:1	False	SA-16p-28:1
+SA	16p	SA-16p-61	unchanged	False	1	SA-16p-61:1	False	SA-16p-61:1
+SA	16p	SA-16p-17	kept_changed	False	1	SA-16p-17:1	False	SA-16p-17:1;SA-16p-70:1
+SA	16p	SA-16p-51	unchanged	False	1	SA-16p-51:1	False	SA-16p-51:1
+SA	16p	SA-16p-70	new	False	1	SA-16p-17:1		
+SA	16p	SA-16p-56	unchanged	False	1	SA-16p-56:1	False	SA-16p-56:1
+SA	16p	SA-16p-24	unchanged	False	1	SA-16p-24:1	False	SA-16p-24:1
+SA	16p	SA-16p-35	unchanged	False	1	SA-16p-35:1	False	SA-16p-35:1
+SA	16p	SA-16p-38	unchanged	False	1	SA-16p-38:1	False	SA-16p-38:1
+SA	16p	SA-16p-22	unchanged	False	1	SA-16p-22:1	False	SA-16p-22:1
+SA	16p	SA-16p-27	unchanged	False	1	SA-16p-27:1	False	SA-16p-27:1
+SA	16p	SA-16p-48	unchanged	False	1	SA-16p-48:1	False	SA-16p-48:1
+SA	16p	SA-16p-57	unchanged	False	1	SA-16p-57:1	False	SA-16p-57:1
+SA	16p	SA-16p-47	unchanged	False	1	SA-16p-47:1	False	SA-16p-47:1
+SA	16p	SA-16p-23	unchanged	False	1	SA-16p-23:1	False	SA-16p-23:1
+SA	16p	SA-16p-36	unchanged	False	1	SA-16p-36:1	False	SA-16p-36:1
+SA	16p	SA-16p-71	new	False	1	SA-16p-11:1		
+SA	16p	SA-16p-37	unchanged	False	1	SA-16p-37:1	False	SA-16p-37:1
+SA	16p	SA-16p-62	unchanged	False	1	SA-16p-62:1	False	SA-16p-62:1
+SA	16p	SA-16p-05	retired	False	0		True	SA-16p-04:3;SA-16p-63:2
+SA	16p	SA-16p-08	retired	False	0		False	SA-16p-04:1;SA-16p-63:1;SA-16p-64:1
+SA	16p	SA-16p-09	retired	False	0		False	SA-16p-03:1;SA-16p-04:1;SA-16p-64:1
+SA	16p	SA-16p-10	retired	False	0		False	SA-16p-04:1;SA-16p-63:1;SA-16p-67:1
+SA	16p	SA-16p-16	retired	False	0		False	SA-16p-01:2
+SA	16p	SA-16p-20	retired	False	0		False	SA-16p-01:2
+SA	16p	SA-16p-21	retired	False	0		False	SA-16p-04:1
+SA	16p	SA-16p-25	retired	False	0		False	SA-16p-01:1
+SA	16p	SA-16p-30	retired	False	0		False	SA-16p-04:1
+SA	16p	SA-16p-31	retired	False	0		False	SA-16p-04:1
+SA	16p	SA-16p-32	retired	False	0		False	SA-16p-06:1
+SA	16p	SA-16p-39	retired	False	0		False	SA-16p-11:1
+SA	16p	SA-16p-40	retired	False	0		False	SA-16p-15:1
+SA	16p	SA-16p-43	retired	False	0		False	SA-16p-42:1
+SA	16p	SA-16p-44	retired	False	0		False	SA-16p-07:1
+SA	16p	SA-16p-45	retired	False	0		False	SA-16p-07:1
+SA	16p	SA-16p-46	retired	False	0		False	SA-16p-65:1
+SA	16p	SA-16p-49	retired	False	0		False	SA-16p-18:1
+SA	16p	SA-16p-50	retired	False	0		False	SA-16p-26:1
+SA	16p	SA-16p-55	retired	False	0		False	SA-16p-18:1
+SA	16p	SA-16p-59	retired	False	0		False	SA-16p-11:1
+SA	16p	SA-16p-60	retired	False	0		False	SA-16p-52:1
+SA	16q	SA-16q-01	kept_changed	True	199	SA-16q-01:193;SA-16q-21:3;SA-16q-31:2;SA-16q-54:1	True	SA-16q-01:193;SA-16q-03:3;SA-16q-20:2;SA-16q-82:1;SA-16q-84:1;SA-16q-85:1
+SA	16q	SA-16q-06	kept_changed	True	44	SA-16q-06:15;SA-16q-08:8;SA-16q-10:6;SA-16q-26:2;SA-16q-32:1;SA-16q-34:1;SA-16q-36:1;SA-16q-37:1;SA-16q-39:1;SA-16q-42:1;SA-16q-46:1;SA-16q-48:1;SA-16q-50:1;SA-16q-51:1;SA-16q-52:1;SA-16q-61:1;SA-16q-65:1	False	SA-16q-06:15;SA-16q-72:1;SA-16q-81:1
+SA	16q	SA-16q-02	kept_changed	True	33	SA-16q-02:20;SA-16q-04:13	True	SA-16q-02:20;SA-16q-11:1;SA-16q-68:4;SA-16q-71:2;SA-16q-74:1
+SA	16q	SA-16q-03	kept_changed	True	32	SA-16q-03:25;SA-16q-01:3;SA-16q-16:3;SA-16q-40:1	False	SA-16q-03:25
+SA	16q	SA-16q-05	unchanged	False	19	SA-16q-05:19	False	SA-16q-05:19
+SA	16q	SA-16q-14	kept_changed	True	19	SA-16q-14:5;SA-16q-12:4;SA-16q-22:2;SA-16q-24:2;SA-16q-25:2;SA-16q-44:1;SA-16q-45:1;SA-16q-47:1;SA-16q-53:1	False	SA-16q-14:5
+SA	16q	SA-16q-07	kept_changed	True	14	SA-16q-07:11;SA-16q-18:2;SA-16q-63:1	False	SA-16q-07:11
+SA	16q	SA-16q-68	new	True	11	SA-16q-04:7;SA-16q-02:4		
+SA	16q	SA-16q-11	kept_changed	True	10	SA-16q-11:6;SA-16q-17:3;SA-16q-02:1	False	SA-16q-11:6
+SA	16q	SA-16q-09	kept_changed	False	5	SA-16q-09:4;SA-16q-29:1	True	SA-16q-09:4;SA-16q-69:3
+SA	16q	SA-16q-20	kept_changed	True	5	SA-16q-20:3;SA-16q-01:2	False	SA-16q-20:3
+SA	16q	SA-16q-69	new	False	4	SA-16q-09:3;SA-16q-29:1		
+SA	16q	SA-16q-13	kept_changed	False	4	SA-16q-13:3;SA-16q-33:1	False	SA-16q-13:3;SA-16q-79:1;SA-16q-80:1
+SA	16q	SA-16q-19	kept_changed	False	3	SA-16q-19:2;SA-16q-30:1	False	SA-16q-19:2;SA-16q-83:1
+SA	16q	SA-16q-23	unchanged	False	2	SA-16q-23:2	False	SA-16q-23:2
+SA	16q	SA-16q-15	kept_changed	False	2	SA-16q-15:2	True	SA-16q-15:2;SA-16q-70:2
+SA	16q	SA-16q-70	new	False	2	SA-16q-15:2		
+SA	16q	SA-16q-71	new	False	2	SA-16q-02:2		
+SA	16q	SA-16q-43	kept_changed	False	2	SA-16q-43:1;SA-16q-55:1	False	SA-16q-43:1
+SA	16q	SA-16q-28	unchanged	False	2	SA-16q-28:2	False	SA-16q-28:2
+SA	16q	SA-16q-72	new	False	2	SA-16q-06:1;SA-16q-58:1		
+SA	16q	SA-16q-27	kept_changed	False	1	SA-16q-27:1	False	SA-16q-27:1;SA-16q-73:1
+SA	16q	SA-16q-73	new	False	1	SA-16q-27:1		
+SA	16q	SA-16q-56	unchanged	False	1	SA-16q-56:1	False	SA-16q-56:1
+SA	16q	SA-16q-57	unchanged	False	1	SA-16q-57:1	False	SA-16q-57:1
+SA	16q	SA-16q-74	new	False	1	SA-16q-02:1		
+SA	16q	SA-16q-75	new	False	1	SA-16q-30:1		
+SA	16q	SA-16q-60	unchanged	False	1	SA-16q-60:1	False	SA-16q-60:1
+SA	16q	SA-16q-62	unchanged	False	1	SA-16q-62:1	False	SA-16q-62:1
+SA	16q	SA-16q-76	new	False	1	SA-16q-18:1		
+SA	16q	SA-16q-64	unchanged	False	1	SA-16q-64:1	False	SA-16q-64:1
+SA	16q	SA-16q-77	new	False	1	SA-16q-04:1		
+SA	16q	SA-16q-38	unchanged	False	1	SA-16q-38:1	False	SA-16q-38:1
+SA	16q	SA-16q-78	new	False	1	SA-16q-12:1		
+SA	16q	SA-16q-41	unchanged	False	1	SA-16q-41:1	False	SA-16q-41:1
+SA	16q	SA-16q-35	unchanged	False	1	SA-16q-35:1	False	SA-16q-35:1
+SA	16q	SA-16q-79	new	False	1	SA-16q-13:1		
+SA	16q	SA-16q-80	new	False	1	SA-16q-13:1		
+SA	16q	SA-16q-49	unchanged	False	1	SA-16q-49:1	False	SA-16q-49:1
+SA	16q	SA-16q-81	new	False	1	SA-16q-06:1		
+SA	16q	SA-16q-59	unchanged	False	1	SA-16q-59:1	False	SA-16q-59:1
+SA	16q	SA-16q-82	new	False	1	SA-16q-01:1		
+SA	16q	SA-16q-67	unchanged	False	1	SA-16q-67:1	False	SA-16q-67:1
+SA	16q	SA-16q-66	unchanged	False	1	SA-16q-66:1	False	SA-16q-66:1
+SA	16q	SA-16q-83	new	False	1	SA-16q-19:1		
+SA	16q	SA-16q-84	new	False	1	SA-16q-01:1		
+SA	16q	SA-16q-85	new	False	1	SA-16q-01:1		
+SA	16q	SA-16q-04	retired	False	0		True	SA-16q-02:13;SA-16q-68:7;SA-16q-77:1
+SA	16q	SA-16q-08	retired	False	0		False	SA-16q-06:8
+SA	16q	SA-16q-10	retired	False	0		False	SA-16q-06:6
+SA	16q	SA-16q-12	retired	False	0		False	SA-16q-14:4;SA-16q-78:1
+SA	16q	SA-16q-16	retired	False	0		False	SA-16q-03:3
+SA	16q	SA-16q-17	retired	False	0		False	SA-16q-11:3
+SA	16q	SA-16q-18	retired	False	0		False	SA-16q-07:2;SA-16q-76:1
+SA	16q	SA-16q-21	retired	False	0		False	SA-16q-01:3
+SA	16q	SA-16q-22	retired	False	0		False	SA-16q-14:2
+SA	16q	SA-16q-24	retired	False	0		False	SA-16q-14:2
+SA	16q	SA-16q-25	retired	False	0		False	SA-16q-14:2
+SA	16q	SA-16q-26	retired	False	0		False	SA-16q-06:2
+SA	16q	SA-16q-29	retired	False	0		False	SA-16q-09:1;SA-16q-69:1
+SA	16q	SA-16q-30	retired	False	0		False	SA-16q-19:1;SA-16q-75:1
+SA	16q	SA-16q-31	retired	False	0		False	SA-16q-01:2
+SA	16q	SA-16q-32	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-33	retired	False	0		False	SA-16q-13:1
+SA	16q	SA-16q-34	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-36	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-37	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-39	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-40	retired	False	0		False	SA-16q-03:1
+SA	16q	SA-16q-42	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-44	retired	False	0		False	SA-16q-14:1
+SA	16q	SA-16q-45	retired	False	0		False	SA-16q-14:1
+SA	16q	SA-16q-46	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-47	retired	False	0		False	SA-16q-14:1
+SA	16q	SA-16q-48	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-50	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-51	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-52	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-53	retired	False	0		False	SA-16q-14:1
+SA	16q	SA-16q-54	retired	False	0		False	SA-16q-01:1
+SA	16q	SA-16q-55	retired	False	0		False	SA-16q-43:1
+SA	16q	SA-16q-58	retired	False	0		False	SA-16q-72:1
+SA	16q	SA-16q-61	retired	False	0		False	SA-16q-06:1
+SA	16q	SA-16q-63	retired	False	0		False	SA-16q-07:1
+SA	16q	SA-16q-65	retired	False	0		False	SA-16q-06:1
+SA	17p	SA-17p-01	kept_changed	True	205	SA-17p-01:201;SA-17p-02:2;SA-17p-07:2	True	SA-17p-01:201;SA-17p-02:52;SA-17p-14:2;SA-17p-15:65;SA-17p-16:17;SA-17p-17:12;SA-17p-18:1;SA-17p-19:2;SA-17p-20:2;SA-17p-21:1;SA-17p-23:1
+SA	17p	SA-17p-02	kept_changed	True	95	SA-17p-01:52;SA-17p-02:26;SA-17p-03:8;SA-17p-05:7;SA-17p-06:1;SA-17p-08:1	True	SA-17p-01:2;SA-17p-02:26;SA-17p-15:6;SA-17p-16:5;SA-17p-17:6;SA-17p-18:1
+SA	17p	SA-17p-15	new	True	77	SA-17p-01:65;SA-17p-02:6;SA-17p-03:3;SA-17p-05:1;SA-17p-06:1;SA-17p-13:1		
+SA	17p	SA-17p-16	new	True	23	SA-17p-01:17;SA-17p-02:5;SA-17p-06:1		
+SA	17p	SA-17p-17	new	True	18	SA-17p-01:12;SA-17p-02:6		
+SA	17p	SA-17p-04	unchanged	False	10	SA-17p-04:10	False	SA-17p-04:10
+SA	17p	SA-17p-14	kept_changed	False	3	SA-17p-01:2;SA-17p-14:1	False	SA-17p-14:1
+SA	17p	SA-17p-18	new	False	2	SA-17p-01:1;SA-17p-02:1		
+SA	17p	SA-17p-19	new	False	2	SA-17p-01:2		
+SA	17p	SA-17p-20	new	False	2	SA-17p-01:2		
+SA	17p	SA-17p-09	unchanged	False	1	SA-17p-09:1	False	SA-17p-09:1
+SA	17p	SA-17p-12	unchanged	False	1	SA-17p-12:1	False	SA-17p-12:1
+SA	17p	SA-17p-10	unchanged	False	1	SA-17p-10:1	False	SA-17p-10:1
+SA	17p	SA-17p-11	unchanged	False	1	SA-17p-11:1	False	SA-17p-11:1
+SA	17p	SA-17p-21	new	False	1	SA-17p-01:1		
+SA	17p	SA-17p-22	new	False	1	SA-17p-05:1		
+SA	17p	SA-17p-23	new	False	1	SA-17p-01:1		
+SA	17p	SA-17p-03	retired	False	0		True	SA-17p-02:8;SA-17p-15:3
+SA	17p	SA-17p-05	retired	False	0		False	SA-17p-02:7;SA-17p-15:1;SA-17p-22:1
+SA	17p	SA-17p-06	retired	False	0		False	SA-17p-02:1;SA-17p-15:1;SA-17p-16:1
+SA	17p	SA-17p-07	retired	False	0		False	SA-17p-01:2
+SA	17p	SA-17p-08	retired	False	0		False	SA-17p-02:1
+SA	17p	SA-17p-13	retired	False	0		False	SA-17p-15:1
+SA	17q	SA-17q-02	kept_changed	True	143	SA-17q-02:76;SA-17q-01:40;SA-17q-06:14;SA-17q-05:7;SA-17q-15:4;SA-17q-19:1;SA-17q-23:1	True	SA-17q-02:76;SA-17q-04:1;SA-17q-31:32;SA-17q-32:1
+SA	17q	SA-17q-03	kept_changed	True	103	SA-17q-03:80;SA-17q-10:6;SA-17q-12:6;SA-17q-14:5;SA-17q-09:4;SA-17q-01:2	False	SA-17q-03:80;SA-17q-38:1
+SA	17q	SA-17q-01	kept_changed	False	68	SA-17q-01:67;SA-17q-16:1	True	SA-17q-01:67;SA-17q-02:40;SA-17q-03:2;SA-17q-36:1
+SA	17q	SA-17q-04	kept_changed	True	47	SA-17q-04:26;SA-17q-11:6;SA-17q-08:4;SA-17q-13:4;SA-17q-20:2;SA-17q-02:1;SA-17q-06:1;SA-17q-21:1;SA-17q-26:1;SA-17q-28:1	False	SA-17q-04:26
+SA	17q	SA-17q-31	new	True	36	SA-17q-02:32;SA-17q-06:2;SA-17q-05:1;SA-17q-24:1		
+SA	17q	SA-17q-07	kept_changed	True	19	SA-17q-07:14;SA-17q-05:5	False	SA-17q-07:14
+SA	17q	SA-17q-17	kept_changed	True	8	SA-17q-17:3;SA-17q-18:2;SA-17q-27:2;SA-17q-25:1	False	SA-17q-17:3
+SA	17q	SA-17q-32	new	False	6	SA-17q-05:4;SA-17q-02:1;SA-17q-16:1		
+SA	17q	SA-17q-33	new	False	6	SA-17q-09:4;SA-17q-10:1;SA-17q-29:1		
+SA	17q	SA-17q-34	new	True	4	SA-17q-05:2;SA-17q-06:2		
+SA	17q	SA-17q-35	new	False	4	SA-17q-08:3;SA-17q-13:1		
+SA	17q	SA-17q-36	new	False	3	SA-17q-01:1;SA-17q-19:1;SA-17q-30:1		
+SA	17q	SA-17q-22	unchanged	False	1	SA-17q-22:1	False	SA-17q-22:1
+SA	17q	SA-17q-37	new	False	1	SA-17q-16:1		
+SA	17q	SA-17q-38	new	False	1	SA-17q-03:1		
+SA	17q	SA-17q-05	retired	False	0		True	SA-17q-02:7;SA-17q-07:5;SA-17q-31:1;SA-17q-32:4;SA-17q-34:2
+SA	17q	SA-17q-06	retired	False	0		True	SA-17q-02:14;SA-17q-04:1;SA-17q-31:2;SA-17q-34:2
+SA	17q	SA-17q-08	retired	False	0		True	SA-17q-04:4;SA-17q-35:3
+SA	17q	SA-17q-09	retired	False	0		True	SA-17q-03:4;SA-17q-33:4
+SA	17q	SA-17q-10	retired	False	0		False	SA-17q-03:6;SA-17q-33:1
+SA	17q	SA-17q-11	retired	False	0		False	SA-17q-04:6
+SA	17q	SA-17q-12	retired	False	0		False	SA-17q-03:6
+SA	17q	SA-17q-13	retired	False	0		False	SA-17q-04:4;SA-17q-35:1
+SA	17q	SA-17q-14	retired	False	0		False	SA-17q-03:5
+SA	17q	SA-17q-15	retired	False	0		False	SA-17q-02:4
+SA	17q	SA-17q-16	retired	False	0		False	SA-17q-01:1;SA-17q-32:1;SA-17q-37:1
+SA	17q	SA-17q-18	retired	False	0		False	SA-17q-17:2
+SA	17q	SA-17q-19	retired	False	0		False	SA-17q-02:1;SA-17q-36:1
+SA	17q	SA-17q-20	retired	False	0		False	SA-17q-04:2
+SA	17q	SA-17q-21	retired	False	0		False	SA-17q-04:1
+SA	17q	SA-17q-23	retired	False	0		False	SA-17q-02:1
+SA	17q	SA-17q-24	retired	False	0		False	SA-17q-31:1
+SA	17q	SA-17q-25	retired	False	0		False	SA-17q-17:1
+SA	17q	SA-17q-26	retired	False	0		False	SA-17q-04:1
+SA	17q	SA-17q-27	retired	False	0		False	SA-17q-17:2
+SA	17q	SA-17q-28	retired	False	0		False	SA-17q-04:1
+SA	17q	SA-17q-29	retired	False	0		False	SA-17q-33:1
+SA	17q	SA-17q-30	retired	False	0		False	SA-17q-36:1
+SA	18p	SA-18p-01	kept_changed	True	432	SA-18p-01:413;SA-18p-02:19	False	SA-18p-01:413
+SA	18p	SA-18p-02	kept_changed	False	7	SA-18p-02:7	True	SA-18p-01:19;SA-18p-02:7
+SA	18q	SA-18q-01	unchanged	False	448	SA-18q-01:448	False	SA-18q-01:448
+SA	19p	SA-19p-04	kept_changed	True	98	SA-19p-04:30;SA-19p-05:24;SA-19p-01:19;SA-19p-02:10;SA-19p-15:6;SA-19p-09:5;SA-19p-19:1;SA-19p-26:1;SA-19p-37:1;SA-19p-38:1	False	SA-19p-04:30
+SA	19p	SA-19p-03	kept_changed	True	62	SA-19p-03:33;SA-19p-06:15;SA-19p-08:9;SA-19p-02:4;SA-19p-11:1	True	SA-19p-02:1;SA-19p-03:33;SA-19p-61:7;SA-19p-62:15;SA-19p-63:1
+SA	19p	SA-19p-02	kept_changed	True	63	SA-19p-02:40;SA-19p-01:8;SA-19p-10:7;SA-19p-05:2;SA-19p-08:2;SA-19p-09:2;SA-19p-03:1;SA-19p-06:1	True	SA-19p-01:3;SA-19p-02:40;SA-19p-03:4;SA-19p-04:10;SA-19p-61:2;SA-19p-63:2;SA-19p-64:1;SA-19p-69:1
+SA	19p	SA-19p-01	kept_changed	True	48	SA-19p-01:43;SA-19p-02:3;SA-19p-23:1;SA-19p-40:1	True	SA-19p-01:43;SA-19p-02:8;SA-19p-04:19;SA-19p-11:2;SA-19p-66:1;SA-19p-68:1;SA-19p-71:1
+SA	19p	SA-19p-07	kept_changed	True	22	SA-19p-07:12;SA-19p-21:3;SA-19p-05:2;SA-19p-27:2;SA-19p-34:2;SA-19p-35:1	False	SA-19p-07:12;SA-19p-74:1
+SA	19p	SA-19p-61	new	True	20	SA-19p-03:7;SA-19p-06:5;SA-19p-10:4;SA-19p-02:2;SA-19p-08:2		
+SA	19p	SA-19p-62	new	False	16	SA-19p-03:15;SA-19p-11:1		
+SA	19p	SA-19p-13	kept_changed	True	13	SA-19p-13:6;SA-19p-16:3;SA-19p-17:2;SA-19p-32:1;SA-19p-46:1	False	SA-19p-13:6;SA-19p-31:1;SA-19p-70:1
+SA	19p	SA-19p-12	kept_changed	False	11	SA-19p-12:10;SA-19p-14:1	False	SA-19p-12:10
+SA	19p	SA-19p-11	kept_changed	True	10	SA-19p-11:4;SA-19p-01:2;SA-19p-23:2;SA-19p-24:1;SA-19p-58:1	True	SA-19p-03:1;SA-19p-11:4;SA-19p-62:1;SA-19p-66:2;SA-19p-67:3
+SA	19p	SA-19p-63	new	True	10	SA-19p-02:2;SA-19p-19:2;SA-19p-24:2;SA-19p-03:1;SA-19p-26:1;SA-19p-39:1;SA-19p-52:1		
+SA	19p	SA-19p-14	kept_changed	False	7	SA-19p-14:6;SA-19p-45:1	False	SA-19p-12:1;SA-19p-14:6
+SA	19p	SA-19p-31	kept_changed	False	7	SA-19p-31:2;SA-19p-13:1;SA-19p-16:1;SA-19p-17:1;SA-19p-32:1;SA-19p-47:1	False	SA-19p-31:2
+SA	19p	SA-19p-64	new	False	5	SA-19p-09:3;SA-19p-02:1;SA-19p-54:1		
+SA	19p	SA-19p-22	kept_changed	True	5	SA-19p-22:2;SA-19p-33:2;SA-19p-57:1	False	SA-19p-22:2;SA-19p-73:1
+SA	19p	SA-19p-20	kept_changed	False	4	SA-19p-20:3;SA-19p-43:1	False	SA-19p-20:3
+SA	19p	SA-19p-18	kept_changed	False	5	SA-19p-18:4;SA-19p-49:1	False	SA-19p-18:4
+SA	19p	SA-19p-28	kept_changed	False	3	SA-19p-28:2;SA-19p-41:1	False	SA-19p-28:2
+SA	19p	SA-19p-25	kept_changed	False	3	SA-19p-25:2;SA-19p-56:1	False	SA-19p-25:2
+SA	19p	SA-19p-65	new	False	3	SA-19p-09:2;SA-19p-48:1		
+SA	19p	SA-19p-66	new	False	3	SA-19p-11:2;SA-19p-01:1		
+SA	19p	SA-19p-67	new	False	3	SA-19p-11:3		
+SA	19p	SA-19p-29	unchanged	False	2	SA-19p-29:2	False	SA-19p-29:2
+SA	19p	SA-19p-30	unchanged	False	2	SA-19p-30:2	False	SA-19p-30:2
+SA	19p	SA-19p-50	kept_changed	False	2	SA-19p-50:1;SA-19p-59:1	False	SA-19p-50:1
+SA	19p	SA-19p-42	unchanged	False	1	SA-19p-42:1	False	SA-19p-42:1
+SA	19p	SA-19p-51	unchanged	False	1	SA-19p-51:1	False	SA-19p-51:1
+SA	19p	SA-19p-53	unchanged	False	1	SA-19p-53:1	False	SA-19p-53:1
+SA	19p	SA-19p-55	unchanged	False	1	SA-19p-55:1	False	SA-19p-55:1
+SA	19p	SA-19p-44	unchanged	False	1	SA-19p-44:1	False	SA-19p-44:1
+SA	19p	SA-19p-36	unchanged	False	1	SA-19p-36:1	False	SA-19p-36:1
+SA	19p	SA-19p-60	unchanged	False	1	SA-19p-60:1	False	SA-19p-60:1
+SA	19p	SA-19p-68	new	False	2	SA-19p-01:1;SA-19p-05:1		
+SA	19p	SA-19p-69	new	False	1	SA-19p-02:1		
+SA	19p	SA-19p-70	new	False	1	SA-19p-13:1		
+SA	19p	SA-19p-71	new	False	1	SA-19p-01:1		
+SA	19p	SA-19p-72	new	False	1	SA-19p-10:1		
+SA	19p	SA-19p-73	new	False	1	SA-19p-22:1		
+SA	19p	SA-19p-74	new	False	1	SA-19p-07:1		
+SA	19p	SA-19p-05	retired	False	0		True	SA-19p-02:2;SA-19p-04:24;SA-19p-07:2;SA-19p-68:1
+SA	19p	SA-19p-06	retired	False	0		True	SA-19p-02:1;SA-19p-03:15;SA-19p-61:5
+SA	19p	SA-19p-08	retired	False	0		True	SA-19p-02:2;SA-19p-03:9;SA-19p-61:2
+SA	19p	SA-19p-09	retired	False	0		True	SA-19p-02:2;SA-19p-04:5;SA-19p-64:3;SA-19p-65:2
+SA	19p	SA-19p-10	retired	False	0		True	SA-19p-02:7;SA-19p-61:4;SA-19p-72:1
+SA	19p	SA-19p-15	retired	False	0		False	SA-19p-04:6
+SA	19p	SA-19p-16	retired	False	0		False	SA-19p-13:3;SA-19p-31:1
+SA	19p	SA-19p-17	retired	False	0		False	SA-19p-13:2;SA-19p-31:1
+SA	19p	SA-19p-19	retired	False	0		False	SA-19p-04:1;SA-19p-63:2
+SA	19p	SA-19p-21	retired	False	0		False	SA-19p-07:3
+SA	19p	SA-19p-23	retired	False	0		False	SA-19p-01:1;SA-19p-11:2
+SA	19p	SA-19p-24	retired	False	0		False	SA-19p-11:1;SA-19p-63:2
+SA	19p	SA-19p-26	retired	False	0		False	SA-19p-04:1;SA-19p-63:1
+SA	19p	SA-19p-27	retired	False	0		False	SA-19p-07:2
+SA	19p	SA-19p-32	retired	False	0		False	SA-19p-13:1;SA-19p-31:1
+SA	19p	SA-19p-33	retired	False	0		False	SA-19p-22:2
+SA	19p	SA-19p-34	retired	False	0		False	SA-19p-07:2
+SA	19p	SA-19p-35	retired	False	0		False	SA-19p-07:1
+SA	19p	SA-19p-37	retired	False	0		False	SA-19p-04:1
+SA	19p	SA-19p-38	retired	False	0		False	SA-19p-04:1
+SA	19p	SA-19p-39	retired	False	0		False	SA-19p-63:1
+SA	19p	SA-19p-40	retired	False	0		False	SA-19p-01:1
+SA	19p	SA-19p-41	retired	False	0		False	SA-19p-28:1
+SA	19p	SA-19p-43	retired	False	0		False	SA-19p-20:1
+SA	19p	SA-19p-45	retired	False	0		False	SA-19p-14:1
+SA	19p	SA-19p-46	retired	False	0		False	SA-19p-13:1
+SA	19p	SA-19p-47	retired	False	0		False	SA-19p-31:1
+SA	19p	SA-19p-48	retired	False	0		False	SA-19p-65:1
+SA	19p	SA-19p-49	retired	False	0		False	SA-19p-18:1
+SA	19p	SA-19p-52	retired	False	0		False	SA-19p-63:1
+SA	19p	SA-19p-54	retired	False	0		False	SA-19p-64:1
+SA	19p	SA-19p-56	retired	False	0		False	SA-19p-25:1
+SA	19p	SA-19p-57	retired	False	0		False	SA-19p-22:1
+SA	19p	SA-19p-58	retired	False	0		False	SA-19p-11:1
+SA	19p	SA-19p-59	retired	False	0		False	SA-19p-50:1
+SA	19q	SA-19q-01	kept_changed	True	363	SA-19q-01:295;SA-19q-02:33;SA-19q-03:33;SA-19q-04:2	False	SA-19q-01:295;SA-19q-02:1;SA-19q-04:1;SA-19q-08:1
+SA	19q	SA-19q-02	kept_changed	True	28	SA-19q-02:17;SA-19q-06:4;SA-19q-07:3;SA-19q-01:1;SA-19q-09:1;SA-19q-10:1;SA-19q-11:1	True	SA-19q-01:33;SA-19q-02:17;SA-19q-08:2;SA-19q-14:10;SA-19q-15:1
+SA	19q	SA-19q-04	kept_changed	True	26	SA-19q-04:12;SA-19q-03:10;SA-19q-05:3;SA-19q-01:1	True	SA-19q-01:2;SA-19q-04:12;SA-19q-05:1;SA-19q-16:1
+SA	19q	SA-19q-14	new	True	14	SA-19q-02:10;SA-19q-09:2;SA-19q-06:1;SA-19q-07:1		
+SA	19q	SA-19q-08	kept_changed	True	7	SA-19q-08:3;SA-19q-02:2;SA-19q-01:1;SA-19q-07:1	False	SA-19q-08:3;SA-19q-15:1
+SA	19q	SA-19q-05	kept_changed	False	6	SA-19q-05:4;SA-19q-03:1;SA-19q-04:1	True	SA-19q-04:3;SA-19q-05:4;SA-19q-17:1
+SA	19q	SA-19q-15	new	False	2	SA-19q-02:1;SA-19q-08:1		
+SA	19q	SA-19q-16	new	False	1	SA-19q-04:1		
+SA	19q	SA-19q-17	new	False	1	SA-19q-05:1		
+SA	19q	SA-19q-12	unchanged	False	1	SA-19q-12:1	False	SA-19q-12:1
+SA	19q	SA-19q-18	new	False	1	SA-19q-06:1		
+SA	19q	SA-19q-13	unchanged	False	1	SA-19q-13:1	False	SA-19q-13:1
+SA	19q	SA-19q-03	retired	False	0		True	SA-19q-01:33;SA-19q-04:10;SA-19q-05:1
+SA	19q	SA-19q-06	retired	False	0		False	SA-19q-02:4;SA-19q-14:1;SA-19q-18:1
+SA	19q	SA-19q-07	retired	False	0		False	SA-19q-02:3;SA-19q-08:1;SA-19q-14:1
+SA	19q	SA-19q-09	retired	False	0		False	SA-19q-02:1;SA-19q-14:2
+SA	19q	SA-19q-10	retired	False	0		False	SA-19q-02:1
+SA	19q	SA-19q-11	retired	False	0		False	SA-19q-02:1
+SA	1p	SA-1p-03	kept_changed	True	161	SA-1p-01:114;SA-1p-03:16;SA-1p-05:15;SA-1p-07:8;SA-1p-04:5;SA-1p-13:1;SA-1p-30:1;SA-1p-34:1	True	SA-1p-01:2;SA-1p-03:16;SA-1p-08:3;SA-1p-37:3;SA-1p-38:7
+SA	1p	SA-1p-02	kept_changed	True	71	SA-1p-02:51;SA-1p-06:20	False	SA-1p-02:51;SA-1p-43:1
+SA	1p	SA-1p-01	kept_changed	True	54	SA-1p-01:47;SA-1p-03:2;SA-1p-10:2;SA-1p-04:1;SA-1p-09:1;SA-1p-32:1	True	SA-1p-01:47;SA-1p-03:114;SA-1p-08:4;SA-1p-10:2;SA-1p-37:20;SA-1p-38:32;SA-1p-39:7;SA-1p-40:3
+SA	1p	SA-1p-37	new	True	50	SA-1p-01:20;SA-1p-05:11;SA-1p-04:8;SA-1p-07:4;SA-1p-03:3;SA-1p-09:2;SA-1p-11:1;SA-1p-20:1		
+SA	1p	SA-1p-38	new	True	50	SA-1p-01:32;SA-1p-03:7;SA-1p-04:7;SA-1p-13:1;SA-1p-24:1;SA-1p-29:1;SA-1p-31:1		
+SA	1p	SA-1p-08	kept_changed	True	14	SA-1p-08:5;SA-1p-01:4;SA-1p-03:3;SA-1p-04:1;SA-1p-33:1	False	SA-1p-08:5
+SA	1p	SA-1p-39	new	True	10	SA-1p-01:7;SA-1p-04:3		
+SA	1p	SA-1p-40	new	True	6	SA-1p-01:3;SA-1p-04:2;SA-1p-12:1		
+SA	1p	SA-1p-41	new	False	3	SA-1p-11:1;SA-1p-12:1;SA-1p-18:1		
+SA	1p	SA-1p-10	kept_changed	False	3	SA-1p-01:2;SA-1p-10:1	False	SA-1p-01:2;SA-1p-10:1
+SA	1p	SA-1p-26	kept_changed	False	2	SA-1p-26:1;SA-1p-27:1	False	SA-1p-26:1
+SA	1p	SA-1p-17	unchanged	False	1	SA-1p-17:1	False	SA-1p-17:1
+SA	1p	SA-1p-25	unchanged	False	1	SA-1p-25:1	False	SA-1p-25:1
+SA	1p	SA-1p-28	unchanged	False	1	SA-1p-28:1	False	SA-1p-28:1
+SA	1p	SA-1p-21	unchanged	False	1	SA-1p-21:1	False	SA-1p-21:1
+SA	1p	SA-1p-22	unchanged	False	1	SA-1p-22:1	False	SA-1p-22:1
+SA	1p	SA-1p-42	new	False	1	SA-1p-04:1		
+SA	1p	SA-1p-14	unchanged	False	1	SA-1p-14:1	False	SA-1p-14:1
+SA	1p	SA-1p-15	unchanged	False	1	SA-1p-15:1	False	SA-1p-15:1
+SA	1p	SA-1p-43	new	False	1	SA-1p-02:1		
+SA	1p	SA-1p-19	unchanged	False	1	SA-1p-19:1	False	SA-1p-19:1
+SA	1p	SA-1p-16	unchanged	False	1	SA-1p-16:1	False	SA-1p-16:1
+SA	1p	SA-1p-23	unchanged	False	1	SA-1p-23:1	False	SA-1p-23:1
+SA	1p	SA-1p-44	new	False	1	SA-1p-05:1		
+SA	1p	SA-1p-36	unchanged	False	1	SA-1p-36:1	False	SA-1p-36:1
+SA	1p	SA-1p-04	retired	False	0		True	SA-1p-01:1;SA-1p-03:5;SA-1p-08:1;SA-1p-37:8;SA-1p-38:7;SA-1p-39:3;SA-1p-40:2;SA-1p-42:1
+SA	1p	SA-1p-05	retired	False	0		True	SA-1p-03:15;SA-1p-37:11;SA-1p-44:1
+SA	1p	SA-1p-06	retired	False	0		False	SA-1p-02:20
+SA	1p	SA-1p-07	retired	False	0		True	SA-1p-03:8;SA-1p-37:4
+SA	1p	SA-1p-09	retired	False	0		False	SA-1p-01:1;SA-1p-37:2
+SA	1p	SA-1p-11	retired	False	0		False	SA-1p-37:1;SA-1p-41:1
+SA	1p	SA-1p-12	retired	False	0		False	SA-1p-40:1;SA-1p-41:1
+SA	1p	SA-1p-13	retired	False	0		False	SA-1p-03:1;SA-1p-38:1
+SA	1p	SA-1p-18	retired	False	0		False	SA-1p-41:1
+SA	1p	SA-1p-20	retired	False	0		False	SA-1p-37:1
+SA	1p	SA-1p-24	retired	False	0		False	SA-1p-38:1
+SA	1p	SA-1p-27	retired	False	0		False	SA-1p-26:1
+SA	1p	SA-1p-29	retired	False	0		False	SA-1p-38:1
+SA	1p	SA-1p-30	retired	False	0		False	SA-1p-03:1
+SA	1p	SA-1p-31	retired	False	0		False	SA-1p-38:1
+SA	1p	SA-1p-32	retired	False	0		False	SA-1p-01:1
+SA	1p	SA-1p-33	retired	False	0		False	SA-1p-08:1
+SA	1p	SA-1p-34	retired	False	0		False	SA-1p-03:1
+SA	1q	SA-1q-01	kept_changed	True	441	SA-1q-01:420;SA-1q-02:8;SA-1q-03:7;SA-1q-05:3;SA-1q-04:2;SA-1q-06:1	False	SA-1q-01:420
+SA	1q	SA-1q-04	kept_changed	False	1	SA-1q-04:1	False	SA-1q-01:2;SA-1q-04:1
+SA	1q	SA-1q-02	retired	False	0		False	SA-1q-01:8
+SA	1q	SA-1q-03	retired	False	0		False	SA-1q-01:7
+SA	1q	SA-1q-05	retired	False	0		False	SA-1q-01:3
+SA	1q	SA-1q-06	retired	False	0		False	SA-1q-01:1
+SA	20p	SA-20p-01	kept_changed	True	204	SA-20p-01:192;SA-20p-04:10;SA-20p-06:2	True	SA-20p-01:192;SA-20p-06:2
+SA	20p	SA-20p-02	kept_changed	False	83	SA-20p-02:82;SA-20p-08:1	True	SA-20p-02:82;SA-20p-06:3;SA-20p-37:7
+SA	20p	SA-20p-03	kept_changed	True	74	SA-20p-03:43;SA-20p-05:8;SA-20p-09:4;SA-20p-11:3;SA-20p-12:3;SA-20p-14:2;SA-20p-17:2;SA-20p-18:2;SA-20p-19:1;SA-20p-20:1;SA-20p-21:1;SA-20p-30:1;SA-20p-32:1;SA-20p-33:1;SA-20p-35:1	True	SA-20p-03:43;SA-20p-38:2;SA-20p-40:1;SA-20p-41:1;SA-20p-43:1;SA-20p-44:1
+SA	20p	SA-20p-06	kept_changed	True	14	SA-20p-06:8;SA-20p-02:3;SA-20p-01:2;SA-20p-25:1	True	SA-20p-01:2;SA-20p-06:8
+SA	20p	SA-20p-37	new	True	12	SA-20p-02:7;SA-20p-08:5		
+SA	20p	SA-20p-04	kept_changed	False	10	SA-20p-04:9;SA-20p-16:1	True	SA-20p-01:10;SA-20p-04:9;SA-20p-39:9
+SA	20p	SA-20p-38	new	True	10	SA-20p-05:3;SA-20p-07:3;SA-20p-03:2;SA-20p-14:1;SA-20p-36:1		
+SA	20p	SA-20p-39	new	False	9	SA-20p-04:9		
+SA	20p	SA-20p-40	new	False	7	SA-20p-07:3;SA-20p-03:1;SA-20p-19:1;SA-20p-34:1;SA-20p-36:1		
+SA	20p	SA-20p-41	new	False	5	SA-20p-03:1;SA-20p-09:1;SA-20p-12:1;SA-20p-20:1;SA-20p-31:1		
+SA	20p	SA-20p-10	kept_changed	False	5	SA-20p-10:4;SA-20p-24:1	False	SA-20p-10:4
+SA	20p	SA-20p-42	new	False	3	SA-20p-07:1;SA-20p-21:1;SA-20p-29:1		
+SA	20p	SA-20p-43	new	False	2	SA-20p-03:1;SA-20p-11:1		
+SA	20p	SA-20p-15	unchanged	False	2	SA-20p-15:2	False	SA-20p-15:2
+SA	20p	SA-20p-23	unchanged	False	1	SA-20p-23:1	False	SA-20p-23:1
+SA	20p	SA-20p-27	unchanged	False	1	SA-20p-27:1	False	SA-20p-27:1
+SA	20p	SA-20p-44	new	False	1	SA-20p-03:1		
+SA	20p	SA-20p-28	unchanged	False	1	SA-20p-28:1	False	SA-20p-28:1
+SA	20p	SA-20p-45	new	False	1	SA-20p-16:1		
+SA	20p	SA-20p-26	unchanged	False	1	SA-20p-26:1	False	SA-20p-26:1
+SA	20p	SA-20p-22	unchanged	False	1	SA-20p-22:1	False	SA-20p-22:1
+SA	20p	SA-20p-05	retired	False	0		True	SA-20p-03:8;SA-20p-38:3
+SA	20p	SA-20p-07	retired	False	0		True	SA-20p-38:3;SA-20p-40:3;SA-20p-42:1
+SA	20p	SA-20p-08	retired	False	0		False	SA-20p-02:1;SA-20p-37:5
+SA	20p	SA-20p-09	retired	False	0		False	SA-20p-03:4;SA-20p-41:1
+SA	20p	SA-20p-11	retired	False	0		False	SA-20p-03:3;SA-20p-43:1
+SA	20p	SA-20p-12	retired	False	0		False	SA-20p-03:3;SA-20p-41:1
+SA	20p	SA-20p-14	retired	False	0		False	SA-20p-03:2;SA-20p-38:1
+SA	20p	SA-20p-16	retired	False	0		False	SA-20p-04:1;SA-20p-45:1
+SA	20p	SA-20p-17	retired	False	0		False	SA-20p-03:2
+SA	20p	SA-20p-18	retired	False	0		False	SA-20p-03:2
+SA	20p	SA-20p-19	retired	False	0		False	SA-20p-03:1;SA-20p-40:1
+SA	20p	SA-20p-20	retired	False	0		False	SA-20p-03:1;SA-20p-41:1
+SA	20p	SA-20p-21	retired	False	0		False	SA-20p-03:1;SA-20p-42:1
+SA	20p	SA-20p-24	retired	False	0		False	SA-20p-10:1
+SA	20p	SA-20p-25	retired	False	0		False	SA-20p-06:1
+SA	20p	SA-20p-29	retired	False	0		False	SA-20p-42:1
+SA	20p	SA-20p-30	retired	False	0		False	SA-20p-03:1
+SA	20p	SA-20p-31	retired	False	0		False	SA-20p-41:1
+SA	20p	SA-20p-32	retired	False	0		False	SA-20p-03:1
+SA	20p	SA-20p-33	retired	False	0		False	SA-20p-03:1
+SA	20p	SA-20p-34	retired	False	0		False	SA-20p-40:1
+SA	20p	SA-20p-35	retired	False	0		False	SA-20p-03:1
+SA	20p	SA-20p-36	retired	False	0		False	SA-20p-38:1;SA-20p-40:1
+SA	20q	SA-20q-01	kept_changed	True	212	SA-20q-01:203;SA-20q-03:8;SA-20q-15:1	True	SA-20q-01:203;SA-20q-05:2;SA-20q-17:1
+SA	20q	SA-20q-02	kept_changed	True	204	SA-20q-02:202;SA-20q-08:2	False	SA-20q-02:202
+SA	20q	SA-20q-05	kept_changed	True	6	SA-20q-05:4;SA-20q-01:2	False	SA-20q-05:4
+SA	20q	SA-20q-04	kept_changed	False	4	SA-20q-04:4	False	SA-20q-04:4;SA-20q-16:1
+SA	20q	SA-20q-06	unchanged	False	3	SA-20q-06:3	False	SA-20q-06:3
+SA	20q	SA-20q-10	kept_changed	False	3	SA-20q-10:2;SA-20q-03:1	False	SA-20q-10:2
+SA	20q	SA-20q-16	new	False	2	SA-20q-04:1;SA-20q-13:1		
+SA	20q	SA-20q-07	unchanged	False	2	SA-20q-07:2	False	SA-20q-07:2
+SA	20q	SA-20q-09	unchanged	False	2	SA-20q-09:2	False	SA-20q-09:2
+SA	20q	SA-20q-12	unchanged	False	1	SA-20q-12:1	False	SA-20q-12:1
+SA	20q	SA-20q-11	unchanged	False	1	SA-20q-11:1	False	SA-20q-11:1
+SA	20q	SA-20q-14	unchanged	False	1	SA-20q-14:1	False	SA-20q-14:1
+SA	20q	SA-20q-17	new	False	1	SA-20q-01:1		
+SA	20q	SA-20q-03	retired	False	0		False	SA-20q-01:8;SA-20q-10:1
+SA	20q	SA-20q-08	retired	False	0		False	SA-20q-02:2
+SA	20q	SA-20q-13	retired	False	0		False	SA-20q-16:1
+SA	20q	SA-20q-15	retired	False	0		False	SA-20q-01:1
+SA	21q	SA-21q-01	kept_changed	False	434	SA-21q-01:434	True	SA-21q-01:434;SA-21q-02:3;SA-21q-03:2;SA-21q-04:2
+SA	21q	SA-21q-02	kept_changed	True	6	SA-21q-01:3;SA-21q-02:3	False	SA-21q-02:3
+SA	21q	SA-21q-03	kept_changed	False	3	SA-21q-01:2;SA-21q-03:1	False	SA-21q-03:1
+SA	21q	SA-21q-04	new	False	2	SA-21q-01:2		
+SA	22q	SA-22q-01	kept_changed	True	436	SA-22q-01:429;SA-22q-02:4;SA-22q-03:1;SA-22q-04:1;SA-22q-06:1	False	SA-22q-01:429;SA-22q-02:1;SA-22q-09:1
+SA	22q	SA-22q-02	kept_changed	False	2	SA-22q-01:1;SA-22q-02:1	False	SA-22q-01:4;SA-22q-02:1;SA-22q-07:1
+SA	22q	SA-22q-03	kept_changed	False	2	SA-22q-03:1;SA-22q-04:1	False	SA-22q-01:1;SA-22q-03:1;SA-22q-08:1
+SA	22q	SA-22q-05	unchanged	False	1	SA-22q-05:1	False	SA-22q-05:1
+SA	22q	SA-22q-07	new	False	1	SA-22q-02:1		
+SA	22q	SA-22q-08	new	False	1	SA-22q-03:1		
+SA	22q	SA-22q-09	new	False	1	SA-22q-01:1		
+SA	22q	SA-22q-04	retired	False	0		False	SA-22q-01:1;SA-22q-03:1
+SA	22q	SA-22q-06	retired	False	0		False	SA-22q-01:1
+SA	2p	SA-2p-01	unchanged	False	440	SA-2p-01:440	False	SA-2p-01:440
+SA	2p	SA-2p-02	unchanged	False	1	SA-2p-02:1	False	SA-2p-02:1
+SA	2q	SA-2q-01	kept_changed	True	296	SA-2q-01:246;SA-2q-03:29;SA-2q-04:11;SA-2q-06:6;SA-2q-02:3;SA-2q-10:1	False	SA-2q-01:246;SA-2q-03:1;SA-2q-04:1;SA-2q-36:1
+SA	2q	SA-2q-02	kept_changed	False	80	SA-2q-02:79;SA-2q-14:1	True	SA-2q-01:3;SA-2q-02:79;SA-2q-04:4
+SA	2q	SA-2q-05	kept_changed	True	15	SA-2q-05:8;SA-2q-09:2;SA-2q-12:2;SA-2q-13:2;SA-2q-24:1	False	SA-2q-05:8
+SA	2q	SA-2q-04	kept_changed	True	14	SA-2q-04:6;SA-2q-02:4;SA-2q-03:2;SA-2q-01:1;SA-2q-10:1	True	SA-2q-01:11;SA-2q-03:3;SA-2q-04:6;SA-2q-34:1
+SA	2q	SA-2q-03	kept_changed	True	7	SA-2q-03:3;SA-2q-04:3;SA-2q-01:1	True	SA-2q-01:29;SA-2q-03:3;SA-2q-04:2;SA-2q-34:1
+SA	2q	SA-2q-17	kept_changed	False	6	SA-2q-17:1;SA-2q-19:1;SA-2q-22:1;SA-2q-23:1;SA-2q-25:1;SA-2q-27:1	False	SA-2q-17:1
+SA	2q	SA-2q-07	kept_changed	False	4	SA-2q-07:3;SA-2q-28:1	False	SA-2q-07:3;SA-2q-35:1
+SA	2q	SA-2q-08	unchanged	False	3	SA-2q-08:3	False	SA-2q-08:3
+SA	2q	SA-2q-34	new	False	3	SA-2q-03:1;SA-2q-04:1;SA-2q-10:1		
+SA	2q	SA-2q-11	kept_changed	False	3	SA-2q-11:2;SA-2q-20:1	False	SA-2q-11:2
+SA	2q	SA-2q-31	kept_changed	False	3	SA-2q-31:1;SA-2q-32:1;SA-2q-33:1	False	SA-2q-31:1
+SA	2q	SA-2q-35	new	False	2	SA-2q-07:1;SA-2q-29:1		
+SA	2q	SA-2q-36	new	False	1	SA-2q-01:1		
+SA	2q	SA-2q-16	unchanged	False	1	SA-2q-16:1	False	SA-2q-16:1
+SA	2q	SA-2q-21	unchanged	False	1	SA-2q-21:1	False	SA-2q-21:1
+SA	2q	SA-2q-37	new	False	1	SA-2q-09:1		
+SA	2q	SA-2q-26	unchanged	False	1	SA-2q-26:1	False	SA-2q-26:1
+SA	2q	SA-2q-30	unchanged	False	1	SA-2q-30:1	False	SA-2q-30:1
+SA	2q	SA-2q-15	unchanged	False	1	SA-2q-15:1	False	SA-2q-15:1
+SA	2q	SA-2q-18	unchanged	False	1	SA-2q-18:1	False	SA-2q-18:1
+SA	2q	SA-2q-06	retired	False	0		False	SA-2q-01:6
+SA	2q	SA-2q-09	retired	False	0		False	SA-2q-05:2;SA-2q-37:1
+SA	2q	SA-2q-10	retired	False	0		False	SA-2q-01:1;SA-2q-04:1;SA-2q-34:1
+SA	2q	SA-2q-12	retired	False	0		False	SA-2q-05:2
+SA	2q	SA-2q-13	retired	False	0		False	SA-2q-05:2
+SA	2q	SA-2q-14	retired	False	0		False	SA-2q-02:1
+SA	2q	SA-2q-19	retired	False	0		False	SA-2q-17:1
+SA	2q	SA-2q-20	retired	False	0		False	SA-2q-11:1
+SA	2q	SA-2q-22	retired	False	0		False	SA-2q-17:1
+SA	2q	SA-2q-23	retired	False	0		False	SA-2q-17:1
+SA	2q	SA-2q-24	retired	False	0		False	SA-2q-05:1
+SA	2q	SA-2q-25	retired	False	0		False	SA-2q-17:1
+SA	2q	SA-2q-27	retired	False	0		False	SA-2q-17:1
+SA	2q	SA-2q-28	retired	False	0		False	SA-2q-07:1
+SA	2q	SA-2q-29	retired	False	0		False	SA-2q-35:1
+SA	2q	SA-2q-32	retired	False	0		False	SA-2q-31:1
+SA	2q	SA-2q-33	retired	False	0		False	SA-2q-31:1
+SA	3p	SA-3p-01	unchanged	False	446	SA-3p-01:446	False	SA-3p-01:446
+SA	3q	SA-3q-01	kept_changed	True	196	SA-3q-01:109;SA-3q-03:47;SA-3q-06:18;SA-3q-07:10;SA-3q-13:7;SA-3q-17:1;SA-3q-26:1;SA-3q-27:1;SA-3q-29:1;SA-3q-37:1	True	SA-3q-01:109;SA-3q-41:3
+SA	3q	SA-3q-02	kept_changed	False	55	SA-3q-02:54;SA-3q-32:1	False	SA-3q-02:54;SA-3q-49:1
+SA	3q	SA-3q-04	kept_changed	True	47	SA-3q-04:23;SA-3q-05:15;SA-3q-09:6;SA-3q-19:2;SA-3q-23:1	True	SA-3q-04:23;SA-3q-39:18;SA-3q-40:6
+SA	3q	SA-3q-39	new	True	45	SA-3q-04:18;SA-3q-08:12;SA-3q-05:4;SA-3q-09:4;SA-3q-12:4;SA-3q-19:1;SA-3q-21:1;SA-3q-28:1		
+SA	3q	SA-3q-10	kept_changed	True	18	SA-3q-10:9;SA-3q-15:7;SA-3q-21:2	False	SA-3q-10:9;SA-3q-44:1
+SA	3q	SA-3q-14	kept_changed	True	13	SA-3q-14:6;SA-3q-12:5;SA-3q-20:2	False	SA-3q-14:6;SA-3q-45:1
+SA	3q	SA-3q-40	new	True	13	SA-3q-04:6;SA-3q-05:3;SA-3q-08:3;SA-3q-09:1		
+SA	3q	SA-3q-11	kept_changed	False	10	SA-3q-11:9;SA-3q-09:1	False	SA-3q-11:9
+SA	3q	SA-3q-41	new	True	8	SA-3q-07:5;SA-3q-01:3		
+SA	3q	SA-3q-18	unchanged	False	5	SA-3q-18:5	False	SA-3q-18:5
+SA	3q	SA-3q-16	kept_changed	False	3	SA-3q-16:3	False	SA-3q-16:3;SA-3q-42:1;SA-3q-43:1;SA-3q-46:1
+SA	3q	SA-3q-22	kept_changed	False	4	SA-3q-22:3;SA-3q-17:1	False	SA-3q-22:3
+SA	3q	SA-3q-30	kept_changed	False	2	SA-3q-30:1;SA-3q-35:1	False	SA-3q-30:1
+SA	3q	SA-3q-42	new	False	2	SA-3q-16:1;SA-3q-17:1		
+SA	3q	SA-3q-31	kept_changed	False	2	SA-3q-31:1;SA-3q-36:1	False	SA-3q-31:1
+SA	3q	SA-3q-43	new	False	2	SA-3q-16:1;SA-3q-17:1		
+SA	3q	SA-3q-44	new	False	2	SA-3q-10:1;SA-3q-38:1		
+SA	3q	SA-3q-24	unchanged	False	1	SA-3q-24:1	False	SA-3q-24:1
+SA	3q	SA-3q-33	unchanged	False	1	SA-3q-33:1	False	SA-3q-33:1
+SA	3q	SA-3q-45	new	False	1	SA-3q-14:1		
+SA	3q	SA-3q-46	new	False	1	SA-3q-16:1		
+SA	3q	SA-3q-34	unchanged	False	1	SA-3q-34:1	False	SA-3q-34:1
+SA	3q	SA-3q-25	unchanged	False	1	SA-3q-25:1	False	SA-3q-25:1
+SA	3q	SA-3q-47	new	False	1	SA-3q-17:1		
+SA	3q	SA-3q-48	new	False	1	SA-3q-03:1		
+SA	3q	SA-3q-49	new	False	1	SA-3q-02:1		
+SA	3q	SA-3q-50	new	False	1	SA-3q-23:1		
+SA	3q	SA-3q-03	retired	False	0		False	SA-3q-01:47;SA-3q-48:1
+SA	3q	SA-3q-05	retired	False	0		True	SA-3q-04:15;SA-3q-39:4;SA-3q-40:3
+SA	3q	SA-3q-06	retired	False	0		False	SA-3q-01:18
+SA	3q	SA-3q-07	retired	False	0		True	SA-3q-01:10;SA-3q-41:5
+SA	3q	SA-3q-08	retired	False	0		True	SA-3q-39:12;SA-3q-40:3
+SA	3q	SA-3q-09	retired	False	0		True	SA-3q-04:6;SA-3q-11:1;SA-3q-39:4;SA-3q-40:1
+SA	3q	SA-3q-12	retired	False	0		True	SA-3q-14:5;SA-3q-39:4
+SA	3q	SA-3q-13	retired	False	0		False	SA-3q-01:7
+SA	3q	SA-3q-15	retired	False	0		False	SA-3q-10:7
+SA	3q	SA-3q-17	retired	False	0		False	SA-3q-01:1;SA-3q-22:1;SA-3q-42:1;SA-3q-43:1;SA-3q-47:1
+SA	3q	SA-3q-19	retired	False	0		False	SA-3q-04:2;SA-3q-39:1
+SA	3q	SA-3q-20	retired	False	0		False	SA-3q-14:2
+SA	3q	SA-3q-21	retired	False	0		False	SA-3q-10:2;SA-3q-39:1
+SA	3q	SA-3q-23	retired	False	0		False	SA-3q-04:1;SA-3q-50:1
+SA	3q	SA-3q-26	retired	False	0		False	SA-3q-01:1
+SA	3q	SA-3q-27	retired	False	0		False	SA-3q-01:1
+SA	3q	SA-3q-28	retired	False	0		False	SA-3q-39:1
+SA	3q	SA-3q-29	retired	False	0		False	SA-3q-01:1
+SA	3q	SA-3q-32	retired	False	0		False	SA-3q-02:1
+SA	3q	SA-3q-35	retired	False	0		False	SA-3q-30:1
+SA	3q	SA-3q-36	retired	False	0		False	SA-3q-31:1
+SA	3q	SA-3q-37	retired	False	0		False	SA-3q-01:1
+SA	3q	SA-3q-38	retired	False	0		False	SA-3q-44:1
+SA	4p	SA-4p-01	kept_changed	True	387	SA-4p-01:317;SA-4p-02:67;SA-4p-04:1;SA-4p-05:1	True	SA-4p-01:317;SA-4p-02:52;SA-4p-06:3
+SA	4p	SA-4p-02	kept_changed	True	57	SA-4p-01:52;SA-4p-02:5	True	SA-4p-01:67;SA-4p-02:5
+SA	4p	SA-4p-03	unchanged	False	1	SA-4p-03:1	False	SA-4p-03:1
+SA	4p	SA-4p-06	new	False	3	SA-4p-01:3		
+SA	4p	SA-4p-04	retired	False	0		False	SA-4p-01:1
+SA	4p	SA-4p-05	retired	False	0		False	SA-4p-01:1
+SA	4q	SA-4q-02	kept_changed	True	182	SA-4q-02:105;SA-4q-03:51;SA-4q-04:15;SA-4q-10:3;SA-4q-12:3;SA-4q-13:2;SA-4q-19:1;SA-4q-20:1;SA-4q-22:1	True	SA-4q-02:105;SA-4q-30:2
+SA	4q	SA-4q-01	kept_changed	True	191	SA-4q-01:176;SA-4q-06:13;SA-4q-09:1;SA-4q-25:1	True	SA-4q-01:176;SA-4q-05:4;SA-4q-27:2;SA-4q-29:1
+SA	4q	SA-4q-05	kept_changed	True	27	SA-4q-05:11;SA-4q-07:8;SA-4q-01:4;SA-4q-09:3;SA-4q-24:1	False	SA-4q-05:11;SA-4q-28:1
+SA	4q	SA-4q-08	unchanged	False	8	SA-4q-08:8	False	SA-4q-08:8
+SA	4q	SA-4q-11	kept_changed	False	3	SA-4q-11:2;SA-4q-15:1	False	SA-4q-11:2
+SA	4q	SA-4q-27	new	False	2	SA-4q-01:2		
+SA	4q	SA-4q-14	unchanged	False	2	SA-4q-14:2	False	SA-4q-14:2
+SA	4q	SA-4q-16	unchanged	False	1	SA-4q-16:1	False	SA-4q-16:1
+SA	4q	SA-4q-17	unchanged	False	1	SA-4q-17:1	False	SA-4q-17:1
+SA	4q	SA-4q-28	new	False	2	SA-4q-05:1;SA-4q-18:1		
+SA	4q	SA-4q-06	kept_changed	False	1	SA-4q-06:1	False	SA-4q-01:13;SA-4q-06:1;SA-4q-32:1
+SA	4q	SA-4q-29	new	False	2	SA-4q-01:1;SA-4q-09:1		
+SA	4q	SA-4q-21	unchanged	False	1	SA-4q-21:1	False	SA-4q-21:1
+SA	4q	SA-4q-30	new	True	4	SA-4q-02:2;SA-4q-26:2		
+SA	4q	SA-4q-31	new	False	1	SA-4q-09:1		
+SA	4q	SA-4q-32	new	False	1	SA-4q-06:1		
+SA	4q	SA-4q-03	retired	False	0		False	SA-4q-02:51
+SA	4q	SA-4q-04	retired	False	0		False	SA-4q-02:15
+SA	4q	SA-4q-07	retired	False	0		False	SA-4q-05:8
+SA	4q	SA-4q-09	retired	False	0		False	SA-4q-01:1;SA-4q-05:3;SA-4q-29:1;SA-4q-31:1
+SA	4q	SA-4q-10	retired	False	0		False	SA-4q-02:3
+SA	4q	SA-4q-12	retired	False	0		False	SA-4q-02:3
+SA	4q	SA-4q-13	retired	False	0		False	SA-4q-02:2
+SA	4q	SA-4q-15	retired	False	0		False	SA-4q-11:1
+SA	4q	SA-4q-18	retired	False	0		False	SA-4q-28:1
+SA	4q	SA-4q-19	retired	False	0		False	SA-4q-02:1
+SA	4q	SA-4q-20	retired	False	0		False	SA-4q-02:1
+SA	4q	SA-4q-22	retired	False	0		False	SA-4q-02:1
+SA	4q	SA-4q-24	retired	False	0		False	SA-4q-05:1
+SA	4q	SA-4q-25	retired	False	0		False	SA-4q-01:1
+SA	4q	SA-4q-26	retired	False	0		False	SA-4q-30:2
+SA	5p	SA-5p-01	kept_changed	True	449	SA-5p-01:439;SA-5p-02:4;SA-5p-03:4;SA-5p-04:1;SA-5p-05:1	False	SA-5p-01:439;SA-5p-06:1;SA-5p-07:1
+SA	5p	SA-5p-06	new	False	1	SA-5p-01:1		
+SA	5p	SA-5p-07	new	False	1	SA-5p-01:1		
+SA	5p	SA-5p-02	retired	False	0		False	SA-5p-01:4
+SA	5p	SA-5p-03	retired	False	0		False	SA-5p-01:4
+SA	5p	SA-5p-04	retired	False	0		False	SA-5p-01:1
+SA	5p	SA-5p-05	retired	False	0		False	SA-5p-01:1
+SA	5q	SA-5q-01	kept_changed	False	219	SA-5q-01:218;SA-5q-23:1	True	SA-5q-01:218;SA-5q-02:11;SA-5q-03:8;SA-5q-41:4;SA-5q-50:4;SA-5q-51:18;SA-5q-53:1;SA-5q-54:1;SA-5q-57:1
+SA	5q	SA-5q-02	kept_changed	True	46	SA-5q-02:20;SA-5q-01:11;SA-5q-05:4;SA-5q-09:2;SA-5q-16:2;SA-5q-20:2;SA-5q-08:1;SA-5q-13:1;SA-5q-18:1;SA-5q-19:1;SA-5q-37:1	True	SA-5q-02:20;SA-5q-03:5;SA-5q-50:13;SA-5q-53:1;SA-5q-55:1
+SA	5q	SA-5q-03	kept_changed	True	44	SA-5q-03:21;SA-5q-01:8;SA-5q-02:5;SA-5q-07:5;SA-5q-11:2;SA-5q-15:2;SA-5q-09:1	True	SA-5q-03:21;SA-5q-50:5;SA-5q-51:2;SA-5q-56:1
+SA	5q	SA-5q-50	new	True	39	SA-5q-02:13;SA-5q-03:5;SA-5q-06:5;SA-5q-01:4;SA-5q-08:4;SA-5q-12:2;SA-5q-14:2;SA-5q-35:1;SA-5q-36:1;SA-5q-38:1;SA-5q-39:1		
+SA	5q	SA-5q-51	new	True	30	SA-5q-01:18;SA-5q-05:3;SA-5q-03:2;SA-5q-13:2;SA-5q-11:1;SA-5q-12:1;SA-5q-27:1;SA-5q-42:1;SA-5q-45:1		
+SA	5q	SA-5q-04	kept_changed	True	20	SA-5q-04:13;SA-5q-10:5;SA-5q-17:1;SA-5q-44:1	True	SA-5q-04:13;SA-5q-52:9
+SA	5q	SA-5q-52	new	False	10	SA-5q-04:9;SA-5q-17:1		
+SA	5q	SA-5q-41	kept_changed	False	5	SA-5q-01:4;SA-5q-41:1	False	SA-5q-41:1
+SA	5q	SA-5q-53	new	False	4	SA-5q-01:1;SA-5q-02:1;SA-5q-05:1;SA-5q-09:1		
+SA	5q	SA-5q-54	new	False	3	SA-5q-01:1;SA-5q-12:1;SA-5q-19:1		
+SA	5q	SA-5q-55	new	False	2	SA-5q-02:1;SA-5q-28:1		
+SA	5q	SA-5q-30	kept_changed	False	2	SA-5q-30:1;SA-5q-31:1	False	SA-5q-30:1
+SA	5q	SA-5q-56	new	False	2	SA-5q-03:1;SA-5q-15:1		
+SA	5q	SA-5q-33	kept_changed	False	2	SA-5q-33:1;SA-5q-34:1	False	SA-5q-33:1
+SA	5q	SA-5q-57	new	False	2	SA-5q-01:1;SA-5q-18:1		
+SA	5q	SA-5q-24	unchanged	False	1	SA-5q-24:1	False	SA-5q-24:1
+SA	5q	SA-5q-25	unchanged	False	1	SA-5q-25:1	False	SA-5q-25:1
+SA	5q	SA-5q-32	unchanged	False	1	SA-5q-32:1	False	SA-5q-32:1
+SA	5q	SA-5q-29	unchanged	False	1	SA-5q-29:1	False	SA-5q-29:1
+SA	5q	SA-5q-46	unchanged	False	1	SA-5q-46:1	False	SA-5q-46:1
+SA	5q	SA-5q-22	unchanged	False	1	SA-5q-22:1	False	SA-5q-22:1
+SA	5q	SA-5q-26	unchanged	False	1	SA-5q-26:1	False	SA-5q-26:1
+SA	5q	SA-5q-21	unchanged	False	1	SA-5q-21:1	False	SA-5q-21:1
+SA	5q	SA-5q-40	unchanged	False	1	SA-5q-40:1	False	SA-5q-40:1
+SA	5q	SA-5q-47	unchanged	False	1	SA-5q-47:1	False	SA-5q-47:1
+SA	5q	SA-5q-43	unchanged	False	1	SA-5q-43:1	False	SA-5q-43:1
+SA	5q	SA-5q-49	unchanged	False	1	SA-5q-49:1	False	SA-5q-49:1
+SA	5q	SA-5q-48	unchanged	False	1	SA-5q-48:1	False	SA-5q-48:1
+SA	5q	SA-5q-05	retired	False	0		True	SA-5q-02:4;SA-5q-51:3;SA-5q-53:1
+SA	5q	SA-5q-06	retired	False	0		False	SA-5q-50:5
+SA	5q	SA-5q-07	retired	False	0		False	SA-5q-03:5
+SA	5q	SA-5q-08	retired	False	0		False	SA-5q-02:1;SA-5q-50:4
+SA	5q	SA-5q-09	retired	False	0		False	SA-5q-02:2;SA-5q-03:1;SA-5q-53:1
+SA	5q	SA-5q-10	retired	False	0		False	SA-5q-04:5
+SA	5q	SA-5q-11	retired	False	0		False	SA-5q-03:2;SA-5q-51:1
+SA	5q	SA-5q-12	retired	False	0		False	SA-5q-50:2;SA-5q-51:1;SA-5q-54:1
+SA	5q	SA-5q-13	retired	False	0		False	SA-5q-02:1;SA-5q-51:2
+SA	5q	SA-5q-14	retired	False	0		False	SA-5q-50:2
+SA	5q	SA-5q-15	retired	False	0		False	SA-5q-03:2;SA-5q-56:1
+SA	5q	SA-5q-16	retired	False	0		False	SA-5q-02:2
+SA	5q	SA-5q-17	retired	False	0		False	SA-5q-04:1;SA-5q-52:1
+SA	5q	SA-5q-18	retired	False	0		False	SA-5q-02:1;SA-5q-57:1
+SA	5q	SA-5q-19	retired	False	0		False	SA-5q-02:1;SA-5q-54:1
+SA	5q	SA-5q-20	retired	False	0		False	SA-5q-02:2
+SA	5q	SA-5q-23	retired	False	0		False	SA-5q-01:1
+SA	5q	SA-5q-27	retired	False	0		False	SA-5q-51:1
+SA	5q	SA-5q-28	retired	False	0		False	SA-5q-55:1
+SA	5q	SA-5q-31	retired	False	0		False	SA-5q-30:1
+SA	5q	SA-5q-34	retired	False	0		False	SA-5q-33:1
+SA	5q	SA-5q-35	retired	False	0		False	SA-5q-50:1
+SA	5q	SA-5q-36	retired	False	0		False	SA-5q-50:1
+SA	5q	SA-5q-37	retired	False	0		False	SA-5q-02:1
+SA	5q	SA-5q-38	retired	False	0		False	SA-5q-50:1
+SA	5q	SA-5q-39	retired	False	0		False	SA-5q-50:1
+SA	5q	SA-5q-42	retired	False	0		False	SA-5q-51:1
+SA	5q	SA-5q-44	retired	False	0		False	SA-5q-04:1
+SA	5q	SA-5q-45	retired	False	0		False	SA-5q-51:1
+SA	6p	SA-6p-10	kept_changed	True	99	SA-6p-10:7;SA-6p-16:4;SA-6p-18:4;SA-6p-14:3;SA-6p-19:3;SA-6p-20:3;SA-6p-21:3;SA-6p-24:3;SA-6p-42:3;SA-6p-26:2;SA-6p-27:2;SA-6p-29:2;SA-6p-30:2;SA-6p-38:2;SA-6p-39:2;SA-6p-40:2;SA-6p-41:2;SA-6p-100:1;SA-6p-101:1;SA-6p-102:1;SA-6p-103:1;SA-6p-104:1;SA-6p-106:1;SA-6p-107:1;SA-6p-108:1;SA-6p-109:1;SA-6p-110:1;SA-6p-111:1;SA-6p-112:1;SA-6p-113:1;SA-6p-117:1;SA-6p-28:1;SA-6p-34:1;SA-6p-45:1;SA-6p-52:1;SA-6p-53:1;SA-6p-54:1;SA-6p-55:1;SA-6p-56:1;SA-6p-57:1;SA-6p-58:1;SA-6p-59:1;SA-6p-60:1;SA-6p-61:1;SA-6p-62:1;SA-6p-63:1;SA-6p-64:1;SA-6p-65:1;SA-6p-69:1;SA-6p-70:1;SA-6p-71:1;SA-6p-72:1;SA-6p-73:1;SA-6p-74:1;SA-6p-75:1;SA-6p-76:1;SA-6p-77:1;SA-6p-78:1;SA-6p-79:1;SA-6p-80:1;SA-6p-86:1;SA-6p-87:1;SA-6p-95:1;SA-6p-96:1;SA-6p-97:1;SA-6p-98:1;SA-6p-99:1	False	SA-6p-10:7
+SA	6p	SA-6p-01	kept_changed	True	86	SA-6p-01:81;SA-6p-04:5	True	SA-6p-01:81;SA-6p-118:58
+SA	6p	SA-6p-118	new	True	74	SA-6p-01:58;SA-6p-04:14;SA-6p-68:1;SA-6p-84:1		
+SA	6p	SA-6p-08	kept_changed	True	41	SA-6p-08:8;SA-6p-09:7;SA-6p-13:5;SA-6p-17:4;SA-6p-32:2;SA-6p-33:2;SA-6p-35:2;SA-6p-36:2;SA-6p-37:2;SA-6p-85:1;SA-6p-88:1;SA-6p-89:1;SA-6p-90:1;SA-6p-92:1;SA-6p-93:1;SA-6p-94:1	False	SA-6p-08:8
+SA	6p	SA-6p-02	kept_changed	False	30	SA-6p-02:30	True	SA-6p-02:30;SA-6p-07:4
+SA	6p	SA-6p-03	unchanged	False	31	SA-6p-03:31	False	SA-6p-03:31
+SA	6p	SA-6p-06	kept_changed	True	14	SA-6p-06:11;SA-6p-25:2;SA-6p-11:1	False	SA-6p-06:11
+SA	6p	SA-6p-07	kept_changed	True	12	SA-6p-07:8;SA-6p-02:4	False	SA-6p-07:8
+SA	6p	SA-6p-05	kept_changed	False	11	SA-6p-05:11	False	SA-6p-05:11;SA-6p-119:1
+SA	6p	SA-6p-15	kept_changed	True	10	SA-6p-15:4;SA-6p-23:3;SA-6p-31:2;SA-6p-83:1	False	SA-6p-15:4
+SA	6p	SA-6p-22	kept_changed	True	7	SA-6p-22:3;SA-6p-44:2;SA-6p-81:1;SA-6p-82:1	False	SA-6p-22:3
+SA	6p	SA-6p-43	kept_changed	False	5	SA-6p-43:2;SA-6p-34:1;SA-6p-46:1;SA-6p-47:1	False	SA-6p-43:2
+SA	6p	SA-6p-12	unchanged	False	5	SA-6p-12:5	False	SA-6p-12:5
+SA	6p	SA-6p-11	kept_changed	False	5	SA-6p-11:5	False	SA-6p-06:1;SA-6p-11:5
+SA	6p	SA-6p-119	new	False	1	SA-6p-05:1		
+SA	6p	SA-6p-51	unchanged	False	1	SA-6p-51:1	False	SA-6p-51:1
+SA	6p	SA-6p-120	new	False	1	SA-6p-28:1		
+SA	6p	SA-6p-114	unchanged	False	1	SA-6p-114:1	False	SA-6p-114:1
+SA	6p	SA-6p-115	unchanged	False	1	SA-6p-115:1	False	SA-6p-115:1
+SA	6p	SA-6p-91	unchanged	False	1	SA-6p-91:1	False	SA-6p-91:1
+SA	6p	SA-6p-48	unchanged	False	1	SA-6p-48:1	False	SA-6p-48:1
+SA	6p	SA-6p-49	unchanged	False	1	SA-6p-49:1	False	SA-6p-49:1
+SA	6p	SA-6p-66	unchanged	False	1	SA-6p-66:1	False	SA-6p-66:1
+SA	6p	SA-6p-67	unchanged	False	1	SA-6p-67:1	False	SA-6p-67:1
+SA	6p	SA-6p-50	unchanged	False	1	SA-6p-50:1	False	SA-6p-50:1
+SA	6p	SA-6p-116	unchanged	False	1	SA-6p-116:1	False	SA-6p-116:1
+SA	6p	SA-6p-04	retired	False	0		True	SA-6p-01:5;SA-6p-118:14
+SA	6p	SA-6p-09	retired	False	0		False	SA-6p-08:7
+SA	6p	SA-6p-13	retired	False	0		False	SA-6p-08:5
+SA	6p	SA-6p-14	retired	False	0		False	SA-6p-10:3
+SA	6p	SA-6p-16	retired	False	0		False	SA-6p-10:4
+SA	6p	SA-6p-17	retired	False	0		False	SA-6p-08:4
+SA	6p	SA-6p-18	retired	False	0		False	SA-6p-10:4
+SA	6p	SA-6p-19	retired	False	0		False	SA-6p-10:3
+SA	6p	SA-6p-20	retired	False	0		False	SA-6p-10:3
+SA	6p	SA-6p-21	retired	False	0		False	SA-6p-10:3
+SA	6p	SA-6p-23	retired	False	0		False	SA-6p-15:3
+SA	6p	SA-6p-24	retired	False	0		False	SA-6p-10:3
+SA	6p	SA-6p-25	retired	False	0		False	SA-6p-06:2
+SA	6p	SA-6p-26	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-27	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-28	retired	False	0		False	SA-6p-10:1;SA-6p-120:1
+SA	6p	SA-6p-29	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-30	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-31	retired	False	0		False	SA-6p-15:2
+SA	6p	SA-6p-32	retired	False	0		False	SA-6p-08:2
+SA	6p	SA-6p-33	retired	False	0		False	SA-6p-08:2
+SA	6p	SA-6p-34	retired	False	0		False	SA-6p-10:1;SA-6p-43:1
+SA	6p	SA-6p-35	retired	False	0		False	SA-6p-08:2
+SA	6p	SA-6p-36	retired	False	0		False	SA-6p-08:2
+SA	6p	SA-6p-37	retired	False	0		False	SA-6p-08:2
+SA	6p	SA-6p-38	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-39	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-40	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-41	retired	False	0		False	SA-6p-10:2
+SA	6p	SA-6p-42	retired	False	0		False	SA-6p-10:3
+SA	6p	SA-6p-44	retired	False	0		False	SA-6p-22:2
+SA	6p	SA-6p-45	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-46	retired	False	0		False	SA-6p-43:1
+SA	6p	SA-6p-47	retired	False	0		False	SA-6p-43:1
+SA	6p	SA-6p-52	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-53	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-54	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-55	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-56	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-57	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-58	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-59	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-60	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-61	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-62	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-63	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-64	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-65	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-68	retired	False	0		False	SA-6p-118:1
+SA	6p	SA-6p-69	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-70	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-71	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-72	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-73	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-74	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-75	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-76	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-77	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-78	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-79	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-80	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-81	retired	False	0		False	SA-6p-22:1
+SA	6p	SA-6p-82	retired	False	0		False	SA-6p-22:1
+SA	6p	SA-6p-83	retired	False	0		False	SA-6p-15:1
+SA	6p	SA-6p-84	retired	False	0		False	SA-6p-118:1
+SA	6p	SA-6p-85	retired	False	0		False	SA-6p-08:1
+SA	6p	SA-6p-86	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-87	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-88	retired	False	0		False	SA-6p-08:1
+SA	6p	SA-6p-89	retired	False	0		False	SA-6p-08:1
+SA	6p	SA-6p-90	retired	False	0		False	SA-6p-08:1
+SA	6p	SA-6p-92	retired	False	0		False	SA-6p-08:1
+SA	6p	SA-6p-93	retired	False	0		False	SA-6p-08:1
+SA	6p	SA-6p-94	retired	False	0		False	SA-6p-08:1
+SA	6p	SA-6p-95	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-96	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-97	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-98	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-99	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-100	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-101	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-102	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-103	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-104	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-106	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-107	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-108	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-109	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-110	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-111	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-112	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-113	retired	False	0		False	SA-6p-10:1
+SA	6p	SA-6p-117	retired	False	0		False	SA-6p-10:1
+SA	6q	SA-6q-01	kept_changed	True	208	SA-6q-01:200;SA-6q-12:4;SA-6q-08:3;SA-6q-35:1	True	SA-6q-01:200;SA-6q-04:4;SA-6q-08:24;SA-6q-40:1;SA-6q-46:7;SA-6q-50:1;SA-6q-51:4;SA-6q-55:1
+SA	6q	SA-6q-08	kept_changed	True	28	SA-6q-01:24;SA-6q-08:4	True	SA-6q-01:3;SA-6q-08:4;SA-6q-46:4
+SA	6q	SA-6q-45	new	True	27	SA-6q-06:7;SA-6q-07:7;SA-6q-02:5;SA-6q-04:3;SA-6q-05:2;SA-6q-11:2;SA-6q-34:1		
+SA	6q	SA-6q-04	kept_changed	True	25	SA-6q-04:11;SA-6q-02:5;SA-6q-01:4;SA-6q-09:2;SA-6q-07:1;SA-6q-11:1;SA-6q-31:1	True	SA-6q-02:1;SA-6q-04:11;SA-6q-05:2;SA-6q-45:3;SA-6q-47:1;SA-6q-50:1
+SA	6q	SA-6q-05	kept_changed	True	24	SA-6q-05:8;SA-6q-06:8;SA-6q-07:3;SA-6q-02:2;SA-6q-04:2;SA-6q-36:1	True	SA-6q-02:4;SA-6q-05:8;SA-6q-45:2;SA-6q-47:3;SA-6q-48:1;SA-6q-49:1
+SA	6q	SA-6q-03	kept_changed	False	21	SA-6q-03:20;SA-6q-26:1	False	SA-6q-03:20
+SA	6q	SA-6q-02	kept_changed	True	19	SA-6q-02:7;SA-6q-05:4;SA-6q-09:3;SA-6q-13:3;SA-6q-04:1;SA-6q-07:1	True	SA-6q-02:7;SA-6q-04:5;SA-6q-05:2;SA-6q-45:5;SA-6q-47:2;SA-6q-48:4;SA-6q-49:2;SA-6q-50:2;SA-6q-53:1
+SA	6q	SA-6q-46	new	True	17	SA-6q-01:7;SA-6q-08:4;SA-6q-14:2;SA-6q-20:2;SA-6q-29:1;SA-6q-42:1		
+SA	6q	SA-6q-47	new	True	12	SA-6q-05:3;SA-6q-07:3;SA-6q-02:2;SA-6q-06:2;SA-6q-04:1;SA-6q-27:1		
+SA	6q	SA-6q-48	new	True	9	SA-6q-02:4;SA-6q-19:2;SA-6q-05:1;SA-6q-06:1;SA-6q-22:1		
+SA	6q	SA-6q-49	new	True	5	SA-6q-02:2;SA-6q-07:2;SA-6q-05:1		
+SA	6q	SA-6q-50	new	False	5	SA-6q-02:2;SA-6q-01:1;SA-6q-04:1;SA-6q-11:1		
+SA	6q	SA-6q-10	kept_changed	False	4	SA-6q-10:3;SA-6q-14:1	False	SA-6q-10:3;SA-6q-54:1
+SA	6q	SA-6q-17	kept_changed	True	4	SA-6q-17:2;SA-6q-18:2	False	SA-6q-17:2
+SA	6q	SA-6q-15	kept_changed	False	4	SA-6q-15:2;SA-6q-23:1;SA-6q-24:1	False	SA-6q-15:2
+SA	6q	SA-6q-51	new	False	4	SA-6q-01:4		
+SA	6q	SA-6q-52	new	False	3	SA-6q-09:1;SA-6q-21:1;SA-6q-39:1		
+SA	6q	SA-6q-16	unchanged	False	2	SA-6q-16:2	False	SA-6q-16:2
+SA	6q	SA-6q-40	kept_changed	False	2	SA-6q-01:1;SA-6q-40:1	False	SA-6q-40:1
+SA	6q	SA-6q-28	unchanged	False	1	SA-6q-28:1	False	SA-6q-28:1
+SA	6q	SA-6q-32	unchanged	False	1	SA-6q-32:1	False	SA-6q-32:1
+SA	6q	SA-6q-33	unchanged	False	1	SA-6q-33:1	False	SA-6q-33:1
+SA	6q	SA-6q-38	unchanged	False	1	SA-6q-38:1	False	SA-6q-38:1
+SA	6q	SA-6q-53	new	False	1	SA-6q-02:1		
+SA	6q	SA-6q-37	unchanged	False	1	SA-6q-37:1	False	SA-6q-37:1
+SA	6q	SA-6q-54	new	False	1	SA-6q-10:1		
+SA	6q	SA-6q-25	unchanged	False	1	SA-6q-25:1	False	SA-6q-25:1
+SA	6q	SA-6q-30	unchanged	False	1	SA-6q-30:1	False	SA-6q-30:1
+SA	6q	SA-6q-55	new	False	1	SA-6q-01:1		
+SA	6q	SA-6q-41	unchanged	False	1	SA-6q-41:1	False	SA-6q-41:1
+SA	6q	SA-6q-43	unchanged	False	1	SA-6q-43:1	False	SA-6q-43:1
+SA	6q	SA-6q-44	unchanged	False	1	SA-6q-44:1	False	SA-6q-44:1
+SA	6q	SA-6q-06	retired	False	0		True	SA-6q-05:8;SA-6q-45:7;SA-6q-47:2;SA-6q-48:1
+SA	6q	SA-6q-07	retired	False	0		True	SA-6q-02:1;SA-6q-04:1;SA-6q-05:3;SA-6q-45:7;SA-6q-47:3;SA-6q-49:2
+SA	6q	SA-6q-09	retired	False	0		True	SA-6q-02:3;SA-6q-04:2;SA-6q-52:1
+SA	6q	SA-6q-11	retired	False	0		False	SA-6q-04:1;SA-6q-45:2;SA-6q-50:1
+SA	6q	SA-6q-12	retired	False	0		False	SA-6q-01:4
+SA	6q	SA-6q-13	retired	False	0		False	SA-6q-02:3
+SA	6q	SA-6q-14	retired	False	0		False	SA-6q-10:1;SA-6q-46:2
+SA	6q	SA-6q-18	retired	False	0		False	SA-6q-17:2
+SA	6q	SA-6q-19	retired	False	0		False	SA-6q-48:2
+SA	6q	SA-6q-20	retired	False	0		False	SA-6q-46:2
+SA	6q	SA-6q-21	retired	False	0		False	SA-6q-52:1
+SA	6q	SA-6q-22	retired	False	0		False	SA-6q-48:1
+SA	6q	SA-6q-23	retired	False	0		False	SA-6q-15:1
+SA	6q	SA-6q-24	retired	False	0		False	SA-6q-15:1
+SA	6q	SA-6q-26	retired	False	0		False	SA-6q-03:1
+SA	6q	SA-6q-27	retired	False	0		False	SA-6q-47:1
+SA	6q	SA-6q-29	retired	False	0		False	SA-6q-46:1
+SA	6q	SA-6q-31	retired	False	0		False	SA-6q-04:1
+SA	6q	SA-6q-34	retired	False	0		False	SA-6q-45:1
+SA	6q	SA-6q-35	retired	False	0		False	SA-6q-01:1
+SA	6q	SA-6q-36	retired	False	0		False	SA-6q-05:1
+SA	6q	SA-6q-39	retired	False	0		False	SA-6q-52:1
+SA	6q	SA-6q-42	retired	False	0		False	SA-6q-46:1
+SA	7p	SA-7p-01	kept_changed	True	353	SA-7p-01:349;SA-7p-08:3;SA-7p-17:1	False	SA-7p-01:349;SA-7p-43:1;SA-7p-44:1
+SA	7p	SA-7p-03	kept_changed	True	40	SA-7p-03:12;SA-7p-02:9;SA-7p-04:4;SA-7p-05:4;SA-7p-07:4;SA-7p-11:2;SA-7p-10:1;SA-7p-16:1;SA-7p-27:1;SA-7p-35:1;SA-7p-36:1	False	SA-7p-03:12;SA-7p-40:1
+SA	7p	SA-7p-40	new	True	8	SA-7p-02:4;SA-7p-10:2;SA-7p-03:1;SA-7p-34:1		
+SA	7p	SA-7p-09	kept_changed	False	4	SA-7p-09:3;SA-7p-39:1	False	SA-7p-09:3
+SA	7p	SA-7p-13	kept_changed	True	4	SA-7p-13:2;SA-7p-15:2	False	SA-7p-13:2
+SA	7p	SA-7p-12	kept_changed	False	4	SA-7p-12:2;SA-7p-20:1;SA-7p-21:1	False	SA-7p-12:2
+SA	7p	SA-7p-14	unchanged	False	2	SA-7p-14:2	False	SA-7p-14:2
+SA	7p	SA-7p-29	kept_changed	False	2	SA-7p-29:1;SA-7p-31:1	False	SA-7p-29:1
+SA	7p	SA-7p-23	kept_changed	False	2	SA-7p-23:1;SA-7p-24:1	False	SA-7p-23:1
+SA	7p	SA-7p-19	kept_changed	False	2	SA-7p-19:1;SA-7p-30:1	False	SA-7p-19:1
+SA	7p	SA-7p-18	kept_changed	False	2	SA-7p-18:1;SA-7p-22:1	False	SA-7p-18:1
+SA	7p	SA-7p-06	kept_changed	False	2	SA-7p-06:2	True	SA-7p-06:2;SA-7p-41:2
+SA	7p	SA-7p-41	new	False	2	SA-7p-06:2		
+SA	7p	SA-7p-26	unchanged	False	1	SA-7p-26:1	False	SA-7p-26:1
+SA	7p	SA-7p-25	unchanged	False	1	SA-7p-25:1	False	SA-7p-25:1
+SA	7p	SA-7p-28	unchanged	False	1	SA-7p-28:1	False	SA-7p-28:1
+SA	7p	SA-7p-37	unchanged	False	1	SA-7p-37:1	False	SA-7p-37:1
+SA	7p	SA-7p-32	unchanged	False	1	SA-7p-32:1	False	SA-7p-32:1
+SA	7p	SA-7p-33	unchanged	False	1	SA-7p-33:1	False	SA-7p-33:1
+SA	7p	SA-7p-42	new	False	1	SA-7p-04:1		
+SA	7p	SA-7p-43	new	False	1	SA-7p-01:1		
+SA	7p	SA-7p-44	new	False	1	SA-7p-01:1		
+SA	7p	SA-7p-38	unchanged	False	1	SA-7p-38:1	False	SA-7p-38:1
+SA	7p	SA-7p-02	retired	False	0		True	SA-7p-03:9;SA-7p-40:4
+SA	7p	SA-7p-04	retired	False	0		False	SA-7p-03:4;SA-7p-42:1
+SA	7p	SA-7p-05	retired	False	0		False	SA-7p-03:4
+SA	7p	SA-7p-07	retired	False	0		False	SA-7p-03:4
+SA	7p	SA-7p-08	retired	False	0		False	SA-7p-01:3
+SA	7p	SA-7p-10	retired	False	0		False	SA-7p-03:1;SA-7p-40:2
+SA	7p	SA-7p-11	retired	False	0		False	SA-7p-03:2
+SA	7p	SA-7p-15	retired	False	0		False	SA-7p-13:2
+SA	7p	SA-7p-16	retired	False	0		False	SA-7p-03:1
+SA	7p	SA-7p-17	retired	False	0		False	SA-7p-01:1
+SA	7p	SA-7p-20	retired	False	0		False	SA-7p-12:1
+SA	7p	SA-7p-21	retired	False	0		False	SA-7p-12:1
+SA	7p	SA-7p-22	retired	False	0		False	SA-7p-18:1
+SA	7p	SA-7p-24	retired	False	0		False	SA-7p-23:1
+SA	7p	SA-7p-27	retired	False	0		False	SA-7p-03:1
+SA	7p	SA-7p-30	retired	False	0		False	SA-7p-19:1
+SA	7p	SA-7p-31	retired	False	0		False	SA-7p-29:1
+SA	7p	SA-7p-34	retired	False	0		False	SA-7p-40:1
+SA	7p	SA-7p-35	retired	False	0		False	SA-7p-03:1
+SA	7p	SA-7p-36	retired	False	0		False	SA-7p-03:1
+SA	7p	SA-7p-39	retired	False	0		False	SA-7p-09:1
+SA	7q	SA-7q-01	unchanged	False	445	SA-7q-01:445	False	SA-7q-01:445
+SA	8p	SA-8p-02	kept_changed	True	246	SA-8p-02:51;SA-8p-03:39;SA-8p-04:17;SA-8p-05:13;SA-8p-06:12;SA-8p-07:8;SA-8p-09:5;SA-8p-12:5;SA-8p-10:4;SA-8p-13:4;SA-8p-15:4;SA-8p-16:4;SA-8p-17:4;SA-8p-18:3;SA-8p-20:3;SA-8p-22:3;SA-8p-25:3;SA-8p-26:3;SA-8p-28:3;SA-8p-11:2;SA-8p-29:2;SA-8p-30:2;SA-8p-33:2;SA-8p-34:2;SA-8p-35:2;SA-8p-39:2;SA-8p-40:2;SA-8p-41:2;SA-8p-42:2;SA-8p-44:2;SA-8p-45:2;SA-8p-36:1;SA-8p-46:1;SA-8p-47:1;SA-8p-51:1;SA-8p-52:1;SA-8p-53:1;SA-8p-54:1;SA-8p-55:1;SA-8p-56:1;SA-8p-57:1;SA-8p-58:1;SA-8p-59:1;SA-8p-61:1;SA-8p-62:1;SA-8p-63:1;SA-8p-69:1;SA-8p-70:1;SA-8p-72:1;SA-8p-73:1;SA-8p-76:1;SA-8p-77:1;SA-8p-78:1;SA-8p-79:1;SA-8p-82:1;SA-8p-83:1;SA-8p-84:1;SA-8p-85:1;SA-8p-86:1;SA-8p-88:1;SA-8p-89:1;SA-8p-90:1;SA-8p-91:1;SA-8p-92:1;SA-8p-94:1	True	SA-8p-02:51;SA-8p-08:3
+SA	8p	SA-8p-01	unchanged	False	143	SA-8p-01:143	False	SA-8p-01:143
+SA	8p	SA-8p-08	kept_changed	True	42	SA-8p-08:7;SA-8p-14:4;SA-8p-02:3;SA-8p-11:3;SA-8p-19:3;SA-8p-21:3;SA-8p-27:3;SA-8p-37:2;SA-8p-38:2;SA-8p-43:2;SA-8p-03:1;SA-8p-07:1;SA-8p-09:1;SA-8p-10:1;SA-8p-36:1;SA-8p-64:1;SA-8p-71:1;SA-8p-74:1;SA-8p-75:1;SA-8p-87:1	False	SA-8p-08:7
+SA	8p	SA-8p-31	kept_changed	True	4	SA-8p-31:2;SA-8p-32:2	False	SA-8p-31:2
+SA	8p	SA-8p-24	kept_changed	False	4	SA-8p-24:3;SA-8p-67:1	False	SA-8p-24:3
+SA	8p	SA-8p-23	kept_changed	False	4	SA-8p-23:3;SA-8p-66:1	False	SA-8p-23:3
+SA	8p	SA-8p-81	unchanged	False	1	SA-8p-81:1	False	SA-8p-81:1
+SA	8p	SA-8p-93	unchanged	False	1	SA-8p-93:1	False	SA-8p-93:1
+SA	8p	SA-8p-48	unchanged	False	1	SA-8p-48:1	False	SA-8p-48:1
+SA	8p	SA-8p-60	unchanged	False	1	SA-8p-60:1	False	SA-8p-60:1
+SA	8p	SA-8p-50	unchanged	False	1	SA-8p-50:1	False	SA-8p-50:1
+SA	8p	SA-8p-65	unchanged	False	1	SA-8p-65:1	False	SA-8p-65:1
+SA	8p	SA-8p-49	unchanged	False	1	SA-8p-49:1	False	SA-8p-49:1
+SA	8p	SA-8p-80	unchanged	False	1	SA-8p-80:1	False	SA-8p-80:1
+SA	8p	SA-8p-68	unchanged	False	1	SA-8p-68:1	False	SA-8p-68:1
+SA	8p	SA-8p-03	retired	False	0		False	SA-8p-02:39;SA-8p-08:1
+SA	8p	SA-8p-04	retired	False	0		False	SA-8p-02:17
+SA	8p	SA-8p-05	retired	False	0		False	SA-8p-02:13
+SA	8p	SA-8p-06	retired	False	0		False	SA-8p-02:12
+SA	8p	SA-8p-07	retired	False	0		False	SA-8p-02:8;SA-8p-08:1
+SA	8p	SA-8p-09	retired	False	0		False	SA-8p-02:5;SA-8p-08:1
+SA	8p	SA-8p-10	retired	False	0		False	SA-8p-02:4;SA-8p-08:1
+SA	8p	SA-8p-11	retired	False	0		True	SA-8p-02:2;SA-8p-08:3
+SA	8p	SA-8p-12	retired	False	0		False	SA-8p-02:5
+SA	8p	SA-8p-13	retired	False	0		False	SA-8p-02:4
+SA	8p	SA-8p-14	retired	False	0		False	SA-8p-08:4
+SA	8p	SA-8p-15	retired	False	0		False	SA-8p-02:4
+SA	8p	SA-8p-16	retired	False	0		False	SA-8p-02:4
+SA	8p	SA-8p-17	retired	False	0		False	SA-8p-02:4
+SA	8p	SA-8p-18	retired	False	0		False	SA-8p-02:3
+SA	8p	SA-8p-19	retired	False	0		False	SA-8p-08:3
+SA	8p	SA-8p-20	retired	False	0		False	SA-8p-02:3
+SA	8p	SA-8p-21	retired	False	0		False	SA-8p-08:3
+SA	8p	SA-8p-22	retired	False	0		False	SA-8p-02:3
+SA	8p	SA-8p-25	retired	False	0		False	SA-8p-02:3
+SA	8p	SA-8p-26	retired	False	0		False	SA-8p-02:3
+SA	8p	SA-8p-27	retired	False	0		False	SA-8p-08:3
+SA	8p	SA-8p-28	retired	False	0		False	SA-8p-02:3
+SA	8p	SA-8p-29	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-30	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-32	retired	False	0		False	SA-8p-31:2
+SA	8p	SA-8p-33	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-34	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-35	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-36	retired	False	0		False	SA-8p-02:1;SA-8p-08:1
+SA	8p	SA-8p-37	retired	False	0		False	SA-8p-08:2
+SA	8p	SA-8p-38	retired	False	0		False	SA-8p-08:2
+SA	8p	SA-8p-39	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-40	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-41	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-42	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-43	retired	False	0		False	SA-8p-08:2
+SA	8p	SA-8p-44	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-45	retired	False	0		False	SA-8p-02:2
+SA	8p	SA-8p-46	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-47	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-51	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-52	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-53	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-54	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-55	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-56	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-57	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-58	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-59	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-61	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-62	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-63	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-64	retired	False	0		False	SA-8p-08:1
+SA	8p	SA-8p-66	retired	False	0		False	SA-8p-23:1
+SA	8p	SA-8p-67	retired	False	0		False	SA-8p-24:1
+SA	8p	SA-8p-69	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-70	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-71	retired	False	0		False	SA-8p-08:1
+SA	8p	SA-8p-72	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-73	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-74	retired	False	0		False	SA-8p-08:1
+SA	8p	SA-8p-75	retired	False	0		False	SA-8p-08:1
+SA	8p	SA-8p-76	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-77	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-78	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-79	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-82	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-83	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-84	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-85	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-86	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-87	retired	False	0		False	SA-8p-08:1
+SA	8p	SA-8p-88	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-89	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-90	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-91	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-92	retired	False	0		False	SA-8p-02:1
+SA	8p	SA-8p-94	retired	False	0		False	SA-8p-02:1
+SA	8q	SA-8q-01	kept_changed	False	442	SA-8q-01:442	True	SA-8q-01:442;SA-8q-04:3
+SA	8q	SA-8q-04	new	False	3	SA-8q-01:3		
+SA	8q	SA-8q-02	unchanged	False	1	SA-8q-02:1	False	SA-8q-02:1
+SA	8q	SA-8q-03	unchanged	False	1	SA-8q-03:1	False	SA-8q-03:1
+SA	9p	SA-9p-02	kept_changed	True	189	SA-9p-01:138;SA-9p-02:44;SA-9p-06:7	False	SA-9p-01:1;SA-9p-02:44
+SA	9p	SA-9p-01	kept_changed	True	186	SA-9p-01:182;SA-9p-03:2;SA-9p-02:1;SA-9p-07:1	True	SA-9p-01:182;SA-9p-02:138;SA-9p-03:5
+SA	9p	SA-9p-03	kept_changed	True	17	SA-9p-03:11;SA-9p-01:5;SA-9p-13:1	True	SA-9p-01:2;SA-9p-03:11
+SA	9p	SA-9p-05	kept_changed	True	16	SA-9p-05:12;SA-9p-09:4	False	SA-9p-05:12
+SA	9p	SA-9p-04	kept_changed	False	11	SA-9p-04:11	False	SA-9p-04:11;SA-9p-10:1;SA-9p-19:1
+SA	9p	SA-9p-08	unchanged	False	5	SA-9p-08:5	False	SA-9p-08:5
+SA	9p	SA-9p-07	kept_changed	False	4	SA-9p-07:4	False	SA-9p-01:1;SA-9p-07:4
+SA	9p	SA-9p-10	kept_changed	False	3	SA-9p-10:2;SA-9p-04:1	False	SA-9p-10:2;SA-9p-18:1
+SA	9p	SA-9p-11	unchanged	False	1	SA-9p-11:1	False	SA-9p-11:1
+SA	9p	SA-9p-12	unchanged	False	1	SA-9p-12:1	False	SA-9p-12:1
+SA	9p	SA-9p-14	unchanged	False	1	SA-9p-14:1	False	SA-9p-14:1
+SA	9p	SA-9p-18	new	False	1	SA-9p-10:1		
+SA	9p	SA-9p-19	new	False	1	SA-9p-04:1		
+SA	9p	SA-9p-17	unchanged	False	1	SA-9p-17:1	False	SA-9p-17:1
+SA	9p	SA-9p-16	unchanged	False	1	SA-9p-16:1	False	SA-9p-16:1
+SA	9p	SA-9p-15	unchanged	False	1	SA-9p-15:1	False	SA-9p-15:1
+SA	9p	SA-9p-06	retired	False	0		False	SA-9p-02:7
+SA	9p	SA-9p-09	retired	False	0		False	SA-9p-05:4
+SA	9p	SA-9p-13	retired	False	0		False	SA-9p-03:1
+SA	9q	SA-9q-01	kept_changed	False	130	SA-9q-01:130	True	SA-9q-01:130;SA-9q-118:2;SA-9q-20:2
+SA	9q	SA-9q-03	kept_changed	True	71	SA-9q-03:21;SA-9q-05:16;SA-9q-06:14;SA-9q-13:5;SA-9q-18:3;SA-9q-19:3;SA-9q-32:2;SA-9q-34:2;SA-9q-35:2;SA-9q-23:1;SA-9q-52:1;SA-9q-68:1	False	SA-9q-03:21;SA-9q-124:1
+SA	9q	SA-9q-08	kept_changed	True	42	SA-9q-08:8;SA-9q-10:7;SA-9q-15:4;SA-9q-22:3;SA-9q-41:2;SA-9q-103:1;SA-9q-105:1;SA-9q-106:1;SA-9q-107:1;SA-9q-108:1;SA-9q-64:1;SA-9q-65:1;SA-9q-66:1;SA-9q-67:1;SA-9q-76:1;SA-9q-77:1;SA-9q-78:1;SA-9q-79:1;SA-9q-80:1;SA-9q-81:1;SA-9q-82:1;SA-9q-83:1;SA-9q-84:1	False	SA-9q-08:8
+SA	9q	SA-9q-116	new	True	39	SA-9q-02:15;SA-9q-04:12;SA-9q-07:6;SA-9q-26:3;SA-9q-16:1;SA-9q-86:1;SA-9q-87:1		
+SA	9q	SA-9q-02	kept_changed	True	37	SA-9q-02:19;SA-9q-07:7;SA-9q-04:6;SA-9q-16:3;SA-9q-85:2	True	SA-9q-02:19;SA-9q-116:15
+SA	9q	SA-9q-14	kept_changed	True	19	SA-9q-14:5;SA-9q-24:3;SA-9q-114:2;SA-9q-38:2;SA-9q-06:1;SA-9q-115:1;SA-9q-23:1;SA-9q-56:1;SA-9q-97:1;SA-9q-98:1;SA-9q-99:1	False	SA-9q-14:5
+SA	9q	SA-9q-09	kept_changed	True	15	SA-9q-09:7;SA-9q-17:3;SA-9q-33:2;SA-9q-54:1;SA-9q-55:1;SA-9q-59:1	False	SA-9q-09:7
+SA	9q	SA-9q-29	kept_changed	True	13	SA-9q-29:3;SA-9q-30:3;SA-9q-44:2;SA-9q-45:2;SA-9q-101:1;SA-9q-102:1;SA-9q-60:1	False	SA-9q-29:3
+SA	9q	SA-9q-12	kept_changed	False	8	SA-9q-12:6;SA-9q-110:1;SA-9q-21:1	False	SA-9q-12:6;SA-9q-122:1
+SA	9q	SA-9q-11	kept_changed	False	8	SA-9q-11:7;SA-9q-36:1	False	SA-9q-11:7
+SA	9q	SA-9q-25	kept_changed	True	8	SA-9q-25:3;SA-9q-40:2;SA-9q-74:1;SA-9q-75:1	False	SA-9q-25:3
+SA	9q	SA-9q-31	kept_changed	True	6	SA-9q-31:3;SA-9q-48:2;SA-9q-112:1	False	SA-9q-31:3
+SA	9q	SA-9q-20	kept_changed	True	5	SA-9q-20:3;SA-9q-01:2	False	SA-9q-20:3
+SA	9q	SA-9q-28	kept_changed	False	5	SA-9q-28:3;SA-9q-88:1;SA-9q-89:1	False	SA-9q-28:3
+SA	9q	SA-9q-90	kept_changed	False	5	SA-9q-90:1;SA-9q-92:1;SA-9q-93:1;SA-9q-94:1;SA-9q-95:1	False	SA-9q-90:1
+SA	9q	SA-9q-42	kept_changed	True	4	SA-9q-42:2;SA-9q-43:2	False	SA-9q-42:2
+SA	9q	SA-9q-27	unchanged	False	3	SA-9q-27:3	False	SA-9q-27:3
+SA	9q	SA-9q-117	new	False	2	SA-9q-21:1;SA-9q-62:1		
+SA	9q	SA-9q-47	unchanged	False	2	SA-9q-47:2	False	SA-9q-47:2
+SA	9q	SA-9q-70	kept_changed	False	2	SA-9q-70:1;SA-9q-72:1	False	SA-9q-70:1
+SA	9q	SA-9q-39	unchanged	False	2	SA-9q-39:2	False	SA-9q-39:2
+SA	9q	SA-9q-118	new	False	2	SA-9q-01:2		
+SA	9q	SA-9q-58	unchanged	False	1	SA-9q-58:1	False	SA-9q-58:1
+SA	9q	SA-9q-119	new	False	1	SA-9q-21:1		
+SA	9q	SA-9q-63	unchanged	False	1	SA-9q-63:1	False	SA-9q-63:1
+SA	9q	SA-9q-120	new	False	1	SA-9q-07:1		
+SA	9q	SA-9q-91	unchanged	False	1	SA-9q-91:1	False	SA-9q-91:1
+SA	9q	SA-9q-96	unchanged	False	1	SA-9q-96:1	False	SA-9q-96:1
+SA	9q	SA-9q-100	unchanged	False	1	SA-9q-100:1	False	SA-9q-100:1
+SA	9q	SA-9q-109	unchanged	False	1	SA-9q-109:1	False	SA-9q-109:1
+SA	9q	SA-9q-46	kept_changed	False	1	SA-9q-46:1	False	SA-9q-121:1;SA-9q-46:1
+SA	9q	SA-9q-121	new	False	1	SA-9q-46:1		
+SA	9q	SA-9q-61	unchanged	False	1	SA-9q-61:1	False	SA-9q-61:1
+SA	9q	SA-9q-122	new	False	1	SA-9q-12:1		
+SA	9q	SA-9q-37	kept_changed	False	1	SA-9q-37:1	False	SA-9q-123:1;SA-9q-37:1
+SA	9q	SA-9q-123	new	False	1	SA-9q-37:1		
+SA	9q	SA-9q-124	new	False	1	SA-9q-03:1		
+SA	9q	SA-9q-50	unchanged	False	1	SA-9q-50:1	False	SA-9q-50:1
+SA	9q	SA-9q-125	new	False	1	SA-9q-36:1		
+SA	9q	SA-9q-57	unchanged	False	1	SA-9q-57:1	False	SA-9q-57:1
+SA	9q	SA-9q-49	unchanged	False	1	SA-9q-49:1	False	SA-9q-49:1
+SA	9q	SA-9q-71	unchanged	False	1	SA-9q-71:1	False	SA-9q-71:1
+SA	9q	SA-9q-51	unchanged	False	1	SA-9q-51:1	False	SA-9q-51:1
+SA	9q	SA-9q-53	unchanged	False	1	SA-9q-53:1	False	SA-9q-53:1
+SA	9q	SA-9q-111	unchanged	False	1	SA-9q-111:1	False	SA-9q-111:1
+SA	9q	SA-9q-104	unchanged	False	1	SA-9q-104:1	False	SA-9q-104:1
+SA	9q	SA-9q-04	retired	False	0		True	SA-9q-02:6;SA-9q-116:12
+SA	9q	SA-9q-05	retired	False	0		False	SA-9q-03:16
+SA	9q	SA-9q-06	retired	False	0		False	SA-9q-03:14;SA-9q-14:1
+SA	9q	SA-9q-07	retired	False	0		True	SA-9q-02:7;SA-9q-116:6;SA-9q-120:1
+SA	9q	SA-9q-10	retired	False	0		False	SA-9q-08:7
+SA	9q	SA-9q-13	retired	False	0		False	SA-9q-03:5
+SA	9q	SA-9q-15	retired	False	0		False	SA-9q-08:4
+SA	9q	SA-9q-16	retired	False	0		False	SA-9q-02:3;SA-9q-116:1
+SA	9q	SA-9q-17	retired	False	0		False	SA-9q-09:3
+SA	9q	SA-9q-18	retired	False	0		False	SA-9q-03:3
+SA	9q	SA-9q-19	retired	False	0		False	SA-9q-03:3
+SA	9q	SA-9q-21	retired	False	0		False	SA-9q-117:1;SA-9q-119:1;SA-9q-12:1
+SA	9q	SA-9q-22	retired	False	0		False	SA-9q-08:3
+SA	9q	SA-9q-23	retired	False	0		False	SA-9q-03:1;SA-9q-14:1
+SA	9q	SA-9q-24	retired	False	0		False	SA-9q-14:3
+SA	9q	SA-9q-26	retired	False	0		False	SA-9q-116:3
+SA	9q	SA-9q-30	retired	False	0		False	SA-9q-29:3
+SA	9q	SA-9q-32	retired	False	0		False	SA-9q-03:2
+SA	9q	SA-9q-33	retired	False	0		False	SA-9q-09:2
+SA	9q	SA-9q-34	retired	False	0		False	SA-9q-03:2
+SA	9q	SA-9q-35	retired	False	0		False	SA-9q-03:2
+SA	9q	SA-9q-36	retired	False	0		False	SA-9q-11:1;SA-9q-125:1
+SA	9q	SA-9q-38	retired	False	0		False	SA-9q-14:2
+SA	9q	SA-9q-40	retired	False	0		False	SA-9q-25:2
+SA	9q	SA-9q-41	retired	False	0		False	SA-9q-08:2
+SA	9q	SA-9q-43	retired	False	0		False	SA-9q-42:2
+SA	9q	SA-9q-44	retired	False	0		False	SA-9q-29:2
+SA	9q	SA-9q-45	retired	False	0		False	SA-9q-29:2
+SA	9q	SA-9q-48	retired	False	0		False	SA-9q-31:2
+SA	9q	SA-9q-52	retired	False	0		False	SA-9q-03:1
+SA	9q	SA-9q-54	retired	False	0		False	SA-9q-09:1
+SA	9q	SA-9q-55	retired	False	0		False	SA-9q-09:1
+SA	9q	SA-9q-56	retired	False	0		False	SA-9q-14:1
+SA	9q	SA-9q-59	retired	False	0		False	SA-9q-09:1
+SA	9q	SA-9q-60	retired	False	0		False	SA-9q-29:1
+SA	9q	SA-9q-62	retired	False	0		False	SA-9q-117:1
+SA	9q	SA-9q-64	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-65	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-66	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-67	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-68	retired	False	0		False	SA-9q-03:1
+SA	9q	SA-9q-72	retired	False	0		False	SA-9q-70:1
+SA	9q	SA-9q-74	retired	False	0		False	SA-9q-25:1
+SA	9q	SA-9q-75	retired	False	0		False	SA-9q-25:1
+SA	9q	SA-9q-76	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-77	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-78	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-79	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-80	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-81	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-82	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-83	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-84	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-85	retired	False	0		False	SA-9q-02:2
+SA	9q	SA-9q-86	retired	False	0		False	SA-9q-116:1
+SA	9q	SA-9q-87	retired	False	0		False	SA-9q-116:1
+SA	9q	SA-9q-88	retired	False	0		False	SA-9q-28:1
+SA	9q	SA-9q-89	retired	False	0		False	SA-9q-28:1
+SA	9q	SA-9q-92	retired	False	0		False	SA-9q-90:1
+SA	9q	SA-9q-93	retired	False	0		False	SA-9q-90:1
+SA	9q	SA-9q-94	retired	False	0		False	SA-9q-90:1
+SA	9q	SA-9q-95	retired	False	0		False	SA-9q-90:1
+SA	9q	SA-9q-97	retired	False	0		False	SA-9q-14:1
+SA	9q	SA-9q-98	retired	False	0		False	SA-9q-14:1
+SA	9q	SA-9q-99	retired	False	0		False	SA-9q-14:1
+SA	9q	SA-9q-101	retired	False	0		False	SA-9q-29:1
+SA	9q	SA-9q-102	retired	False	0		False	SA-9q-29:1
+SA	9q	SA-9q-103	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-105	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-106	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-107	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-108	retired	False	0		False	SA-9q-08:1
+SA	9q	SA-9q-110	retired	False	0		False	SA-9q-12:1
+SA	9q	SA-9q-112	retired	False	0		False	SA-9q-31:1
+SA	9q	SA-9q-114	retired	False	0		False	SA-9q-14:2
+SA	9q	SA-9q-115	retired	False	0		False	SA-9q-14:1
+SA	PAR1	SA-PAR1-01	kept_changed	False	434	SA-PAR1-01:434	True	SA-PAR1-01:434;SA-PAR1-02:7;SA-PAR1-03:1
+SA	PAR1	SA-PAR1-02	kept_changed	False	8	SA-PAR1-01:7;SA-PAR1-02:1	False	SA-PAR1-02:1
+SA	PAR1	SA-PAR1-03	new	False	1	SA-PAR1-01:1		
+SA	PAR2	SA-PAR2-01	kept_changed	True	392	SA-PAR2-01:341;SA-PAR2-02:45;SA-PAR2-03:4;SA-PAR2-04:2	True	SA-PAR2-01:341;SA-PAR2-02:4;SA-PAR2-03:12;SA-PAR2-07:18
+SA	PAR2	SA-PAR2-07	new	True	22	SA-PAR2-01:18;SA-PAR2-02:2;SA-PAR2-04:1;SA-PAR2-05:1		
+SA	PAR2	SA-PAR2-03	kept_changed	True	18	SA-PAR2-01:12;SA-PAR2-03:3;SA-PAR2-02:1;SA-PAR2-04:1;SA-PAR2-05:1	True	SA-PAR2-01:4;SA-PAR2-03:3
+SA	PAR2	SA-PAR2-02	kept_changed	True	12	SA-PAR2-02:7;SA-PAR2-01:4;SA-PAR2-04:1	True	SA-PAR2-01:45;SA-PAR2-02:7;SA-PAR2-03:1;SA-PAR2-07:2
+SA	PAR2	SA-PAR2-06	unchanged	False	1	SA-PAR2-06:1	False	SA-PAR2-06:1
+SA	PAR2	SA-PAR2-04	retired	False	0		False	SA-PAR2-01:2;SA-PAR2-02:1;SA-PAR2-03:1;SA-PAR2-07:1
+SA	PAR2	SA-PAR2-05	retired	False	0		False	SA-PAR2-03:1;SA-PAR2-07:1
+SA	acroP	SA-acroP-01	kept_changed	False	1986	SA-acroP-01:1983;SA-acroP-08:1;SA-acroP-11:1;SA-acroP-12:1	True	SA-acroP-01:1983;SA-acroP-02:11;SA-acroP-14:3;SA-acroP-15:1
+SA	acroP	SA-acroP-02	kept_changed	True	54	SA-acroP-02:43;SA-acroP-01:11	True	SA-acroP-02:43;SA-acroP-15:11
+SA	acroP	SA-acroP-15	new	False	12	SA-acroP-02:11;SA-acroP-01:1		
+SA	acroP	SA-acroP-14	kept_changed	False	4	SA-acroP-01:3;SA-acroP-14:1	False	SA-acroP-14:1
+SA	acroP	SA-acroP-03	kept_changed	False	1	SA-acroP-03:1	False	SA-acroP-03:1;SA-acroP-16:1
+SA	acroP	SA-acroP-09	unchanged	False	1	SA-acroP-09:1	False	SA-acroP-09:1
+SA	acroP	SA-acroP-05	unchanged	False	1	SA-acroP-05:1	False	SA-acroP-05:1
+SA	acroP	SA-acroP-10	unchanged	False	1	SA-acroP-10:1	False	SA-acroP-10:1
+SA	acroP	SA-acroP-06	unchanged	False	1	SA-acroP-06:1	False	SA-acroP-06:1
+SA	acroP	SA-acroP-16	new	False	1	SA-acroP-03:1		
+SA	acroP	SA-acroP-13	unchanged	False	1	SA-acroP-13:1	False	SA-acroP-13:1
+SA	acroP	SA-acroP-08	retired	False	0		False	SA-acroP-01:1
+SA	acroP	SA-acroP-11	retired	False	0		False	SA-acroP-01:1
+SA	acroP	SA-acroP-12	retired	False	0		False	SA-acroP-01:1
+HG	10p	HG-10p-01	unchanged	False	433	HG-10p-01:433	False	HG-10p-01:433
+HG	10p	HG-10p-02	unchanged	False	2	HG-10p-02:2	False	HG-10p-02:2
+HG	10p	HG-10p-03	unchanged	False	1	HG-10p-03:1	False	HG-10p-03:1
+HG	10q	HG-10q-01	unchanged	False	263	HG-10q-01:263	False	HG-10q-01:263
+HG	10q	HG-10q-02	unchanged	False	39	HG-10q-02:39	False	HG-10q-02:39
+HG	10q	HG-10q-03	unchanged	False	30	HG-10q-03:30	False	HG-10q-03:30
+HG	10q	HG-10q-04	unchanged	False	24	HG-10q-04:24	False	HG-10q-04:24
+HG	10q	HG-10q-05	unchanged	False	16	HG-10q-05:16	False	HG-10q-05:16
+HG	10q	HG-10q-06	unchanged	False	17	HG-10q-06:17	False	HG-10q-06:17
+HG	10q	HG-10q-07	unchanged	False	14	HG-10q-07:14	False	HG-10q-07:14
+HG	10q	HG-10q-08	unchanged	False	3	HG-10q-08:3	False	HG-10q-08:3
+HG	10q	HG-10q-09	unchanged	False	3	HG-10q-09:3	False	HG-10q-09:3
+HG	10q	HG-10q-10	unchanged	False	3	HG-10q-10:3	False	HG-10q-10:3
+HG	10q	HG-10q-11	unchanged	False	2	HG-10q-11:2	False	HG-10q-11:2
+HG	10q	HG-10q-12	unchanged	False	6	HG-10q-12:6	False	HG-10q-12:6
+HG	10q	HG-10q-13	unchanged	False	2	HG-10q-13:2	False	HG-10q-13:2
+HG	10q	HG-10q-14	unchanged	False	1	HG-10q-14:1	False	HG-10q-14:1
+HG	10q	HG-10q-15	unchanged	False	1	HG-10q-15:1	False	HG-10q-15:1
+HG	10q	HG-10q-16	unchanged	False	1	HG-10q-16:1	False	HG-10q-16:1
+HG	10q	HG-10q-17	unchanged	False	1	HG-10q-17:1	False	HG-10q-17:1
+HG	10q	HG-10q-18	unchanged	False	1	HG-10q-18:1	False	HG-10q-18:1
+HG	10q	HG-10q-19	unchanged	False	1	HG-10q-19:1	False	HG-10q-19:1
+HG	10q	HG-10q-20	unchanged	False	1	HG-10q-20:1	False	HG-10q-20:1
+HG	10q	HG-10q-21	unchanged	False	1	HG-10q-21:1	False	HG-10q-21:1
+HG	10q	HG-10q-22	unchanged	False	1	HG-10q-22:1	False	HG-10q-22:1
+HG	10q	HG-10q-23	unchanged	False	1	HG-10q-23:1	False	HG-10q-23:1
+HG	10q	HG-10q-24	unchanged	False	1	HG-10q-24:1	False	HG-10q-24:1
+HG	10q	HG-10q-25	unchanged	False	1	HG-10q-25:1	False	HG-10q-25:1
+HG	10q	HG-10q-26	unchanged	False	1	HG-10q-26:1	False	HG-10q-26:1
+HG	10q	HG-10q-27	unchanged	False	3	HG-10q-27:3	False	HG-10q-27:3
+HG	10q	HG-10q-28	unchanged	False	1	HG-10q-28:1	False	HG-10q-28:1
+HG	10q	HG-10q-29	unchanged	False	1	HG-10q-29:1	False	HG-10q-29:1
+HG	10q	HG-10q-30	unchanged	False	1	HG-10q-30:1	False	HG-10q-30:1
+HG	10q	HG-10q-31	unchanged	False	3	HG-10q-31:3	False	HG-10q-31:3
+HG	10q	HG-10q-32	unchanged	False	1	HG-10q-32:1	False	HG-10q-32:1
+HG	10q	HG-10q-33	unchanged	False	1	HG-10q-33:1	False	HG-10q-33:1
+HG	10q	HG-10q-34	unchanged	False	1	HG-10q-34:1	False	HG-10q-34:1
+HG	11p	HG-11p-01	unchanged	False	107	HG-11p-01:107	False	HG-11p-01:107
+HG	11p	HG-11p-02	unchanged	False	74	HG-11p-02:74	False	HG-11p-02:74
+HG	11p	HG-11p-03	unchanged	False	67	HG-11p-03:67	False	HG-11p-03:67
+HG	11p	HG-11p-04	unchanged	False	54	HG-11p-04:54	False	HG-11p-04:54
+HG	11p	HG-11p-05	unchanged	False	33	HG-11p-05:33	False	HG-11p-05:33
+HG	11p	HG-11p-06	unchanged	False	28	HG-11p-06:28	False	HG-11p-06:28
+HG	11p	HG-11p-07	unchanged	False	27	HG-11p-07:27	False	HG-11p-07:27
+HG	11p	HG-11p-08	unchanged	False	21	HG-11p-08:21	False	HG-11p-08:21
+HG	11p	HG-11p-09	unchanged	False	12	HG-11p-09:12	False	HG-11p-09:12
+HG	11p	HG-11p-10	unchanged	False	6	HG-11p-10:6	False	HG-11p-10:6
+HG	11p	HG-11p-11	unchanged	False	3	HG-11p-11:3	False	HG-11p-11:3
+HG	11p	HG-11p-12	unchanged	False	2	HG-11p-12:2	False	HG-11p-12:2
+HG	11p	HG-11p-13	unchanged	False	3	HG-11p-13:3	False	HG-11p-13:3
+HG	11p	HG-11p-14	unchanged	False	2	HG-11p-14:2	False	HG-11p-14:2
+HG	11p	HG-11p-15	unchanged	False	2	HG-11p-15:2	False	HG-11p-15:2
+HG	11p	HG-11p-17	unchanged	False	1	HG-11p-17:1	False	HG-11p-17:1
+HG	11p	HG-11p-18	unchanged	False	1	HG-11p-18:1	False	HG-11p-18:1
+HG	11p	HG-11p-19	unchanged	False	2	HG-11p-19:2	False	HG-11p-19:2
+HG	11p	HG-11p-20	unchanged	False	1	HG-11p-20:1	False	HG-11p-20:1
+HG	11p	HG-11p-23	unchanged	False	3	HG-11p-23:3	False	HG-11p-23:3
+HG	11q	HG-11q-01	unchanged	False	444	HG-11q-01:444	False	HG-11q-01:444
+HG	12p	HG-12p-01	unchanged	False	432	HG-12p-01:432	False	HG-12p-01:432
+HG	12p	HG-12p-02	unchanged	False	14	HG-12p-02:14	False	HG-12p-02:14
+HG	12q	HG-12q-01	unchanged	False	423	HG-12q-01:423	False	HG-12q-01:423
+HG	12q	HG-12q-02	unchanged	False	22	HG-12q-02:22	False	HG-12q-02:22
+HG	12q	HG-12q-03	unchanged	False	1	HG-12q-03:1	False	HG-12q-03:1
+HG	12q	HG-12q-04	unchanged	False	1	HG-12q-04:1	False	HG-12q-04:1
+HG	12q	HG-12q-05	unchanged	False	1	HG-12q-05:1	False	HG-12q-05:1
+HG	13q	HG-13q-01	unchanged	False	442	HG-13q-01:442	False	HG-13q-01:442
+HG	13q	HG-13q-02	unchanged	False	2	HG-13q-02:2	False	HG-13q-02:2
+HG	13q	HG-13q-03	unchanged	False	1	HG-13q-03:1	False	HG-13q-03:1
+HG	14q	HG-14q-01	unchanged	False	441	HG-14q-01:441	False	HG-14q-01:441
+HG	14q	HG-14q-02	unchanged	False	1	HG-14q-02:1	False	HG-14q-02:1
+HG	15q	HG-15q-01	unchanged	False	173	HG-15q-01:173	False	HG-15q-01:173
+HG	15q	HG-15q-02	unchanged	False	124	HG-15q-02:124	False	HG-15q-02:124
+HG	15q	HG-15q-03	unchanged	False	55	HG-15q-03:55	False	HG-15q-03:55
+HG	15q	HG-15q-04	unchanged	False	37	HG-15q-04:37	False	HG-15q-04:37
+HG	15q	HG-15q-05	unchanged	False	15	HG-15q-05:15	False	HG-15q-05:15
+HG	15q	HG-15q-06	unchanged	False	15	HG-15q-06:15	False	HG-15q-06:15
+HG	15q	HG-15q-07	unchanged	False	12	HG-15q-07:12	False	HG-15q-07:12
+HG	15q	HG-15q-08	unchanged	False	2	HG-15q-08:2	False	HG-15q-08:2
+HG	15q	HG-15q-09	unchanged	False	2	HG-15q-09:2	False	HG-15q-09:2
+HG	15q	HG-15q-10	unchanged	False	2	HG-15q-10:2	False	HG-15q-10:2
+HG	15q	HG-15q-11	unchanged	False	1	HG-15q-11:1	False	HG-15q-11:1
+HG	15q	HG-15q-12	unchanged	False	1	HG-15q-12:1	False	HG-15q-12:1
+HG	15q	HG-15q-13	unchanged	False	1	HG-15q-13:1	False	HG-15q-13:1
+HG	15q	HG-15q-14	unchanged	False	1	HG-15q-14:1	False	HG-15q-14:1
+HG	15q	HG-15q-15	unchanged	False	1	HG-15q-15:1	False	HG-15q-15:1
+HG	15q	HG-15q-16	unchanged	False	1	HG-15q-16:1	False	HG-15q-16:1
+HG	16p	HG-16p-01	unchanged	False	306	HG-16p-01:306	False	HG-16p-01:306
+HG	16p	HG-16p-02	unchanged	False	42	HG-16p-02:42	False	HG-16p-02:42
+HG	16p	HG-16p-03	unchanged	False	21	HG-16p-03:21	False	HG-16p-03:21
+HG	16p	HG-16p-04	unchanged	False	12	HG-16p-04:12	False	HG-16p-04:12
+HG	16p	HG-16p-05	unchanged	False	11	HG-16p-05:11	False	HG-16p-05:11
+HG	16p	HG-16p-06	unchanged	False	7	HG-16p-06:7	False	HG-16p-06:7
+HG	16p	HG-16p-07	unchanged	False	6	HG-16p-07:6	False	HG-16p-07:6
+HG	16p	HG-16p-08	unchanged	False	6	HG-16p-08:6	False	HG-16p-08:6
+HG	16p	HG-16p-09	unchanged	False	5	HG-16p-09:5	False	HG-16p-09:5
+HG	16p	HG-16p-10	unchanged	False	2	HG-16p-10:2	False	HG-16p-10:2
+HG	16p	HG-16p-11	unchanged	False	2	HG-16p-11:2	False	HG-16p-11:2
+HG	16p	HG-16p-12	unchanged	False	2	HG-16p-12:2	False	HG-16p-12:2
+HG	16p	HG-16p-13	unchanged	False	2	HG-16p-13:2	False	HG-16p-13:2
+HG	16p	HG-16p-14	unchanged	False	3	HG-16p-14:3	False	HG-16p-14:3
+HG	16p	HG-16p-15	unchanged	False	2	HG-16p-15:2	False	HG-16p-15:2
+HG	16p	HG-16p-16	unchanged	False	2	HG-16p-16:2	False	HG-16p-16:2
+HG	16p	HG-16p-17	unchanged	False	2	HG-16p-17:2	False	HG-16p-17:2
+HG	16p	HG-16p-18	unchanged	False	1	HG-16p-18:1	False	HG-16p-18:1
+HG	16q	HG-16q-01	unchanged	False	160	HG-16q-01:160	False	HG-16q-01:160
+HG	16q	HG-16q-02	unchanged	False	74	HG-16q-02:74	False	HG-16q-02:74
+HG	16q	HG-16q-03	unchanged	False	58	HG-16q-03:58	False	HG-16q-03:58
+HG	16q	HG-16q-04	unchanged	False	50	HG-16q-04:50	False	HG-16q-04:50
+HG	16q	HG-16q-05	unchanged	False	24	HG-16q-05:24	False	HG-16q-05:24
+HG	16q	HG-16q-06	unchanged	False	23	HG-16q-06:23	False	HG-16q-06:23
+HG	16q	HG-16q-07	unchanged	False	16	HG-16q-07:16	False	HG-16q-07:16
+HG	16q	HG-16q-08	unchanged	False	5	HG-16q-08:5	False	HG-16q-08:5
+HG	16q	HG-16q-09	unchanged	False	5	HG-16q-09:5	False	HG-16q-09:5
+HG	16q	HG-16q-10	unchanged	False	5	HG-16q-10:5	False	HG-16q-10:5
+HG	16q	HG-16q-11	unchanged	False	4	HG-16q-11:4	False	HG-16q-11:4
+HG	16q	HG-16q-12	unchanged	False	2	HG-16q-12:2	False	HG-16q-12:2
+HG	16q	HG-16q-13	unchanged	False	2	HG-16q-13:2	False	HG-16q-13:2
+HG	16q	HG-16q-14	unchanged	False	2	HG-16q-14:2	False	HG-16q-14:2
+HG	16q	HG-16q-15	unchanged	False	2	HG-16q-15:2	False	HG-16q-15:2
+HG	16q	HG-16q-16	unchanged	False	2	HG-16q-16:2	False	HG-16q-16:2
+HG	16q	HG-16q-17	unchanged	False	1	HG-16q-17:1	False	HG-16q-17:1
+HG	16q	HG-16q-18	unchanged	False	1	HG-16q-18:1	False	HG-16q-18:1
+HG	16q	HG-16q-19	unchanged	False	1	HG-16q-19:1	False	HG-16q-19:1
+HG	16q	HG-16q-20	unchanged	False	1	HG-16q-20:1	False	HG-16q-20:1
+HG	16q	HG-16q-21	unchanged	False	1	HG-16q-21:1	False	HG-16q-21:1
+HG	16q	HG-16q-22	unchanged	False	1	HG-16q-22:1	False	HG-16q-22:1
+HG	16q	HG-16q-23	unchanged	False	1	HG-16q-23:1	False	HG-16q-23:1
+HG	16q	HG-16q-25	unchanged	False	1	HG-16q-25:1	False	HG-16q-25:1
+HG	17p	HG-17p-01	unchanged	False	139	HG-17p-01:139	False	HG-17p-01:139
+HG	17p	HG-17p-02	unchanged	False	123	HG-17p-02:123	False	HG-17p-02:123
+HG	17p	HG-17p-03	unchanged	False	77	HG-17p-03:77	False	HG-17p-03:77
+HG	17p	HG-17p-04	unchanged	False	64	HG-17p-04:64	False	HG-17p-04:64
+HG	17p	HG-17p-05	unchanged	False	10	HG-17p-05:10	False	HG-17p-05:10
+HG	17p	HG-17p-06	unchanged	False	8	HG-17p-06:8	False	HG-17p-06:8
+HG	17p	HG-17p-07	unchanged	False	5	HG-17p-07:5	False	HG-17p-07:5
+HG	17p	HG-17p-08	unchanged	False	4	HG-17p-08:4	False	HG-17p-08:4
+HG	17p	HG-17p-09	unchanged	False	3	HG-17p-09:3	False	HG-17p-09:3
+HG	17p	HG-17p-10	unchanged	False	3	HG-17p-10:3	False	HG-17p-10:3
+HG	17p	HG-17p-11	unchanged	False	2	HG-17p-11:2	False	HG-17p-11:2
+HG	17p	HG-17p-12	unchanged	False	2	HG-17p-12:2	False	HG-17p-12:2
+HG	17p	HG-17p-13	unchanged	False	1	HG-17p-13:1	False	HG-17p-13:1
+HG	17p	HG-17p-14	unchanged	False	1	HG-17p-14:1	False	HG-17p-14:1
+HG	17p	HG-17p-15	unchanged	False	1	HG-17p-15:1	False	HG-17p-15:1
+HG	17p	HG-17p-16	unchanged	False	1	HG-17p-16:1	False	HG-17p-16:1
+HG	17q	HG-17q-01	unchanged	False	212	HG-17q-01:212	False	HG-17q-01:212
+HG	17q	HG-17q-02	unchanged	False	164	HG-17q-02:164	False	HG-17q-02:164
+HG	17q	HG-17q-03	unchanged	False	59	HG-17q-03:59	False	HG-17q-03:59
+HG	17q	HG-17q-04	unchanged	False	9	HG-17q-04:9	False	HG-17q-04:9
+HG	17q	HG-17q-05	unchanged	False	3	HG-17q-05:3	False	HG-17q-05:3
+HG	17q	HG-17q-06	unchanged	False	2	HG-17q-06:2	False	HG-17q-06:2
+HG	17q	HG-17q-07	unchanged	False	1	HG-17q-07:1	False	HG-17q-07:1
+HG	18p	HG-18p-01	unchanged	False	429	HG-18p-01:429	False	HG-18p-01:429
+HG	18p	HG-18p-02	unchanged	False	5	HG-18p-02:5	False	HG-18p-02:5
+HG	18p	HG-18p-03	unchanged	False	3	HG-18p-03:3	False	HG-18p-03:3
+HG	18p	HG-18p-04	unchanged	False	2	HG-18p-04:2	False	HG-18p-04:2
+HG	18q	HG-18q-01	unchanged	False	448	HG-18q-01:448	False	HG-18q-01:448
+HG	19p	HG-19p-01	unchanged	False	196	HG-19p-01:196	False	HG-19p-01:196
+HG	19p	HG-19p-02	unchanged	False	197	HG-19p-02:197	False	HG-19p-02:197
+HG	19p	HG-19p-03	unchanged	False	18	HG-19p-03:18	False	HG-19p-03:18
+HG	19p	HG-19p-04	unchanged	False	5	HG-19p-04:5	False	HG-19p-04:5
+HG	19p	HG-19p-05	unchanged	False	6	HG-19p-05:6	False	HG-19p-05:6
+HG	19p	HG-19p-06	unchanged	False	4	HG-19p-06:4	False	HG-19p-06:4
+HG	19p	HG-19p-07	unchanged	False	4	HG-19p-07:4	False	HG-19p-07:4
+HG	19p	HG-19p-08	unchanged	False	3	HG-19p-08:3	False	HG-19p-08:3
+HG	19p	HG-19p-09	unchanged	False	2	HG-19p-09:2	False	HG-19p-09:2
+HG	19p	HG-19p-10	unchanged	False	2	HG-19p-10:2	False	HG-19p-10:2
+HG	19p	HG-19p-11	unchanged	False	1	HG-19p-11:1	False	HG-19p-11:1
+HG	19p	HG-19p-12	unchanged	False	1	HG-19p-12:1	False	HG-19p-12:1
+HG	19p	HG-19p-13	unchanged	False	1	HG-19p-13:1	False	HG-19p-13:1
+HG	19p	HG-19p-14	unchanged	False	1	HG-19p-14:1	False	HG-19p-14:1
+HG	19p	HG-19p-15	unchanged	False	1	HG-19p-15:1	False	HG-19p-15:1
+HG	19p	HG-19p-16	unchanged	False	1	HG-19p-16:1	False	HG-19p-16:1
+HG	19p	HG-19p-17	unchanged	False	1	HG-19p-17:1	False	HG-19p-17:1
+HG	19q	HG-19q-01	unchanged	False	449	HG-19q-01:449	False	HG-19q-01:449
+HG	19q	HG-19q-02	unchanged	False	2	HG-19q-02:2	False	HG-19q-02:2
+HG	1p	HG-1p-01	unchanged	False	226	HG-1p-01:226	False	HG-1p-01:226
+HG	1p	HG-1p-02	unchanged	False	85	HG-1p-02:85	False	HG-1p-02:85
+HG	1p	HG-1p-03	unchanged	False	72	HG-1p-03:72	False	HG-1p-03:72
+HG	1p	HG-1p-04	unchanged	False	13	HG-1p-04:13	False	HG-1p-04:13
+HG	1p	HG-1p-05	unchanged	False	12	HG-1p-05:12	False	HG-1p-05:12
+HG	1p	HG-1p-06	unchanged	False	4	HG-1p-06:4	False	HG-1p-06:4
+HG	1p	HG-1p-07	unchanged	False	3	HG-1p-07:3	False	HG-1p-07:3
+HG	1p	HG-1p-08	unchanged	False	3	HG-1p-08:3	False	HG-1p-08:3
+HG	1p	HG-1p-09	unchanged	False	2	HG-1p-09:2	False	HG-1p-09:2
+HG	1p	HG-1p-10	unchanged	False	2	HG-1p-10:2	False	HG-1p-10:2
+HG	1p	HG-1p-11	unchanged	False	2	HG-1p-11:2	False	HG-1p-11:2
+HG	1p	HG-1p-12	unchanged	False	2	HG-1p-12:2	False	HG-1p-12:2
+HG	1p	HG-1p-13	unchanged	False	1	HG-1p-13:1	False	HG-1p-13:1
+HG	1p	HG-1p-14	unchanged	False	1	HG-1p-14:1	False	HG-1p-14:1
+HG	1p	HG-1p-15	unchanged	False	1	HG-1p-15:1	False	HG-1p-15:1
+HG	1p	HG-1p-17	unchanged	False	1	HG-1p-17:1	False	HG-1p-17:1
+HG	1p	HG-1p-18	unchanged	False	1	HG-1p-18:1	False	HG-1p-18:1
+HG	1p	HG-1p-19	unchanged	False	1	HG-1p-19:1	False	HG-1p-19:1
+HG	1p	HG-1p-20	unchanged	False	1	HG-1p-20:1	False	HG-1p-20:1
+HG	1p	HG-1p-21	unchanged	False	1	HG-1p-21:1	False	HG-1p-21:1
+HG	1p	HG-1p-22	unchanged	False	1	HG-1p-22:1	False	HG-1p-22:1
+HG	1p	HG-1p-23	unchanged	False	1	HG-1p-23:1	False	HG-1p-23:1
+HG	1p	HG-1p-24	unchanged	False	1	HG-1p-24:1	False	HG-1p-24:1
+HG	1p	HG-1p-25	unchanged	False	1	HG-1p-25:1	False	HG-1p-25:1
+HG	1q	HG-1q-01	unchanged	False	405	HG-1q-01:405	False	HG-1q-01:405
+HG	1q	HG-1q-02	unchanged	False	36	HG-1q-02:36	False	HG-1q-02:36
+HG	1q	HG-1q-03	unchanged	False	1	HG-1q-03:1	False	HG-1q-03:1
+HG	20p	HG-20p-01	unchanged	False	297	HG-20p-01:297	False	HG-20p-01:297
+HG	20p	HG-20p-02	unchanged	False	105	HG-20p-02:105	False	HG-20p-02:105
+HG	20p	HG-20p-03	unchanged	False	28	HG-20p-03:28	False	HG-20p-03:28
+HG	20p	HG-20p-04	unchanged	False	5	HG-20p-04:5	False	HG-20p-04:5
+HG	20p	HG-20p-05	unchanged	False	5	HG-20p-05:5	False	HG-20p-05:5
+HG	20p	HG-20p-06	unchanged	False	2	HG-20p-06:2	False	HG-20p-06:2
+HG	20p	HG-20p-07	unchanged	False	2	HG-20p-07:2	False	HG-20p-07:2
+HG	20p	HG-20p-08	unchanged	False	1	HG-20p-08:1	False	HG-20p-08:1
+HG	20p	HG-20p-09	unchanged	False	1	HG-20p-09:1	False	HG-20p-09:1
+HG	20p	HG-20p-10	unchanged	False	1	HG-20p-10:1	False	HG-20p-10:1
+HG	20q	HG-20q-01	unchanged	False	194	HG-20q-01:194	False	HG-20q-01:194
+HG	20q	HG-20q-02	unchanged	False	176	HG-20q-02:176	False	HG-20q-02:176
+HG	20q	HG-20q-03	unchanged	False	32	HG-20q-03:32	False	HG-20q-03:32
+HG	20q	HG-20q-04	unchanged	False	25	HG-20q-04:25	False	HG-20q-04:25
+HG	20q	HG-20q-05	unchanged	False	9	HG-20q-05:9	False	HG-20q-05:9
+HG	20q	HG-20q-06	unchanged	False	2	HG-20q-06:2	False	HG-20q-06:2
+HG	20q	HG-20q-07	unchanged	False	2	HG-20q-07:2	False	HG-20q-07:2
+HG	20q	HG-20q-08	unchanged	False	1	HG-20q-08:1	False	HG-20q-08:1
+HG	20q	HG-20q-09	unchanged	False	2	HG-20q-09:2	False	HG-20q-09:2
+HG	21q	HG-21q-01	unchanged	False	444	HG-21q-01:444	False	HG-21q-01:444
+HG	21q	HG-21q-02	unchanged	False	1	HG-21q-02:1	False	HG-21q-02:1
+HG	22q	HG-22q-01	unchanged	False	442	HG-22q-01:442	False	HG-22q-01:442
+HG	22q	HG-22q-02	unchanged	False	1	HG-22q-02:1	False	HG-22q-02:1
+HG	22q	HG-22q-03	unchanged	False	1	HG-22q-03:1	False	HG-22q-03:1
+HG	2p	HG-2p-01	unchanged	False	440	HG-2p-01:440	False	HG-2p-01:440
+HG	2p	HG-2p-02	unchanged	False	1	HG-2p-02:1	False	HG-2p-02:1
+HG	2q	HG-2q-01	unchanged	False	403	HG-2q-01:403	False	HG-2q-01:403
+HG	2q	HG-2q-02	unchanged	False	17	HG-2q-02:17	False	HG-2q-02:17
+HG	2q	HG-2q-03	unchanged	False	7	HG-2q-03:7	False	HG-2q-03:7
+HG	2q	HG-2q-04	unchanged	False	6	HG-2q-04:6	False	HG-2q-04:6
+HG	2q	HG-2q-05	unchanged	False	3	HG-2q-05:3	False	HG-2q-05:3
+HG	2q	HG-2q-06	unchanged	False	3	HG-2q-06:3	False	HG-2q-06:3
+HG	2q	HG-2q-07	unchanged	False	2	HG-2q-07:2	False	HG-2q-07:2
+HG	2q	HG-2q-08	unchanged	False	1	HG-2q-08:1	False	HG-2q-08:1
+HG	2q	HG-2q-09	unchanged	False	1	HG-2q-09:1	False	HG-2q-09:1
+HG	2q	HG-2q-10	unchanged	False	1	HG-2q-10:1	False	HG-2q-10:1
+HG	3p	HG-3p-01	unchanged	False	446	HG-3p-01:446	False	HG-3p-01:446
+HG	3q	HG-3q-01	unchanged	False	347	HG-3q-01:347	False	HG-3q-01:347
+HG	3q	HG-3q-02	unchanged	False	72	HG-3q-02:72	False	HG-3q-02:72
+HG	3q	HG-3q-03	unchanged	False	3	HG-3q-03:3	False	HG-3q-03:3
+HG	3q	HG-3q-04	unchanged	False	3	HG-3q-04:3	False	HG-3q-04:3
+HG	3q	HG-3q-05	unchanged	False	2	HG-3q-05:2	False	HG-3q-05:2
+HG	3q	HG-3q-06	unchanged	False	1	HG-3q-06:1	False	HG-3q-06:1
+HG	3q	HG-3q-07	unchanged	False	1	HG-3q-07:1	False	HG-3q-07:1
+HG	3q	HG-3q-08	unchanged	False	1	HG-3q-08:1	False	HG-3q-08:1
+HG	3q	HG-3q-09	unchanged	False	1	HG-3q-09:1	False	HG-3q-09:1
+HG	3q	HG-3q-10	unchanged	False	1	HG-3q-10:1	False	HG-3q-10:1
+HG	3q	HG-3q-11	unchanged	False	1	HG-3q-11:1	False	HG-3q-11:1
+HG	3q	HG-3q-12	unchanged	False	1	HG-3q-12:1	False	HG-3q-12:1
+HG	3q	HG-3q-13	unchanged	False	1	HG-3q-13:1	False	HG-3q-13:1
+HG	3q	HG-3q-14	unchanged	False	1	HG-3q-14:1	False	HG-3q-14:1
+HG	3q	HG-3q-15	unchanged	False	1	HG-3q-15:1	False	HG-3q-15:1
+HG	3q	HG-3q-16	unchanged	False	1	HG-3q-16:1	False	HG-3q-16:1
+HG	4p	HG-4p-01	unchanged	False	371	HG-4p-01:371	False	HG-4p-01:371
+HG	4p	HG-4p-02	unchanged	False	72	HG-4p-02:72	False	HG-4p-02:72
+HG	4p	HG-4p-03	unchanged	False	1	HG-4p-03:1	False	HG-4p-03:1
+HG	4p	HG-4p-04	unchanged	False	1	HG-4p-04:1	False	HG-4p-04:1
+HG	4p	HG-4p-05	unchanged	False	1	HG-4p-05:1	False	HG-4p-05:1
+HG	4q	HG-4q-01	unchanged	False	153	HG-4q-01:153	False	HG-4q-01:153
+HG	4q	HG-4q-02	unchanged	False	99	HG-4q-02:99	False	HG-4q-02:99
+HG	4q	HG-4q-03	unchanged	False	75	HG-4q-03:75	False	HG-4q-03:75
+HG	4q	HG-4q-04	unchanged	False	23	HG-4q-04:23	False	HG-4q-04:23
+HG	4q	HG-4q-05	unchanged	False	14	HG-4q-05:14	False	HG-4q-05:14
+HG	4q	HG-4q-06	unchanged	False	8	HG-4q-06:8	False	HG-4q-06:8
+HG	4q	HG-4q-07	unchanged	False	11	HG-4q-07:11	False	HG-4q-07:11
+HG	4q	HG-4q-08	unchanged	False	6	HG-4q-08:6	False	HG-4q-08:6
+HG	4q	HG-4q-09	unchanged	False	6	HG-4q-09:6	False	HG-4q-09:6
+HG	4q	HG-4q-10	unchanged	False	4	HG-4q-10:4	False	HG-4q-10:4
+HG	4q	HG-4q-11	unchanged	False	3	HG-4q-11:3	False	HG-4q-11:3
+HG	4q	HG-4q-12	unchanged	False	2	HG-4q-12:2	False	HG-4q-12:2
+HG	4q	HG-4q-13	unchanged	False	3	HG-4q-13:3	False	HG-4q-13:3
+HG	4q	HG-4q-14	unchanged	False	2	HG-4q-14:2	False	HG-4q-14:2
+HG	4q	HG-4q-15	unchanged	False	1	HG-4q-15:1	False	HG-4q-15:1
+HG	4q	HG-4q-16	unchanged	False	1	HG-4q-16:1	False	HG-4q-16:1
+HG	4q	HG-4q-17	unchanged	False	1	HG-4q-17:1	False	HG-4q-17:1
+HG	4q	HG-4q-18	unchanged	False	1	HG-4q-18:1	False	HG-4q-18:1
+HG	4q	HG-4q-19	unchanged	False	1	HG-4q-19:1	False	HG-4q-19:1
+HG	4q	HG-4q-20	unchanged	False	1	HG-4q-20:1	False	HG-4q-20:1
+HG	4q	HG-4q-21	unchanged	False	1	HG-4q-21:1	False	HG-4q-21:1
+HG	4q	HG-4q-22	unchanged	False	1	HG-4q-22:1	False	HG-4q-22:1
+HG	4q	HG-4q-23	unchanged	False	1	HG-4q-23:1	False	HG-4q-23:1
+HG	4q	HG-4q-24	unchanged	False	1	HG-4q-24:1	False	HG-4q-24:1
+HG	4q	HG-4q-25	unchanged	False	1	HG-4q-25:1	False	HG-4q-25:1
+HG	4q	HG-4q-26	unchanged	False	1	HG-4q-26:1	False	HG-4q-26:1
+HG	4q	HG-4q-27	unchanged	False	1	HG-4q-27:1	False	HG-4q-27:1
+HG	4q	HG-4q-28	unchanged	False	1	HG-4q-28:1	False	HG-4q-28:1
+HG	4q	HG-4q-29	unchanged	False	1	HG-4q-29:1	False	HG-4q-29:1
+HG	4q	HG-4q-30	unchanged	False	1	HG-4q-30:1	False	HG-4q-30:1
+HG	4q	HG-4q-31	unchanged	False	1	HG-4q-31:1	False	HG-4q-31:1
+HG	4q	HG-4q-32	unchanged	False	1	HG-4q-32:1	False	HG-4q-32:1
+HG	4q	HG-4q-33	unchanged	False	1	HG-4q-33:1	False	HG-4q-33:1
+HG	5p	HG-5p-01	unchanged	False	438	HG-5p-01:438	False	HG-5p-01:438
+HG	5p	HG-5p-02	unchanged	False	9	HG-5p-02:9	False	HG-5p-02:9
+HG	5p	HG-5p-03	unchanged	False	2	HG-5p-03:2	False	HG-5p-03:2
+HG	5p	HG-5p-04	unchanged	False	2	HG-5p-04:2	False	HG-5p-04:2
+HG	5q	HG-5q-01	unchanged	False	218	HG-5q-01:218	False	HG-5q-01:218
+HG	5q	HG-5q-02	unchanged	False	51	HG-5q-02:51	False	HG-5q-02:51
+HG	5q	HG-5q-03	unchanged	False	48	HG-5q-03:48	False	HG-5q-03:48
+HG	5q	HG-5q-04	unchanged	False	43	HG-5q-04:43	False	HG-5q-04:43
+HG	5q	HG-5q-05	unchanged	False	30	HG-5q-05:30	False	HG-5q-05:30
+HG	5q	HG-5q-06	unchanged	False	12	HG-5q-06:12	False	HG-5q-06:12
+HG	5q	HG-5q-07	unchanged	False	9	HG-5q-07:9	False	HG-5q-07:9
+HG	5q	HG-5q-08	unchanged	False	7	HG-5q-08:7	False	HG-5q-08:7
+HG	5q	HG-5q-09	unchanged	False	5	HG-5q-09:5	False	HG-5q-09:5
+HG	5q	HG-5q-10	unchanged	False	3	HG-5q-10:3	False	HG-5q-10:3
+HG	5q	HG-5q-11	unchanged	False	2	HG-5q-11:2	False	HG-5q-11:2
+HG	5q	HG-5q-12	unchanged	False	2	HG-5q-12:2	False	HG-5q-12:2
+HG	5q	HG-5q-13	unchanged	False	2	HG-5q-13:2	False	HG-5q-13:2
+HG	5q	HG-5q-14	unchanged	False	2	HG-5q-14:2	False	HG-5q-14:2
+HG	5q	HG-5q-15	unchanged	False	1	HG-5q-15:1	False	HG-5q-15:1
+HG	5q	HG-5q-16	unchanged	False	1	HG-5q-16:1	False	HG-5q-16:1
+HG	5q	HG-5q-17	unchanged	False	1	HG-5q-17:1	False	HG-5q-17:1
+HG	5q	HG-5q-18	unchanged	False	1	HG-5q-18:1	False	HG-5q-18:1
+HG	5q	HG-5q-19	unchanged	False	1	HG-5q-19:1	False	HG-5q-19:1
+HG	5q	HG-5q-20	unchanged	False	1	HG-5q-20:1	False	HG-5q-20:1
+HG	5q	HG-5q-21	unchanged	False	1	HG-5q-21:1	False	HG-5q-21:1
+HG	5q	HG-5q-22	unchanged	False	1	HG-5q-22:1	False	HG-5q-22:1
+HG	5q	HG-5q-23	unchanged	False	1	HG-5q-23:1	False	HG-5q-23:1
+HG	6p	HG-6p-01	unchanged	False	160	HG-6p-01:160	False	HG-6p-01:160
+HG	6p	HG-6p-02	unchanged	False	73	HG-6p-02:73	False	HG-6p-02:73
+HG	6p	HG-6p-03	unchanged	False	49	HG-6p-03:49	False	HG-6p-03:49
+HG	6p	HG-6p-04	unchanged	False	42	HG-6p-04:42	False	HG-6p-04:42
+HG	6p	HG-6p-05	unchanged	False	31	HG-6p-05:31	False	HG-6p-05:31
+HG	6p	HG-6p-06	unchanged	False	16	HG-6p-06:16	False	HG-6p-06:16
+HG	6p	HG-6p-07	unchanged	False	12	HG-6p-07:12	False	HG-6p-07:12
+HG	6p	HG-6p-08	unchanged	False	12	HG-6p-08:12	False	HG-6p-08:12
+HG	6p	HG-6p-09	unchanged	False	10	HG-6p-09:10	False	HG-6p-09:10
+HG	6p	HG-6p-10	unchanged	False	10	HG-6p-10:10	False	HG-6p-10:10
+HG	6p	HG-6p-11	unchanged	False	5	HG-6p-11:5	False	HG-6p-11:5
+HG	6p	HG-6p-12	unchanged	False	5	HG-6p-12:5	False	HG-6p-12:5
+HG	6p	HG-6p-13	unchanged	False	3	HG-6p-13:3	False	HG-6p-13:3
+HG	6p	HG-6p-14	unchanged	False	3	HG-6p-14:3	False	HG-6p-14:3
+HG	6p	HG-6p-15	unchanged	False	2	HG-6p-15:2	False	HG-6p-15:2
+HG	6p	HG-6p-16	unchanged	False	1	HG-6p-16:1	False	HG-6p-16:1
+HG	6p	HG-6p-17	unchanged	False	1	HG-6p-17:1	False	HG-6p-17:1
+HG	6p	HG-6p-18	unchanged	False	1	HG-6p-18:1	False	HG-6p-18:1
+HG	6p	HG-6p-19	unchanged	False	1	HG-6p-19:1	False	HG-6p-19:1
+HG	6p	HG-6p-20	unchanged	False	1	HG-6p-20:1	False	HG-6p-20:1
+HG	6p	HG-6p-21	unchanged	False	1	HG-6p-21:1	False	HG-6p-21:1
+HG	6p	HG-6p-22	unchanged	False	1	HG-6p-22:1	False	HG-6p-22:1
+HG	6p	HG-6p-23	unchanged	False	1	HG-6p-23:1	False	HG-6p-23:1
+HG	6p	HG-6p-24	unchanged	False	1	HG-6p-24:1	False	HG-6p-24:1
+HG	6q	HG-6q-01	unchanged	False	204	HG-6q-01:204	False	HG-6q-01:204
+HG	6q	HG-6q-02	unchanged	False	101	HG-6q-02:101	False	HG-6q-02:101
+HG	6q	HG-6q-03	unchanged	False	24	HG-6q-03:24	False	HG-6q-03:24
+HG	6q	HG-6q-04	unchanged	False	21	HG-6q-04:21	False	HG-6q-04:21
+HG	6q	HG-6q-05	unchanged	False	20	HG-6q-05:20	False	HG-6q-05:20
+HG	6q	HG-6q-06	unchanged	False	13	HG-6q-06:13	False	HG-6q-06:13
+HG	6q	HG-6q-07	unchanged	False	9	HG-6q-07:9	False	HG-6q-07:9
+HG	6q	HG-6q-08	unchanged	False	12	HG-6q-08:12	False	HG-6q-08:12
+HG	6q	HG-6q-09	unchanged	False	4	HG-6q-09:4	False	HG-6q-09:4
+HG	6q	HG-6q-10	unchanged	False	4	HG-6q-10:4	False	HG-6q-10:4
+HG	6q	HG-6q-11	unchanged	False	4	HG-6q-11:4	False	HG-6q-11:4
+HG	6q	HG-6q-12	unchanged	False	3	HG-6q-12:3	False	HG-6q-12:3
+HG	6q	HG-6q-13	unchanged	False	3	HG-6q-13:3	False	HG-6q-13:3
+HG	6q	HG-6q-14	unchanged	False	2	HG-6q-14:2	False	HG-6q-14:2
+HG	6q	HG-6q-15	unchanged	False	2	HG-6q-15:2	False	HG-6q-15:2
+HG	6q	HG-6q-16	unchanged	False	1	HG-6q-16:1	False	HG-6q-16:1
+HG	6q	HG-6q-17	unchanged	False	1	HG-6q-17:1	False	HG-6q-17:1
+HG	6q	HG-6q-18	unchanged	False	1	HG-6q-18:1	False	HG-6q-18:1
+HG	6q	HG-6q-19	unchanged	False	1	HG-6q-19:1	False	HG-6q-19:1
+HG	6q	HG-6q-20	unchanged	False	1	HG-6q-20:1	False	HG-6q-20:1
+HG	6q	HG-6q-21	unchanged	False	1	HG-6q-21:1	False	HG-6q-21:1
+HG	6q	HG-6q-22	unchanged	False	1	HG-6q-22:1	False	HG-6q-22:1
+HG	6q	HG-6q-23	unchanged	False	1	HG-6q-23:1	False	HG-6q-23:1
+HG	6q	HG-6q-24	unchanged	False	1	HG-6q-24:1	False	HG-6q-24:1
+HG	6q	HG-6q-25	unchanged	False	1	HG-6q-25:1	False	HG-6q-25:1
+HG	7p	HG-7p-01	unchanged	False	349	HG-7p-01:349	False	HG-7p-01:349
+HG	7p	HG-7p-02	unchanged	False	49	HG-7p-02:49	False	HG-7p-02:49
+HG	7p	HG-7p-03	unchanged	False	15	HG-7p-03:15	False	HG-7p-03:15
+HG	7p	HG-7p-04	unchanged	False	5	HG-7p-04:5	False	HG-7p-04:5
+HG	7p	HG-7p-05	unchanged	False	4	HG-7p-05:4	False	HG-7p-05:4
+HG	7p	HG-7p-06	unchanged	False	3	HG-7p-06:3	False	HG-7p-06:3
+HG	7p	HG-7p-07	unchanged	False	2	HG-7p-07:2	False	HG-7p-07:2
+HG	7p	HG-7p-08	unchanged	False	2	HG-7p-08:2	False	HG-7p-08:2
+HG	7p	HG-7p-09	unchanged	False	1	HG-7p-09:1	False	HG-7p-09:1
+HG	7p	HG-7p-10	unchanged	False	1	HG-7p-10:1	False	HG-7p-10:1
+HG	7p	HG-7p-11	unchanged	False	1	HG-7p-11:1	False	HG-7p-11:1
+HG	7p	HG-7p-12	unchanged	False	1	HG-7p-12:1	False	HG-7p-12:1
+HG	7p	HG-7p-13	unchanged	False	1	HG-7p-13:1	False	HG-7p-13:1
+HG	7p	HG-7p-14	unchanged	False	1	HG-7p-14:1	False	HG-7p-14:1
+HG	7p	HG-7p-15	unchanged	False	1	HG-7p-15:1	False	HG-7p-15:1
+HG	7p	HG-7p-16	unchanged	False	1	HG-7p-16:1	False	HG-7p-16:1
+HG	7q	HG-7q-01	unchanged	False	435	HG-7q-01:435	False	HG-7q-01:435
+HG	7q	HG-7q-02	unchanged	False	6	HG-7q-02:6	False	HG-7q-02:6
+HG	7q	HG-7q-03	unchanged	False	3	HG-7q-03:3	False	HG-7q-03:3
+HG	7q	HG-7q-04	unchanged	False	1	HG-7q-04:1	False	HG-7q-04:1
+HG	8p	HG-8p-01	unchanged	False	217	HG-8p-01:217	False	HG-8p-01:217
+HG	8p	HG-8p-02	unchanged	False	142	HG-8p-02:142	False	HG-8p-02:142
+HG	8p	HG-8p-03	unchanged	False	40	HG-8p-03:40	False	HG-8p-03:40
+HG	8p	HG-8p-04	unchanged	False	14	HG-8p-04:14	False	HG-8p-04:14
+HG	8p	HG-8p-05	unchanged	False	11	HG-8p-05:11	False	HG-8p-05:11
+HG	8p	HG-8p-06	unchanged	False	10	HG-8p-06:10	False	HG-8p-06:10
+HG	8p	HG-8p-07	unchanged	False	4	HG-8p-07:4	False	HG-8p-07:4
+HG	8p	HG-8p-08	unchanged	False	3	HG-8p-08:3	False	HG-8p-08:3
+HG	8p	HG-8p-09	unchanged	False	2	HG-8p-09:2	False	HG-8p-09:2
+HG	8p	HG-8p-10	unchanged	False	2	HG-8p-10:2	False	HG-8p-10:2
+HG	8p	HG-8p-11	unchanged	False	1	HG-8p-11:1	False	HG-8p-11:1
+HG	8p	HG-8p-12	unchanged	False	1	HG-8p-12:1	False	HG-8p-12:1
+HG	8p	HG-8p-13	unchanged	False	1	HG-8p-13:1	False	HG-8p-13:1
+HG	8p	HG-8p-14	unchanged	False	1	HG-8p-14:1	False	HG-8p-14:1
+HG	8p	HG-8p-15	unchanged	False	1	HG-8p-15:1	False	HG-8p-15:1
+HG	8p	HG-8p-16	unchanged	False	1	HG-8p-16:1	False	HG-8p-16:1
+HG	8p	HG-8p-17	unchanged	False	1	HG-8p-17:1	False	HG-8p-17:1
+HG	8p	HG-8p-18	unchanged	False	1	HG-8p-18:1	False	HG-8p-18:1
+HG	8q	HG-8q-01	unchanged	False	353	HG-8q-01:353	False	HG-8q-01:353
+HG	8q	HG-8q-02	unchanged	False	90	HG-8q-02:90	False	HG-8q-02:90
+HG	8q	HG-8q-03	unchanged	False	2	HG-8q-03:2	False	HG-8q-03:2
+HG	8q	HG-8q-04	unchanged	False	1	HG-8q-04:1	False	HG-8q-04:1
+HG	8q	HG-8q-05	unchanged	False	1	HG-8q-05:1	False	HG-8q-05:1
+HG	8q	HG-8q-06	unchanged	False	1	HG-8q-06:1	False	HG-8q-06:1
+HG	9p	HG-9p-01	unchanged	False	181	HG-9p-01:181	False	HG-9p-01:181
+HG	9p	HG-9p-02	unchanged	False	160	HG-9p-02:160	False	HG-9p-02:160
+HG	9p	HG-9p-03	unchanged	False	26	HG-9p-03:26	False	HG-9p-03:26
+HG	9p	HG-9p-04	unchanged	False	18	HG-9p-04:18	False	HG-9p-04:18
+HG	9p	HG-9p-05	unchanged	False	17	HG-9p-05:17	False	HG-9p-05:17
+HG	9p	HG-9p-06	unchanged	False	16	HG-9p-06:16	False	HG-9p-06:16
+HG	9p	HG-9p-07	unchanged	False	10	HG-9p-07:10	False	HG-9p-07:10
+HG	9p	HG-9p-08	unchanged	False	4	HG-9p-08:4	False	HG-9p-08:4
+HG	9p	HG-9p-09	unchanged	False	1	HG-9p-09:1	False	HG-9p-09:1
+HG	9p	HG-9p-10	unchanged	False	1	HG-9p-10:1	False	HG-9p-10:1
+HG	9p	HG-9p-11	unchanged	False	1	HG-9p-11:1	False	HG-9p-11:1
+HG	9p	HG-9p-12	unchanged	False	1	HG-9p-12:1	False	HG-9p-12:1
+HG	9p	HG-9p-13	unchanged	False	1	HG-9p-13:1	False	HG-9p-13:1
+HG	9p	HG-9p-14	unchanged	False	1	HG-9p-14:1	False	HG-9p-14:1
+HG	9p	HG-9p-15	unchanged	False	1	HG-9p-15:1	False	HG-9p-15:1
+HG	9q	HG-9q-01	unchanged	False	142	HG-9q-01:142	False	HG-9q-01:142
+HG	9q	HG-9q-02	unchanged	False	121	HG-9q-02:121	False	HG-9q-02:121
+HG	9q	HG-9q-03	unchanged	False	82	HG-9q-03:82	False	HG-9q-03:82
+HG	9q	HG-9q-04	unchanged	False	40	HG-9q-04:40	False	HG-9q-04:40
+HG	9q	HG-9q-05	unchanged	False	14	HG-9q-05:14	False	HG-9q-05:14
+HG	9q	HG-9q-06	unchanged	False	10	HG-9q-06:10	False	HG-9q-06:10
+HG	9q	HG-9q-07	unchanged	False	8	HG-9q-07:8	False	HG-9q-07:8
+HG	9q	HG-9q-08	unchanged	False	6	HG-9q-08:6	False	HG-9q-08:6
+HG	9q	HG-9q-09	unchanged	False	4	HG-9q-09:4	False	HG-9q-09:4
+HG	9q	HG-9q-10	unchanged	False	4	HG-9q-10:4	False	HG-9q-10:4
+HG	9q	HG-9q-11	unchanged	False	3	HG-9q-11:3	False	HG-9q-11:3
+HG	9q	HG-9q-12	unchanged	False	3	HG-9q-12:3	False	HG-9q-12:3
+HG	9q	HG-9q-13	unchanged	False	3	HG-9q-13:3	False	HG-9q-13:3
+HG	9q	HG-9q-14	unchanged	False	3	HG-9q-14:3	False	HG-9q-14:3
+HG	9q	HG-9q-15	unchanged	False	1	HG-9q-15:1	False	HG-9q-15:1
+HG	9q	HG-9q-16	unchanged	False	1	HG-9q-16:1	False	HG-9q-16:1
+HG	9q	HG-9q-17	unchanged	False	1	HG-9q-17:1	False	HG-9q-17:1
+HG	9q	HG-9q-18	unchanged	False	1	HG-9q-18:1	False	HG-9q-18:1
+HG	9q	HG-9q-19	unchanged	False	1	HG-9q-19:1	False	HG-9q-19:1
+HG	9q	HG-9q-20	unchanged	False	1	HG-9q-20:1	False	HG-9q-20:1
+HG	9q	HG-9q-21	unchanged	False	1	HG-9q-21:1	False	HG-9q-21:1
+HG	9q	HG-9q-22	unchanged	False	1	HG-9q-22:1	False	HG-9q-22:1
+HG	9q	HG-9q-23	unchanged	False	1	HG-9q-23:1	False	HG-9q-23:1
+HG	PAR1	HG-PAR1-01	unchanged	False	73	HG-PAR1-01:73	False	HG-PAR1-01:73
+HG	PAR1	HG-PAR1-02	unchanged	False	52	HG-PAR1-02:52	False	HG-PAR1-02:52
+HG	PAR1	HG-PAR1-03	unchanged	False	41	HG-PAR1-03:41	False	HG-PAR1-03:41
+HG	PAR1	HG-PAR1-04	unchanged	False	26	HG-PAR1-04:26	False	HG-PAR1-04:26
+HG	PAR1	HG-PAR1-05	unchanged	False	26	HG-PAR1-05:26	False	HG-PAR1-05:26
+HG	PAR1	HG-PAR1-06	unchanged	False	14	HG-PAR1-06:14	False	HG-PAR1-06:14
+HG	PAR1	HG-PAR1-07	unchanged	False	13	HG-PAR1-07:13	False	HG-PAR1-07:13
+HG	PAR1	HG-PAR1-08	unchanged	False	12	HG-PAR1-08:12	False	HG-PAR1-08:12
+HG	PAR1	HG-PAR1-09	unchanged	False	9	HG-PAR1-09:9	False	HG-PAR1-09:9
+HG	PAR1	HG-PAR1-10	unchanged	False	9	HG-PAR1-10:9	False	HG-PAR1-10:9
+HG	PAR1	HG-PAR1-11	unchanged	False	9	HG-PAR1-11:9	False	HG-PAR1-11:9
+HG	PAR1	HG-PAR1-12	unchanged	False	9	HG-PAR1-12:9	False	HG-PAR1-12:9
+HG	PAR1	HG-PAR1-13	unchanged	False	8	HG-PAR1-13:8	False	HG-PAR1-13:8
+HG	PAR1	HG-PAR1-14	unchanged	False	8	HG-PAR1-14:8	False	HG-PAR1-14:8
+HG	PAR1	HG-PAR1-15	unchanged	False	8	HG-PAR1-15:8	False	HG-PAR1-15:8
+HG	PAR1	HG-PAR1-16	unchanged	False	8	HG-PAR1-16:8	False	HG-PAR1-16:8
+HG	PAR1	HG-PAR1-17	unchanged	False	5	HG-PAR1-17:5	False	HG-PAR1-17:5
+HG	PAR1	HG-PAR1-18	unchanged	False	5	HG-PAR1-18:5	False	HG-PAR1-18:5
+HG	PAR1	HG-PAR1-19	unchanged	False	5	HG-PAR1-19:5	False	HG-PAR1-19:5
+HG	PAR1	HG-PAR1-20	unchanged	False	5	HG-PAR1-20:5	False	HG-PAR1-20:5
+HG	PAR1	HG-PAR1-21	unchanged	False	4	HG-PAR1-21:4	False	HG-PAR1-21:4
+HG	PAR1	HG-PAR1-22	unchanged	False	4	HG-PAR1-22:4	False	HG-PAR1-22:4
+HG	PAR1	HG-PAR1-23	unchanged	False	4	HG-PAR1-23:4	False	HG-PAR1-23:4
+HG	PAR1	HG-PAR1-24	unchanged	False	3	HG-PAR1-24:3	False	HG-PAR1-24:3
+HG	PAR1	HG-PAR1-25	unchanged	False	3	HG-PAR1-25:3	False	HG-PAR1-25:3
+HG	PAR1	HG-PAR1-26	unchanged	False	3	HG-PAR1-26:3	False	HG-PAR1-26:3
+HG	PAR1	HG-PAR1-27	unchanged	False	4	HG-PAR1-27:4	False	HG-PAR1-27:4
+HG	PAR1	HG-PAR1-28	unchanged	False	3	HG-PAR1-28:3	False	HG-PAR1-28:3
+HG	PAR1	HG-PAR1-29	unchanged	False	3	HG-PAR1-29:3	False	HG-PAR1-29:3
+HG	PAR1	HG-PAR1-30	unchanged	False	3	HG-PAR1-30:3	False	HG-PAR1-30:3
+HG	PAR1	HG-PAR1-31	unchanged	False	2	HG-PAR1-31:2	False	HG-PAR1-31:2
+HG	PAR1	HG-PAR1-32	unchanged	False	2	HG-PAR1-32:2	False	HG-PAR1-32:2
+HG	PAR1	HG-PAR1-33	unchanged	False	2	HG-PAR1-33:2	False	HG-PAR1-33:2
+HG	PAR1	HG-PAR1-34	unchanged	False	2	HG-PAR1-34:2	False	HG-PAR1-34:2
+HG	PAR1	HG-PAR1-35	unchanged	False	2	HG-PAR1-35:2	False	HG-PAR1-35:2
+HG	PAR1	HG-PAR1-36	unchanged	False	2	HG-PAR1-36:2	False	HG-PAR1-36:2
+HG	PAR1	HG-PAR1-37	unchanged	False	2	HG-PAR1-37:2	False	HG-PAR1-37:2
+HG	PAR1	HG-PAR1-38	unchanged	False	2	HG-PAR1-38:2	False	HG-PAR1-38:2
+HG	PAR1	HG-PAR1-39	unchanged	False	2	HG-PAR1-39:2	False	HG-PAR1-39:2
+HG	PAR1	HG-PAR1-40	unchanged	False	2	HG-PAR1-40:2	False	HG-PAR1-40:2
+HG	PAR1	HG-PAR1-41	unchanged	False	2	HG-PAR1-41:2	False	HG-PAR1-41:2
+HG	PAR1	HG-PAR1-42	unchanged	False	2	HG-PAR1-42:2	False	HG-PAR1-42:2
+HG	PAR1	HG-PAR1-43	unchanged	False	2	HG-PAR1-43:2	False	HG-PAR1-43:2
+HG	PAR1	HG-PAR1-44	unchanged	False	2	HG-PAR1-44:2	False	HG-PAR1-44:2
+HG	PAR1	HG-PAR1-45	unchanged	False	2	HG-PAR1-45:2	False	HG-PAR1-45:2
+HG	PAR1	HG-PAR1-46	unchanged	False	2	HG-PAR1-46:2	False	HG-PAR1-46:2
+HG	PAR1	HG-PAR1-47	unchanged	False	1	HG-PAR1-47:1	False	HG-PAR1-47:1
+HG	PAR1	HG-PAR1-48	unchanged	False	1	HG-PAR1-48:1	False	HG-PAR1-48:1
+HG	PAR1	HG-PAR1-49	unchanged	False	1	HG-PAR1-49:1	False	HG-PAR1-49:1
+HG	PAR1	HG-PAR1-50	unchanged	False	1	HG-PAR1-50:1	False	HG-PAR1-50:1
+HG	PAR1	HG-PAR1-51	unchanged	False	1	HG-PAR1-51:1	False	HG-PAR1-51:1
+HG	PAR1	HG-PAR1-52	unchanged	False	1	HG-PAR1-52:1	False	HG-PAR1-52:1
+HG	PAR1	HG-PAR1-53	unchanged	False	1	HG-PAR1-53:1	False	HG-PAR1-53:1
+HG	PAR1	HG-PAR1-54	unchanged	False	1	HG-PAR1-54:1	False	HG-PAR1-54:1
+HG	PAR1	HG-PAR1-56	unchanged	False	1	HG-PAR1-56:1	False	HG-PAR1-56:1
+HG	PAR1	HG-PAR1-57	unchanged	False	1	HG-PAR1-57:1	False	HG-PAR1-57:1
+HG	PAR1	HG-PAR1-58	unchanged	False	1	HG-PAR1-58:1	False	HG-PAR1-58:1
+HG	PAR1	HG-PAR1-59	unchanged	False	1	HG-PAR1-59:1	False	HG-PAR1-59:1
+HG	PAR1	HG-PAR1-60	unchanged	False	1	HG-PAR1-60:1	False	HG-PAR1-60:1
+HG	PAR1	HG-PAR1-61	unchanged	False	1	HG-PAR1-61:1	False	HG-PAR1-61:1
+HG	PAR1	HG-PAR1-62	unchanged	False	1	HG-PAR1-62:1	False	HG-PAR1-62:1
+HG	PAR1	HG-PAR1-63	unchanged	False	1	HG-PAR1-63:1	False	HG-PAR1-63:1
+HG	PAR1	HG-PAR1-64	unchanged	False	1	HG-PAR1-64:1	False	HG-PAR1-64:1
+HG	PAR1	HG-PAR1-65	unchanged	False	1	HG-PAR1-65:1	False	HG-PAR1-65:1
+HG	PAR1	HG-PAR1-66	unchanged	False	1	HG-PAR1-66:1	False	HG-PAR1-66:1
+HG	PAR1	HG-PAR1-67	unchanged	False	1	HG-PAR1-67:1	False	HG-PAR1-67:1
+HG	PAR1	HG-PAR1-68	unchanged	False	1	HG-PAR1-68:1	False	HG-PAR1-68:1
+HG	PAR1	HG-PAR1-69	unchanged	False	1	HG-PAR1-69:1	False	HG-PAR1-69:1
+HG	PAR1	HG-PAR1-70	unchanged	False	1	HG-PAR1-70:1	False	HG-PAR1-70:1
+HG	PAR1	HG-PAR1-71	unchanged	False	1	HG-PAR1-71:1	False	HG-PAR1-71:1
+HG	PAR1	HG-PAR1-72	unchanged	False	1	HG-PAR1-72:1	False	HG-PAR1-72:1
+HG	PAR1	HG-PAR1-73	unchanged	False	1	HG-PAR1-73:1	False	HG-PAR1-73:1
+HG	PAR1	HG-PAR1-74	unchanged	False	1	HG-PAR1-74:1	False	HG-PAR1-74:1
+HG	PAR1	HG-PAR1-75	unchanged	False	1	HG-PAR1-75:1	False	HG-PAR1-75:1
+HG	PAR1	HG-PAR1-76	unchanged	False	1	HG-PAR1-76:1	False	HG-PAR1-76:1
+HG	PAR1	HG-PAR1-77	unchanged	False	1	HG-PAR1-77:1	False	HG-PAR1-77:1
+HG	PAR1	HG-PAR1-78	unchanged	False	1	HG-PAR1-78:1	False	HG-PAR1-78:1
+HG	PAR1	HG-PAR1-79	unchanged	False	1	HG-PAR1-79:1	False	HG-PAR1-79:1
+HG	PAR2	HG-PAR2-01	unchanged	False	440	HG-PAR2-01:440	False	HG-PAR2-01:440
+HG	PAR2	HG-PAR2-02	unchanged	False	3	HG-PAR2-02:3	False	HG-PAR2-02:3
+HG	PAR2	HG-PAR2-04	unchanged	False	1	HG-PAR2-04:1	False	HG-PAR2-04:1
+HG	PAR2	HG-PAR2-05	unchanged	False	1	HG-PAR2-05:1	False	HG-PAR2-05:1
+HG	acroP	HG-acroP-01	unchanged	False	1510	HG-acroP-01:1510	False	HG-acroP-01:1510
+HG	acroP	HG-acroP-02	unchanged	False	144	HG-acroP-02:144	False	HG-acroP-02:144
+HG	acroP	HG-acroP-03	unchanged	False	110	HG-acroP-03:110	False	HG-acroP-03:110
+HG	acroP	HG-acroP-04	unchanged	False	56	HG-acroP-04:56	False	HG-acroP-04:56
+HG	acroP	HG-acroP-05	unchanged	False	54	HG-acroP-05:54	False	HG-acroP-05:54
+HG	acroP	HG-acroP-06	unchanged	False	35	HG-acroP-06:35	False	HG-acroP-06:35
+HG	acroP	HG-acroP-07	unchanged	False	15	HG-acroP-07:15	False	HG-acroP-07:15
+HG	acroP	HG-acroP-08	unchanged	False	15	HG-acroP-08:15	False	HG-acroP-08:15
+HG	acroP	HG-acroP-09	unchanged	False	14	HG-acroP-09:14	False	HG-acroP-09:14
+HG	acroP	HG-acroP-10	unchanged	False	8	HG-acroP-10:8	False	HG-acroP-10:8
+HG	acroP	HG-acroP-11	unchanged	False	7	HG-acroP-11:7	False	HG-acroP-11:7
+HG	acroP	HG-acroP-12	unchanged	False	7	HG-acroP-12:7	False	HG-acroP-12:7
+HG	acroP	HG-acroP-13	unchanged	False	7	HG-acroP-13:7	False	HG-acroP-13:7
+HG	acroP	HG-acroP-14	unchanged	False	6	HG-acroP-14:6	False	HG-acroP-14:6
+HG	acroP	HG-acroP-15	unchanged	False	5	HG-acroP-15:5	False	HG-acroP-15:5
+HG	acroP	HG-acroP-16	unchanged	False	3	HG-acroP-16:3	False	HG-acroP-16:3
+HG	acroP	HG-acroP-17	unchanged	False	3	HG-acroP-17:3	False	HG-acroP-17:3
+HG	acroP	HG-acroP-18	unchanged	False	3	HG-acroP-18:3	False	HG-acroP-18:3
+HG	acroP	HG-acroP-19	unchanged	False	3	HG-acroP-19:3	False	HG-acroP-19:3
+HG	acroP	HG-acroP-20	unchanged	False	2	HG-acroP-20:2	False	HG-acroP-20:2
+HG	acroP	HG-acroP-21	unchanged	False	2	HG-acroP-21:2	False	HG-acroP-21:2
+HG	acroP	HG-acroP-22	unchanged	False	2	HG-acroP-22:2	False	HG-acroP-22:2
+HG	acroP	HG-acroP-23	unchanged	False	2	HG-acroP-23:2	False	HG-acroP-23:2
+HG	acroP	HG-acroP-24	unchanged	False	2	HG-acroP-24:2	False	HG-acroP-24:2
+HG	acroP	HG-acroP-25	unchanged	False	2	HG-acroP-25:2	False	HG-acroP-25:2
+HG	acroP	HG-acroP-26	unchanged	False	1	HG-acroP-26:1	False	HG-acroP-26:1
+HG	acroP	HG-acroP-27	unchanged	False	1	HG-acroP-27:1	False	HG-acroP-27:1
+HG	acroP	HG-acroP-28	unchanged	False	1	HG-acroP-28:1	False	HG-acroP-28:1
+HG	acroP	HG-acroP-29	unchanged	False	1	HG-acroP-29:1	False	HG-acroP-29:1
+HG	acroP	HG-acroP-30	unchanged	False	1	HG-acroP-30:1	False	HG-acroP-30:1
+HG	acroP	HG-acroP-31	unchanged	False	1	HG-acroP-31:1	False	HG-acroP-31:1
+HG	acroP	HG-acroP-32	unchanged	False	1	HG-acroP-32:1	False	HG-acroP-32:1
+HG	acroP	HG-acroP-33	unchanged	False	1	HG-acroP-33:1	False	HG-acroP-33:1
+HG	acroP	HG-acroP-34	unchanged	False	1	HG-acroP-34:1	False	HG-acroP-34:1
+HG	acroP	HG-acroP-35	unchanged	False	1	HG-acroP-35:1	False	HG-acroP-35:1
+HG	acroP	HG-acroP-36	unchanged	False	1	HG-acroP-36:1	False	HG-acroP-36:1
+HG	acroP	HG-acroP-37	unchanged	False	1	HG-acroP-37:1	False	HG-acroP-37:1
+HG	acroP	HG-acroP-38	unchanged	False	1	HG-acroP-38:1	False	HG-acroP-38:1
+HG	acroP	HG-acroP-39	unchanged	False	1	HG-acroP-39:1	False	HG-acroP-39:1
+HG	acroP	HG-acroP-40	unchanged	False	1	HG-acroP-40:1	False	HG-acroP-40:1
+HG	acroP	HG-acroP-41	unchanged	False	1	HG-acroP-41:1	False	HG-acroP-41:1
+HG	acroP	HG-acroP-42	unchanged	False	1	HG-acroP-42:1	False	HG-acroP-42:1
+HG	acroP	HG-acroP-43	unchanged	False	1	HG-acroP-43:1	False	HG-acroP-43:1
+HG	acroP	HG-acroP-44	unchanged	False	1	HG-acroP-44:1	False	HG-acroP-44:1
+HG	acroP	HG-acroP-45	unchanged	False	1	HG-acroP-45:1	False	HG-acroP-45:1
+HG	acroP	HG-acroP-46	unchanged	False	1	HG-acroP-46:1	False	HG-acroP-46:1
+HG	acroP	HG-acroP-47	unchanged	False	1	HG-acroP-47:1	False	HG-acroP-47:1
+HG	acroP	HG-acroP-48	unchanged	False	1	HG-acroP-48:1	False	HG-acroP-48:1
+HG	acroP	HG-acroP-49	unchanged	False	1	HG-acroP-49:1	False	HG-acroP-49:1
+HG	acroP	HG-acroP-50	unchanged	False	1	HG-acroP-50:1	False	HG-acroP-50:1
+HG	acroP	HG-acroP-51	unchanged	False	1	HG-acroP-51:1	False	HG-acroP-51:1
+HG	acroP	HG-acroP-52	unchanged	False	1	HG-acroP-52:1	False	HG-acroP-52:1
+HG	acroP	HG-acroP-53	unchanged	False	1	HG-acroP-53:1	False	HG-acroP-53:1
+HG	acroP	HG-acroP-54	unchanged	False	1	HG-acroP-54:1	False	HG-acroP-54:1
+HG	acroP	HG-acroP-55	unchanged	False	1	HG-acroP-55:1	False	HG-acroP-55:1
+HG	acroP	HG-acroP-56	unchanged	False	1	HG-acroP-56:1	False	HG-acroP-56:1
+HG	acroP	HG-acroP-57	unchanged	False	1	HG-acroP-57:1	False	HG-acroP-57:1
+HG	acroP	HG-acroP-58	unchanged	False	1	HG-acroP-58:1	False	HG-acroP-58:1
+HG	acroP	HG-acroP-59	unchanged	False	1	HG-acroP-59:1	False	HG-acroP-59:1
+HG	acroP	HG-acroP-60	unchanged	False	12	HG-acroP-60:12	False	HG-acroP-60:12
