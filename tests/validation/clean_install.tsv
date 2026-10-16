@@ -1,0 +1,6 @@
+step	command	result
+environment	new conda env: python 3.11.17, pip, minimap2 2.31 (bioconda)	created
+install	pip install . (repository checkout)	installed subtel-atlas 0.1.0 with mappy 2.31, numpy 2.4.6, pandas 3.0.6 (no other runtime dependencies)
+help	subtel-atlas --version; subtel-atlas --help; subtel-atlas query --help	subtel-atlas 0.1.0 (catalogue v0.1); help printed
+fetch-refs	subtel-atlas fetch-refs --dir <dir> --catalogue <checkout>/data/catalogue	CHM13 v2.0 ends range-read from the public FASTA and catalogue files copied; all 7 files SHA-256 OK; 38.7 s
+query	subtel-atlas query --windows tests/fixtures/windows.fa.gz --refs <dir> -t 4	4 ends in 2.2 s; core structures, structural alleles, nativity classes, haplogroups and boundary-stability calls identical to data/catalogue/ends.tsv

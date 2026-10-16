@@ -1,0 +1,13 @@
+revision	step	output_or_function	method	scope	result
+2 (current)	03 window rule	window length and extension (boundary > 20 kb)	query tool window_length() vs ends.tsv window_len	5,981 ends (76 extended windows)	identical (5,981/5,981)
+2 (current)	03 telomere caller	boundary s0	query tool caller vs ends.tsv junk_len + telo_len	5,981 ends	identical (5,981/5,981)
+2 (current)	04t/06t tracks + mosaic	profile, structure, switches, S5/S10/S20 state + family, form, core structure, core switches	tool (own minimap2 run, tracks.py) vs ends.tsv	5,981 ends	identical (5,981/5,981 for every field)
+2 (current)	08 allele matching	structural allele	tool alleles.match_allele vs ends.tsv (catalogue: clustering for defining ends)	5,981 ends	99.82% (5,970); all 11 differences are ends with 2-3 compatible alleles
+2 (current)	08e boundary stability	boundary_stable_allele, allele_minus500, allele_plus500	tool shift_calls vs ends.tsv	5,981 ends	identical (5,981/5,981)
+2 (current)	04t/06t/08/08e	same, independent inputs	CHM13 / HG002 Q100 whole assemblies and pedigree ends in contig mode vs ends.tsv	48 + 86 + 366 ends	identical for all mosaic, structure, allele and stability fields
+2 (current)	shared code	tracks.py, alleles.py, arms.py, telomere.py, sketch.py, haplo.py imported by the pipeline	tests/test_query_tool.py::test_pipeline_imports_shared_code	pipeline scripts	pass
+0 (historical, bin method)	04_align_bins	bins.tsv.gz rows	refactored step 04 re-run; rows compared as text	299 ends (6,621 rows)	identical
+0 (historical, bin method)	05_arms	arms.tsv, probes_best.tsv, arm_calibration.tsv	full re-run in a scratch tree; byte comparison	20,652 ends	identical
+0 (historical, bin method)	06_mosaic	mosaic_blocks.tsv, mosaic_ends.tsv	full re-run in a scratch tree; byte comparison	20,652 ends	identical
+0 (historical, bin method)	07_haplogroups	sketch module; gc_ident	source comparison; refactored vs original function	module; 500 pairs	identical (full re-run interrupted, not repeated)
+0 (historical, bin method)	08_alleles, 09_release	sa_* tables and all release tables	full re-run in a scratch tree; byte comparison	release v0.1 (first build)	identical

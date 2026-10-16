@@ -1,0 +1,601 @@
+probe_arm_minimap2	probe_conf_minimap2	identical_minimap2	end_id	arm_source	contig_arm	probe_arm_catalogue	probe_conf_catalogue	probe_arm_tool	probe_conf_tool	identical	group_correct_vs_name
+Yq	medium	True	NA18982#1#JBKABS010000023.1#R	probe		Yq	medium	Yq	medium	True	
+21q	high	True	NA19835#2#JBIRDA010000046.1#R	probe		21q	high	21q	high	True	
+17p	high	True	NA21106#1#JBHIJA010000044.1#L	probe		17p	high	17p	medium	False	
+Yq	medium	True	HG00280#1#JBHDWA010000004.1#R	probe		Yq	medium	Yq	high	False	
+13q	high	True	HG00323#1#JBHDWM010000005.1#R	probe		13q	high	13q	high	True	
+3p	high	True	NA20809#1#JBIRDZ010000062.1#L	probe		3p	high	3p	high	True	
+11p	high	True	HG02818#1#JAHEOS020000007.1#L	probe		11p	high	11p	high	True	
+4p	high	True	HG03369#1#JBIREB010000044.1#L	probe		4p	high	4p	high	True	
+6p	high	True	HG02280#1#JBHDRR010000050.1#L	probe		6p	high	6p	high	True	
+18p	high	True	HG03704#2#JBHDRM010000043.1#L	probe		18p	high	18p	high	True	
+1q	high	True	NA18971#2#JBHDWL010000050.1#R	probe		1q	high	1q	high	True	
+1q	high	True	HG01252#2#JBHIHZ010000003.1#R	probe		1q	high	1q	high	True	
+9q	high	True	NA18952#1#JBHIJS010000007.1#R	probe		9q	high	9q	high	True	
+7p	high	True	HG00738#1#JBHDSX010000049.1#L	probe		7p	high	7p	high	True	
+Yp	medium	True	HG04160#1#JBHIGW010000007.1#L	probe		Yp	medium	Yp	high	False	
+17p	high	True	HG02004#1#JBHDRT010000018.1#L	probe		17p	high	17p	high	True	
+4p	high	True	HG02293#1#JBHDRN010000077.1#L	probe		4p	high	4p	high	True	
+22p	medium	True	HG00735#1#JAHBCH020000054.1#L	probe		22p	medium	22p	medium	True	
+4q	high	True	HG00741#1#JAHALY020000046.1#R	probe		4q	high	4q	high	True	
+22p	medium	True	HG02559#2#JAGYVJ020000006.1#L	probe		22p	medium			False	
+22q	high	True	HG03471#2#JBHDXE010000012.1#R	probe		22q	high	22q	high	True	
+17p	high	True	HG03688#1#JBHDTJ010000059.1#L	probe		17p	high	17p	high	True	
+22q	high	True	HG00558#2#JBHIHD010000012.1#R	probe		22q	high	22q	high	True	
+6p	medium	True	HG03453#1#JAGYVW020000075.1#L	probe		6p	medium	6p	high	False	
+18p	high	True	HG00706#1#JBJXWD010000012.1#L	probe		18p	high	18p	high	True	
+22p	medium	True	HG02984#1#JBJKOM010000042.1#L	probe		22p	medium			False	
+Xq	medium	True	HG02178#2#JBHIKH010000034.1#R	probe		Xq	medium	Xq	medium	True	
+19p	high	True	HG00323#1#JBHDWM010000017.1#L	probe		19p	high	19p	high	True	
+1p	high	True	HG02129#2#JBHDVB010000013.1#L	probe		1p	high	1p	high	True	
+14p	medium	True	HG02015#2#JBHDVF010000032.1#L	probe		14p	medium	14p	medium	True	
+21q	high	True	HG03017#1#JBHIIE010000004.1#R	probe		21q	high	21q	high	True	
+21q	high	True	NA19185#2#JBHDXS010000009.1#R	probe		21q	high	21q	high	True	
+2q	high	True	HG02165#1#JBHDWW010000007.1#R	probe		2q	high	2q	high	True	
+15q	high	True	HG02129#1#JBHDVA010000016.1#R	probe		15q	high	15q	high	True	
+20p	high	True	NA18508#1#JBHIJG010000048.1#L	probe		20p	high	20p	high	True	
+3p	high	True	HG04204#2#JBHIGZ010000055.1#L	probe		3p	high	3p	high	True	
+17q	high	True	HG00099#1#JBHDWO010000061.1#R	probe		17q	high	17q	high	True	
+8q	high	True	NA21102#1#JBIREH010000002.1#R	probe		8q	high	8q	high	True	
+7q	high	True	NA19240#2#JAHEOL020000004.1#R	probe		7q	high	7q	high	True	
+14q	high	True	HG03784#2#JBIRDM010000047.1#R	probe		14q	high	14q	high	True	
+15q	high	True	HG03486#1#JAHEOQ020000078.1#R	probe		15q	high	15q	high	True	
+4q	medium	True	HG01496#1#JBHDRZ010000049.1#R	probe		4q	medium	4q	medium	True	
+16q	high	True	HG00272#2#JBIRDO010000013.1#R	probe		16q	high	16q	high	True	
+13q	high	True	NA21309#2#JAHEPB020000051.1#R	probe		13q	high	13q	high	True	
+15q	high	True	HG04160#2#JBHIGX010000054.1#R	probe		15q	high	15q	high	True	
+4p	high	True	HG01786#2#JBHIIX010000046.1#L	probe		4p	high	4p	high	True	
+21q	high	True	NA20799#1#JBJKOE010000018.1#R	probe		21q	high	21q	high	True	
+1p	high	True	HG03471#1#JBHDXD010000074.1#L	probe		1p	high	1p	high	True	
+16p	high	True	HG005#1#JAHEPO020000056.1#L	probe		16p	high	16p	high	True	
+19p	high	True	HG02630#1#JAHAOQ020000085.1#L	probe		19p	high	19p	high	True	
+22p	medium	True	HG00146#2#JBHIKP010000055.1#L	probe		22p	medium	22p	medium	True	
+17p	high	True	NA18976#2#JBHIJP010000047.1#L	probe		17p	high	17p	high	True	
+10p	high	True	NA20282#1#JBIRDT010000006.1#L	probe		10p	high	10p	high	True	
+16q	high	True	HG02392#1#JBHIKE010000012.1#R	probe		16q	high	16q	high	True	
+10p	high	True	HG03804#1#JBHIGQ010000047.1#L	probe		10p	high	10p	high	True	
+3p	high	True	HG00099#1#JBHDWO010000063.1#L	probe		3p	high	3p	high	True	
+18q	high	True	HG01261#1#JBHDVG010000012.1#R	probe		18q	high	18q	high	True	
+7q	high	True	HG00408#1#JBHDVK010000014.1#R	probe		7q	high	7q	high	True	
+Xp	medium	True	HG02015#1#JBHDVE010000087.1#L	probe		Xp	medium	Xp	high	False	
+14q	high	True	HG00621#2#JAHBCC020000006.1#R	probe		14q	high	14q	high	True	
+21p	medium	True	HG01784#1#JBHDXH010000054.1#L	probe		21p	medium	21p	high	False	
+22q	high	True	NA18960#1#JBKABY010000022.1#R	probe		22q	high	22q	high	True	
+16q	high	True	HG02392#2#JBHIKF010000008.1#R	probe		16q	high	16q	high	True	
+4p	high	True	HG02602#2#JBJUVL010000043.1#L	probe		4p	high	4p	high	True	
+13q	high	True	HG02135#2#JBHIGN010000004.1#R	probe		13q	high	13q	high	True	
+22p	medium	True	HG00438#2#JAHBCA020000055.1#L	probe		22p	medium	22p	medium	True	
+18p	high	True	HG01969#1#JBHIHO010000046.1#L	probe		18p	high	18p	high	True	
+21q	high	True	HG00658#1#JBHIHU010000006.1#R	probe		21q	high	21q	high	True	
+14q	medium	True	HG02698#2#JBHDTM010000029.1#R	probe		14q	medium	14q	high	False	
+13q	high	True	HG02392#1#JBHIKE010000008.1#R	probe		13q	high	13q	high	True	
+9p	high	True	HG00290#2#JBHIKL010000037.1#L	probe		9p	high	9p	high	True	
+22q	high	True	NA18608#2#JBHIJX010000049.1#R	probe		22q	high	22q	high	True	
+22p	medium	True	HG01981#1#JBHDRV010000053.1#L	probe		22p	medium	22p	medium	True	
+15p	medium	True	HG03516#2#JAGYYT020000048.1#L	probe		15p	medium	15p	high	False	
+16q	high	True	NA21309#1#JAHEPC020000006.1#R	probe		16q	high	16q	high	True	
+16q	high	True	HG03521#1#JBIREF010000047.1#R	probe		16q	high	16q	high	True	
+14q	high	True	HG01109#1#JAHEPA020000005.1#R	probe		14q	high	14q	high	True	
+14q	high	True	HG01969#1#JBHIHO010000011.1#R	probe		14q	high	14q	high	True	
+14q	high	True	HG02004#1#JBHDRT010000008.1#R	probe		14q	high	14q	high	True	
+21p	medium	True	HG03017#2#JBHIIF010000047.1#L	probe		21p	medium	21p	medium	True	
+2p	high	True	NA20752#1#JBJUVQ010000004.1#L	probe		2p	high	2p	high	True	
+3q	high	True	HG01258#2#JAGYYU020000008.1#R	probe		3q	high	3q	high	True	
+14q	high	True	HG03927#1#JBHDSV010000016.1#R	probe		14q	high	14q	high	True	
+13q	high	True	HG03017#2#JBHIIF010000005.1#R	probe		13q	high	13q	high	True	
+14q	medium	True	HG01934#1#JBHIIA010000017.1#R	probe		14q	medium	14q	medium	True	
+20q	medium	True	HG03225#2#JBHIIH010000018.1#R	probe		20q	medium	20q	medium	True	
+14q	high	True	HG00609#2#JBHDRY010000008.1#R	probe		14q	high	14q	high	True	
+22q	high	True	HG03017#2#JBHIIF010000037.1#R	probe		22q	high	22q	high	True	
+1p	high	True	HG00280#2#JBHDWB010000033.1#L	probe		1p	high	1p	high	True	
+3p	medium	True	HG02886#1#JAHAOU020000013.1#L	probe		3p	medium	3p	medium	True	
+18q	high	True	HG02602#2#JBJUVL010000027.1#R	probe		18q	high	18q	high	True	
+3p	high	True	HG02300#1#JBHDSD010000018.1#L	probe		3p	high	3p	high	True	
+9p	high	True	HG02615#1#JBHDSZ010000012.1#L	probe		9p	high	9p	high	True	
+21q	high	True	NA19087#2#JBHDXQ010000018.1#R	probe		21q	high	21q	high	True	
+13q	high	True	NA20850#2#JBIRDW010000007.1#R	probe		13q	high	13q	high	True	
+1q	high	True	HG02698#1#JBHDTL010000013.1#R	probe		1q	high	1q	high	True	
+6q	high	True	HG04115#1#JBHDTF010000011.1#R	probe		6q	high	6q	high	True	
+Xp	medium	True	HG02735#2#JBHIIJ010000006.1#L	probe		Xp	medium	Yp	high	False	
+1q	high	True	HG02148#2#JAHAMF020000011.1#R	probe		1q	high	1q	high	True	
+21q	high	True	HG03270#2#JBHIKD010000001.1#R	probe		21q	high	21q	high	True	
+14q	medium	True	NA18608#1#JBHIJW010000047.1#R	probe		14q	medium	14q	medium	True	
+3p	high	True	HG02698#1#JBHDTL010000057.1#L	probe		3p	high	3p	high	True	
+13q	high	True	HG02027#2#JBHDTY010000003.1#R	probe		13q	high	13q	high	True	
+11p	high	True	HG02027#1#JBHDTX010000007.1#L	probe		11p	high	11p	high	True	
+7q	high	True	HG01361#1#JAGYYX020000053.1#R	probe		7q	high	7q	high	True	
+4p	high	True	HG01243#2#JAHEOX020000003.1#L	probe		4p	high	4p	high	True	
+3p	high	True	HG02391#1#JBHDXJ010000008.1#L	probe		3p	high	3p	high	True	
+22q	high	True	HG00272#2#JBIRDO010000010.1#R	probe		22q	high	22q	high	True	
+19q	medium	True	HG02004#1#JBHDRT010000022.1#R	probe		19q	medium	19q	medium	True	
+1q	high	True	HG02723#1#JAHEOU020000005.1#R	probe		1q	high	1q	high	True	
+15q	high	True	HG01530#2#JBHDXG010000014.1#R	probe		15q	high	15q	high	True	
+13q	high	True	NA18940#2#JBKACL010000013.1#R	probe		13q	high	13q	high	True	
+9p	high	True	NA19909#2#JBIRDI010000051.1#L	probe		9p	high	9p	high	True	
+4p	high	True	HG03225#2#JBHIIH010000004.1#L	probe		4p	high	4p	high	True	
+10p	high	True	HG02668#1#JBHIIC010000001.1#L	probe		10p	high	10p	high	True	
+14q	high	True	NA18565#1#JBIRDX010000049.1#R	probe		14q	high	14q	high	True	
+15q	high	True	NA21110#1#JBHIJI010000007.1#R	probe		15q	high	15q	high	True	
+3p	high	True	HG00741#1#JAHALY020000013.1#L	probe		3p	high	3p	high	True	
+15q	high	True	HG01358#1#JAGYZB020000002.1#R	probe		15q	high	15q	high	True	
+13q	high	True	HG00235#1#JBIRED010000009.1#R	probe		13q	high	13q	high	True	
+21q	high	True	NA19682#2#JBIRDK010000019.1#R	probe		21q	high	21q	high	True	
+18q	high	True	HG00126#1#JBHIKU010000035.1#R	probe		18q	high	18q	high	True	
+21q	high	True	HG01261#2#JBHDVH010000016.1#R	probe		21q	high	21q	high	True	
+22q	high	True	HG03804#2#JBHIGR010000019.1#R	probe		22q	high	22q	high	True	
+13q	high	True	NA18620#1#JBHIJU010000087.1#R	probe		13q	high	13q	high	True	
+3p	high	True	NA18943#2#JBKACJ010000003.1#L	probe		3p	high	3p	high	True	
+Xq	medium	True	HG03688#2#JBHDTK010000015.1#R	probe		Xq	medium	Xq	medium	True	
+13q	high	True	HG03831#2#JBHDSO010000007.1#R	probe		13q	high	13q	high	True	
+18q	high	True	HG02965#1#JBHDWQ010000010.1#R	probe		18q	high	18q	high	True	
+21q	high	True	HG03654#2#JBHDTO010000014.1#R	probe		21q	high	21q	high	True	
+17q	medium	True	HG00423#1#JBHIIO010000005.1#R	probe		17q	medium	17q	high	False	
+15q	high	True	NA21144#1#JBIRDF010000003.1#R	probe		15q	high	15q	high	True	
+6q	high	True	HG01891#2#JAGYVN020000009.1#R	probe		6q	high	6q	high	True	
+15q	high	True	HG02392#2#JBHIKF010000059.1#R	probe		15q	high	15q	high	True	
+22p	medium	True	NA18971#1#JBHDWK010000085.1#L	probe		22p	medium	22p	medium	True	
+22q	high	True	HG04199#2#JBHDTI010000053.1#R	probe		22q	high	22q	high	True	
+3q	high	True	HG02257#1#JAGYVH020000074.1#R	probe		3q	high	3q	high	True	
+15q	high	True	HG00329#1#JBIRDP010000037.1#R	probe		15q	high	15q	high	True	
+4p	high	True	HG00097#2#JBIRDE010000014.1#L	probe		4p	high	4p	high	True	
+22q	high	True	HG02965#1#JBHDWQ010000061.1#R	probe		22q	high	22q	high	True	
+22q	high	True	HG03453#2#JAGYVV020000020.1#R	probe		22q	high	22q	high	True	
+4p	high	True	HG02300#2#JBHDSE010000010.1#L	probe		4p	high	4p	high	True	
+22q	high	True	HG00706#1#JBJXWD010000009.1#R	probe		22q	high	22q	high	True	
+13q	high	True	HG02257#2#JAGYVI020000002.1#R	probe		13q	high	13q	high	True	
+20q	high	True	NA18982#1#JBKABS010000020.1#R	probe		20q	high	20q	high	True	
+1q	high	True	HG02071#2#JBHIGJ010000011.1#R	probe		1q	high	1q	high	True	
+16p	high	True	HG00350#1#JBIREL010000061.1#L	probe		16p	high	16p	high	True	
+6q	high	True	HG00146#2#JBHIKP010000012.1#R	probe		6q	high	6q	high	True	
+17q	medium	True	HG01786#1#JBHIIW010000051.1#R	probe		17q	medium	17q	high	False	
+21q	high	True	HG02668#1#JBHIIC010000054.1#R	probe		21q	high	21q	high	True	
+17q	high	True	HG02155#2#JBIECC010000012.1#R	probe		17q	high	17q	high	True	
+19p	high	True	HG02293#1#JBHDRN010000088.1#L	probe		19p	high	19p	high	True	
+11q	high	True	HG02818#1#JAHEOS020000008.1#R	probe		11q	high	11q	high	True	
+22p	medium	True	HG03804#2#JBHIGR010000065.1#L	probe		22p	medium	22p	medium	True	
+16q	high	True	HG00673#1#JAHBBZ020000008.1#R	probe		16q	high	16q	high	True	
+18q	high	True	NA19682#2#JBIRDK010000048.1#R	probe		18q	high	18q	high	True	
+9q	medium	True	NA19835#1#JBIRCZ010000021.1#R	probe		9q	medium	9q	medium	True	
+7q	high	True	HG01261#1#JBHDVG010000044.1#R	probe		7q	high	7q	high	True	
+14q	medium	True	HG01258#1#JAGYYV020000018.1#R	probe		14q	medium	14q	medium	True	
+13q	high	True	NA18983#1#JBHDWU010000007.1#R	probe		13q	high	13q	high	True	
+22q	high	True	HG04204#2#JBHIGZ010000011.1#R	probe		22q	high	22q	high	True	
+7p	high	True	HG02809#1#JBHIGO010000069.1#L	probe		7p	high	7p	high	True	
+20q	medium	True	HG03050#2#JBJKOL010000049.1#R	probe		20q	medium	20q	medium	True	
+18q	high	True	HG02293#1#JBHDRN010000001.1#R	probe		18q	high	18q	high	True	
+5q	high	True	HG03453#1#JAGYVW020000008.1#R	probe		5q	high	5q	high	True	
+2p	high	True	HG03486#1#JAHEOQ020000079.1#L	probe		2p	high	2p	high	True	
+13q	high	True	NA19468#1#JBHDXX010000010.1#R	probe		13q	high	13q	high	True	
+14p	medium	True	HG01192#1#JBHDVI010000061.1#L	probe		14p	medium			False	
+14q	high	True	HG02391#1#JBHDXJ010000013.1#R	probe		14q	high	14q	high	True	
+19q	high	True	HG03270#2#JBHIKD010000053.1#R	probe		19q	high	19q	high	True	
+17q	medium	True	HG02015#1#JBHDVE010000014.1#R	probe		17q	medium	17q	high	False	
+13q	high	True	HG01891#1#JAGYVO020000005.1#R	probe		13q	high	13q	high	True	
+18q	high	True	HG04157#2#JBHIGV010000046.1#R	probe		18q	high	18q	high	True	
+18q	high	True	HG01167#1#JBIREP010000018.1#R	probe		18q	high	18q	high	True	
+6q	high	True	HG03521#1#JBIREF010000010.1#R	probe		6q	high	6q	high	True	
+19q	high	True	HG01530#1#JBHDXF010000057.1#R	probe		19q	high	19q	high	True	
+7q	high	True	HG03583#1#JBHIKA010000056.1#R	probe		7q	high	7q	high	True	
+17p	high	True	HG01981#2#JBHDRW010000045.1#L	probe		17p	high	17p	high	True	
+13q	high	True	HG03239#2#JBHIHT010000007.1#R	probe		13q	high	13q	high	True	
+1p	high	True	HG01081#1#JBHIHG010000007.1#L	probe		1p	high	1p	high	True	
+Yq	medium	True	HG02027#1#JBHDTX010000009.1#R	probe		Yq	medium	Yq	high	False	
+14q	medium	True	NA21093#2#JBHIJD010000049.1#R	probe		14q	medium	14q	medium	True	
+22q	high	True	NA20827#1#JBKOQY010000014.1#R	probe		22q	high	22q	high	True	
+3q	high	True	HG00738#1#JBHDSX010000048.1#R	probe		3q	high	3q	high	True	
+18q	high	True	HG02080#1#JAHEOW020000013.1#R	probe		18q	high	18q	high	True	
+15q	medium	True	HG02818#1#JAHEOS020000009.1#R	probe		15q	medium	15q	medium	True	
+14q	high	True	NA20282#1#JBIRDT010000046.1#R	probe		14q	high	14q	high	True	
+15q	high	True	HG02015#1#JBHDVE010000091.1#R	probe		15q	high	15q	high	True	
+14q	high	True	HG03041#2#JBHIHR010000015.1#R	probe		14q	high	14q	high	True	
+1q	high	True	NA20752#2#JBJUVR010000005.1#R	probe		1q	high	1q	high	True	
+Xp	medium	True	NA21093#2#JBHIJD010000038.1#L	probe		Xp	medium	Xp	medium	True	
+2q	high	True	HG02074#1#JBHIGK010000015.1#R	probe		2q	high	2q	high	True	
+6p	high	True	HG04115#1#JBHDTF010000057.1#L	probe		6p	high	6p	high	True	
+22q	high	True	HG02841#2#JBJKOH010000050.1#R	probe		22q	high	22q	high	True	
+4q	high	True	HG005#2#JAHEPN020000071.1#R	probe		4q	high	4q	high	True	
+18q	high	True	HG00232#2#JBHIKN010000038.1#R	probe		18q	high	18q	high	True	
+21q	high	True	NA21106#2#JBHIJB010000017.1#R	probe		21q	high	21q	high	True	
+1q	high	True	HG00146#1#JBHIKO010000002.1#R	probe		1q	high	1q	high	True	
+15q	high	True	HG00323#1#JBHDWM010000055.1#R	probe		15q	high	15q	high	True	
+21q	high	True	HG00408#2#JBHDVL010000008.1#R	probe		21q	high	21q	high	True	
+3q	high	True	HG00320#1#JBHIKI010000008.1#R	probe		3q	high	3q	high	True	
+1q	high	True	HG02109#1#JAHEPG020000008.1#R	probe		1q	high	1q	high	True	
+21q	high	True	HG01099#2#JBHDRQ010000015.1#R	probe		21q	high	21q	high	True	
+14q	high	True	HG00280#2#JBHDWB010000007.1#R	probe		14q	high	14q	high	True	
+6q	high	True	HG04199#2#JBHDTI010000050.1#R	probe		6q	high	6q	high	True	
+7p	high	True	HG03471#2#JBHDXE010000054.1#L	probe		7p	high	7p	high	True	
+18p	high	True	HG01358#1#JAGYZB020000061.1#L	probe		18p	high	18p	high	True	
+15q	high	True	HG02723#1#JAHEOU020000008.1#R	probe		15q	high	15q	high	True	
+12q	high	True	HG005#2#JAHEPN020000011.1#R	probe		12q	high	12q	high	True	
+17p	high	True	HG00126#1#JBHIKU010000009.1#L	probe		17p	high	17p	high	True	
+13q	high	True	HG01358#1#JAGYZB020000056.1#R	probe		13q	high	13q	high	True	
+9p	high	True	NA21102#2#JBIREI010000005.1#L	probe		9p	high	9p	high	True	
+13q	high	True	HG01099#1#JBHDRP010000013.1#R	probe		13q	high	13q	high	True	
+18q	high	True	NA20905#1#JBHDWY010000012.1#R	probe		18q	high	18q	high	True	
+14q	medium	True	HG03050#1#JBJKOK010000025.1#R	probe		14q	medium	14q	medium	True	
+10p	high	True	HG01884#2#JBHDSC010000014.1#L	probe		10p	high	10p	high	True	
+20p	high	True	HG03540#1#JAGYVY020000073.1#L	probe		20p	high	20p	high	True	
+4p	high	True	HG01106#1#JAHAMC020000056.1#L	probe		4p	high	4p	high	True	
+7p	high	True	HG01530#2#JBHDXG010000050.1#L	probe		7p	high	7p	high	True	
+18p	high	True	HG00738#1#JBHDSX010000060.1#L	probe		18p	high	18p	high	True	
+4p	high	True	NA20905#2#JBHDWZ010000054.1#L	probe		4p	high	4p	high	True	
+3q	high	True	NA20809#2#JBIREA010000058.1#R	probe		3q	high	3q	high	True	
+15q	high	True	HG01109#1#JAHEPA020000062.1#R	probe		15q	high	15q	high	True	
+21q	high	True	NA18976#2#JBHIJP010000011.1#R	probe		21q	high	21q	high	True	
+15p	high	True	HG03139#1#JBIEBX010000051.1#L	probe		15p	high	15p	high	True	
+17q	medium	True	HG00140#1#JBHDVY010000051.1#R	probe		17q	medium	17q	high	False	
+21q	high	True	HG01530#2#JBHDXG010000006.1#R	probe		21q	high	21q	high	True	
+Xp	medium	True	NA21309#1#JAHEPC020000047.1#L	probe		Xp	medium	Xp	high	False	
+1q	high	True	HG02300#1#JBHDSD010000017.1#R	probe		1q	high	1q	high	True	
+14q	high	True	NA19185#1#JBHDXR010000047.1#R	probe		14q	high	14q	high	True	
+3p	high	True	HG02392#2#JBHIKF010000014.1#L	probe		3p	high	3p	high	True	
+Yq	medium	True	HG00329#1#JBIRDP010000019.1#R	probe		Yq	medium	Yq	high	False	
+15q	high	True	HG01978#2#JAGYVS020000044.1#R	probe		15q	high	15q	high	True	
+Xp	medium	True	NA18565#2#JBIRDY010000051.1#L	probe		Xp	medium	Xp	medium	True	
+9p	high	True	NA19443#2#JBHIIR010000042.1#L	probe		9p	high	9p	high	True	
+14q	medium	True	HG03704#2#JBHDRM010000014.1#R	probe		14q	medium	14q	medium	True	
+3p	high	True	HG03225#1#JBHIIG010000042.1#L	probe		3p	high	3p	high	True	
+21p	high	True	NA18620#2#JBHIJV010000078.1#L	probe		21p	high	21p	high	True	
+22p	medium	True	HG01175#2#JAHALZ020000019.1#L	probe		22p	medium	22p	medium	True	
+14q	high	True	HG01786#2#JBHIIX010000008.1#R	probe		14q	high	14q	high	True	
+8q	high	True	HG01099#1#JBHDRP010000005.1#R	probe		8q	high	8q	high	True	
+15q	high	True	HG02486#1#JAGYVM020000005.1#R	probe		15q	high	15q	high	True	
+21q	high	True	NA18620#1#JBHIJU010000018.1#R	probe		21q	high	21q	high	True	
+3p	high	True	NA20799#2#JBJKOF010000001.1#L	probe		3p	high	3p	high	True	
+14q	high	True	HG03942#2#JBHIGT010000005.1#R	probe		14q	high	14q	high	True	
+7q	high	True	HG01943#2#JBHIIL010000061.1#R	probe		7q	high	7q	high	True	
+21q	high	True	HG03139#2#JBIEBY010000007.1#R	probe		21q	high	21q	high	True	
+1p	high	True	HG02155#2#JBIECC010000001.1#L	probe		1p	high	1p	high	True	
+2p	high	True	HG01123#2#JAGYYY020000033.1#L	probe		2p	high	2p	high	True	
+15q	high	True	HG00350#1#JBIREL010000020.1#R	probe		15q	high	15q	high	True	
+5p	high	True	HG02559#1#JAGYVK020000033.1#L	probe		5p	high	5p	high	True	
+22q	high	True	HG00706#2#JBJXWE010000010.1#R	probe		22q	high	22q	high	True	
+Xq	medium	True	HG02615#2#JBHDTA010000005.1#R	probe		Xq	medium	Xq	high	False	
+4p	high	True	NA20905#1#JBHDWY010000045.1#L	probe		4p	high	4p	high	True	
+13q	high	True	HG02257#1#JAGYVH020000006.1#R	probe		13q	high	13q	high	True	
+3q	high	True	HG02886#2#JAHAOT020000060.1#R	probe		3q	high	3q	high	True	
+13q	high	True	HG00097#2#JBIRDE010000006.1#R	probe		13q	high	13q	high	True	
+1q	high	True	HG02165#2#JBHDWX010000015.1#R	probe		1q	high	1q	high	True	
+21q	high	True	HG01934#2#JBHIIB010000020.1#R	probe		21q	high	21q	high	True	
+14q	medium	True	HG00253#2#JBIREK010000025.1#R	probe		14q	medium	14q	medium	True	
+Yp	medium	True	HG02083#2#JBHDTW010000019.1#L	probe		Yp	medium	Yp	medium	True	
+20q	high	True	NA20282#1#JBIRDT010000051.1#R	probe		20q	high	20q	high	True	
+21p	medium	True	HG03874#1#JBHIIS010000017.1#L	probe		21p	medium	21p	medium	True	
+15q	high	True	HG02257#2#JAGYVI020000045.1#R	probe		15q	high	15q	high	True	
+17p	high	True	HG02514#2#JBJKOJ010000012.1#L	probe		17p	high	17p	high	True	
+11p	high	True	HG02083#1#JBHDTV010000007.1#L	probe		11p	high	11p	high	True	
+19p	high	True	HG00735#2#JAHBCG030000016.1#L	probe		19p	high	19p	high	True	
+1q	high	True	HG00741#2#JAHALX020000033.1#R	probe		1q	high	1q	high	True	
+22q	high	True	HG02698#2#JBHDTM010000006.1#R	probe		22q	high	22q	high	True	
+15q	high	True	HG03583#2#JBHIKB010000038.1#R	probe		15q	high	15q	high	True	
+Xq	medium	True	HG03831#2#JBHDSO010000006.1#R	probe		Xq	medium	Xq	medium	True	
+7q	high	True	HG00735#1#JAHBCH020000007.1#R	probe		7q	high	7q	high	True	
+13q	high	True	HG01952#1#JAHAME020000008.1#R	probe		13q	high	13q	high	True	
+11q	high	True	HG03784#2#JBIRDM010000007.1#R	probe		11q	high	11q	high	True	
+18p	high	True	HG01530#1#JBHDXF010000014.1#L	probe		18p	high	18p	high	True	
+13q	high	True	HG02647#2#JBHDSQ010000011.1#R	probe		13q	high	13q	high	True	
+15q	high	True	HG01106#1#JAHAMC020000012.1#R	probe		15q	high	15q	high	True	
+10p	high	True	HG01099#2#JBHDRQ010000051.1#L	probe		10p	high	10p	high	True	
+3p	high	True	HG02735#2#JBHIIJ010000058.1#L	probe		3p	high	3p	high	True	
+9p	high	True	HG03874#2#JBHIIT010000037.1#L	probe		9p	high	9p	high	True	
+6q	high	True	HG03742#2#JBHDXM010000050.1#R	probe		6q	high	6q	high	True	
+19q	high	True	NA20762#1#JBKOQW010000004.1#R	probe		19q	high	19q	high	True	
+13q	high	True	NA19043#2#JBHDVT010000005.1#R	probe		13q	high	13q	high	True	
+14q	high	True	NA18508#1#JBHIJG010000008.1#R	probe		14q	high	14q	high	True	
+17p	high	True	NA20346#1#JBIRDR010000010.1#L	probe		17p	high	17p	high	True	
+1q	high	True	HG03453#2#JAGYVV020000006.1#R	probe		1q	high	1q	high	True	
+20q	high	True	HG00544#2#JBHIIN010000037.1#R	probe		20q	high	20q	high	True	
+16p	high	True	HG00097#2#JBIRDE010000039.1#L	probe		16p	high	16p	high	True	
+16p	high	True	HG00253#2#JBIREK010000015.1#L	probe		16p	high	16p	high	True	
+22p	medium	True	HG02129#1#JBHDVA010000065.1#L	probe		22p	medium	15p	high	False	
+14p	medium	True	HG01943#2#JBHIIL010000083.1#L	probe		14p	medium			False	
+20p	high	True	HG03225#2#JBHIIH010000055.1#L	probe		20p	high	20p	high	True	
+16p	high	True	HG02155#2#JBIECC010000047.1#L	probe		16p	high	16p	high	True	
+18q	high	True	HG03239#1#JBHIHS010000035.1#R	probe		18q	high	18q	high	True	
+8q	medium	True	HG02392#2#JBHIKF010000063.1#R	probe		8q	medium	8q	medium	True	
+Xp	medium	True	HG03654#1#JBHDTN010000046.1#L	probe		Xp	medium	Yp	high	False	
+11q	high	True	HG02027#1#JBHDTX010000132.1#R	probe		11q	high	11q	high	True	
+1q	high	True	HG00280#2#JBHDWB010000009.1#R	probe		1q	high	1q	high	True	
+22q	high	True	HG03270#1#JBHIKC010000011.1#R	probe		22q	high	22q	high	True	
+15q	high	True	HG01099#1#JBHDRP010000004.1#R	probe		15q	high	15q	high	True	
+10q	high	True	HG03834#1#CM085800.1#R	contig_name	10q	10q	high	10q	high	True	True
+5p	high	True	NA19043#1#CM087045.1#L	contig_name	5p	5p	high	5p	high	True	True
+6q	high	True	NA18982#1#CM101421.1#R	contig_name	6q	6q	high	6q	high	True	True
+12p	high	True	HG03225#1#CM089306.1#L	contig_name	12p	12p	high	12p	high	True	True
+6p	high	True	HG03486#1#CM091974.1#L	contig_name	6p	6p	high	6p	high	True	True
+12p	high	True	NA20346#2#CM094267.1#L	contig_name	12p	12p	high	12p	high	True	True
+20p	high	True	HG00320#1#CM089960.1#L	contig_name	20p	20p	high	20p	high	True	True
+11q	high	True	HG01255#2#CM086725.1#R	contig_name	11q	11q	high	11q	high	True	True
+1q	high	True	HG00609#1#CM086346.1#R	contig_name	1q	1q	high	1q	high	True	True
+19q	high	True	HG03583#2#CM089897.1#R	contig_name	19q	19q	high	19q	high	True	True
+1q	high	True	NA21309#2#CM092097.1#R	contig_name	1q	1q	high	1q	high	True	True
+20q	high	True	NA20752#2#CM099793.1#R	contig_name	20q	20q	high	20q	high	True	True
+2p	high	True	NA19776#1#CM094008.1#L	contig_name	2p	2p	high	2p	high	True	True
+17q	medium	True	NA18974#2#CM089804.1#R	contig_name	17q	17q	medium	17q	medium	True	True
+22p	medium	True	HG00642#2#CM086628.1#L	contig_name	14p	22p	medium	22p	medium	True	True
+8p	high	True	NA18967#1#CM101500.1#L	contig_name	8p	8p	high	8p	high	True	True
+20q	high	True	NA18952#1#CM089794.1#R	contig_name	20q	20q	high	20q	high	True	True
+6p	medium	True	HG02109#2#CM092147.1#L	contig_name	6p	6p	medium	6p	high	False	True
+		True	HG00642#2#CM086629.1#L	contig_name	15p					True	
+5p	high	True	HG00321#1#CM089540.1#L	contig_name	5p	5p	high	5p	high	True	True
+1q	high	True	HG00558#1#CM088491.1#R	contig_name	1q	1q	high	1q	high	True	True
+20q	high	True	HG02257#2#CM089269.1#R	contig_name	20q	20q	high	20q	high	True	True
+8p	high	True	NA19776#1#CM094014.1#L	contig_name	8p	8p	high	8p	high	True	True
+2p	high	True	HG01978#1#CM089244.1#L	contig_name	2p	2p	high	2p	high	True	True
+12q	high	True	NA21102#1#CM094430.1#R	contig_name	12q	12q	high	12q	high	True	True
+12p	high	True	HG02451#2#CM086231.1#L	contig_name	12p	12p	high	12p	high	True	True
+21q	high	True	HG03209#1#CM087226.1#R	contig_name	21q	21q	high	21q	high	True	True
+1p	high	True	NA18565#1#CM094316.1#L	contig_name	1p	1p	high	1p	high	True	True
+9q	high	True	NA18959#1#CM101548.1#R	contig_name	9q	9q	high	9q	high	True	True
+9q	high	True	HG00232#2#CM090027.1#R	contig_name	9q	9q	high	9q	high	True	True
+2p	high	True	HG02486#2#CM088216.1#L	contig_name	2p	2p	high	2p	high	True	True
+18q	high	True	NA18620#2#CM089837.1#R	contig_name	18q	18q	high	18q	high	True	True
+4q	high	True	HG03831#2#CM086546.1#R	contig_name	4q	4q	high	4q	high	True	True
+19q	high	True	HG01071#1#CM089124.1#R	contig_name	19q	19q	high	19q	high	True	True
+3q	high	True	HG01433#2#CM086508.1#R	contig_name	3q	3q	high	3q	high	True	True
+5q	high	True	HG02922#1#CM086998.1#R	contig_name	5q	5q	high	5q	high	True	True
+Xq	medium	True	NA20282#2#CM094289.1#R	contig_name	Xq	Xq	medium	Xq	medium	True	True
+20q	high	True	NA20806#2#CM102507.1#R	contig_name	20q	20q	high	20q	high	True	True
+1p	high	True	NA20503#2#CM102472.1#L	contig_name	1p	1p	high	1p	high	True	True
+22q	high	True	HG02615#2#CM086701.1#R	contig_name	22q	22q	high	22q	high	True	True
+6p	medium	True	HG00642#2#CM086622.1#L	contig_name	6p	6p	medium	6p	high	False	True
+11q	high	True	HG02132#1#CM086901.1#R	contig_name	11q	11q	high	11q	high	True	True
+8p	high	True	HG00329#1#CM094229.1#L	contig_name	8p	8p	high	8p	high	True	True
+4p	high	True	HG00673#2#CM089155.1#L	contig_name	4p	4p	high	4p	high	True	True
+16q	high	True	NA20503#1#CM102468.1#R	contig_name	16q	16q	high	16q	high	True	True
+12p	high	True	HG02148#1#CM087988.1#L	contig_name	12p	12p	high	12p	high	True	True
+3p	high	True	NA21093#1#CM089597.1#L	contig_name	3p	3p	high	3p	high	True	True
+12p	high	True	HG00735#2#CM087893.1#L	contig_name	12p	12p	high	12p	high	True	True
+16p	high	True	HG03017#2#CM088935.1#L	contig_name	16p	16p	high	16p	high	True	True
+14q	high	True	HG03710#1#CM086874.1#R	contig_name	14q	14q	high	14q	high	True	True
+16q	high	True	NA20129#1#CM092140.1#R	contig_name	16q	16q	high	16q	high	True	True
+7q	high	True	HG02040#1#CM087377.1#R	contig_name	7q	7q	high	7q	high	True	True
+9p	high	True	HG01934#2#CM088884.1#L	contig_name	9p	9p	high	9p	high	True	True
+17q	medium	True	HG03139#2#CM091847.1#R	contig_name	17q	17q	medium	17q	medium	True	True
+16p	high	True	HG01981#2#CM086340.1#L	contig_name	16p	16p	high	16p	high	True	True
+9q	high	True	HG02300#1#CM086437.1#R	contig_name	9q	9q	high	9q	high	True	True
+7p	high	True	HG01252#1#CM088825.1#L	contig_name	7p	7p	high	7p	high	True	True
+10q	high	True	NA18940#2#CM101722.1#R	contig_name	10q	10q	high	10q	high	True	True
+5p	high	True	NA18879#1#CM099715.1#L	contig_name	5p	5p	high	5p	high	True	True
+6p	medium	True	NA20806#2#CM102496.1#L	contig_name	6p	6p	medium	6p	high	False	True
+4q	high	True	HG03041#2#CM088730.1#R	contig_name	4q	4q	high	4q	high	True	True
+11q	high	True	HG00140#2#CM087141.1#R	contig_name	11q	11q	high	11q	high	True	True
+16p	high	True	HG03471#1#CM087528.1#L	contig_name	16p	16p	high	16p	high	True	True
+16q	high	True	NA20870#2#CM089718.1#R	contig_name	16q	16q	high	16q	high	True	True
+7p	high	True	HG00140#2#CM087138.1#L	contig_name	7p	7p	high	7p	high	True	True
+3q	high	True	HG02698#2#CM086845.1#R	contig_name	3q	3q	high	3q	high	True	True
+12p	high	True	HG00099#1#CM087323.1#L	contig_name	12p	12p	high	12p	high	True	True
+4p	high	True	HG01786#1#CM089502.1#L	contig_name	4p	4p	high	4p	high	True	True
+11q	high	True	NA20809#2#CM094354.1#R	contig_name	11q	11q	high	11q	high	True	True
+9p	high	True	HG03486#1#CM091977.1#L	contig_name	9p	9p	high	9p	high	True	True
+8p	high	True	HG03742#1#CM087630.1#L	contig_name	8p	8p	high	8p	high	True	True
+8q	high	True	NA21106#2#CM089589.1#R	contig_name	8q	8q	high	8q	high	True	True
+11q	high	True	HG03831#1#CM086530.1#R	contig_name	11q	11q	high	11q	high	True	True
+16p	high	True	NA18565#2#CM094347.1#L	contig_name	16p	16p	high	16p	high	True	True
+20q	high	True	HG02514#1#CM098741.1#R	contig_name	20q	20q	high	20q	high	True	True
+9p	high	True	HG03471#2#CM087548.1#L	contig_name	9p	9p	high	9p	high	True	True
+9q	high	True	NA18522#1#CM087178.1#R	contig_name	9q	9q	high	9q	high	True	True
+16p	high	True	HG03139#2#CM091846.1#L	contig_name	16p	16p	high	16p	high	True	True
+2p	high	True	HG04228#1#CM088478.1#L	contig_name	2p	2p	high	2p	high	True	True
+12p	high	True	HG00253#2#CM094487.1#L	contig_name	12p	12p	high	12p	high	True	True
+12p	high	True	NA18948#2#CM101591.1#L	contig_name	12p	12p	high	12p	high	True	True
+19p	high	True	HG02178#1#CM089932.1#L	contig_name	19p	19p	high	19p	medium	False	True
+1q	high	True	HG01167#2#CM094538.1#R	contig_name	1q	1q	high	1q	high	True	True
+18q	high	True	NA18879#2#CM099736.1#R	contig_name	18q	18q	high	18q	high	True	True
+16p	high	True	HG02886#2#CM088134.1#L	contig_name	16p	16p	high	16p	high	True	True
+7q	high	True	HG03669#1#CM086734.1#R	contig_name	7q	7q	high	7q	high	True	True
+19p	high	True	HG00544#1#CM089379.1#L	contig_name	19p	19p	high	19p	high	True	True
+2q	high	True	HG03471#1#CM087520.1#R	contig_name	2q	2q	high	2q	high	True	True
+6p	high	True	HG01258#1#CM088113.1#L	contig_name	6p	6p	high	6p	high	True	True
+15q	high	True	HG00321#1#CM089548.1#R	contig_name	15q	15q	high	15q	high	True	True
+20q	high	True	NA18967#2#CM101524.1#R	contig_name	20q	20q	high	20q	high	True	True
+8p	high	True	HG04115#2#CM086767.1#L	contig_name	8p	8p	high	8p	high	True	True
+1q	high	True	NA20806#1#CM102437.1#R	contig_name	1q	1q	high	1q	high	True	True
+19p	high	True	HG01074#1#CM088794.1#L	contig_name	19p	19p	high	19p	medium	False	True
+9q	high	True	HG00558#2#CM088527.1#R	contig_name	9q	9q	high	9q	high	True	True
+19q	high	True	NA19776#1#CM094019.1#R	contig_name	19q	19q	high	19q	high	True	True
+3p	high	True	HG04199#1#CM086777.1#L	contig_name	3p	3p	high	3p	high	True	True
+1q	high	True	HG04157#1#CM088412.1#R	contig_name	1q	1q	high	1q	high	True	True
+11p	high	True	HG01255#2#CM086725.1#L	contig_name	11p	11p	high	11p	high	True	True
+11q	high	True	NA18879#2#CM099734.1#R	contig_name	11q	11q	high	11q	high	True	True
+8q	high	True	HG01496#1#CM086375.1#R	contig_name	8q	8q	high	8q	high	True	True
+2q	high	True	HG03041#1#CM088711.1#R	contig_name	2q	2q	high	2q	high	True	True
+8q	high	True	NA20905#1#CM087475.1#R	contig_name	8q	8q	high	8q	high	True	True
+17q	high	True	HG01934#2#CM088889.1#R	contig_name	17q	17q	high	17q	high	True	True
+9q	high	True	HG02109#2#CM092150.1#R	contig_name	9q	9q	high	9q	high	True	True
+17q	high	True	NA18879#1#CM099723.1#R	contig_name	17q	17q	high	17q	high	True	True
+16q	high	True	HG01123#1#CM089090.1#R	contig_name	16q	16q	high	16q	high	True	True
+3p	high	True	NA18570#2#CM087675.1#L	contig_name	3p	3p	high	3p	high	True	True
+17p	high	True	HG02615#2#CM086699.1#L	contig_name	17p	17p	high	17p	high	True	True
+20q	high	True	HG00133#2#CM090073.1#R	contig_name	20q	20q	high	20q	high	True	True
+10q	high	True	HG02809#1#CM088348.1#R	contig_name	10q	10q	high	10q	high	True	True
+2q	high	True	HG04187#1#CM099740.1#R	contig_name	2q	2q	high	2q	high	True	True
+13q	high	True	HG03130#1#CM087262.1#R	contig_name	13q	13q	high	13q	high	True	True
+20q	high	True	HG00673#2#CM089165.1#R	contig_name	20q	20q	high	20q	high	True	True
+11p	high	True	HG02071#2#CM088288.1#L	contig_name	11p	11p	high	11p	high	True	True
+10p	high	True	NA20850#2#CM094309.1#L	contig_name	10p	10p	high	10p	high	True	True
+19p	high	True	HG01243#1#CM099611.1#L	contig_name	19p	19p	high	19p	high	True	True
+11q	high	True	HG01975#1#CM099802.1#R	contig_name	11q	11q	high	11q	high	True	True
+7q	high	True	HG01081#1#CM088568.1#R	contig_name	7q	7q	high	7q	high	True	True
+12q	high	True	NA20850#1#CM094297.1#R	contig_name	12q	12q	high	12q	high	True	True
+5p	high	True	HG00558#2#CM088523.1#L	contig_name	5p	5p	high	5p	high	True	True
+2q	high	True	HG00438#1#CM089168.1#R	contig_name	2q	2q	high	2q	high	True	True
+8p	high	True	NA21144#2#CM094112.1#L	contig_name	8p	8p	high	8p	high	True	True
+12p	high	True	HG01784#1#CM087574.1#L	contig_name	12p	12p	high	12p	high	True	True
+4p	high	True	HG03579#2#CM089286.1#L	contig_name	4p	4p	high	4p	high	True	True
+6q	high	True	HG02965#1#CM087346.1#R	contig_name	6q	6q	high	6q	high	True	True
+9p	high	True	HG02717#1#CM088961.1#L	contig_name	9p	9p	high	9p	high	True	True
+5q	high	True	NA19185#2#CM087739.1#R	contig_name	5q	5q	high	5q	high	True	True
+11p	high	True	HG02257#2#CM089265.1#L	contig_name	11p	11p	high	11p	high	True	True
+9q	high	True	HG02622#2#CM088101.1#R	contig_name	9q	9q	high	9q	high	True	True
+20q	high	True	HG00741#2#CM087919.1#R	contig_name	20q	20q	high	20q	high	True	True
+19q	high	True	HG02392#1#CM099887.1#R	contig_name	19q	19q	high	19q	high	True	True
+20q	high	True	NA20129#2#CM092129.1#R	contig_name	20q	20q	high	20q	high	True	True
+1p	high	True	HG02258#1#CM085822.1#L	contig_name	1p	1p	high	1p	high	True	True
+20q	high	True	HG00097#2#CM094086.1#R	contig_name	20q	20q	high	20q	high	True	True
+16p	high	True	HG02841#2#CM098678.1#L	contig_name	16p	16p	high	16p	high	True	True
+16q	high	True	HG02886#2#CM088134.1#R	contig_name	16q	16q	high	16q	high	True	True
+7p	high	True	NA18967#1#CM101499.1#L	contig_name	7p	7p	high	7p	medium	False	True
+17p	medium	True	HG01099#1#CM086267.1#L	contig_name	17p	17p	medium	17p	medium	True	True
+7p	high	True	HG02071#2#CM088284.1#L	contig_name	7p	7p	high	7p	medium	False	True
+5q	high	True	HG02145#1#CM099671.1#R	contig_name	5q	5q	high	5q	high	True	True
+11p	high	True	HG00097#2#CM094082.1#L	contig_name	11p	11p	high	11p	high	True	True
+17p	high	True	HG01940#1#CM088640.1#L	contig_name	17p	17p	high	17p	high	True	True
+20p	high	True	HG02523#1#CM086932.1#L	contig_name	20p	20p	high	20p	high	True	True
+9q	high	True	HG02602#2#CM099703.1#R	contig_name	9q	9q	high	9q	high	True	True
+5p	high	True	HG02040#2#CM087403.1#L	contig_name	5p	5p	high	5p	high	True	True
+17q	medium	True	HG02583#2#CM089522.1#R	contig_name	17q	17q	medium	17q	high	False	True
+7p	high	True	HG03098#2#CM092220.1#L	contig_name	7p	7p	high	7p	high	True	True
+3p	high	True	HG01167#1#CM094525.1#L	contig_name	3p	3p	high	3p	high	True	True
+9q	high	True	HG03098#1#CM092234.1#R	contig_name	9q	9q	high	9q	high	True	True
+2p	high	True	HG03270#1#CM089899.1#L	contig_name	2p	2p	high	2p	high	True	True
+Xp	medium	True	HG00741#1#CM087908.1#L	contig_name	Xp	Xp	medium	Xp	medium	True	True
+22q	high	True	HG02809#1#CM088357.1#R	contig_name	22q	22q	high	22q	high	True	True
+12q	high	True	HG03804#1#CM088336.1#R	contig_name	12q	12q	high	12q	high	True	True
+3p	high	True	HG03942#1#CM088390.1#L	contig_name	3p	3p	high	3p	high	True	True
+17p	high	True	HG02583#2#CM089522.1#L	contig_name	17p	17p	high	17p	high	True	True
+16q	high	True	HG03804#2#CM088386.1#R	contig_name	16q	16q	high	16q	high	True	True
+2p	high	True	HG00544#2#CM089384.1#L	contig_name	2p	2p	high	2p	high	True	True
+16p	high	True	NA18620#2#CM089836.1#L	contig_name	16p	16p	high	16p	high	True	True
+11q	high	True	HG00621#2#CM087869.1#R	contig_name	11q	11q	high	11q	high	True	True
+1p	high	True	HG01071#1#CM089111.1#L	contig_name	1p	1p	high	1p	high	True	True
+11q	high	True	NA18974#2#CM089801.1#R	contig_name	11q	11q	high	11q	medium	False	True
+6q	high	True	HG03710#1#CM086869.1#R	contig_name	6q	6q	high	6q	high	True	True
+20q	high	True	HG00320#2#CM089976.1#R	contig_name	20q	20q	high	20q	high	True	True
+18q	high	True	NA18952#2#CM089816.1#R	contig_name	18q	18q	high	18q	high	True	True
+4q	high	True	HG02258#1#CM085824.1#R	contig_name	4q	4q	high	4q	high	True	True
+17q	high	True	NA21110#2#CM089690.1#R	contig_name	17q	17q	high	17q	high	True	True
+7p	high	True	HG03239#2#CM088762.1#L	contig_name	7p	7p	high	7p	high	True	True
+11q	high	True	HG02886#1#CM088089.1#R	contig_name	11q	11q	high	11q	high	True	True
+19q	high	True	HG03470#1#CM091832.1#R	contig_name	19q	19q	high	19q	high	True	True
+2p	high	True	HG01099#2#CM086270.1#L	contig_name	2p	2p	high	2p	high	True	True
+12q	high	True	HG03688#1#CM086808.1#R	contig_name	12q	12q	high	12q	high	True	True
+2p	high	True	HG03688#2#CM086814.1#L	contig_name	2p	2p	high	2p	high	True	True
+11p	medium	True	HG03742#1#CM087633.1#L	contig_name	11p	11p	medium	11p	high	False	True
+2q	high	True	NA20503#2#CM102473.1#R	contig_name	2q	2q	high	2q	high	True	True
+17q	high	True	HG01928#1#CM088996.1#R	contig_name	17q	17q	high	17q	high	True	True
+12q	high	True	HG01943#2#CM089366.1#R	contig_name	12q	12q	high	12q	high	True	True
+1q	high	True	HG04184#1#CM086456.1#R	contig_name	1q	1q	high	1q	high	True	True
+19p	high	True	HG03540#1#CM088059.1#L	contig_name	19p	19p	high	19p	high	True	True
+5q	high	True	HG00639#2#CM088554.1#R	contig_name	5q	5q	high	5q	high	True	True
+11p	medium	True	HG02132#2#CM086912.1#L	contig_name	11p	11p	medium	11p	medium	True	True
+4p	high	True	HG01981#1#CM086321.1#L	contig_name	4p	4p	high	4p	high	True	True
+12q	high	True	HG02886#1#CM088090.1#R	contig_name	12q	12q	high	12q	high	True	True
+9q	high	True	HG01934#2#CM088884.1#R	contig_name	9q	9q	high	9q	high	True	True
+17p	high	True	NA19240#2#CM099623.1#L	contig_name	17p	17p	high	17p	high	True	True
+11q	high	True	HG00280#2#CM087165.1#R	contig_name	11q	11q	high	11q	high	True	True
+2p	high	True	HG02027#1#CM086975.1#L	contig_name	2p	2p	high	2p	high	True	True
+16q	high	True	HG03688#1#CM086810.1#R	contig_name	16q	16q	high	16q	high	True	True
+16p	high	True	HG01934#2#CM088888.1#L	contig_name	16p	16p	high	16p	high	True	True
+18q	high	True	NA18944#2#CM101681.1#R	contig_name	18q	18q	high	18q	high	True	True
+4p	high	True	HG01928#1#CM088986.1#L	contig_name	4p	4p	high	4p	high	True	True
+5q	high	True	HG03041#2#CM088731.1#R	contig_name	5q	5q	high	5q	high	True	True
+16q	high	True	HG00621#1#CM087858.1#R	contig_name	16q	16q	high	16q	high	True	True
+2q	high	True	NA19682#2#CM094161.1#R	contig_name	2q	2q	high	2q	high	True	True
+16p	high	True	HG02965#1#CM087354.1#L	contig_name	16p	16p	high	16p	high	True	True
+20p	high	True	HG02027#2#CM086995.1#L	contig_name	20p	20p	high	20p	high	True	True
+22p	medium	True	NA18960#2#CM101570.1#L	contig_name	22p	22p	medium	22p	medium	True	True
+17q	high	True	HG03540#1#CM088057.1#R	contig_name	17q	17q	high	17q	high	True	True
+7q	high	True	HG00329#2#CM094241.1#R	contig_name	7q	7q	high	7q	high	True	True
+10p	high	True	NA19338#2#CM087779.1#L	contig_name	10p	10p	high	10p	high	True	True
+17p	high	True	NA18970#2#CM101489.1#L	contig_name	17p	17p	high	17p	high	True	True
+17p	high	True	NA18967#2#CM101521.1#L	contig_name	17p	17p	high	17p	high	True	True
+4q	high	True	HG03470#2#CM091868.1#R	contig_name	4q	4q	high	4q	high	True	True
+		True	NA21309#2#CM092105.1#L	contig_name	Xp			Xp	high	False	True
+18p	high	True	HG03486#2#CM091967.1#L	contig_name	18p	18p	high	18p	high	True	True
+3p	high	True	NA18879#1#CM099713.1#L	contig_name	3p	3p	high	3p	high	True	True
+7p	high	True	HG00146#1#CM090016.1#L	contig_name	7p	7p	high	7p	high	True	True
+22p	medium	True	NA19087#2#CM087718.1#L	contig_name	22p	22p	medium	22p	medium	True	True
+4q	medium	True	HG02572#2#CM088171.1#R	contig_name	4q	4q	medium	4q	high	False	True
+20q	high	True	HG02572#2#CM088183.1#R	contig_name	20q	20q	high	20q	high	True	True
+16p	medium	True	HG02280#1#CM086297.1#L	contig_name	16p	16p	medium	16p	medium	True	True
+4p	high	True	NA18960#2#CM101557.1#L	contig_name	4p	4p	high	4p	high	True	True
+8q	high	True	HG03041#1#CM088716.1#R	contig_name	8q	8q	high	8q	high	True	True
+6q	high	True	NA20762#2#CM102528.1#R	contig_name	6q	6q	high	6q	high	True	True
+5p	high	True	HG02630#1#CM091808.1#L	contig_name	5p	5p	high	5p	high	True	True
+Xq	medium	True	HG01993#1#CM086506.1#R	contig_name	Xq	Xq	medium	Xq	high	False	True
+4q	high	True	HG02615#1#CM086671.1#R	contig_name	4q	4q	high	4q	high	True	True
+Xq	medium	True	HG03804#2#CM088389.1#R	contig_name	Xq	Xq	medium	Xq	high	False	True
+4q	high	True	HG00146#2#CM090035.1#R	contig_name	4q	4q	high	4q	high	True	True
+20p	high	True	HG04204#2#CM088476.1#L	contig_name	20p	20p	high	20p	high	True	True
+20p	high	True	HG02258#2#CM085846.1#L	contig_name	20p	20p	high	20p	high	True	True
+12q	high	True	HG03927#1#CM086640.1#R	contig_name	12q	12q	high	12q	high	True	True
+4p	high	True	HG03579#1#CM088943.1#L	contig_name	4p	4p	high	4p	high	True	True
+1p	high	True	HG02818#2#CM091986.1#L	contig_name	1p	1p	high	1p	high	True	True
+12q	high	True	HG03050#1#CM098769.1#R	contig_name	12q	12q	high	12q	high	True	True
+2p	high	True	NA21144#2#CM094107.1#L	contig_name	2p	2p	high	2p	high	True	True
+1q	high	True	NA20805#1#CM091884.1#R	contig_name	1q	1q	high	1q	high	True	True
+13q	high	True	NA18967#2#CM101518.1#R	contig_name	13q	13q	high	13q	high	True	True
+7p	high	True	HG02572#1#CM088156.1#L	contig_name	7p	7p	high	7p	high	True	True
+8q	high	True	HG01243#2#CM099593.1#R	contig_name	8q	8q	high	8q	high	True	True
+5q	high	True	HG03139#1#CM091854.1#R	contig_name	5q	5q	high	5q	high	True	True
+11q	high	True	NA19682#1#CM094154.1#R	contig_name	11q	11q	high	11q	high	True	True
+20p	high	True	HG03831#1#CM086533.1#L	contig_name	20p	20p	high	20p	high	True	True
+1q	high	True	HG03270#2#CM089910.1#R	contig_name	1q	1q	high	1q	high	True	True
+19p	high	True	HG03579#2#CM089296.1#L	contig_name	19p	19p	high	19p	high	True	True
+17p	high	True	HG01081#1#CM088575.1#L	contig_name	17p	17p	high	17p	high	True	True
+Xq	medium	True	HG02668#2#CM088907.1#R	contig_name	Xq	Xq	medium	Xq	medium	True	True
+		True	HG03195#1#CM087068.1#L	contig_name	22p					True	
+7p	high	True	HG00658#1#CM088777.1#L	contig_name	7p	7p	high	7p	high	True	True
+2q	high	True	NA19391#2#CM087801.1#R	contig_name	2q	2q	high	2q	high	True	True
+10p	high	True	HG03470#1#CM091826.1#L	contig_name	10p	10p	high	10p	high	True	True
+20p	high	True	HG02391#2#CM087623.1#L	contig_name	20p	20p	high	20p	high	True	True
+2q	high	True	HG01150#2#CM088611.1#R	contig_name	2q	2q	high	2q	high	True	True
+11p	high	True	HG00639#2#CM088559.1#L	contig_name	11p	11p	high	11p	high	True	True
+11q	high	True	HG04228#1#CM088485.1#R	contig_name	11q	11q	high	11q	high	True	True
+		True	NA19909#2#CM094144.1#L	contig_name	21p					True	
+12q	high	True	HG00097#2#CM094083.1#R	contig_name	12q	12q	high	12q	high	True	True
+11q	high	True	HG01192#1#CM085932.1#R	contig_name	11q	11q	high	11q	high	True	True
+11p	high	True	NA18944#1#CM101650.1#L	contig_name	11p	11p	high	11p	high	True	True
+20p	high	True	HG01784#2#CM087607.1#L	contig_name	20p	20p	high	20p	high	True	True
+20p	high	True	NA18983#2#CM087440.1#L	contig_name	20p	20p	high	20p	high	True	True
+19q	high	True	HG00126#1#CM090118.1#R	contig_name	19q	19q	high	19q	high	True	True
+19q	high	True	HG00706#2#CM100068.1#R	contig_name	19q	19q	high	19q	high	True	True
+4q	high	True	HG03834#2#CM085811.1#R	contig_name	4q	4q	high	4q	high	True	True
+21p	high	True	HG02809#1#CM088357.1#L	contig_name	22p	21p	high	21p	high	True	True
+11p	high	True	HG01150#2#CM088619.1#L	contig_name	11p	11p	high	11p	high	True	True
+9q	high	True	HG02132#1#CM086900.1#R	contig_name	9q	9q	high	9q	high	True	True
+12p	high	True	HG04160#2#CM088453.1#L	contig_name	12p	12p	high	12p	high	True	True
+2q	high	True	HG01192#2#CM085939.1#R	contig_name	2q	2q	high	2q	high	True	True
+22p	medium	True	NA19443#1#CM089453.1#L	contig_name	13p	22p	medium			False	
+18q	high	True	HG00621#2#CM087872.1#R	contig_name	18q	18q	high	18q	high	True	True
+4q	high	True	HG02717#1#CM088957.1#R	contig_name	4q	4q	high	4q	high	True	True
+12q	high	True	HG02027#1#CM086980.1#R	contig_name	12q	12q	high	12q	high	True	True
+17q	high	True	HG01167#2#CM094548.1#R	contig_name	17q	17q	high	17q	high	True	True
+20p	high	True	HG03654#1#CM086843.1#L	contig_name	20p	20p	high	20p	high	True	True
+19p	high	True	HG01192#2#CM085951.1#L	contig_name	19p	19p	high	19p	high	True	True
+19p	high	True	NA19909#1#CM094129.1#L	contig_name	19p	19p	high	19p	medium	False	True
+19p	high	True	HG00733#2#CM099651.1#L	contig_name	19p	19p	high	19p	high	True	True
+8p	high	True	HG02630#2#CM091742.1#L	contig_name	8p	8p	high	8p	high	True	True
+22q	high	True	HG01071#2#CM089140.1#R	contig_name	22q	22q	high	22q	high	True	True
+10q	high	True	HG00621#2#CM087868.1#R	contig_name	10q	10q	high	10q	high	True	True
+Xq	medium	True	HG00320#2#CM089977.1#R	contig_name	Xq	Xq	medium	Xq	medium	True	True
+11p	high	True	HG03834#2#CM085815.1#L	contig_name	11p	11p	high	11p	high	True	True
+2q	high	True	HG005#1#CM099984.1#R	contig_name	2q	2q	high	2q	high	True	True
+2q	high	True	HG02572#1#CM088151.1#R	contig_name	2q	2q	high	2q	high	True	True
+11q	high	True	HG03654#1#CM086840.1#R	contig_name	11q	11q	high	11q	high	True	True
+10p	high	True	NA20827#2#CM102568.1#L	contig_name	10p	10p	high	10p	high	True	True
+11p	high	True	HG02109#1#CM092166.1#L	contig_name	11p	11p	high	11p	high	True	True
+20q	high	True	NA18522#2#CM087201.1#R	contig_name	20q	20q	high	20q	high	True	True
+5p	high	True	HG00658#2#CM088797.1#L	contig_name	5p	5p	high	5p	high	True	True
+17q	high	True	HG00232#1#CM089999.1#R	contig_name	17q	17q	high	17q	high	True	True
+9q	high	True	HG02886#2#CM088130.1#R	contig_name	9q	9q	high	9q	high	True	True
+12p	high	True	NA20805#1#CM091892.1#L	contig_name	12p	12p	high	12p	high	True	True
+18q	high	True	NA20870#2#CM089719.1#R	contig_name	18q	18q	high	18q	high	True	True
+10q	high	True	NA20806#1#CM102446.1#R	contig_name	10q	10q	high	10q	high	True	True
+12p	high	True	HG02004#1#CM086306.1#L	contig_name	12p	12p	high	12p	high	True	True
+4p	high	True	HG04160#1#CM088425.1#L	contig_name	4p	4p	high	4p	high	True	True
+20q	high	True	HG02148#1#CM087993.1#R	contig_name	20q	20q	high	20q	high	True	True
+2q	high	True	HG00235#1#CM094371.1#R	contig_name	2q	2q	high	2q	high	True	True
+4p	high	True	NA18570#1#CM087657.1#L	contig_name	4p	4p	high	4p	high	True	True
+22p	medium	True	HG03742#1#CM087635.1#L	contig_name	14p	22p	medium	22p	medium	True	True
+18p	high	True	HG02818#1#CM092005.1#L	contig_name	18p	18p	high	18p	high	True	True
+3p	high	True	HG02109#2#CM092144.1#L	contig_name	3p	3p	high	3p	high	True	True
+10p	high	True	HG02148#1#CM087987.1#L	contig_name	10p	10p	high	10p	high	True	True
+5q	high	True	HG01074#2#CM088811.1#R	contig_name	5q	5q	high	5q	high	True	True
+11p	high	True	HG01243#2#CM099596.1#L	contig_name	11p	11p	high	11p	high	True	True
+20q	high	True	HG02622#2#CM088108.1#R	contig_name	20q	20q	high	20q	high	True	True
+Xq	medium	True	HG03041#2#CM088743.1#R	contig_name	Xq	Xq	medium	Xq	high	False	True
+19p	high	True	NA18944#1#CM101653.1#L	contig_name	19p	19p	high	19p	high	True	True
+4q	high	True	HG02083#1#CM086953.1#R	contig_name	4q	4q	high	4q	high	True	True

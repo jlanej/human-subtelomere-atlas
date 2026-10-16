@@ -1,0 +1,25 @@
+variant	nativity	n	S20_stable	core_structure_stable	allele_stable	haplogroup_stable	realigned_equals_predicted
+boundary+500	all	600	0.965	0.9733	0.9683	0.9917	0.9917
+boundary+500	foreign	252	0.9365	0.9444	0.9365	0.996	0.9841
+boundary+500	native	300	0.9967	1.0	1.0	0.9933	1.0
+boundary+500	within_family	48	0.9167	0.9583	0.9375	0.9583	0.9792
+boundary-500	all	600	0.9567	0.9767	0.9717	0.9967	0.9917
+boundary-500	foreign	252	0.9087	0.9524	0.9484	0.996	0.9802
+boundary-500	native	300	0.9967	0.9967	0.9967	1.0	1.0
+boundary-500	within_family	48	0.9583	0.9792	0.9375	0.9792	1.0
+telomere+250	all	600	0.9917	0.9783	0.9783	1.0	
+telomere+250	foreign	252	0.9921	0.9603	0.9603	1.0	
+telomere+250	native	300	1.0	0.9967	0.9967	1.0	
+telomere+250	within_family	48	0.9375	0.9583	0.9583	1.0	
+telomere+500	all	600	1.0	0.9817	0.9817	1.0	
+telomere+500	foreign	252	1.0	0.9603	0.9603	1.0	
+telomere+500	native	300	1.0	1.0	1.0	1.0	
+telomere+500	within_family	48	1.0	0.9792	0.9792	1.0	
+telomere-250	all	584	0.9914	0.9846	0.9846	1.0	
+telomere-250	foreign	248	0.996	0.9758	0.9758	1.0	
+telomere-250	native	289	1.0	0.9965	0.9965	1.0	
+telomere-250	within_family	47	0.9149	0.9574	0.9574	1.0	
+telomere-500	all	575	0.9983	0.9878	0.9878	1.0	
+telomere-500	foreign	245	0.9959	0.9714	0.9714	1.0	
+telomere-500	native	284	1.0	1.0	1.0	1.0	
+telomere-500	within_family	46	1.0	1.0	1.0	1.0	

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subtel-atlas"
+version = "0.1.0"
+description = "Query tool for the human subtelomere allele catalogue (structural alleles and haplogroups of chromosome ends)"
+readme = "atlas/README.md"
+requires-python = ">=3.9"
+dependencies = ["mappy>=2.24", "numpy>=1.22", "pandas>=1.5"]
+
+[project.optional-dependencies]
+bam = ["pysam"]
+build = ["scipy", "matplotlib", "pysam"]
+test = ["pytest"]
+
+[project.scripts]
+subtel-atlas = "subtel_atlas.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/jlanej/human-subtelomere-atlas"
+
+[tool.setuptools.packages.find]
+where = ["atlas"]
+include = ["subtel_atlas*"]
+
+[tool.setuptools.package-data]
+subtel_atlas = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

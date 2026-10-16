@@ -1,0 +1,13 @@
+allele_type	stratum	n	n_correct	accuracy	correct_assignment	correct_novel	false_novel	wrong_allele	assigned_to_other
+structural_allele	all	5293	5281	0.9977	5203	78	0	10	2
+structural_allele	tier_A	4767	4759	0.9983	4759	0	0	8	0
+structural_allele	tier_B	418	415	0.9928	415	0	0	2	1
+structural_allele	tier_C	104	103	0.9904	29	74	0	0	1
+structural_allele	still_defined	5213	5203	0.9981	5203	0	0	10	0
+structural_allele	removed_by_holdout	76	74	0.9737	0	74	0	0	2
+haplogroup	all	5293	5172	0.9771	5067	105	18	92	11
+haplogroup	tier_A	4836	4730	0.9781	4727	3	17	89	0
+haplogroup	tier_B	377	369	0.9788	340	29	1	3	4
+haplogroup	tier_C	75	68	0.9067	0	68	0	0	7
+haplogroup	still_represented	5177	5067	0.9788	5067	0	18	92	0
+haplogroup	removed_by_holdout	111	100	0.9009	0	100	0	0	11

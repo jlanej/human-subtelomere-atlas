@@ -1,0 +1,4 @@
+dataset	description	n_input_records	n_telomeric_ends_found	n_catalogue_ends	n_matched_to_catalogue	n_unmatched_tool_ends	wall_seconds	peak_rss_gb	threads	aligner	loso_sa_accuracy	loso_hg_accuracy
+chm13	CHM13 v2.0 (T2T), whole assembly	25	48	48	48	0	42.2	2.23	3	minimap2	1.0	0.9583
+hg002	HG002 Q100 v1.1, whole diploid assembly	47	86	92	86	0	77.6	2.38	3	minimap2	1.0	0.9651
+pedigree	WashU pedigree v1.1, outer 250 kb of each chromosome end (validation-only set)	368	366	368	366	0	207.7	3.35	3	minimap2		

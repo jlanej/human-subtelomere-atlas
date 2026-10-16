@@ -1,0 +1,5 @@
+dataset	variant	n_reads	n_ends	arm	S20	core_structure	sa	hg	median_read_bp
+HiFi_Revio	arm_given	354	91	1.0	0.9294	0.7401	0.8785	0.6186	21549.5
+HiFi_Revio	arm_inferred	354	91	0.726	0.7288	0.709	0.6921	0.4689	21549.5
+ONT_UL	arm_given	365	92	1.0	0.9068	0.863	0.8712	0.3452	100000.0
+ONT_UL	arm_inferred	365	92	0.8137	0.811	0.811	0.789	0.2849	100000.0
