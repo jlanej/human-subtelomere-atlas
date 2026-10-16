@@ -1,0 +1,747 @@
+{
+ "named_tips": {
+  "value": 11998,
+  "source": "input:results/subtel_foreign_tips.tsv"
+ },
+ "foreign_tips_t20": {
+  "value": 4594,
+  "source": "input:results/subtel_foreign_tips.tsv"
+ },
+ "foreign_pct_t20": {
+  "value": 38.3,
+  "source": "input:results/subtel_foreign_tips.tsv"
+ },
+ "n_forms": {
+  "value": 347,
+  "source": "input:results/subtel_foreign_forms.tsv"
+ },
+ "form_20q3q_tips": {
+  "value": 171,
+  "source": "input:results/subtel_foreign_tips.tsv"
+ },
+ "form_20q3q_samples": {
+  "value": 128,
+  "source": "input:results/subtel_foreign_tips.tsv"
+ },
+ "junction_tips": {
+  "value": 1756,
+  "source": "input:results/subtel_foreign_tips.tsv"
+ },
+ "junction_tips_shared": {
+  "value": 1559,
+  "source": "input:results/subtel_foreign_tips.tsv"
+ },
+ "verkko_samples": {
+  "value": 10,
+  "source": "input:results/subtel_verkko_concordance.tsv"
+ },
+ "verkko_foreign_tips": {
+  "value": 198,
+  "source": "input:results/subtel_verkko_concordance.tsv"
+ },
+ "verkko_full_length": {
+  "value": 181,
+  "source": "input:results/subtel_verkko_concordance.tsv"
+ },
+ "verkko_junction_concordant": {
+  "value": 146,
+  "source": "input:results/subtel_verkko_concordance.tsv"
+ },
+ "verkko_junction_tested": {
+  "value": 150,
+  "source": "input:results/subtel_verkko_concordance.tsv"
+ },
+ "hg002_switches": {
+  "value": 22,
+  "source": "input:results/subtel_hg002_junction_reads.tsv"
+ },
+ "hg002_ont_cross_min": {
+  "value": 32,
+  "source": "input:results/subtel_hg002_junction_reads.tsv"
+ },
+ "hg002_ont_cross_max": {
+  "value": 58,
+  "source": "input:results/subtel_hg002_junction_reads.tsv"
+ },
+ "ped_foreign": {
+  "value": 54,
+  "source": "input:results/subtel_pedigree_transmission_summary.tsv"
+ },
+ "ped_foreign_intact": {
+  "value": 51,
+  "source": "input:results/subtel_pedigree_transmission_summary.tsv"
+ },
+ "ped_transmissions": {
+  "value": 3,
+  "source": "input:results/subtel_pedigree_transmission_summary.tsv"
+ },
+ "foreign_pct_S5": {
+  "value": 49.8,
+  "source": "repo:analyses/telomere_cis/results/fixed_window_states.tsv"
+ },
+ "foreign_pct_S10": {
+  "value": 41.1,
+  "source": "repo:analyses/telomere_cis/results/fixed_window_states.tsv"
+ },
+ "foreign_pct_S20": {
+  "value": 34.2,
+  "source": "repo:analyses/telomere_cis/results/fixed_window_states.tsv"
+ },
+ "fixed_window_tips": {
+  "value": 11998,
+  "source": "repo:analyses/telomere_cis/results/fixed_window_states.tsv"
+ },
+ "cat_alleles": {
+  "value": 647,
+  "source": "repo:data/catalogue/alleles_structural.tsv"
+ },
+ "cat_tier_A": {
+  "value": 129,
+  "source": "repo:data/catalogue/alleles_structural.tsv"
+ },
+ "cat_tier_B": {
+  "value": 166,
+  "source": "repo:data/catalogue/alleles_structural.tsv"
+ },
+ "cat_tier_C": {
+  "value": 352,
+  "source": "repo:data/catalogue/alleles_structural.tsv"
+ },
+ "cat_alleles_native": {
+  "value": 67,
+  "source": "repo:data/catalogue/alleles_structural.tsv"
+ },
+ "cat_alleles_within_family": {
+  "value": 49,
+  "source": "repo:data/catalogue/alleles_structural.tsv"
+ },
+ "cat_alleles_foreign": {
+  "value": 531,
+  "source": "repo:data/catalogue/alleles_structural.tsv"
+ },
+ "cat_haplogroups": {
+  "value": 593,
+  "source": "repo:data/catalogue/haplogroups.tsv"
+ },
+ "cat_families": {
+  "value": 6,
+  "source": "repo:data/catalogue/paralog_families.tsv"
+ },
+ "cat_family_list": {
+  "value": "PF01 (4p, 14p, 15p, 21p, 22p); PF02 (1p, 5q, 6q); PF03 (11p, 15q); PF04 (3q, 19p); PF05 (Xp, Yp); PF06 (Xq, Yq)",
+  "source": "repo:data/catalogue/paralog_families.tsv"
+ },
+ "cat_ends_r2": {
+  "value": 20144,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_ends_chm13": {
+  "value": 48,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_ends_hg002": {
+  "value": 92,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_r2_native": {
+  "value": 14461,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_r2_within_family": {
+  "value": 747,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_r2_foreign": {
+  "value": 4936,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_r2_nonnative_pct": {
+  "value": 28.2,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_r2_foreign_pct": {
+  "value": 24.5,
+  "source": "repo:data/catalogue/ends.tsv"
+ },
+ "cat_shift_nonnative_minus500": {
+  "value": 96.2,
+  "source": "repo:data/catalogue/QC.md (section 9 table, allele column)"
+ },
+ "cat_shift_n_nonnative": {
+  "value": 649,
+  "source": "repo:data/catalogue/QC.md (section 9 table)"
+ },
+ "cat_shift_nonnative_plus500": {
+  "value": 94.6,
+  "source": "repo:data/catalogue/QC.md (section 9 table, allele column)"
+ },
+ "tl_karimian_rho": {
+  "value": 0.73,
+  "source": "repo:analyses/telomere_cis/results/baseline_stats.json"
+ },
+ "tl_karimian_arms": {
+  "value": 38,
+  "source": "repo:analyses/telomere_cis/results/baseline_stats.json"
+ },
+ "tl_karimian_p": {
+  "value": "1.7e-07",
+  "source": "repo:analyses/telomere_cis/results/baseline_stats.json"
+ },
+ "tl_t20_d": {
+  "value": 396,
+  "source": "repo:analyses/telomere_cis/results/paired_tests_t20.tsv"
+ },
+ "tl_t20_p": {
+  "value": 0.008,
+  "source": "repo:analyses/telomere_cis/results/paired_tests_t20.tsv"
+ },
+ "tl_S20_d": {
+  "value": -211,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_S20_p": {
+  "value": 0.099,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_S10_d": {
+  "value": -320,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_S10_p": {
+  "value": 0.014,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_S5_d": {
+  "value": -515,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_S5_p": {
+  "value": 6.2e-05,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_W515_d": {
+  "value": -110,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_W515_p": {
+  "value": 0.4,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_ext_min": {
+  "value": -133,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_ext_max": {
+  "value": 14,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_ext_min_p": {
+  "value": 0.36,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_S20_pairs": {
+  "value": 1018,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_S20_mde": {
+  "value": 408,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.tsv"
+ },
+ "tl_forms_tested": {
+  "value": 35,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_forms_sig_ext": {
+  "value": 0,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_donor_slope_ext": {
+  "value": 0.16,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_donor_se_ext": {
+  "value": 0.14,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_donor_p_ext": {
+  "value": 0.28,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_its_shift_per100": {
+  "value": 123,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_S5_minus_W515": {
+  "value": -405,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_S5_minus_W515_p": {
+  "value": 0.006,
+  "source": "repo:analyses/telomere_cis/results/window_robustness.json"
+ },
+ "tl_hg002_het_arms": {
+  "value": 5,
+  "source": "repo:analyses/telomere_cis/results/hg002_stats.json"
+ },
+ "tl_hg002_foreign_longer": {
+  "value": 3,
+  "source": "repo:analyses/telomere_cis/results/hg002_stats.json"
+ },
+ "tl_hg002_sign_p": {
+  "value": 1.0,
+  "source": "repo:analyses/telomere_cis/results/hg002_stats.json"
+ },
+ "recip_carriers_assessed": {
+  "value": 2464,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "recip_carriers_reciprocal": {
+  "value": 95,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "recip_pct_carriers": {
+  "value": 3.86,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "recip_pct_noncarriers": {
+  "value": 3.91,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "recip_chi2_p": {
+  "value": 0.88,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "recip_forms": {
+  "value": 104,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "recip_complement_matched": {
+  "value": 30,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "recip_complement_tested": {
+  "value": 233,
+  "source": "repo:analyses/junctions/results/reciprocal_summary.json"
+ },
+ "jx_clusters": {
+  "value": 383,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_gt25": {
+  "value": 261,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_null_pct_gt25": {
+  "value": 0.001,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_spanning": {
+  "value": 327,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_spanning_pct": {
+  "value": 85.0,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_nonhom": {
+  "value": 56,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_blunt": {
+  "value": 22,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_micro": {
+  "value": 19,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_shorthom": {
+  "value": 15,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_far": {
+  "value": 302,
+  "source": "repo:analyses/junctions/results/junction_summary.json"
+ },
+ "jx_mh_obs_mean": {
+  "value": 210.3,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "jx_mh_null_mean": {
+  "value": 0.69,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "jx_mh_perm_p": {
+  "value": 0.0005,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "its_all_pct": {
+  "value": 11.0,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "its_all_null_pct": {
+  "value": 1.35,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "its_far_pct": {
+  "value": 0.99,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "its_far_null_pct": {
+  "value": 1.45,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "its_far_p": {
+  "value": 0.82,
+  "source": "repo:analyses/junctions/results/junction_null_summary.tsv"
+ },
+ "pop_forms_tested": {
+  "value": 104,
+  "source": "repo:analyses/allele_ages/results/pop_summary.json"
+ },
+ "pop_forms_q05": {
+  "value": 41,
+  "source": "repo:analyses/allele_ages/results/pop_summary.json"
+ },
+ "pop_forms_all5": {
+  "value": 66,
+  "source": "repo:analyses/allele_ages/results/pop_summary.json"
+ },
+ "pop_median_fst": {
+  "value": 0.023,
+  "source": "repo:analyses/allele_ages/results/pop_summary.json"
+ },
+ "pop_big_clusters": {
+  "value": 39,
+  "source": "repo:analyses/allele_ages/results/pop_summary.json"
+ },
+ "pop_big_clusters_ooa": {
+  "value": 34,
+  "source": "repo:analyses/allele_ages/results/pop_summary.json"
+ },
+ "age_forms_analysed": {
+  "value": 34,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_forms_clustered_crit": {
+  "value": 23,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_single_origin": {
+  "value": 13,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_monophyletic": {
+  "value": 0,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_forms_selected": {
+  "value": 61,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_forms_untestable": {
+  "value": 27,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_clustered_diverse": {
+  "value": 7,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_clustered_lowdiv": {
+  "value": 3,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_not_supported": {
+  "value": 11,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_afr_higher": {
+  "value": 23,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_afr_forms": {
+  "value": 33,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_afr_p": {
+  "value": 0.035,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_single_origin_mean_age_kyr": {
+  "value": 1692,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "ape_clusters": {
+  "value": 70,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "ape_shared": {
+  "value": 0,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "ape_hits": {
+  "value": 31,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "ape_hit_clusters": {
+  "value": 17,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "ape_hits_duplicon": {
+  "value": 31,
+  "source": "repo:analyses/allele_ages/results/origin_summary.json"
+ },
+ "age_nn_sig": {
+  "value": 33,
+  "source": "repo:analyses/allele_ages/results/origin_verdicts.tsv"
+ },
+ "age_clustered": {
+  "value": 23,
+  "source": "repo:analyses/allele_ages/results/origin_verdicts.tsv"
+ },
+ "age_clustered_02_15": {
+  "value": 17,
+  "source": "repo:analyses/allele_ages/results/origin_verdicts.tsv"
+ },
+ "age_3q11p": {
+  "value": 527,
+  "source": "repo:analyses/allele_ages/results/origin_verdicts.tsv"
+ },
+ "age_6p11p": {
+  "value": 457,
+  "source": "repo:analyses/allele_ages/results/origin_verdicts.tsv"
+ },
+ "age_20q3q": {
+  "value": 623,
+  "source": "repo:analyses/allele_ages/results/origin_verdicts.tsv"
+ },
+ "tan_primary_pairs": {
+  "value": 10999,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_samples": {
+  "value": 229,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_sa_agree": {
+  "value": 96.4,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_sa_n": {
+  "value": 10940,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_s20_agree": {
+  "value": 97.8,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_switch_identical": {
+  "value": 95.9,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_switch_n": {
+  "value": 10769,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_sa_agree_native": {
+  "value": 99.6,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_sa_agree_foreign": {
+  "value": 90.9,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_sa_agree_within_family": {
+  "value": 83.4,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_cohort_records": {
+  "value": 11175,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_cohort_samples": {
+  "value": 182,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_cohort_assigned_min": {
+  "value": 97.7,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_cohort_assigned_max": {
+  "value": 98.7,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_rep_n": {
+  "value": 88,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_rep_obs": {
+  "value": 88,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_rep_obs3": {
+  "value": 88,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_rep_by_cohort": {
+  "value": "HGSVC3 88/88, CPC 78/88, APC 87/88, JASA 76/86",
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_tierA_obs": {
+  "value": "124/129",
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_tierB_obs": {
+  "value": "128/166",
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_freq_r": {
+  "value": 0.971,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_freq_n": {
+  "value": 253,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_sig_sa": {
+  "value": 14,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_n_sa": {
+  "value": 5573,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_sig_form": {
+  "value": 5,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_n_form": {
+  "value": 589,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_novel_records": {
+  "value": 152,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_novel_pct": {
+  "value": 1.4,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_novel_candidates": {
+  "value": 15,
+  "source": "repo:data/validation/tan2026_summary.json"
+ },
+ "tan_matched_tests": {
+  "value": 2272,
+  "source": "repo:data/validation/tan2026_cohort_forms.tsv"
+ },
+ "tan_matched_sig": {
+  "value": 0,
+  "source": "repo:data/validation/tan2026_cohort_forms.tsv"
+ },
+ "tool_sentence": {
+  "value": "The query tool reproduces the catalogue structural allele for 5970 of 5981 re-queried catalogue windows and assigns 5281 of 5293 ends correctly in leave-one-sample-out tests (tests/validation/VALIDATION.md).",
+  "source": "repo:tests/validation/self_consistency_summary.tsv; repo:tests/validation/loso_summary.tsv"
+ },
+ "_sources": {
+  "value": {
+   "input:results/subtel_foreign_forms.tsv": {
+    "sha256": "08872a90e136b3ef0ad62e0580d344f2806936ebd123d423f01501be58c682a5",
+    "mtime_utc": "2026-10-15T01:55Z"
+   },
+   "input:results/subtel_foreign_tips.tsv": {
+    "sha256": "86ce6bb7ad8f6436a798dc5b952e418771776728d3285ff9be6df80225d5c294",
+    "mtime_utc": "2026-10-15T01:55Z"
+   },
+   "input:results/subtel_hg002_junction_reads.tsv": {
+    "sha256": "cd87af02e7f9cc78a0a6ad6fe45b7be5b10ae919abfd9dea1d0561e743f7ec2d",
+    "mtime_utc": "2026-10-14T23:42Z"
+   },
+   "input:results/subtel_pedigree_transmission_summary.tsv": {
+    "sha256": "286097ecf73c3dae36da96b0a28dd5fe197f7e7bbc7bfb67e0f0de5fe0617b88",
+    "mtime_utc": "2026-10-15T01:08Z"
+   },
+   "input:results/subtel_verkko_concordance.tsv": {
+    "sha256": "71a77cb4b0113a3d642ce6222fd1723760d765b766d3c17a0ea0b0314e5a865d",
+    "mtime_utc": "2026-10-15T01:50Z"
+   },
+   "repo:analyses/allele_ages/results/origin_summary.json": {
+    "sha256": "23cb67d6565d3e01893281723690613c509a080d7f6f70a65254a31e1392c80b",
+    "mtime_utc": "2026-10-15T15:55Z"
+   },
+   "repo:analyses/allele_ages/results/origin_verdicts.tsv": {
+    "sha256": "3fc1de8783aaed2f5b41ddb980bd47c8115c18793238b1053fb70f520244bb89",
+    "mtime_utc": "2026-10-15T15:55Z"
+   },
+   "repo:analyses/allele_ages/results/pop_summary.json": {
+    "sha256": "66576f30d291fc308d2f88f9339b6a9617077543ffdee0b4c2866bf59bfb3b61",
+    "mtime_utc": "2026-10-15T15:52Z"
+   },
+   "repo:analyses/junctions/results/junction_null_summary.tsv": {
+    "sha256": "43ae33e6dcc9f7689063a5c5e62cd0590e128bcfd32b58d15d751661f50df0b0",
+    "mtime_utc": "2026-10-15T15:35Z"
+   },
+   "repo:analyses/junctions/results/junction_summary.json": {
+    "sha256": "27c1e26623734c4f07ca455af0aa7d80af0061629397b11e17b80e0aaa5ca7ed",
+    "mtime_utc": "2026-10-15T15:35Z"
+   },
+   "repo:analyses/junctions/results/reciprocal_summary.json": {
+    "sha256": "aeff43e453e9a8eee5b3b1df96c99165ecd01532932e9cc5a840be972a68477c",
+    "mtime_utc": "2026-10-15T15:26Z"
+   },
+   "repo:analyses/telomere_cis/results/baseline_stats.json": {
+    "sha256": "879f02f5a3a2fbbd32275f1801b721e998bc3e7a21fc8d8ad1d7f3950ed18e8d",
+    "mtime_utc": "2026-10-15T17:14Z"
+   },
+   "repo:analyses/telomere_cis/results/fixed_window_states.tsv": {
+    "sha256": "fcf6a490a4b049d79f0ca7cdf09cf5bd38d3ece05443b3de13fd0bded00bc839",
+    "mtime_utc": "2026-10-15T17:38Z"
+   },
+   "repo:analyses/telomere_cis/results/hg002_stats.json": {
+    "sha256": "5141b3f2e5f6356a603d31ad36029a00252ff0cec2ee9c36813fce84638187e3",
+    "mtime_utc": "2026-10-15T17:45Z"
+   },
+   "repo:analyses/telomere_cis/results/paired_tests_t20.tsv": {
+    "sha256": "3eed50e040184e30833aaaeb556f68180488aaee4a48fc80cd4e1fab95112bcb",
+    "mtime_utc": "2026-10-15T17:39Z"
+   },
+   "repo:analyses/telomere_cis/results/window_robustness.json": {
+    "sha256": "b082b09fd7efe0b9def760373062b8106d05f5219da49022d04a0d28edb92f81",
+    "mtime_utc": "2026-10-15T17:44Z"
+   },
+   "repo:analyses/telomere_cis/results/window_robustness.tsv": {
+    "sha256": "e537d7919631109cef420788323926d5c585ded204bcf2809e676fef15f28acf",
+    "mtime_utc": "2026-10-15T17:44Z"
+   },
+   "repo:data/catalogue/QC.md": {
+    "sha256": "8ab4e9b94559b1e64bef5cdd922eee30f2c540226a5be9fdff6cf8960bdc9f45",
+    "mtime_utc": "2026-10-16T04:43Z"
+   },
+   "repo:data/catalogue/alleles_structural.tsv": {
+    "sha256": "565e225ad1c00409e73bd89e8a12df88d92773899b22390ccc60f572d1ca36e3",
+    "mtime_utc": "2026-10-16T04:38Z"
+   },
+   "repo:data/catalogue/ends.tsv": {
+    "sha256": "c10db9e6f04c55e316743b057360e0d8be4223f445ed52eb25ae59e8a11fbf97",
+    "mtime_utc": "2026-10-16T04:38Z"
+   },
+   "repo:data/catalogue/haplogroups.tsv": {
+    "sha256": "e22080c84703f7aa80c0955f4bd54d3367dca6df118d59015d95890b1c05044e",
+    "mtime_utc": "2026-10-16T04:38Z"
+   },
+   "repo:data/catalogue/paralog_families.tsv": {
+    "sha256": "995508e15da7f5089f267653f84fe921580cd0bedf94d0f3d7d8c98b0afa5a99",
+    "mtime_utc": "2026-10-16T03:54Z"
+   },
+   "repo:data/validation/tan2026_cohort_forms.tsv": {
+    "sha256": "e3a9bd67321da41fb73f3341cd929e5fef19ca66a8af99f8eb8ff61a1080c83b",
+    "mtime_utc": "2026-10-16T06:11Z"
+   },
+   "repo:data/validation/tan2026_summary.json": {
+    "sha256": "b3089c880aa44ff03622111753ac0c1816ffb8ed0aa24d0e004a5dca25fd30c5",
+    "mtime_utc": "2026-10-16T06:11Z"
+   }
+  },
+  "source": "sha256 and modification time of each source file at extraction"
+ }
+}

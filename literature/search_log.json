@@ -1,0 +1,12 @@
+{
+ "retrieved_utc_first": "2026-10-15T14:51Z",
+ "retrieved_utc_last": "2026-10-15T19:42Z",
+ "n_raw_responses": 319,
+ "openalex_endpoint": "https://api.openalex.org/works",
+ "crossref_endpoint": "https://api.crossref.org/works",
+ "n_queries": 45,
+ "per_query": 25,
+ "n_seeds": 121,
+ "n_expanded": 10,
+ "n_unique_candidates": 1485
+}

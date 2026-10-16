@@ -1,0 +1,12 @@
+{
+ "candidates": 1485,
+ "prescreen_excluded": 1099,
+ "prescreen_retained": 386,
+ "retained_seeds": 121,
+ "retained_without_doi": 10,
+ "excluded_after_abstract": 8,
+ "excluded_records_no_longer_retrieved_as_seed": 1,
+ "excluded_at_title_screen": 169,
+ "included": 199,
+ "included_not_prescreen_retained": 0
+}

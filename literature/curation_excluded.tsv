@@ -1,0 +1,10 @@
+doi	title	exclusion_reason
+10.1038/s41568-024-00767-7	High-resolution measurement of individual telomere lengths with Telo-seq	research highlight; primary Telo-seq paper (10.1038/s41467-024-48917-7) included instead
+10.3390/genes17020185	Evolution of rDNA-Linked Segmental Duplications as Lineage-Specific Mosaics in Great Apes	acrocentric rDNA SDs in apes; outside subtelomere scope
+10.1186/s13100-026-00394-z	Boundary-associated propagation of a processed pseudogene dissects pre-existing limitations of genome annotation in the T2T era	processed-pseudogene annotation; off-topic
+10.1101/2022.05.09.491186	Single-molecule architecture and heterogeneity of human telomeric DNA and chromatin	telomeric chromatin (Fiber-seq); superseded for our questions by 10.64898/2026.05.01.722200
+10.5287/ora-gaer78ww4	Hypothesis-free detection of genome-changing events in pedigree sequencing	thesis on pedigree DNM detection in parasites; off-topic
+10.1016/s0022-2836(03)00315-2	Distance from the Chromosome End Determines the Efficiency of Double Strand Break Repair in Subtelomeres of Haploid Yeast	yeast DSB repair vs distance to end; covered by 10.15252/embj.201796631
+10.1158/1940-6207.capr-08-0227	Constitutive Short Telomere Length of Chromosome 17p and 12q but not 11q and 2p Is Associated with an Increased Risk for Esophageal Cancer	clinical association of arm telomere length with cancer risk; off-topic
+10.1101/2023.11.01.565049	The complete diploid reference genome of RPE-1 identifies human phased epigenetic landscapes	cell-line diploid genome; not subtelomere-specific
+10.1093/gpbjnl/qzaf118	A Telomere-to-telomere Diploid Reference Genome and Centromere Structure of the Chinese Quartet	diploid T2T genome focused on centromeres; not subtelomere-specific

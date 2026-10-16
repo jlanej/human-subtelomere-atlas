@@ -1,0 +1,811 @@
+{
+ "description": "Systematic literature search for the human subtelomere atlas. Queries are run against the OpenAlex /works search endpoint (relevance-ranked, top N per query); seeds are known key papers resolved by DOI or, when no DOI is pinned, by Crossref free-text lookup.",
+ "per_query": 25,
+ "queries": [
+  {
+   "tag": "subtel_sd",
+   "q": "subtelomere segmental duplication human"
+  },
+  {
+   "tag": "subtel_sd",
+   "q": "subtelomeric duplicon interchromosomal"
+  },
+  {
+   "tag": "subtel_sd",
+   "q": "human subtelomere structure variation"
+  },
+  {
+   "tag": "subtel_sd",
+   "q": "subtelomeric olfactory receptor polymorphic duplication"
+  },
+  {
+   "tag": "subtel_sd",
+   "q": "telomere-associated repeat polymorphism human chromosome ends"
+  },
+  {
+   "tag": "subtel_exchange",
+   "q": "interchromosomal exchange subtelomere recombination"
+  },
+  {
+   "tag": "subtel_exchange",
+   "q": "subtelomere evolution primate comparative"
+  },
+  {
+   "tag": "subtel_exchange",
+   "q": "ectopic recombination subtelomeres"
+  },
+  {
+   "tag": "telo_capture",
+   "q": "telomere capture chromosome rearrangement"
+  },
+  {
+   "tag": "telo_capture",
+   "q": "telomere healing terminal deletion telomeric repeat addition"
+  },
+  {
+   "tag": "bir",
+   "q": "break-induced replication telomere"
+  },
+  {
+   "tag": "bir",
+   "q": "microhomology-mediated break-induced replication"
+  },
+  {
+   "tag": "bir",
+   "q": "alternative lengthening of telomeres recombination break-induced replication"
+  },
+  {
+   "tag": "its",
+   "q": "interstitial telomeric sequences human"
+  },
+  {
+   "tag": "its",
+   "q": "intrachromosomal telomeric repeats origin evolution"
+  },
+  {
+   "tag": "telo_length_cis",
+   "q": "chromosome-specific telomere length cis-acting determinants"
+  },
+  {
+   "tag": "telo_length_cis",
+   "q": "allele-specific telomere length inheritance"
+  },
+  {
+   "tag": "telo_length_cis",
+   "q": "single telomere length analysis STELA"
+  },
+  {
+   "tag": "telo_length_cis",
+   "q": "telomere length chromosome end-specific long-read sequencing"
+  },
+  {
+   "tag": "telo_length_cis",
+   "q": "haplotype telomere length variant repeats"
+  },
+  {
+   "tag": "telo_methods",
+   "q": "nanopore telomere sequencing telomere length"
+  },
+  {
+   "tag": "telo_methods",
+   "q": "telomere length PacBio HiFi reads"
+  },
+  {
+   "tag": "telo_methods",
+   "q": "Telogator telomere long reads"
+  },
+  {
+   "tag": "telo_methods",
+   "q": "telomere variant repeat long read"
+  },
+  {
+   "tag": "d4z4",
+   "q": "4q 10q subtelomere D4Z4 exchange"
+  },
+  {
+   "tag": "d4z4",
+   "q": "4qA 4qB haplotype facioscapulohumeral"
+  },
+  {
+   "tag": "par",
+   "q": "pseudoautosomal region recombination boundary human"
+  },
+  {
+   "tag": "par",
+   "q": "Xp Yp telomere minisatellite variant repeat"
+  },
+  {
+   "tag": "acro",
+   "q": "acrocentric chromosomes recombination heterologous pangenome"
+  },
+  {
+   "tag": "acro",
+   "q": "acrocentric short arm rDNA evolution complete sequence"
+  },
+  {
+   "tag": "t2t",
+   "q": "telomere-to-telomere complete human genome"
+  },
+  {
+   "tag": "t2t",
+   "q": "complete diploid human genome HG002"
+  },
+  {
+   "tag": "t2t",
+   "q": "complete ape genomes telomere-to-telomere"
+  },
+  {
+   "tag": "hprc",
+   "q": "human pangenome reference consortium"
+  },
+  {
+   "tag": "hprc",
+   "q": "pangenome structural variation segmental duplications complete genomes"
+  },
+  {
+   "tag": "hprc",
+   "q": "subtelomere pangenome long-read assemblies"
+  },
+  {
+   "tag": "pedigree",
+   "q": "multi-generational pedigree complete genomes de novo mutation"
+  },
+  {
+   "tag": "pedigree",
+   "q": "subtelomere meiotic recombination pedigree"
+  },
+  {
+   "tag": "concerted",
+   "q": "concerted evolution repeated DNA gene conversion"
+  },
+  {
+   "tag": "concerted",
+   "q": "molecular drive multigene family homogenization"
+  },
+  {
+   "tag": "resource",
+   "q": "subtelomere database browser annotation"
+  },
+  {
+   "tag": "resource",
+   "q": "human subtelomere assemblies annotation pipeline"
+  },
+  {
+   "tag": "tvr",
+   "q": "TERRA subtelomere transcription"
+  },
+  {
+   "tag": "yeast_subtel",
+   "q": "subtelomere rapid evolution yeast"
+  },
+  {
+   "tag": "subtel_sd",
+   "q": "subtelomeric architecture complete primate genome"
+  }
+ ],
+ "seeds": [
+  {
+   "tag": "subtel_sd",
+   "ref": "Linardopoulou 2005 Human subtelomeres are hot spots of interchromosomal recombination and segmental duplication Nature",
+   "doi": "10.1038/nature04029"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Mefford Trask 2002 The complex structure and dynamic evolution of human subtelomeres Nature Reviews Genetics",
+   "doi": "10.1038/nrg727"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Riethman 2004 Mapping and initial analysis of human subtelomeric sequence assemblies Genome Research",
+   "doi": "10.1101/gr.1245004"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Riethman 2005 Human subtelomere structure and variation Chromosome Research",
+   "doi": "10.1007/s10577-005-0998-1"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Ambrosini 2007 Human subtelomeric duplicon structure and organization Genome Biology",
+   "doi": "10.1186/gb-2007-8-7-r151"
+  },
+  {
+   "tag": "resource",
+   "ref": "Stong 2014 Subtelomeric CTCF and cohesin binding site organization using improved subtelomere assemblies and a novel annotation pipeline Genome Research",
+   "doi": "10.1101/gr.166983.113"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Mefford 2001 Comparative sequencing of a multicopy subtelomeric region containing olfactory receptor genes reveals multiple interactions between non-homologous chromosomes Human Molecular Genetics",
+   "doi": "10.1093/hmg/10.21.2363"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Trask 1998 Members of the olfactory receptor gene family are contained in large blocks of DNA duplicated polymorphically near the ends of human chromosomes Human Molecular Genetics",
+   "doi": "10.1093/hmg/7.1.13"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Wilkie Higgs 1991 Stable length polymorphism of up to 260 kb at the tip of the short arm of human chromosome 16 Cell",
+   "doi": "10.1016/0092-8674(91)90243-r"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Flint 1997 The relationship between chromosome structure and function at a human telomeric region Nature Genetics",
+   "doi": "10.1038/ng0397-252"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Brown 1990 Structure and polymorphism of human telomere-associated DNA Cell",
+   "doi": "10.1016/0092-8674(90)90293-n"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Riethman 2008 Human telomere structure and biology Annual Review of Genomics and Human Genetics",
+   "doi": "10.1146/annurev.genom.8.021506.172017"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Linardopoulou 2007 Human subtelomeric WASH genes encode a new subclass of the WASP family PLoS Genetics",
+   "doi": "10.1371/journal.pgen.0030237"
+  },
+  {
+   "tag": "subtel_exchange",
+   "ref": "Linardopoulou 2001 Transcriptional activity of multiple copies of a subtelomerically located olfactory receptor gene that is polymorphic in number and location Human Molecular Genetics",
+   "doi": "10.1093/hmg/10.21.2373"
+  },
+  {
+   "tag": "subtel_exchange",
+   "ref": "van Geel 2002 Genomic analysis of human chromosome 10q and 4q telomeres suggests a common origin Genomics",
+   "doi": "10.1006/geno.2002.6690"
+  },
+  {
+   "tag": "subtel_exchange",
+   "ref": "Rudd 2007 Comparative sequence analysis of primate subtelomeres originating from a chromosome fission event Genome Research",
+   "doi": "10.1101/gr.083170.108"
+  },
+  {
+   "tag": "subtel_exchange",
+   "ref": "Der-Sarkissian 2002 The shortest telomeres drive karyotype evolution in transformed cells",
+   "doi": "10.1038/sj.onc.1207152"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Meltzer 1993 Telomere capture stabilizes chromosome breakage Nature Genetics",
+   "doi": "10.1038/ng0793-252"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Wilkie 1990 A truncated human chromosome 16 associated with alpha thalassaemia is stabilized by addition of telomeric repeat TTAGGG Nature",
+   "doi": "10.1038/346868a0"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Ballif 2003 Molecular characterization of terminal deletions 1p36 telomere capture derivative chromosomes",
+   "doi": "10.1007/s00439-003-1029-y"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Sabatier 2005 Telomere capture healing mechanism unstable chromosome cancer cells Molecular Cancer Research",
+   "doi": "10.3389/fonc.2012.00135"
+  },
+  {
+   "tag": "bir",
+   "ref": "Hastings Ira Lupski 2009 A microhomology-mediated break-induced replication model for the origin of human copy number variation PLoS Genetics",
+   "doi": "10.1371/journal.pgen.1000327"
+  },
+  {
+   "tag": "bir",
+   "ref": "Lydeard 2007 Break-induced replication and telomerase-independent telomere maintenance require Pol32 Nature",
+   "doi": "10.1038/nature06047"
+  },
+  {
+   "tag": "bir",
+   "ref": "Llorente Smith Symington 2008 Break-induced replication: what is it and what is it for Cell Cycle",
+   "doi": "10.4161/cc.7.7.5613"
+  },
+  {
+   "tag": "bir",
+   "ref": "Kramara Osia Malkova 2018 Break-induced replication the where the why and the how Trends in Genetics",
+   "doi": "10.1016/j.tig.2018.04.002"
+  },
+  {
+   "tag": "bir",
+   "ref": "Dilley 2016 Break-induced telomere synthesis underlies alternative telomere maintenance Nature",
+   "doi": "10.1038/nature20099"
+  },
+  {
+   "tag": "bir",
+   "ref": "Bosco Haber 1998 Chromosome break-induced DNA replication leads to nonreciprocal translocations and telomere capture Genetics",
+   "doi": "10.1093/genetics/150.3.1037"
+  },
+  {
+   "tag": "its",
+   "ref": "Azzalin 2001 Human intrachromosomal telomeric-like repeats sequence organization and mechanisms of origin Chromosoma",
+   "doi": "10.1007/s004120100135"
+  },
+  {
+   "tag": "its",
+   "ref": "Nergadze 2004 Insertions of telomeric repeats at intrachromosomal break sites during primate evolution Genome Research",
+   "doi": "10.1101/gr.2778904"
+  },
+  {
+   "tag": "its",
+   "ref": "Ruiz-Herrera 2008 Telomeric repeats far from the ends mechanisms of origin and role in evolution Cytogenetic and Genome Research",
+   "doi": "10.1159/000167807"
+  },
+  {
+   "tag": "its",
+   "ref": "Ijdo 1991 Origin of human chromosome 2 an ancestral telomere-telomere fusion PNAS",
+   "doi": "10.1073/pnas.88.20.9051"
+  },
+  {
+   "tag": "its",
+   "ref": "Aksenova Mirkin 2019 At the beginning of the end and in the middle of the beginning structure and maintenance of telomeric DNA repeats and interstitial telomeric sequences Genes",
+   "doi": "10.3390/genes10020118"
+  },
+  {
+   "tag": "its",
+   "ref": "Lin Yan 2008 A chromosome-wide analysis of interstitial telomeric sequences in human genome",
+   "doi": "10.1006/geno.2000.6280"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Britt-Compton 2006 Structural stability and chromosome-specific telomere length is governed by cis-acting determinants in humans Human Molecular Genetics",
+   "doi": "10.1093/hmg/ddi486"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Baird 2003 Extensive allelic variation and ultrashort telomeres in senescent human cells Nature Genetics",
+   "doi": "10.1038/ng1084"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Graakjaer 2004 The relative lengths of individual telomeres are defined in the zygote and strictly maintained during life Aging Cell",
+   "doi": "10.1111/j.1474-9728.2004.00093.x"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Graakjaer 2006 Allele-specific relative telomere lengths are inherited Human Genetics",
+   "doi": "10.1007/s00439-006-0137-x"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Martens 1998 Short telomeres on human chromosome 17p Nature Genetics",
+   "doi": "10.1038/ng0198-018"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Lansdorp 1996 Heterogeneity in telomere length of human chromosomes Human Molecular Genetics",
+   "doi": "10.1093/hmg/5.5.685"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Londono-Vallejo 2001 Differences in telomere length between homologous chromosomes in humans Nucleic Acids Research",
+   "doi": "10.1093/nar/29.15.3164"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Karimian 2024 Human telomere length is chromosome end-specific and conserved across individuals Science",
+   "doi": "10.1126/science.ado0431"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Grigorev 2021 Haplotype diversity and sequence heterogeneity of human telomeres Genome Research",
+   "doi": "10.1101/gr.274639.120"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Baird Jeffreys 1995 Telomere repeat turnover hypervariable variant repeat distribution Xp/Yp telomere EMBO Journal",
+   "doi": "10.1002/j.1460-2075.1995.tb00227.x"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Sholes 2022 Chromosome-specific telomere lengths and the minimal functional telomere revealed by nanopore sequencing Genome Research",
+   "doi": "10.1101/gr.275868.121"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Tham 2023 High-throughput telomere length measurement at nucleotide resolution using the PacBio high fidelity sequencing platform Nature Communications",
+   "doi": "10.1038/s41467-023-35823-7"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Stephens Kocher 2022 Telogator a method for reporting chromosome-specific telomere lengths from long reads Bioinformatics",
+   "doi": "10.1093/bioinformatics/btac005"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Schmidt 2024 High resolution long-read telomere sequencing reveals dynamic mechanisms in aging and cancer (Telo-seq) Nature Communications",
+   "doi": "10.1038/s41467-024-48917-7"
+  },
+  {
+   "tag": "d4z4",
+   "ref": "van Deutekom 1996 Evidence for subtelomeric exchange of 3.3 kb tandemly repeated units between chromosomes 4q35 and 10q26 Human Molecular Genetics",
+   "doi": "10.1093/hmg/5.12.1997"
+  },
+  {
+   "tag": "d4z4",
+   "ref": "Lemmers 2010 Worldwide population analysis of the 4q and 10q subtelomeres identifies only four discrete interchromosomal sequence transfers in human evolution American Journal of Human Genetics",
+   "doi": "10.1016/j.ajhg.2010.01.035"
+  },
+  {
+   "tag": "d4z4",
+   "ref": "Lemmers 2002 Facioscapulohumeral muscular dystrophy is uniquely associated with one of the two variants of the 4q subtelomere Nature Genetics",
+   "doi": "10.1038/ng999"
+  },
+  {
+   "tag": "d4z4",
+   "ref": "Lemmers 2010 A unifying genetic model for facioscapulohumeral muscular dystrophy Science",
+   "doi": "10.1126/science.1189044"
+  },
+  {
+   "tag": "d4z4",
+   "ref": "Lemmers 2007 Specific sequence variations within the 4q35 region are associated with facioscapulohumeral muscular dystrophy American Journal of Human Genetics",
+   "doi": "10.1086/521986"
+  },
+  {
+   "tag": "d4z4",
+   "ref": "van Overveld 2000 Interchromosomal repeat array interactions between chromosomes 4 and 10 a model for subtelomeric plasticity Human Molecular Genetics",
+   "doi": "10.1093/hmg/9.19.2879"
+  },
+  {
+   "tag": "par",
+   "ref": "Mangs Morris 2007 The human pseudoautosomal region PAR origin function and future Current Genomics",
+   "doi": "10.2174/138920207780368141"
+  },
+  {
+   "tag": "par",
+   "ref": "Monteiro 2021 Where is the boundary of the human pseudoautosomal region Trends in Genetics",
+   "doi": "10.1016/j.ajhg.2024.09.005"
+  },
+  {
+   "tag": "par",
+   "ref": "Cotter 2016 Genetic diversity on the human X chromosome does not support a strict pseudoautosomal boundary Genetics",
+   "doi": "10.1534/genetics.114.172692"
+  },
+  {
+   "tag": "par",
+   "ref": "Poriswanish 2018 Recombination hotspots in an extended human pseudoautosomal domain predicted from double-strand break maps and characterized by sperm-based crossover analysis PLoS Genetics",
+   "doi": "10.1371/journal.pgen.1007680"
+  },
+  {
+   "tag": "par",
+   "ref": "Rhie 2023 The complete sequence of a human Y chromosome Nature",
+   "doi": "10.1038/s41586-023-06457-y"
+  },
+  {
+   "tag": "acro",
+   "ref": "Guarracino 2023 Recombination between heterologous human acrocentric chromosomes Nature",
+   "doi": "10.1038/s41586-023-05976-y"
+  },
+  {
+   "tag": "acro",
+   "ref": "Human acrocentric chromosome short arm de novo mutation and recombination",
+   "doi": "10.64898/2025.12.16.694519"
+  },
+  {
+   "tag": "acro",
+   "ref": "The formation and propagation of human Robertsonian chromosomes",
+   "doi": "10.1038/s41586-025-09540-8"
+  },
+  {
+   "tag": "acro",
+   "ref": "Origin and evolution of acrocentric chromosomes in human and great apes",
+   "doi": "10.64898/2025.12.22.696095"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Nurk 2022 The complete sequence of a human genome Science",
+   "doi": "10.1126/science.abj6987"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Vollger 2022 Segmental duplications and their variation in a complete human genome Science",
+   "doi": "10.1126/science.abj6965"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Aganezov 2022 A complete reference genome improves analysis of human genetic variation Science",
+   "doi": "10.1126/science.abl3533"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Hoyt 2022 From telomere to telomere the transcriptional and epigenetic state of human repeat elements Science",
+   "doi": "10.1126/science.abk3112"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Rautiainen 2023 Telomere-to-telomere assembly of diploid chromosomes with Verkko Nature Biotechnology",
+   "doi": "10.1038/s41587-023-01662-6"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Hansen 2025 A complete diploid human genome benchmark HG002 Q100",
+   "doi": "10.1016/j.cell.2026.06.016"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Yoo 2025 Complete sequencing of ape genomes Nature",
+   "doi": "10.1038/s41586-025-08816-3"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Makova 2024 The complete sequence and comparative analysis of ape sex chromosomes Nature",
+   "doi": "10.1038/s41586-024-07473-2"
+  },
+  {
+   "tag": "hprc",
+   "ref": "Liao 2023 A draft human pangenome reference Nature",
+   "doi": "10.1038/s41586-023-05896-x"
+  },
+  {
+   "tag": "hprc",
+   "ref": "Wang 2022 The Human Pangenome Project a global resource to map genomic diversity Nature",
+   "doi": "10.1038/s41586-022-04601-8"
+  },
+  {
+   "tag": "hprc",
+   "ref": "Vollger 2023 Increased mutation and gene conversion within human segmental duplications Nature",
+   "doi": "10.1038/s41586-023-05895-y"
+  },
+  {
+   "tag": "hprc",
+   "ref": "Logsdon 2025 Complex genetic variation in nearly complete human genomes Nature",
+   "doi": "10.1038/s41586-025-09140-6"
+  },
+  {
+   "tag": "hprc",
+   "ref": "Jarvis 2022 Semi-automated assembly of high-quality diploid human reference genomes Nature",
+   "doi": "10.1038/s41586-022-05325-5"
+  },
+  {
+   "tag": "hprc",
+   "ref": "Cheng 2021 Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm Nature Methods",
+   "doi": "10.1038/s41592-020-01056-5"
+  },
+  {
+   "tag": "hprc",
+   "ref": "Human Pangenome Reference Consortium Release 2 2025 pangenome 232 individuals",
+   "doi": "10.64898/2026.07.21.739710"
+  },
+  {
+   "tag": "pedigree",
+   "ref": "Porubsky 2025 Human de novo mutation rates from a four-generation pedigree reference Nature",
+   "doi": "10.1038/s41586-025-08922-2"
+  },
+  {
+   "tag": "pedigree",
+   "ref": "Complete genomes of a multi-generational pedigree to expand studies of genetic and epigenetic inheritance",
+   "doi": "10.64898/2025.12.14.693655"
+  },
+  {
+   "tag": "pedigree",
+   "ref": "Halldorsson 2019 Characterizing mutagenic effects of recombination through a sequence-level genetic map Science",
+   "doi": "10.1126/science.aau1043"
+  },
+  {
+   "tag": "pedigree",
+   "ref": "Complete human recombination maps 2025",
+   "doi": "10.1038/s41586-024-08450-5"
+  },
+  {
+   "tag": "pedigree",
+   "ref": "A T2T-CHM13 recombination map and globally diverse haplotype reference panel",
+   "doi": "10.1101/2025.02.24.639687"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Dover 1982 Molecular drive a cohesive mode of species evolution Nature",
+   "doi": "10.1038/299111a0"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Smith 1976 Evolution of repeated DNA sequences by unequal crossover Science",
+   "doi": "10.1126/science.1251186"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Elder Turner 1995 Concerted evolution of repetitive DNA sequences in eukaryotes Quarterly Review of Biology",
+   "doi": "10.1086/419073"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Liao 1999 Concerted evolution molecular mechanism and biological implications American Journal of Human Genetics",
+   "doi": "10.1086/302221"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Nei Rooney 2005 Concerted and birth-and-death evolution of multigene families Annual Review of Genetics",
+   "doi": "10.1146/annurev.genet.39.073003.112240"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Ohta 1983 On the evolution of multigene families Theoretical Population Biology",
+   "doi": "10.1016/0040-5809(83)90015-1"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Bailey Eichler 2006 Primate segmental duplications crucibles of evolution diversity and disease Nature Reviews Genetics",
+   "doi": "10.1038/nrg1895"
+  },
+  {
+   "tag": "concerted",
+   "ref": "Bailey 2002 Recent segmental duplications in the human genome Science",
+   "doi": "10.1126/science.1072047"
+  },
+  {
+   "tag": "resource",
+   "ref": "Knight 2000 An optimized set of human telomere clones for studying telomere integrity and architecture American Journal of Human Genetics",
+   "doi": "10.1086/302998"
+  },
+  {
+   "tag": "resource",
+   "ref": "National Institutes of Health and Institute of Molecular Medicine collaboration 1996 A complete set of human telomeric probes and their clinical application Nature Genetics",
+   "doi": "10.1038/ng0996-86"
+  },
+  {
+   "tag": "subtel_exchange",
+   "ref": "Guarracino 2026 Concerted evolution and unorthodox recombination of human subtelomeres bioRxiv",
+   "doi": "10.64898/2026.07.10.737660"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Telomere variant sequences encode allele-specific telomere length 2026 Nat Commun",
+   "doi": "10.1038/s41467-026-77310-9"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Multidimensional telomere diversity and inheritance at individual and population scales 2026 bioRxiv",
+   "doi": "10.64898/2026.08.19.745664"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Single-molecule variation in telomeric sequence and structure across humans 2026 bioRxiv",
+   "doi": "10.64898/2026.05.01.722200"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Telogator2 allele-specific telomere length via telomere variant repeats 2024 BMC Bioinformatics",
+   "doi": "10.1186/s12859-024-05807-5"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Benchmarking long-read tools for chromosome end-specific telomere analysis 2025 bioRxiv",
+   "doi": "10.1101/2025.01.29.635538"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Topsicle telomere length long reads 2025 Genome Biology",
+   "doi": "10.1186/s13059-025-03783-4"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "TARPON telomere analysis nanopore 2026 PLoS Comput Biol",
+   "doi": "10.1371/journal.pcbi.1013915"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Nanopore sequencing to measure chromosome end-specific telomere lengths in human cells 2026 bioRxiv",
+   "doi": "10.64898/2026.08.15.745035"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Nanopore WGS reveals conserved chromosome-specific telomere architecture 2025 bioRxiv",
+   "doi": "10.64898/2025.12.10.693405"
+  },
+  {
+   "tag": "telo_methods",
+   "ref": "Identifying and correcting repeat-calling errors in nanopore sequencing of telomeres 2022 Genome Biology",
+   "doi": "10.1186/s13059-022-02751-6"
+  },
+  {
+   "tag": "resource",
+   "ref": "Widespread structural variations at human chromosome ends 2026 bioRxiv",
+   "doi": "10.64898/2026.09.03.748401"
+  },
+  {
+   "tag": "resource",
+   "ref": "Comprehensive analysis of human subtelomeres by whole genome mapping 2020 PLoS Genet",
+   "doi": "10.1371/journal.pgen.1008347"
+  },
+  {
+   "tag": "resource",
+   "ref": "Human Subtelomere Sequences Zenodo 2026",
+   "doi": "10.5281/zenodo.21807155"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Subtelomeres: hotspots of genome variation 2023 Genes Genet Syst",
+   "doi": "10.1266/ggs.23-00049"
+  },
+  {
+   "tag": "subtel_sd",
+   "ref": "Telomeres and their neighbors 2022 Genes",
+   "doi": "10.3390/genes13091663"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Structural variation in humans and primate kin in the T2T era 2024 Curr Opin Genet Dev",
+   "doi": "10.1016/j.gde.2024.102233"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Epigenetic and evolutionary features of ape subterminal heterochromatin 2025 Genome Res",
+   "doi": "10.1101/gr.280987.125"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Evolution of African great ape subtelomeric heterochromatin and fusion of human chromosome 2 2012 Genome Res",
+   "doi": "10.1101/gr.136556.111"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Stabilization of a terminal inversion duplication of 8p by telomere capture from 18q 2002",
+   "doi": "10.1159/000068536"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Unusual 8p inverted duplication deletion with telomere capture from 8q 2008",
+   "doi": "10.1016/j.ejmg.2008.10.007"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Chromosome healing telomere capture radiation-induced 1998 Int J Radiat Biol",
+   "doi": "10.1080/095530098142653"
+  },
+  {
+   "tag": "telo_capture",
+   "ref": "Neotelomeres and telomere-spanning chromosomal arm fusions in cancer genomes long reads 2024 Cell Genomics",
+   "doi": "10.1016/j.xgen.2024.100588"
+  },
+  {
+   "tag": "bir",
+   "ref": "Telomere loss as a mechanism for chromosome instability in human cancer 2010 Cancer Res",
+   "doi": "10.1158/0008-5472.can-09-4357"
+  },
+  {
+   "tag": "bir",
+   "ref": "RNAi drives nonreciprocal translocations at eroding chromosome ends 2018 Genes Dev",
+   "doi": "10.1101/gad.311712.118"
+  },
+  {
+   "tag": "bir",
+   "ref": "Recombination at subtelomeres is regulated by physical distance DSB resection 2017 EMBO J",
+   "doi": "10.15252/embj.201796631"
+  },
+  {
+   "tag": "hprc",
+   "ref": "KaryoScope alignment-free sequence annotation pangenome 2026 bioRxiv",
+   "doi": "10.64898/2026.05.15.725544"
+  },
+  {
+   "tag": "t2t",
+   "ref": "Complex subtelomeric architectures in a complete rhesus macaque reference genome 2026 Cell",
+   "doi": "10.1016/j.cell.2026.02.018"
+  },
+  {
+   "tag": "telo_length_cis",
+   "ref": "Jain 2026 Determinants of chromosome-specific telomere lengths among 2573 All of Us participants Nature Communications",
+   "doi": "10.1038/s41467-026-71172-x"
+  }
+ ],
+ "expand": [
+  "Linardopoulou 2005 Human subtelomeres are hot spots",
+  "Karimian 2024",
+  "Guarracino 2023",
+  "Lemmers 2010 Worldwide",
+  "Ambrosini 2007",
+  "Stong 2014",
+  "Britt-Compton 2006",
+  "Comprehensive analysis of human subtelomeres by whole genome mapping",
+  "Telogator2",
+  "Sholes 2022"
+ ],
+ "dropped_seeds": [
+  {
+   "ref": "Flint 1994 Healing of broken human chromosomes by the addition of telomeric repeats, Am J Hum Genet 55:505",
+   "reason": "no DOI registered in Crossref/OpenAlex (PubMed-only record); records.tsv is DOI-keyed"
+  }
+ ]
+}

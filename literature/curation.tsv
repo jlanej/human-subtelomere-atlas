@@ -1,0 +1,201 @@
+# Manual screening decisions: one row per included work. relevance 3 = bears directly on an atlas hypothesis or novelty claim; 2 = important context; 1 = background.
+doi	topic_tags	relevance	annotation
+10.64898/2026.07.10.737660	subtel_exchange;concerted;pedigree;hprc	3	Preprint (465 near-complete assemblies, all-vs-all ends): pseudo-homolog regions on 41/48 arms grouped into sequence communities; claims putative non-homologous subtelomere recombination in a 3-generation T2T pedigree and frames ends as concertedly evolving. The direct target of our re-evaluation.
+10.64898/2026.09.03.748401	resource;subtel_sd;hprc;primate;telo_length_cis	3	Preprint: complete subtelomeres for all non-acrocentric arms from 860 haploid assemblies; 21/39 autosomal arms carry multiple haplotypes differing by 100-200 kb, block diversity tracks arm not ancestry, blocks conserved in great apes, rare recombination; also used for end-specific telomere length. Closest prior population catalogue to our atlas.
+10.5281/zenodo.21807155	resource	3	Data deposit (Zenodo) accompanying the 2026 'Widespread structural variations at human chromosome ends' preprint: human subtelomere sequence collection. Existing public subtelomere sequence resource that our release must be compared against.
+10.64898/2026.05.01.722200	telo_length_cis;tvr;resource;hprc	3	Preprint: 316,146 telomere-spanning molecules over 12,080 end-resolved arrays from 212 individuals; proximal TVR codes heritable and arm-specific, influenced by TAR1; reports rare germline interchromosomal telomere exchange. Key comparator for cis telomere and terminal-exchange claims.
+10.64898/2026.08.19.745664	telo_length_cis;tvr;telo_methods;hprc	3	Preprint (TeloXplorer): end- and haplotype-resolved telomere length, TVR and methylation; end-specific length rankings conserved across 232 HPRC individuals and 28 populations; extensive interchromosomal sharing of TVR architectures. Directly overlaps cis-length questions on the same cohort.
+10.1038/s41467-026-77310-9	telo_length_cis;tvr	3	Combined PacBio/ONT allele-specific telomere length in families; telomere variant sequences are heritable and CRISPR deletion of them resets allele length, arguing that proximal sequence is a causal cis determinant.
+10.1101/2025.10.07.680721	telo_length_cis;pedigree	3	Preprint: HiFi telomere lengths in 75 trios; arm-specific lengths consistent between parents and children, TVR-based allele tracing for ~50% of telomeres, paternal alleles longer. Evidence that allele/arm length is inherited.
+10.1126/science.ado0431	telo_length_cis;telo_methods	3	Telomere Profiling (nanopore): chromosome end-specific and haplotype-specific length distributions; specific ends consistently short or long across 147 individuals. Establishes end-specific length as a population-level property.
+10.1093/hmg/ddi486	telo_length_cis	3	STELA at 2p, 11q, 12q, 17p, XpYp: 17p consistently shortest and more stable; hTERT overexpression homogenises lengths. Foundational evidence for cis-acting determinants of chromosome-specific telomere length.
+10.1038/ng1084	telo_length_cis;telo_methods	2	Introduces STELA; extensive allelic variation in single-telomere length and ultrashort telomeres at senescence.
+10.1111/j.1474-9728.2004.00093.x	telo_length_cis	2	Q-FISH in monozygotic twins: relative lengths of individual telomeres are set in the zygote and maintained through life.
+10.1007/s00439-006-0137-x	telo_length_cis;pedigree	3	Allelic relative telomere lengths compared over 31 parent-child transmissions segregate in families; early evidence that length is an allele-linked inherited trait.
+10.1038/ng0198-018	telo_length_cis	2	Q-FISH shows 17p telomeres are consistently short in humans; first chromosome-arm-specific length pattern.
+10.1093/hmg/5.5.685	telo_length_cis;telo_methods	1	Q-FISH with PNA probes: up to six-fold telomere length heterogeneity within a metaphase; method basis for arm-specific length.
+10.1093/nar/29.15.3164	telo_length_cis	2	Q-FISH shows homologous chromosomes differ in telomere length and arm-specific patterns are individual-specific and inherited.
+10.1101/gr.274639.120	telo_length_cis;tvr	2	Long-read analysis of telomeric haplotypes and variant-repeat heterogeneity; shows telomeres carry arm/haplotype-specific sequence structure.
+10.1002/j.1460-2075.1995.tb00227.x	tvr;par	2	Xp/Yp telomere-adjacent haplotypes in strong LD; telomere variant-repeat maps reveal allelic turnover mechanisms at the proximal telomere.
+10.1101/gr.275868.121	telo_methods;yeast_model	2	Yeast nanopore telomere tagging: chromosome end-specific lengths stable over 120 divisions; proposes minimal functional telomere.
+10.1038/s41467-023-35823-7	telo_methods	2	Telobait capture with PacBio HiFi for nucleotide-resolution individual telomere length.
+10.1093/bioinformatics/btac005	telo_methods	2	Telogator: chromosome-specific telomere length from long reads by anchoring to subtelomere reference.
+10.1186/s12859-024-05807-5	telo_methods;tvr;telo_length_cis	3	Telogator2: identifies all 92 telomere alleles from long reads using TVRs and estimates allele-specific length; principal open tool for per-allele length.
+10.1038/s41467-024-48917-7	telo_methods;telo_length_cis	2	Telo-seq (native ONT): bulk, arm- and allele-specific telomere lengths; resolves shortening in five-population-doubling increments.
+10.1186/s13059-022-02751-6	telo_methods	2	Documents systematic nanopore basecalling errors in telomere repeats (TTAGGG miscalled) and correction; a caveat for ONT telomere calls.
+10.1101/2025.01.29.635538	telo_methods	1	Preprint benchmark of TECAT vs Telogator for chromosome end-specific telomere analysis.
+10.1186/s13059-025-03783-4	telo_methods	1	Topsicle: k-mer/change-point telomere length estimation from long reads.
+10.1371/journal.pcbi.1013915	telo_methods	1	TARPON: best-practice nanopore pipeline for arm-specific telomere length with validation focus.
+10.64898/2026.08.15.745035	telo_methods	1	Preprint protocol for nanopore chromosome end-specific telomere length in human cells.
+10.64898/2025.12.10.693405	telo_methods;telo_length_cis	2	Preprint: high-coverage nanopore WGS shows chromosome-specific telomere length architecture conserved across tissues and populations.
+10.1101/gr.222422.117	telo_methods;resource	2	Bionano CRISPR-labelled optical maps give subtelomere-haplotype-resolved telomere length on single molecules.
+10.1093/nar/gkx017	resource;subtel_sd;telo_length_cis	3	Optical mapping of terminal segments links subtelomeric variants and long-range haplotypes to specific telomeres; proof of principle for haplotype-linked telomere length and cis elements.
+10.1371/journal.pgen.1008347	resource;subtel_sd	3	Optical maps of 154 genomes from 26 populations catalogue long-range subtelomere haplotypes and duplicon frequencies per arm, with arm- and population-specific trends and a dated spread of duplicon blocks. Pre-assembly population catalogue of subtelomere alleles.
+10.1101/gr.1245004	resource;subtel_sd;its	3	Subtelomere assemblies for 41 telomere regions; 20.66 Mb analysed, 114 internal (TTAGGG)n-like islands, enrichment >25-fold of ITS. Foundational reference-era subtelomere resource.
+10.1007/s10577-005-0998-1	subtel_sd	2	Review of human subtelomere structure: recently shuffled duplicated segments and allelic variation.
+10.1186/gb-2007-8-7-r151	subtel_sd;its;resource	3	Systematic duplicon analysis: subtelomeric repeats are ~80% of the distal 100 kb; internal TTAGGG-like tracts sit at duplicon boundaries; six subterminal duplicon families plus six single-copy segments account for all telomere-adjacent sequence.
+10.1101/gr.166983.113	resource;subtel_sd	3	Updated, gap-filled subtelomere assemblies and multiread-mapping annotation pipeline (Riethman lab), with CTCF/cohesin site mapping; the previous reference resource for human subtelomeres.
+10.1146/annurev.genom.8.021506.172017	subtel_sd;telo_length_cis	2	Review: subterminal sequences linked to cis-acting allele-specific telomere length regulation and highly variable subtelomeric allele structures.
+10.1159/000184714	subtel_sd	2	Review of subtelomeric copy-number variation and its potential dosage and position effects.
+10.1038/nrg727	subtel_sd;subtel_exchange	3	Seminal review defining subtelomeres as patchworks of duplicated blocks shared among non-homologous ends and arguing for frequent recent exchange.
+10.1038/nature04029	subtel_exchange;subtel_sd;telo_capture	3	Subtelomeric patchworks arose recently through repeated translocations between ends; breakpoint analysis indicates non-homologous end-joining predominates; half of known subtelomeric sequence is human-specific. Central prior for terminal transfer mechanism.
+10.1093/hmg/7.1.13	subtel_sd;subtel_exchange	2	OR-containing subtelomeric block present at 3q, 15q, 19p in all 45 individuals and polymorphically at 11 further ends with population-variable frequencies: an early population view of terminal allele polymorphism.
+10.1093/hmg/10.21.2363	subtel_exchange;concerted	2	SNP and Alu analysis of 181 copies of an OR subtelomeric block from 12 ends shows recent interactions between non-homologous ends.
+10.1093/hmg/10.21.2373	subtel_exchange	1	Copies of subtelomeric OR-A vary in number and location among humans; most are intact and transcribed.
+10.1371/journal.pgen.0030237	subtel_sd	1	WASH genes are the most terminally located subtelomeric genes; defines a new WASP subclass.
+10.1016/0092-8674(91)90243-r	subtel_sd;subtel_exchange	3	16p13.3 terminal region shows stable length polymorphism up to 260 kb among 47 chromosomes: discrete terminal structural alleles that segregate as Mendelian alleles.
+10.1038/ng0397-252	subtel_sd	2	First full sequence (284 kb) of a human telomeric region (16p) from TTAGGG to unique DNA.
+10.1016/0092-8674(90)90293-n	subtel_sd	2	Telomere-associated DNA at four ends: repeat families shared among ends and polymorphism near telomeres.
+10.1128/mcb.10.2.518	subtel_sd	2	Direct cloning of human telomere-associated DNA; telomere-adjacent sequences variable and shared among ends.
+10.1093/hmg/6.8.1305	subtel_sd;its	2	Sequences of 4p, 16p, 22q ends: degenerate internal TTAGGG divide distal (short shared patches) from proximal (10-40 kb homology to few ends) subdomains.
+10.1093/hmg/8.9.1637	subtel_exchange;tvr	3	A telomere-plus-adjacent DNA unit is present on ~6% of 16q and 2% of 16p chromosomes and has relocated at least once; relocation involved the adjacent DNA. Earliest direct example of a polymorphic, transposed terminal allele.
+10.1101/gr.322802	subtel_exchange;subtel_sd	2	FISH with subtelomeric cosmids: large segmental polymorphisms at proterminal regions, consistent with both reciprocal translocation and homology-based spreading among non-homologous ends.
+10.1016/s0888-7543(05)80125-9	subtel_sd	1	Subtelomeric cosmid hybridises to 16 sites on 12 chromosomes, 10 of them variable between individuals.
+10.1006/geno.1996.4572	subtel_sd;pedigree	1	14q subtelomeric polymorphisms and elevated, male-biased recombination near the 14q telomere.
+10.1101/gr.083170.108	subtel_exchange;primate	2	15q subtelomere formed by fission in the great-ape ancestor and subsequently exchanged material with other ends, including a >=200 kb transfer to 4q in chimp/gorilla.
+10.1016/j.ygeno.2006.12.011	subtel_exchange;par	2	Xp/Yp telomere-adjacent segmental duplication with DXYS14 minisatellite; mutation processes driving turnover of a telomere-adjacent duplication.
+10.1101/gr.769003	subtel_sd;concerted	1	7E olfactory receptor pseudogenes in segmental duplications show complex evolution including ectopic exchange.
+10.1159/000230002	telo_capture;its	2	Survey of 40 constitutional rearrangements: frequency of chromosome healing versus interstitial telomeres at junctions.
+10.1038/346868a0	telo_capture	3	Truncated 16p in alpha-thalassaemia healed by direct TTAGGG addition: first human telomere healing.
+10.1093/hmg/5.8.1163	telo_capture	3	16p break stabilised by acquiring a new telomere through Alu-Alu recombination with another subtelomere: homology-mediated terminal replacement in a germline allele.
+10.1038/ng0793-252	telo_capture	3	Apparent terminal deletions are cryptic subtelomeric translocations; telomere capture stabilises broken chromosomes.
+10.1007/s00439-003-1029-y	telo_capture;bir	3	der(1)t(1;1)(p36;q44) breakpoints lack homology/LCRs, suggesting BIR-mediated telomere capture rather than NAHR.
+10.1159/000068536	telo_capture	2	8p inv-dup stabilised by capture of an 18q telomere.
+10.1016/j.ejmg.2008.10.007	telo_capture	1	8p inv-dup-del with telomere capture from 8q.
+10.1159/000315887	telo_capture	2	Inv-dup-del cases: telomere capture is a frequent stabilisation mechanism of terminal deletions.
+10.1186/s13039-015-0135-6	telo_capture	1	Terminal 18q deletions stabilised by neotelomeres (healing or capture).
+10.1080/095530098142653	telo_capture	1	Review of chromosome healing and telomere capture in radiation-induced breakage.
+10.1093/hmg/ddr293	telo_capture;bir	3	Junction sequencing of 21 pathogenic subtelomeric rearrangements: NHEJ, NAHR between interspersed repeats and replication-based signatures; breakage hotspots at 9q and 22q. Mechanistic baseline for junction features.
+10.1016/j.xgen.2024.100588	telo_capture;telo_methods	2	Long-read cancer genomes reveal neotelomeres and telomere-spanning arm fusions; shows long reads can type terminal rearrangement junctions.
+10.1093/nar/gkae1294	subtel_exchange;bir	3	Korean long-read assemblies: 19 large subtelomeric SVs examined for repair signatures, inferring mechanisms of subtelomere SV formation.
+10.1093/genetics/150.3.1037	bir;telo_capture	3	Yeast: one-ended DSB repaired by BIR into a distant chromosome end with 72 bp homology gives nonreciprocal translocations and telomere capture. Mechanistic model for one-way terminal transfer.
+10.1371/journal.pgen.1000327	bir	3	MMBIR model: complex CNVs with 2-5 bp microhomology junctions arise by template switching during break-induced replication.
+10.1038/nature06047	bir	2	BIR and telomerase-independent telomere maintenance require Pol32.
+10.4161/cc.7.7.5613	bir	2	Review: BIR repairs one-ended breaks including eroded telomeres and causes LOH and nonreciprocal translocations.
+10.1016/j.tig.2018.04.002	bir	2	Review of BIR: migrating bubble, conservative synthesis, mutagenic and rearrangement-prone.
+10.1038/nature20099	bir	2	Break-induced telomere synthesis underlies ALT in human cells.
+10.15252/embj.201796631	bir;yeast_model	2	Yeast: subtelomeric DSBs repaired by gene conversion or BIR depending on distance from the end, resection and chromatin.
+10.1093/nar/gkaa1081	bir;its;yeast_model	3	Yeast: BIR encountering an ITS frequently terminates and forms an ectopic telomere; links ITS to terminal-replacement end points.
+10.1073/pnas.2407314121	its;yeast_model	2	ITSs raise gross chromosomal rearrangement rates via several mechanisms in yeast.
+10.1371/journal.pgen.1012214	bir;yeast_model	2	Telomeric amplicons generated by MMBIR in cis in yeast, appended at chromosome ends.
+10.1101/gad.311712.118	telo_capture;yeast_model	1	Fission yeast HAATI: RNAi-dependent nonreciprocal translocations at eroding ends.
+10.3389/fonc.2012.00135	bir;telo_capture	2	Review: telomere loss, subtelomeric DSB sensitivity and the consequences (BFB, nonreciprocal translocation) in cancer.
+10.1158/0008-5472.can-09-4357	bir;telo_capture	1	Review: subtelomeric regions are sensitive to DSBs and deficient in repair, driving telomere loss in cancer.
+10.1038/sj.onc.1207152	telo_capture	1	Shortest telomeres trigger fusions and karyotype evolution in transformed cells.
+10.1101/gad.439107	telo_capture	1	Single-molecule analysis of telomere fusions defines the critical fusogenic telomere length.
+10.1007/s004120100135	its	3	Classifies human ITSs into short, subtelomeric and fusion classes; short ITSs inserted at DSB repair sites in the germline.
+10.1101/gr.2778904	its;primate	3	Comparative primate analysis: ITSs inserted suddenly at DSB sites during primate evolution (40-6 Mya), not by expansion.
+10.1186/gb-2007-8-12-r260	its	2	ITSs in primates and rodents consistent with telomerase-mediated insertion during DSB repair.
+10.1159/000167807	its	2	Review of heterochromatic and short ITSs and their evolutionary origin.
+10.3390/genes10020118	its	2	Review of telomeric repeats and ITSs: structure, instability and maintenance.
+10.1006/geno.2000.6280	its	2	Length polymorphism of four human ITSs, including a subtelomeric 6p ITS.
+10.1073/pnas.88.20.9051	its;primate	2	Human 2q13 contains head-to-head telomere arrays from the ancestral telomere-telomere fusion.
+10.1101/gr.337602	its;primate	1	Structure of the 2q13-q14.1 fusion site and paralogous subtelomere-derived blocks elsewhere.
+10.1136/jmg.30.11.926	its;telo_capture	2	Rearrangements producing interstitial telomeric sequences at junctions: types and stability.
+10.1093/carcin/19.2.259	its	1	Recombination at interstitial telomere-like sequences promotes instability in hamster cells.
+10.1159/000207517	its;primate	1	ITSs are not located exactly at primate inversion breakpoints.
+10.1159/000467634	its;primate	1	FISH survey of ITSs in primates.
+10.1093/hmg/5.12.1997	d4z4;subtel_exchange	3	Southern data indicating exchange of D4Z4 3.3 kb units between 4q35 and 10q26.
+10.1093/hmg/9.19.2879	d4z4;subtel_exchange	2	208 Dutch donors: ~20% carry translocated 4q/10q D4Z4 arrays; model of subtelomeric plasticity.
+10.1006/geno.2002.6690	d4z4	2	10q and 4q telomeres share sequence beyond D4Z4, suggesting common origin.
+10.1038/ng999	d4z4	2	4qA and 4qB distal variants; FSHD exclusively associated with 4qA.
+10.1086/521986	d4z4	2	Specific 4q35 sequence variants define FSHD-permissive haplotypes; D4Z4 rearrangement occurs mostly intrachromosomally.
+10.1016/j.ajhg.2010.01.035	d4z4;subtel_exchange;concerted	3	HapMap/HGDP 4q/10q haplotype network: all 4q/10q subtelomeres trace to only four discrete transfer events, all pre-dating out-of-Africa; mixed haplotypes are intermediates. Key precedent that subtelomere exchange alleles are few and old.
+10.1126/science.1189044	d4z4	2	FSHD requires D4Z4 contraction on a permissive 4qA haplotype with a DUX4 polyadenylation signal.
+10.1186/1471-2350-8-8	d4z4	1	4qter and 10qter D4Z4 regions evolved independently under different constraints.
+10.1186/1471-2148-7-39	d4z4;primate	1	Ape comparison of the 4q35.2 region: evolutionary remodelling.
+10.1186/1471-2377-2-7	d4z4;subtel_exchange	2	4q;10q translocation frequencies differ among populations.
+10.1136/jmedgenet-2018-105949	d4z4	1	Molecular combing resolves complex 4q/10q subtelomere configurations.
+10.1212/nxg.0000000000200076	d4z4	1	Complex 4q35/10q26 rearrangements in FSHD diagnostics.
+10.1126/sciadv.adl1922	d4z4;subtel_exchange	2	Engineered exchange of 4q and 10q subtelomeric regions reverts the FSHD genotype and phenotype, demonstrating functional consequence of terminal swapping.
+10.1038/s41431-025-02000-x	d4z4;t2t	2	T2T re-analysis of D4Z4-like repeats beyond 4q35/10q26.
+10.1101/2025.04.24.25326320	d4z4;telo_methods	1	Preprint: long-read D4Z4 genetic/epigenetic architecture in FSHD and controls.
+10.64898/2026.04.10.717730	d4z4	1	Preprint: HiFi-based resolution of D4Z4 arrays.
+10.1093/brain/awag029	d4z4	1	Benchmark of long-read approaches for the FSHD locus.
+10.2174/138920207780368141	par	2	Review of PAR1/PAR2 origin, function and obligatory XY crossover.
+10.1016/j.ajhg.2024.09.005	par	2	Review of evidence on the PAR1 boundary position after the 43-Y assembly study.
+10.1534/genetics.114.172692	par	2	X diversity does not support a strict PAR boundary.
+10.1371/journal.pgen.1007680	par	2	Sperm crossover analysis in extended PAR1 (ePAR) created by an X-to-Y translocation.
+10.1371/journal.pgen.1004578	par;subtel_exchange	2	Population PAR1 length polymorphism from an X-to-Y insertional translocation: a polymorphic terminal transfer on the sex chromosomes.
+10.1371/journal.pgen.1004503	par	2	PAR1 recombination rate 17-fold genome average and its hotspot structure.
+10.1186/s13059-022-02784-x	par;primate	1	PAR1 evolutionary dynamics in humans and great apes.
+10.1093/molbev/msh032	par	1	Silent divergence gradient increasing toward the PAR1 telomere.
+10.1093/gbe/evp006	par	1	Inversion footprints at present and past pseudoautosomal boundaries.
+10.1093/hmg/6.13.2291	par;primate	2	Primate orthologues of the Xp/Yp telomere junction show high divergence and gross rearrangements.
+10.1038/s41586-023-06457-y	par;t2t	2	Complete human Y (T2T): includes complete PAR1/PAR2 sequence.
+10.1038/s41586-023-05976-y	acro;subtel_exchange;concerted	3	Pangenome evidence for ongoing recombination between heterologous acrocentric short arms (pseudo-homologous regions). Methodological ancestor of the 2026 subtelomere preprint.
+10.1016/j.cell.2026.05.035	acro;pedigree	3	Four-generation pedigree: 107 short-arm transmissions show depletion of allelic recombination and one ectopic 13-21 event. Pedigree-level calibration for ectopic exchange claims.
+10.1038/s41586-025-09540-8	acro	1	Complete assemblies of three Robertsonian chromosomes reveal a common breakpoint.
+10.64898/2025.12.22.696095	acro;primate	1	Preprint on great-ape acrocentric origins and interchromosomal exchange.
+10.64898/2026.03.08.710242	acro	1	Preprint: biobank genotyping of Robertsonian translocations.
+10.1101/gr.275350.121	acro	1	Perspective on acrocentric short arms.
+10.1146/annurev-genom-101122-081642	acro	1	Review of acrocentric p-arm biology.
+10.1242/jcs.261912	acro	1	Model of Robertsonian formation.
+10.1126/science.abj6987	t2t	3	T2T-CHM13: first complete human genome; reference for arm-level end assignment.
+10.1126/science.abj6965	t2t;subtel_sd	2	Complete SD map in CHM13; SD content and variation across 266 genomes.
+10.1126/science.abl3533	t2t	1	CHM13 improves variant calling across 3,202 genomes.
+10.1126/science.abk3112	t2t	1	Repeat annotation of CHM13 including subtelomeric satellites.
+10.1038/s41586-020-2547-7	t2t	1	First T2T human chromosome (X).
+10.1038/s41592-022-01440-3	t2t	1	Validation and polishing of T2T assemblies; error modes in repeats.
+10.1038/s41587-023-01662-6	t2t;hprc	2	Verkko T2T diploid assembler; one of the two HPRC R2 assemblers.
+10.1101/gr.280383.124	t2t	1	Verkko2 with proximity ligation.
+10.1038/s41592-020-01056-5	t2t;hprc	2	hifiasm phased assembly; the other HPRC R2 assembler.
+10.1016/j.cell.2026.06.016	t2t	3	HG002 Q100 complete diploid benchmark; our high-confidence truth for end structures.
+10.1038/s41586-025-08816-3	t2t;primate	2	T2T genomes of six apes; outgroup resource for dating terminal alleles.
+10.1038/s41586-024-07473-2	t2t;primate;par	1	Complete ape sex chromosomes, including PARs.
+10.1101/gr.280987.125	primate;subtel_sd	2	Ape subterminal heterochromatin caps: independent origins in Pan and gorilla.
+10.1101/gr.136556.111	primate;subtel_sd	2	African ape subterminal satellites with hyperexpanded SDs and chromosome 2 fusion.
+10.1016/j.cell.2026.02.018	primate;subtel_sd;t2t	2	T2T rhesus macaque: subtelomeric SATR satellite architectures distinct from hominids.
+10.1016/j.gde.2024.102233	t2t;primate	1	Review of SV in humans and primates in the T2T era.
+10.1038/s41422-023-00849-5	t2t	1	Fully phased T2T diploid Han Chinese genome.
+10.1016/j.gpb.2023.08.001	t2t	1	T2T-YAO diploid Han Chinese genome.
+10.1038/s41586-023-05896-x	hprc	3	HPRC Release 1: 47 phased diploid assemblies and draft pangenome.
+10.64898/2026.07.21.739710	hprc	3	Preprint: HPRC Release 2, ~5-fold expansion of Release 1; source of our 459 assemblies.
+10.1038/s41586-022-04601-8	hprc	1	HPRC rationale and design.
+10.1038/s41586-022-05325-5	hprc	1	Semi-automated diploid assembly pipeline for HPRC.
+10.1038/s41586-025-09140-6	hprc	2	HGSVC3: 130 near-complete haplotypes, complex SV.
+10.1038/s41586-023-06173-7	hprc	1	Chinese Pangenome Consortium Phase I.
+10.1101/gr.277334.122	hprc;t2t	2	Gaps, breaks and misorientations in 182 phased assemblies, concentrated in SD-rich regions; relevant to assembly-artefact controls.
+10.1038/s41588-024-02051-8	hprc;subtel_sd;concerted	2	Population survey of SDs in 170 assemblies; SD polymorphism and diversity.
+10.1038/s41586-023-05895-y	concerted;hprc	2	SNVs elevated in SDs, at least 23% attributable to interlocus gene conversion.
+10.1371/journal.pone.0075949	concerted	2	Signals of historical interlocus gene conversion in human SDs.
+10.64898/2026.05.15.725544	resource	1	Preprint: alignment-free annotation including subtelomeres.
+10.1186/s12859-022-05081-3	resource;telo_methods	2	NPGREAT hybrid assembly of human subtelomeres from ultralong ONT and linked reads.
+10.1109/bibe.2019.00020	resource	1	Conference version of NPGREAT.
+10.1038/s41467-019-08992-7	resource	1	Optical maps of 154 1KGP individuals; population-specific SV.
+10.1038/s41398-020-01060-5	subtel_sd	1	VNTR polymorphism enriched in subtelomeres.
+10.1038/s41586-025-08922-2	pedigree	3	CEPH 1463 four-generation pedigree: DNM and recombination with complete assemblies.
+10.64898/2025.12.14.693655	pedigree	3	Preprint: T2T genomes of a three-generation pedigree; reports recombination in subtelomeric sequence and maintained relative telomere lengths.
+10.1126/science.aau1043	pedigree	1	Icelandic sequence-level genetic map and mutagenic effect of crossovers.
+10.1038/s41586-024-08450-5	pedigree	1	Complete recombination maps including non-crossovers.
+10.1101/2025.02.24.639687	pedigree	1	Preprint: CHM13 recombination map and haplotype panel.
+10.1371/journal.pgen.0030032	subtel_exchange	2	Mitotic SCE rates are elevated 160-fold in subtelomeres.
+10.1038/299111a0	concerted	3	Molecular drive: concerted evolution through genomic turnover mechanisms; theoretical frame invoked by the preprint.
+10.1126/science.1251186	concerted	2	Unequal crossover generates and homogenises tandem repeats.
+10.1086/419073	concerted	2	Review of concerted evolution of repetitive DNA.
+10.1086/302221	concerted	2	Review of concerted evolution mechanisms.
+10.1146/annurev.genet.39.073003.112240	concerted	3	Contrasts concerted with birth-and-death evolution; the alternative model for subtelomeric duplicon families.
+10.1016/0040-5809(83)90015-1	concerted	2	Population-genetic theory of multigene family evolution by gene conversion.
+10.1093/emboj/16.3.588	concerted	2	RNU2 arrays: rapid intrachromosomal homogenisation, rare interchromosomal exchange.
+10.1038/nrg1895	subtel_sd;concerted	2	Review of primate SD origins and waves.
+10.1126/science.1072047	subtel_sd	1	Recent SDs in the human genome.
+10.1101/gr.187101	subtel_sd	1	Early SD organisation of the human genome, including pericentromeric/subtelomeric enrichment.
+10.1086/302998	resource	2	Optimised human telomere clone set; the clinical subtelomere probe resource.
+10.1038/ng0996-86	resource	2	First complete set of human telomeric probes for cryptic rearrangement detection.
+10.1266/ggs.23-00049	subtel_sd	1	Review: subtelomeres as hotspots of genome variation.
+10.3390/genes13091663	subtel_sd	1	Review of telomere-adjacent satellites.
+10.1038/ng.3847	yeast_model;subtel_exchange	2	Yeast long-read assemblies: subtelomeres are the fastest-evolving, rearrangement-rich regions.
+10.1101/gr.246082.118	yeast_model	1	C. elegans: new subtelomere formation in a divergent strain.
+10.1371/journal.pgen.1000920	telo_length_cis	1	Telomere replication timing is arm-specific and influenced by subtelomeric structure.
+10.1093/nar/gks926	telo_length_cis	2	Linear human artificial chromosome: telomere length and TPE depend on genetic background.
+10.1093/nar/gkaf1457	telo_length_cis;yeast_model	3	Yeast TEL03L: subtelomeric heterochromatin sets telomere-specific length in cis, transferable with the distal 15 kb. Mechanistic precedent for subtelomere-allele-dependent length.
+10.1101/gad.251041.114	telo_length_cis	1	Telomere position effect over long distances.
+10.1126/science.1147182	tvr	1	Discovery of TERRA transcribed from subtelomeres.
+10.1261/rna.080790.125	tvr;t2t	1	TERRA promoters at 39/46 CHM13 subtelomeres.
+10.1186/1471-2164-10-250	subtel_sd	1	DDX11L subtelomeric transcript family.
+10.1093/hmg/ddi424	telo_length_cis	2	STELA in sperm: high telomere length instability in the male germline.
+10.1002/smtd.202300385	telo_methods	1	Linked-read arm-level telomere analysis across populations.
+10.1007/s11899-023-00717-4	telo_methods	1	Review of telomere length methods.
+10.1186/s12864-020-06901-7	telo_methods	1	Optical maps of subtelomeres and telomeres in ALT cells.
+10.1098/rspb.1992.0009	subtel_sd	1	Anchored PCR isolation of telomere junction fragments.
+10.1038/s41467-026-71172-x	telo_length_cis;telo_methods	2	Long-read chromosome-specific telomere length in >2,500 All of Us participants: arm explains 9.1% and individual 8.9% of variance; age effects vary by arm. Largest population confirmation of arm-specific length.
