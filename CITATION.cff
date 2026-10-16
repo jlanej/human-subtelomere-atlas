@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use the human subtelomere atlas, please cite it as below, and cite the upstream data sources listed in DATA_LICENSE.md."
+title: "human-subtelomere-atlas: a validated, queryable catalogue of human chromosome-end alleles"
+type: dataset
+version: "0.1.0"
+date-released: "2026-10-15"
+authors:
+  - alias: jlanej
+repository-code: "https://github.com/jlanej/human-subtelomere-atlas"
+url: "https://jlanej.github.io/human-subtelomere-atlas/"
+license: CC-BY-4.0
+keywords:
+  - subtelomere
+  - telomere
+  - human pangenome
+  - HPRC
+  - structural variation
+  - segmental duplication
+references:
+  - type: article
+    title: "Widespread structural variations at human chromosome ends"
+    authors:
+      - family-names: Tan
+        given-names: et al.
+    doi: "10.64898/2026.09.03.748401"
+    year: 2026
+  - type: article
+    title: "Concerted evolution and unorthodox recombination of human subtelomeres"
+    authors:
+      - family-names: Guarracino
+        given-names: et al.
+    doi: "10.64898/2026.07.10.737660"
+    year: 2026
+  - type: article
+    title: "The complete sequence of a human genome"
+    authors:
+      - family-names: Nurk
+        given-names: et al.
+    doi: "10.1126/science.abj6987"
+    year: 2022
