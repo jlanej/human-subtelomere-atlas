@@ -1,0 +1,102 @@
+{
+ "criteria_version": "v1",
+ "status": "frozen",
+ "registered": "2026-10-16",
+ "registered_before": [
+  "any read-level data were fetched or inspected (HG002 Q100, 1KG-ONT, CHM13 reads)"
+ ],
+ "informed_by": "CHM13 v2.0 reference properties only (D-P homology, diagnostic-site attrition, shared-sequence masks of the recipient ends)",
+ "thresholds": {
+  "pair_min_block": 2000,
+  "pair_min_block_ident": 0.9,
+  "site_flank_clean": 3,
+  "site_homopolymer": 3,
+  "site_lowcomplex_half": 25,
+  "site_lowcomplex_min_trimers": 20,
+  "site_repeat_k": 16,
+  "site_repeat_span": 2000,
+  "site_min_from_chm13_telomere": 500,
+  "claim_window_pad": 10000,
+  "claim_p_window_beyond": 30000,
+  "claim_p_window_max": 300000,
+  "bin_bp": 200,
+  "bin_min_ident": 0.85,
+  "bin_delta": 0.05,
+  "bin_min_private_frac": 0.9,
+  "read_min_hit_bp": 1000,
+  "telomere_min_bp": 300,
+  "telomere_max_offset": 300,
+  "cp_error": 0.05,
+  "cp_ci_drop_ln": 1.92,
+  "min_units_segment": 10,
+  "min_segment_purity": 0.8,
+  "min_log10_lr": 5.0,
+  "anchor_min_bp": 10000,
+  "anchor_min_mapq": 60,
+  "anchor_max_from_telomere": 2000000,
+  "anchor_unique_tier_bp": 1000,
+  "shared_mask_ident": 0.95,
+  "shared_mask_min_len": 1000,
+  "internal_telomere_min_bp": 500,
+  "internal_telomere_gap": 1000,
+  "adapter_max_edit_frac": 0.15,
+  "adapter_edge_exclude": 200,
+  "foldback_min_bp": 1000,
+  "foldback_min_mapq": 20,
+  "min_subtel_aligned_frac": 0.9,
+  "concordance_tol_bp": 2000,
+  "claim_min_conclusive": 2,
+  "telomere_artefact_platforms": [
+   "ONT_R9.4.1"
+  ],
+  "telomere_artefact_motifs": [
+   "CTTCTT",
+   "CCCTGG",
+   "TTTTAA"
+  ],
+  "concordance_reference": "assembly_projection_then_catalogue"
+ },
+ "frozen": "2026-10-16",
+ "frozen_before": [
+  "held-out HG002 claims evaluated with these criteria",
+  "any 1KG-ONT carrier reads fetched or inspected"
+ ],
+ "negative_control_definition": "strictly native: raw mosaic structure only home/none on every haplotype contributing reads",
+ "calibration_changes": [
+  {
+   "id": "A1",
+   "kind": "implementation",
+   "change": "aligned-fraction integrity test unions genome-wide and reference-window alignments",
+   "reason": "minimap2 --secondary=no drops the donor-block alignment of carrier reads when it overlaps the primary on the read",
+   "evidence": "synthetic unit-test fixture; smoke test on HG002 4q paternal (ONT UL)"
+  },
+  {
+   "id": "C1",
+   "kind": "threshold-set extension",
+   "change": "for ONT R9.4.1 reads the terminal-telomere caller also accepts the published R9 telomere basecalling artefact motifs (CTTCTT, CCCTGG, TTTTAA and rotations; tip frame)",
+   "reason": "among 1KG-ONT native-control reads whose CHM13 alignment reaches within 3 kb of the chromosome end, 188/883 (21%) passed with canonical motifs and 637/883 (72%) with the artefact motifs",
+   "evidence": "work/readevidence/ont1kg native-control slices only (no carrier reads)"
+  },
+  {
+   "id": "C2",
+   "kind": "definition",
+   "change": "switch concordance is tested against the claim's unit model applied to the person's assembly end window (error-free), falling back to the catalogue switch when that projection shows no switch; catalogue-switch concordance is still reported (switch_concordant_catalogue)",
+   "reason": "in the training half, conclusive carrier reads at 17p (both haplotypes), 19p paternal and 6q maternal placed the D/P switch tightly and unanimously 2-7 kb from the catalogue switch, which is a 5 kb sliding-identity boundary with a tie rule rather than a diagnostic-unit change point",
+   "evidence": "work/readevidence/calib_train_prereg (training claims only)"
+  },
+  {
+   "id": "C3",
+   "kind": "control definition",
+   "change": "specificity is computed on strictly native controls; core-native controls (non-home raw blocks < 10 kb) are reported separately",
+   "reason": "all conclusive reads among core-native controls (HG002 19q paternal: structure 22q|4q|21q|home; 1KG HG00128/HG00133 19q, HG02976 9p) came from individuals whose assemblies carry short non-home raw blocks at the arm; 0 of 347 strictly native control reads were conclusive",
+   "evidence": "work/readevidence/calib_train_prereg"
+  },
+  {
+   "id": "T0",
+   "kind": "thresholds",
+   "change": "no numeric threshold changed",
+   "reason": "true-carrier D-segment purity is as low as 0.80 (15q paternal, median 0.80; 3q paternal 0.85) because the person's donor-like haplotype itself differs from CHM13 D at some diagnostic sites; raising min_segment_purity would remove true carriers, and the control conclusives were explained by C3",
+   "evidence": "work/readevidence/calib_train_prereg"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+platform	len_bin	n	conclusive	switch_pass	anchor_pass	sensitivity
+HiFi_Revio	<25 kb	138	1	35	1	0.0072
+HiFi_Revio	25-50 kb	23	1	12	1	0.0435
+HiFi_Revio	50-100 kb	0	0	0	0	
+HiFi_Revio	100-200 kb	0	0	0	0	
+HiFi_Revio	>200 kb	0	0	0	0	
+ONT_R10_UL	<25 kb	49	0	9	0	0.0
+ONT_R10_UL	25-50 kb	143	16	83	27	0.1119
+ONT_R10_UL	50-100 kb	215	41	147	57	0.1907
+ONT_R10_UL	100-200 kb	215	69	152	112	0.3209
+ONT_R10_UL	>200 kb	109	56	70	100	0.5138
+ONT_R10_duplex	<25 kb	48	1	5	1	0.0208
+ONT_R10_duplex	25-50 kb	235	18	135	28	0.0766
+ONT_R10_duplex	50-100 kb	73	7	45	22	0.0959
+ONT_R10_duplex	100-200 kb	0	0	0	0	
+ONT_R10_duplex	>200 kb	0	0	0	0	

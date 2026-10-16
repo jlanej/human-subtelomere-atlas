@@ -1,0 +1,8 @@
+role	conclusive	consistent	contradicts	non-informative
+carrier	222	572	1	1615
+hg002_otherhap_corenative	41	8	0	41
+hg002_otherhap_native	0	0	97	221
+hg002_otherhap_other	28	71	0	1268
+hg002_otherhap_same	85	234	0	271
+ont1kg_native_core	8	5	126	1227
+ont1kg_native_strict	0	0	39	586

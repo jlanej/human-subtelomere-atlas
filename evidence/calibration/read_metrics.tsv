@@ -1,0 +1,16 @@
+half	platform	carrier_reads	carrier_eligible	conclusive_concordant_eligible	sensitivity	sens_ci_lo	sens_ci_hi	carrier_conclusive_any	carrier_contradicts	neg_reads	neg_conclusive	neg_false_conclusive_rate	neg_fcr_upper95	neg_eligible	neg_eligible_conclusive	neg_eligible_fcr_upper95	neg_consistent	neg_contradicts
+train	HiFi_Revio	321	14	1	0.0714	0.0018	0.3387	2	0	0	0			0	0		0	0
+train	ONT_R10_UL	592	335	126	0.3761	0.3241	0.4304	136	0	0	0			0	0		0	0
+train	ONT_R10_duplex	301	126	25	0.1984	0.1327	0.2788	26	0	0	0			0	0		0	0
+train	ONT_R9.4.1	0	0	0		0.0	1.0	0	0	407	0	0.0	0.00733	70	0	0.04189	0	30
+train	all	1214	475	152	0.32	0.2782	0.364	164	0	407	0	0.0	0.00733	70	0	0.04189	0	30
+heldout	HiFi_Revio	282	6	0	0.0	0.0	0.4593	0	0	87	0	0.0	0.03385	0	0		0	14
+heldout	ONT_R10_UL	593	312	56	0.1795	0.1385	0.2267	58	1	153	0	0.0	0.01939	39	0	0.07394	0	62
+heldout	ONT_R10_duplex	321	111	0	0.0	0.0	0.0327	0	0	78	0	0.0	0.03768	6	0	0.39304	0	21
+heldout	ONT_R9.4.1	0	0	0		0.0	1.0	0	0	218	0	0.0	0.01365	30	0	0.09503	0	9
+heldout	all	1196	429	56	0.1305	0.1001	0.1661	58	1	536	0	0.0	0.00557	75	0	0.03916	0	106
+all	HiFi_Revio	603	20	1	0.05	0.0013	0.2487	2	0	87	0	0.0	0.03385	0	0		0	14
+all	ONT_R10_UL	1185	647	182	0.2813	0.2469	0.3177	194	1	153	0	0.0	0.01939	39	0	0.07394	0	62
+all	ONT_R10_duplex	622	237	25	0.1055	0.0694	0.1518	26	0	78	0	0.0	0.03768	6	0	0.39304	0	21
+all	ONT_R9.4.1	0	0	0		0.0	1.0	0	0	625	0	0.0	0.00478	100	0	0.02951	0	39
+all	all	2410	904	208	0.2301	0.203	0.2589	222	1	943	0	0.0	0.00317	145	0	0.02045	0	136

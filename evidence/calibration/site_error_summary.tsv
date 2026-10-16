@@ -1,0 +1,6 @@
+platform	reads	sites	wrong_allele_rate	other_rate	median_read_error	p95_read_error	kind
+HiFi_Revio	338.0	25081.0	7.974163709580957e-05	0.0007974163709580957	0.0	0.008873475245156658	carrier_vs_consensus
+ONT_R10_UL	702.0	67041.0	0.010217628018675139	0.02698348771647201	0.015133010190450746	0.22387077769049488	carrier_vs_consensus
+ONT_R10_duplex	379.0	35613.0	0.0005615926768314941	0.002190211439642827	0.0	0.0181392931392931	carrier_vs_consensus
+role	platform	reads	sites	D_call_rate	other_rate	max_read_D_frac	kind
+ont1kg_native_strict	ONT_R9.4.1	86.0	6416.0	0.10288335517693316	0.048628428927680795	0.7058823529411765	strict_native_control_donor_interval
