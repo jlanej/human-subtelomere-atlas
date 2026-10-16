@@ -1,0 +1,86 @@
+{
+ "F1": {
+  "n_arms": 42,
+  "n_chords": 149,
+  "n_chord_ends": 4410,
+  "within_family_pairs": 10,
+  "mostly_nonnative": [
+   "6p",
+   "19p",
+   "1p",
+   "3q",
+   "17q",
+   "9q",
+   "8p",
+   "11p",
+   "15q",
+   "9p",
+   "16q",
+   "4q",
+   "20p",
+   "20q",
+   "17p",
+   "6q",
+   "5q"
+  ],
+  "top_chords": "3q>11p 0.51; 8p>1p 0.50; 20q>3q 0.48; 17p>11p 0.48"
+ },
+ "F2": {
+  "20q": {
+   "ends": 442,
+   "alleles": 13,
+   "shown": 2,
+   "other_alleles": 11,
+   "r2_ends": 439
+  },
+  "3q": {
+   "ends": 437,
+   "alleles": 27,
+   "shown": 8,
+   "other_alleles": 19,
+   "r2_ends": 434
+  },
+  "6p": {
+   "ends": 442,
+   "alleles": 26,
+   "shown": 10,
+   "other_alleles": 16,
+   "r2_ends": 439
+  },
+  "8p": {
+   "ends": 452,
+   "alleles": 15,
+   "shown": 3,
+   "other_alleles": 12,
+   "r2_ends": 449
+  },
+  "16p": {
+   "ends": 434,
+   "alleles": 49,
+   "shown": 4,
+   "other_alleles": 45,
+   "r2_ends": 431
+  },
+  "11p": {
+   "ends": 449,
+   "alleles": 47,
+   "shown": 9,
+   "other_alleles": 38,
+   "r2_ends": 446
+  }
+ },
+ "F3": {
+  "n_common": 49,
+  "in_all5": 37,
+  "denoms": [
+   50,
+   145
+  ]
+ },
+ "F4": {
+  "tierA": 129,
+  "tierB": 166,
+  "tierC": 352,
+  "endsAB_frac": 0.9787646707777998
+ }
+}

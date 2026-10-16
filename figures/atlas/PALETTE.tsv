@@ -1,0 +1,50 @@
+chm13_end	arm	hex	family	L	C	h	rule
+chr1p	1p	#04623b	PF02	36.0	38.0	156.0	family hue, member shade
+chr1q	1q	#6f3f2b		32.0	28.0	48.0	own colour
+chr2p	2p	#9a617c		48.0	28.0	348.0	own colour
+chr2q	2q	#554c02		32.0	40.0	96.0	own colour
+chr3p	3p	#cd8a88		64.0	28.0	24.0	own colour
+chr3q	3q	#7d5e07	PF04	42.0	48.0	84.0	family hue, member shade
+chr4p	4p	#95074d	PF01	32.0	56.0	0.0	family hue, member shade
+chr4q	4q	#6d63d0		48.0	64.0	300.0	own colour
+chr5p	5p	#bf7354		56.0	40.0	48.0	own colour
+chr5q	5q	#039d61	PF02	57.0	54.0	156.0	family hue, member shade
+chr6p	6p	#703a55		32.0	28.0	348.0	own colour
+chr6q	6q	#55d895	PF02	78.0	56.0	156.0	family hue, member shade
+chr7p	7p	#4d4671		32.0	28.0	300.0	own colour
+chr7q	7q	#408fb0		56.0	28.0	240.0	own colour
+chr8p	8p	#c2eb6e		88.0	64.0	120.0	own colour
+chr8q	8q	#63bdce		72.0	28.0	216.0	own colour
+chr9p	9p	#385229		32.0	28.0	132.0	own colour
+chr9q	9q	#87f0cc		88.0	40.0	168.0	own colour
+chr10p	10p	#6782dc		56.0	52.0	288.0	own colour
+chr10q	10q	#f5dd5e		88.0	64.0	96.0	own colour
+chr11p	11p	#185fc9	PF03	42.0	64.0	288.0	family hue, member shade
+chr11q	11q	#697848		48.0	28.0	120.0	own colour
+chr12p	12p	#e0e0aa		88.0	28.0	108.0	own colour
+chr12q	12q	#968724		56.0	52.0	96.0	own colour
+chr13p	13p	#676f9f		48.0	28.0	288.0	own colour
+chr13q	13q	#316b17		40.0	52.0	132.0	own colour
+chr14p	14p	#c5296d	PF01	45.0	64.0	0.0	family hue, member shade
+chr14q	14q	#feb787		80.0	40.0	60.0	own colour
+chr15p	15p	#ed528e	PF01	58.0	64.0	0.0	family hue, member shade
+chr15q	15q	#a4b2fc	PF03	74.0	40.0	288.0	family hue, member shade
+chr16p	16p	#15489a		32.0	52.0	288.0	own colour
+chr16q	16q	#9a8cff		64.0	64.0	300.0	own colour
+chr17p	17p	#c1b167		72.0	40.0	96.0	own colour
+chr17q	17q	#cbc0f4		80.0	28.0	300.0	own colour
+chr18p	18p	#7fa82e		64.0	64.0	120.0	own colour
+chr18q	18q	#d158b5		56.0	64.0	336.0	own colour
+chr19p	19p	#e0af39	PF04	74.0	64.0	84.0	family hue, member shade
+chr19q	19q	#66f2eb		88.0	40.0	192.0	own colour
+chr20p	20p	#fed891		88.0	40.0	84.0	own colour
+chr20q	20q	#91eafb		88.0	28.0	216.0	own colour
+chr21p	21p	#fe8ab0	PF01	71.0	48.0	0.0	family hue, member shade
+chr21q	21q	#b35906		48.0	64.0	60.0	own colour
+chr22p	22p	#fec2d2	PF01	84.0	24.0	0.0	family hue, member shade
+chr22q	22q	#973a82		40.0	52.0	336.0	own colour
+chrXp	Xp	#156a92	PF05	42.0	30.0	252.0	family hue, member shade
+chrXq	Xq	#087062	PF06	42.0	30.0	180.0	family hue, member shade
+chrYp	Yp	#4ec0ff	PF05	74.0	42.0	252.0	family hue, member shade
+chrYq	Yq	#49c9b5	PF06	74.0	40.0	180.0	family hue, member shade
+none	none	#ececec					no CHM13 end within 0.80 identity

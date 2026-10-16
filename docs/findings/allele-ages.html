@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Population distribution, origin and age | Human subtelomere atlas</title>
+<meta name="description" content="Human subtelomere atlas: structural alleles of human chromosome ends from HPRC Release 2, HG002 Q100 and CHM13.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../arms/index.html">Arms</a></li><li><a href="../alleles.html">Alleles</a></li><li><a href="../findings/index.html" aria-current="page">Findings</a></li><li><a href="../methods.html">Methods</a></li><li><a href="../validation.html">Validation</a></li><li><a href="../query.html">Query tool</a></li><li><a href="../downloads.html">Downloads</a></li><li><a href="../literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<p><a href="index.html">Findings</a> &rsaquo; Population distribution, origin and age</p>
+<h1>Common forms are old and shared across populations</h1>
+<p class="warn">Definitions: this analysis used the earlier per-window best-end form calls (e.g. <code>20q&gt;3q</code>); its counts are not directly comparable with catalogue revision-2 S20, form or nativity counts. See the <a href="index.html#definitions">concordance table</a>.</p>
+<p>Full methods, statistics and reproduction instructions: <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/allele_ages/README.md">analyses/allele_ages/README.md</a>
+(results tables in <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/analyses/allele_ages/results">analyses/allele_ages/results/</a>; reproduce with <code>bash analyses/allele_ages/run.sh</code>).</p>
+<h2 id="1-population-distribution-scripts-pop-distribution-py">1. Population distribution (<code>scripts/pop_distribution.py</code>)</h2>
+<p><strong>Cohort.</strong> 455 haplotypes from 230 samples: AFR 138 haplotypes / 69 samples; AMR 86/44; EAS 102/51; EUR 59/30; SAS 70/36. No parent–child pairs are in the set.</p>
+<p><strong>Frequency definition.</strong> Carrier frequency is the number of carrier haplotypes over haplotypes with a named tip on the own arm (Wilson 95% CIs; <code>results/form_freq_by_superpop.tsv</code>).</p>
+<p><strong>Tests.</strong> 104 forms with ≥10 carriers were tested (<code>results/form_popdiff_tests.tsv</code>):</p>
+<ul><li>chi-square statistic with permutation of superpopulation labels among samples (10,000 permutations, seed 20261015);</li><li>the same permutation stratified by HiFi chemistry batch, because chemistry differs between superpopulations;</li><li>Fisher's exact test, AFR vs non-AFR;</li><li>haploid ANOVA F<sub>ST</sub> (Weir 1996) and Hudson F<sub>ST</sub> (Bhatia et al. 2013, doi:10.1101/gr.154831.113);</li><li>Benjamini–Hochberg correction within each test family.</li></ul>
+<p><strong>Results.</strong></p>
+<ul><li>41 of 104 forms differ among superpopulations at q &lt; 0.05 (36 with chemistry-stratified permutation).</li><li>31 forms differ AFR vs non-AFR: 22 are AFR-enriched and 9 AFR-depleted.</li><li>Median 5-population F<sub>ST</sub> is 0.023; the maximum is 0.22.</li><li>66 of 104 forms occur in all five superpopulations.</li><li>Most differentiated forms (F<sub>ST</sub> about 0.2):<ul><li><strong>5q&gt;6q</strong>: AFR 0.53, other superpopulations 0.11–0.16.</li><li><strong>4q&gt;15p</strong>: AFR 0.07, other superpopulations 0.42–0.61.</li><li><strong>20q&gt;3q</strong>: AFR 0.72, EAS 0.18.</li></ul></li><li>AFR haplotypes carry more foreign tips overall: 0.438 of named tips, against 0.348–0.369 elsewhere.</li></ul>
+<p><strong>Junction clusters</strong> (<code>results/junction_cluster_superpop.tsv</code>). These are base-resolved switches of one form within 1 kb of each other.</p>
+<ul><li>76 of 191 clusters with ≥2 samples contain both a continental African sample (AFR excluding the admixed ACB/ASW) and an EUR/EAS/SAS sample. Random labelling would give 104.5, so clusters are population-structured.</li><li>Among clusters with ≥10 samples, 34 of 39 span this split.</li></ul>
+<p>Sharing the same base-resolved junction across the out-of-Africa split implies an origin before that split, or later gene flow.</p>
+<p><a href="../assets/img/analyses__allele_ages__figures__fig_population.png"><img src="../assets/img/analyses__allele_ages__figures__fig_population.png" alt="population" loading="lazy"></a></p><h2 id="origin-age">Single origin and relative age: results</h2>
+<p><strong>Coverage.</strong> Of 61 forms with ≥19 carrier tips, 34 could be analysed. The other 27 were skipped:</p>
+<ul><li>26 had less than 3 kb of foreign block after the telomere in the bottom carrier quintile. Short blocks and 5 kb window-resolved switches account for this (e.g. 1p&gt;6q, 19p&gt;11p, 2q&gt;16q, 5q&gt;6q).</li><li>4q&gt;15p had only 6 native 15p alleles, because 15p is acrocentric.</li></ul>
+<p><strong>Clustering.</strong> Carriers are each other's nearest haplotypes far more often than chance: median nearest-neighbour carrier fraction is 0.95, against 0.14 expected. This is significant for 33 of 34 forms (p ≤ 0.001); the exception is acrocentric 14p&gt;22p.</p>
+<p><strong>Verdicts.</strong></p>
+<div class="table-wrap free"><table><thead><tr><th scope="col">verdict</th><th scope="col">forms</th></tr></thead><tbody><tr><td>consistent with single origin</td><td>13</td></tr><tr><td>clustered, low diversity, no carrier-fixed SNVs</td><td>3 (20q&gt;3q, 3q&gt;11p, 9q&gt;20p)</td></tr><tr><td>clustered, carriers as diverse as natives</td><td>7</td></tr><tr><td>not supported</td><td>11</td></tr></tbody></table></div>
+<p><strong>Monophyly.</strong> No form is strictly monophyletic in the UPGMA tree. 1p&gt;11p, Xq&gt;15q and 9q&gt;1p are monophyletic except for one non-carrier.</p>
+<p><strong>Headline forms</strong> (<code>results/origin_verdicts.tsv</code>):</p>
+<div class="table-wrap free"><table><thead><tr><th scope="col">form</th><th scope="col">carriers / natives</th><th scope="col">π carrier / native (SNVs/kb)</th><th scope="col">ratio</th><th scope="col" class=num>carrier-fixed SNVs</th><th scope="col">median-based age (kyr)</th><th scope="col">donor lineage</th></tr></thead><tbody><tr><td>20q&gt;3q</td><td>160 / 49</td><td>0.76 / 3.55</td><td>0.21</td><td class=num>0</td><td>623</td><td>nested: carrier consensus 0.15–0.18 SNVs/kb from 19p&gt;3q recipients and SAS native 3q alleles</td></tr><tr><td>3q&gt;11p</td><td>118 / 95</td><td>2.30 / 2.81</td><td>0.82</td><td class=num>0</td><td>527</td><td>nested: native 11p haplotypes from all superpopulations at 0.11/kb</td></tr><tr><td>6p&gt;11p</td><td>124 / 95</td><td>0.96 / 2.88</td><td>0.33</td><td class=num>155</td><td>457</td><td>distinct: nearest native at 2.67/kb</td></tr><tr><td>1p&gt;11p</td><td>32 / 95</td><td>0.12 / 2.83</td><td>0.04</td><td class=num>104</td><td>227</td><td>an identical block in a 9q&gt;11p tip of another sample</td></tr><tr><td>8p&gt;1p</td><td>153 / 41</td><td>3.00 / 3.38</td><td>0.89</td><td class=num>16</td><td>4,395</td><td>intermediate</td></tr><tr><td>16p&gt;9q</td><td>15 / 94</td><td>4.99 / 0.18</td><td>—</td><td class=num>0</td><td>—</td><td>not supported: heterogeneous carriers</td></tr></tbody></table></div>
+<p><strong>Ages.</strong></p>
+<ul><li>Median-based ages of 17 of the 23 clustered forms fall between 0.2 and 1.5 Myr (median 502 kyr).</li><li>Mean-based ages are higher (median 1.7 Myr for the 13 single-origin forms), because a minority of carriers are divergent.</li></ul>
+<p><strong>Out-of-Africa pattern.</strong> Carrier diversity is higher among AFR carriers than among non-AFR carriers for 23 of 33 forms (sign test p = 0.035; Wilcoxon p = 0.0017). This is the pattern expected for lineages that predate the out-of-Africa bottleneck.</p><h3 id="interpretation">Interpretation</h3>
+<p>Most common forms are old, mostly single-lineage alleles that predate the out-of-Africa dispersal. Clock ages are hundreds of kyr. The block of 20q&gt;3q and 3q&gt;11p still has close relatives among native donor-arm alleles; the 6p&gt;11p block does not.</p><h2 id="3-great-apes-scripts-ape-forms-py-scripts-ape-junction-check">3. Great apes (<code>scripts/ape_forms.py</code>, <code>scripts/ape_junction_check.py</code>)</h2>
+<p><strong>Probes.</strong> For each of the 70 junction clusters with ≥5 samples, three 6 kb probes were aligned to all 240 ape chromosome ends:</p>
+<ul><li>a carrier probe centred on the switch;</li><li>a native own-arm probe (CHM13 A);</li><li>a native donor probe (CHM13 B).</li></ul>
+<p><strong>Hits.</strong> In 31 of the 350 species × junction tests (17 clusters), the carrier probe aligned across the switch. All 31 were diagnosed as <strong>shared duplicon</strong> (<code>results/ape_junction_hits_diagnosis.tsv</code>):</p>
+<ul><li>The human carrier probe itself aligns contiguously across its switch on CHM13 A and B (e.g. 20q&gt;3q: 0.998 on 20q, 0.993 on 3q).</li><li>The native probe aligns to the same ape locus with equal identity (20q&gt;3q in chimpanzee: 0.9730 vs 0.9731).</li><li>The ape-side position differs from the human one (20q&gt;3q: 109.6 kb in chimpanzee vs 35.4 kb in human).</li><li>No hit is at the orthologous end with ≥0.97 identity on both flanks.</li></ul>
+<p>These "junctions" are changes in paralog similarity inside sequence shared by both arms, not structural breakpoints. No recurrent human junction is present in a great-ape genome. The ape data therefore do not place any form before the human–chimp split, and they do not conflict with the clock ages.</p>
+<p><strong>Limitations of the ape test.</strong> Absence is weak evidence. The orthology of ape ends could be assigned for only 158 of 240 ends from the 300–500 kb segment (gorilla 5/48), because of large subterminal satellite and duplicon content in ape subtelomeres.</p>
+<p><a href="../assets/img/analyses__allele_ages__figures__fig_origin.png"><img src="../assets/img/analyses__allele_ages__figures__fig_origin.png" alt="origin" loading="lazy"></a></p>
+<h2 id="figures">Figures</h2>
+<figure><a href="../assets/img/analyses__allele_ages__figures__fig_origin.png"><img src="../assets/img/analyses__allele_ages__figures__fig_origin.png" alt="Figure fig origin of the allele ages analysis" loading="lazy"></a><figcaption><code>analyses/allele_ages/figures/fig_origin.png</code>; caption in the analysis README. <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/allele_ages/figures/fig_origin.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/allele_ages/figures/fig_origin.pdf">PDF</a>)</span></figcaption></figure>
+<figure><a href="../assets/img/analyses__allele_ages__figures__fig_population.png"><img src="../assets/img/analyses__allele_ages__figures__fig_population.png" alt="Figure fig population of the allele ages analysis" loading="lazy"></a><figcaption><code>analyses/allele_ages/figures/fig_population.png</code>; caption in the analysis README. <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/allele_ages/figures/fig_population.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/allele_ages/figures/fig_population.pdf">PDF</a>)</span></figcaption></figure>
+<h2 id="caveats">Caveats</h2>
+<ul><li><strong>Gene conversion.</strong> Subtelomeres undergo frequent interchromosomal gene conversion. Converted tracts inflate carrier diversity, so ages are upper-biased. They can also homogenise carriers with donors, so "single origin" and nesting calls are about the sequence lineage of the block, not about the mutational event.</li><li><strong>Mutation rate.</strong> μ is the genome-average germline rate. Subtelomeric rates may be higher, which would make the true ages younger. Treat the absolute ages as order-of-magnitude.</li><li><strong>Mixed native lineages.</strong> Native π varies from 0.18 to 4.2 SNVs/kb between donor arms. Natives can themselves be mixtures of old structural lineages, so π ratios are relative to that arm's native set, not to a population average.</li><li><strong>Single reference.</strong> SNVs are called against a single CHM13 end with minimap2. Paralog misalignment in repeats survives the masking only partially.</li><li><strong>Bootstrap estimator.</strong> The block-bootstrap CI of the π ratio uses a ratio-of-sums estimator, so it can exclude the mean-of-pairs point estimate when coverage is uneven (e.g. 16p&gt;9q).</li><li><strong>Labels.</strong> Superpopulation labels follow the 1000 Genomes/HPRC tables. AMR samples, and the ACB/ASW samples in AFR, are admixed.</li></ul>
+<p>All DOIs cited in this README and in data/metadata/README.md were checked against Crossref on 2026-10-15.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="../assets/js/common.js"></script>
+
+</body>
+</html>

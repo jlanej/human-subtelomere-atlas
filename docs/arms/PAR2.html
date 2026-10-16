@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arm PAR2 | Human subtelomere atlas</title>
+<meta name="description" content="Structural alleles and haplogroups of chromosome end PAR2.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../arms/index.html" aria-current="page">Arms</a></li><li><a href="../alleles.html">Alleles</a></li><li><a href="../findings/index.html">Findings</a></li><li><a href="../methods.html">Methods</a></li><li><a href="../validation.html">Validation</a></li><li><a href="../query.html">Query tool</a></li><li><a href="../downloads.html">Downloads</a></li><li><a href="../literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<nav class="arm-nav" aria-label="Arms"><a href="1p.html">1p</a><a href="1q.html">1q</a><a href="2p.html">2p</a><a href="2q.html">2q</a><a href="3p.html">3p</a><a href="3q.html">3q</a><a href="4p.html">4p</a><a href="4q.html">4q</a><a href="5p.html">5p</a><a href="5q.html">5q</a><a href="6p.html">6p</a><a href="6q.html">6q</a><a href="7p.html">7p</a><a href="7q.html">7q</a><a href="8p.html">8p</a><a href="8q.html">8q</a><a href="9p.html">9p</a><a href="9q.html">9q</a><a href="10p.html">10p</a><a href="10q.html">10q</a><a href="11p.html">11p</a><a href="11q.html">11q</a><a href="12p.html">12p</a><a href="12q.html">12q</a><a href="acroP.html">acroP</a><a href="13q.html">13q</a><a href="14q.html">14q</a><a href="15q.html">15q</a><a href="16p.html">16p</a><a href="16q.html">16q</a><a href="17p.html">17p</a><a href="17q.html">17q</a><a href="18p.html">18p</a><a href="18q.html">18q</a><a href="19p.html">19p</a><a href="19q.html">19q</a><a href="20p.html">20p</a><a href="20q.html">20q</a><a href="21q.html">21q</a><a href="22q.html">22q</a><a href="PAR1.html">PAR1</a><a href="PAR2.html" aria-current=page>PAR2</a></nav>
+<h1>Arm PAR2</h1>
+<p>441 Release 2 ends from 230 samples (native 388, within family
+0, foreign 53); 5 structural alleles (tier A 2,
+B 2, C 1) and 4 sequence haplogroups. This group pools the ends of Xq and Yq.</p>
+<p>Paralog families: this arm belongs to PF06 (Xq, Yq) (blocks of that family on this arm are <em>within family</em>); its alleles contain blocks of PF03 (11p, 15q), PF04 (3q, 19p). <a href="../methods.html#labels">How blocks are labelled</a>.</p>
+<h2 id="mosaic">Structural alleles</h2>
+<p>One row per structural allele: the representative end's core blocks (&ge; 10 kb) from the telomere boundary (left,
+dark bar) inward. Home blocks carry the arm's own colour; other blocks are coloured by their best single CHM13 v2.0 end;
+members of a paralog family share a hue and differ in lightness; dashed outline = block labelled by paralog family. Triangles mark median core switch positions; the
+thin bar under a row spans the members' minimum to maximum switch. Hover over a row, or focus it with the keyboard, for
+details (structure, families, best ends, nativity class, frequencies, evidence); click or press Enter to filter the member
+table to that allele.</p>
+<div class="controls" role="group" aria-label="Allele filters">
+<label class="inline"><input type="checkbox" id="f-tier-A" checked> tier A</label>
+<label class="inline"><input type="checkbox" id="f-tier-B" checked> tier B</label>
+<label class="inline"><input type="checkbox" id="f-tier-C" checked> tier C</label>
+<label>Nativity <select id="f-nat"><option value="">all</option><option value="native">native</option>
+<option value="within_family">within family</option><option value="foreign">foreign</option></select></label>
+<label>Minimum samples <input type="number" id="f-minsamples" min="1" value="1" style="width:5rem"></label>
+<label>Order <select id="f-order"><option value="members">by member count</option><option value="switch">by first switch</option>
+<option value="id">by ID</option></select></label>
+<button type="button" class="btn" id="toggle-members-mosaic" aria-expanded="false" aria-controls="member-mosaic">Show member-end mosaic</button>
+<span class="count" id="allele-count" aria-live="polite"></span>
+</div>
+<div class="mosaic-wrap" id="allele-mosaic"><noscript><p>The interactive mosaic needs JavaScript; the allele table below has
+the same information.</p></noscript></div>
+<div class="legend" id="mosaic-legend" aria-label="Colour key"></div>
+<div class="mosaic-wrap" id="member-mosaic" hidden></div>
+<p class="muted">Labels are relative to CHM13: a colour change is a change in which CHM13 end is most similar, not
+necessarily a structural breakpoint. Palette: <a href="../methods.html#palette">methods</a>.</p>
+<h3 id="allele-table">Allele table</h3>
+<div class="table-wrap"><table><thead><tr><th scope="col">Allele</th><th scope="col">Structure</th><th scope="col">Best end per block</th><th scope="col">Nativity</th><th scope="col">Median switch(es), bp</th><th scope="col">Tier</th><th scope="col">Evidence</th><th scope="col" class=num>Ends</th><th scope="col" class=num>Samples</th><th scope="col" class=num>R2 freq.</th><th scope="col" class=num>AFR</th><th scope="col" class=num>AMR</th><th scope="col" class=num>EAS</th><th scope="col" class=num>EUR</th><th scope="col" class=num>SAS</th><th scope="col">Haplogroups</th></tr></thead><tbody><tr id="SA-PAR2-01"><td>SA-PAR2-01</td><td>home</td><td>home</td><td>native</td><td></td><td><span class="tier tier-A">A</span></td><td>recurrent,verkko,reads,pedigree,t2t_assembly</td><td class=num>392</td><td class=num>225</td><td class=num>0.880</td><td class=num>0.76</td><td class=num>1.00</td><td class=num>0.86</td><td class=num>1.00</td><td class=num>0.90</td><td>HG-PAR2-01:388;HG-PAR2-02:3;HG-PAR2-05:1</td></tr><tr id="SA-PAR2-07"><td>SA-PAR2-07</td><td><abbr title="PF04 (3q, 19p)">PF04</abbr>|home</td><td>19p|home</td><td>foreign</td><td>10999</td><td><span class="tier tier-B">B</span></td><td>recurrent</td><td class=num>22</td><td class=num>21</td><td class=num>0.050</td><td class=num>0.10</td><td class=num></td><td class=num>0.04</td><td class=num></td><td class=num>0.06</td><td>HG-PAR2-01:22</td></tr><tr id="SA-PAR2-03"><td>SA-PAR2-03</td><td><abbr title="PF03 (11p, 15q)">PF03</abbr>|home</td><td>15q|home</td><td>foreign</td><td>10972</td><td><span class="tier tier-A">A</span></td><td>recurrent,verkko,reads</td><td class=num>18</td><td class=num>15</td><td class=num>0.041</td><td class=num>0.09</td><td class=num></td><td class=num>0.03</td><td class=num></td><td class=num>0.04</td><td>HG-PAR2-01:18</td></tr><tr id="SA-PAR2-02"><td>SA-PAR2-02</td><td>16p|home</td><td>16p|home</td><td>foreign</td><td>15996</td><td><span class="tier tier-B">B</span></td><td>recurrent</td><td class=num>12</td><td class=num>12</td><td class=num>0.027</td><td class=num>0.04</td><td class=num></td><td class=num>0.06</td><td class=num></td><td class=num></td><td>HG-PAR2-01:12</td></tr><tr id="SA-PAR2-06"><td>SA-PAR2-06</td><td><abbr title="PF04 (3q, 19p)">PF04</abbr></td><td>3q</td><td>foreign</td><td></td><td><span class="tier tier-C">C</span></td><td></td><td class=num>1</td><td class=num>1</td><td class=num>0.002</td><td class=num></td><td class=num></td><td class=num>0.01</td><td class=num></td><td class=num></td><td>HG-PAR2-04:1</td></tr></tbody></table></div>
+<h2 id="haplogroups">Sequence haplogroups</h2>
+<p>Clusters of ends with k-mer ANI &ge; 0.995 over the first 80 kb of
+subtelomere (UPGMA).</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Haplogroup</th><th scope="col">Tier</th><th scope="col">Evidence</th><th scope="col" class=num>Ends</th><th scope="col" class=num>Samples</th><th scope="col" class=num>R2 freq.</th><th scope="col" class=num>AFR</th><th scope="col" class=num>AMR</th><th scope="col" class=num>EAS</th><th scope="col" class=num>EUR</th><th scope="col" class=num>SAS</th><th scope="col">Medoid end</th><th scope="col">Structural alleles</th><th scope="col" class=num>Mean within ANI</th></tr></thead><tbody><tr id="HG-PAR2-01"><td>HG-PAR2-01</td><td><span class="tier tier-A">A</span></td><td>recurrent,verkko,reads,pedigree,t2t_assembly</td><td class=num>440</td><td class=num>232</td><td class=num>0.989</td><td class=num>1.00</td><td class=num>1.00</td><td class=num>0.99</td><td class=num>0.98</td><td class=num>0.96</td><td>HG02055#2#CM092204.1#R</td><td>SA-PAR2-01:388;SA-PAR2-07:22;SA-PAR2-03:18;SA-PAR2-02:12</td><td class=num>0.9975</td></tr><tr id="HG-PAR2-02"><td>HG-PAR2-02</td><td><span class="tier tier-B">B</span></td><td>recurrent</td><td class=num>3</td><td class=num>3</td><td class=num>0.007</td><td class=num></td><td class=num></td><td class=num></td><td class=num>0.02</td><td class=num>0.03</td><td>HG00133#2#CM090075.1#R</td><td>SA-PAR2-01:3</td><td class=num>0.9987</td></tr><tr id="HG-PAR2-04"><td>HG-PAR2-04</td><td><span class="tier tier-C">C</span></td><td></td><td class=num>1</td><td class=num>1</td><td class=num>0.002</td><td class=num></td><td class=num></td><td class=num>0.01</td><td class=num></td><td class=num></td><td>HG02040#2#JBHDWT010000045.1#R</td><td>SA-PAR2-06:1</td><td class=num></td></tr><tr id="HG-PAR2-05"><td>HG-PAR2-05</td><td><span class="tier tier-C">C</span></td><td></td><td class=num>1</td><td class=num>1</td><td class=num>0.002</td><td class=num></td><td class=num></td><td class=num></td><td class=num></td><td class=num>0.01</td><td>HG03804#2#CM088389.1#R</td><td>SA-PAR2-01:1</td><td class=num></td></tr></tbody></table></div>
+<h2 id="members">Member ends</h2>
+<p id="selection-status" class="muted" aria-live="polite"></p>
+<div class="controls" role="group" aria-label="Member filters">
+<label>Search <input type="search" id="m-search" placeholder="end, sample, accession, flag"></label>
+<label>Structural allele <select id="m-allele"><option value="">all</option></select></label>
+<label>Haplogroup <select id="m-hg"><option value="">all</option></select></label>
+<label>Nativity <select id="m-nat"><option value="">all</option><option value="native">native</option>
+<option value="within_family">within family</option><option value="foreign">foreign</option></select></label>
+<label>Superpopulation <select id="m-pop"><option value="">all</option><option>AFR</option><option>AMR</option><option>EAS</option><option>EUR</option><option>SAS</option><option value="NA">none (CHM13, pedigree)</option></select></label>
+<label>Set <select id="m-set"><option value="">all</option><option>CHM13</option><option>HG002_Q100</option><option>HPRC_R2</option><option>pedigree_aux</option></select></label>
+<button type="button" class="btn" id="m-download">Download shown rows (TSV)</button>
+<span class="count" id="member-count" aria-live="polite"></span>
+</div>
+<div class="table-wrap" id="member-table"><noscript><p>The member table needs JavaScript. All ends are in
+<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/data/catalogue/ends.tsv">data/catalogue/ends.tsv</a>.</p></noscript></div>
+<p class="muted">Nativity is the class of the end's own core structure; S20 state and S20 best end describe the first
+20 kb of subtelomere (majority label; best single CHM13 end). Pedigree ends (set <code>pedigree_aux</code>) are validation
+evidence only and are not counted in allele sizes or frequencies. Full tables:
+<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/data/catalogue/ends.tsv">ends.tsv</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/data/catalogue/alleles_structural.tsv">alleles_structural.tsv</a>,
+<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/data/catalogue/haplogroups.tsv">haplogroups.tsv</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/data/catalogue/mosaic_blocks.tsv">mosaic_blocks.tsv</a>;
+representative sequences in <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/data/catalogue/representatives.fa.gz">representatives.fa.gz</a>; any other
+window with <code>python pipeline/fetch_end_window.py &lt;end_id&gt;</code>; new sequences with the
+<a href="../query.html">query tool</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="../assets/js/common.js"></script>
+<script src="../data/palette.js"></script>
+<script src="../data/arms/PAR2.js"></script>
+<script src="../assets/js/arm.js"></script>
+</body>
+</html>

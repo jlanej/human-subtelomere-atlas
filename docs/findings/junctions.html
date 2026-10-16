@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mechanism at junctions (H2) | Human subtelomere atlas</title>
+<meta name="description" content="Human subtelomere atlas: structural alleles of human chromosome ends from HPRC Release 2, HG002 Q100 and CHM13.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../arms/index.html">Arms</a></li><li><a href="../alleles.html">Alleles</a></li><li><a href="../findings/index.html" aria-current="page">Findings</a></li><li><a href="../methods.html">Methods</a></li><li><a href="../validation.html">Validation</a></li><li><a href="../query.html">Query tool</a></li><li><a href="../downloads.html">Downloads</a></li><li><a href="../literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<p><a href="index.html">Findings</a> &rsaquo; Mechanism at junctions (H2)</p>
+<h1>Foreign terminal blocks arise by one-way, homology-mediated transfer</h1>
+<p class="warn">Definitions: this analysis used the earlier per-window best-end form calls (e.g. <code>20q&gt;3q</code>); its counts are not directly comparable with catalogue revision-2 S20, form or nativity counts. See the <a href="index.html#definitions">concordance table</a>.</p>
+<p>Full methods, statistics and reproduction instructions: <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/junctions/README.md">analyses/junctions/README.md</a>
+(results tables in <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/analyses/junctions/results">analyses/junctions/results/</a>; reproduce with <code>bash analyses/junctions/run.sh</code>).</p>
+<h2 id="verdicts">Verdicts</h2><p><strong>Verdict (H2a, reciprocal exchange as the general mechanism): negated</strong> — donor-end state is independent of carrier status (chi-square p = 0.88; reciprocal 3.86% vs 3.91%), the replaced recipient sequence is generally not present elsewhere above paralogue background (Release 2 ends 49/2,146; HG002 genome 2/18), consistent with one-way, duplicative transfer (break-induced replication / gene conversion-like terminal copying or non-reciprocal translocation with loss of the recipient end). A minority of clusters have complementary reverse-form alleles (30/233), including two HG002 paternal configurations; these are candidate reciprocal events.</p>
+<p><strong>Verdicts:</strong> homology at the junction — <strong>confirmed</strong> (mh_parental &gt; 25 bp in 261/383 vs 0.001% expected; p = 0.0005); microhomology-mediated / blunt end-joining as the main mechanism — <strong>negated</strong> (only 56/383 junctions are non-homologous at the 500 bp scale: 22 blunt, 19 with 1-25 bp microhomology, 15 with short &gt; 25 bp homology); ITS enrichment at junctions — <strong>negated</strong> beyond the telomere-proximal 5 kb (p = 0.82; the all-junction excess is a telomere-proximity effect).</p>
+<h2 id="figures">Figures</h2>
+<figure><a href="../assets/img/analyses__junctions__figures__junctions_mechanism.png"><img src="../assets/img/analyses__junctions__figures__junctions_mechanism.png" alt="Figure junctions mechanism of the junctions analysis" loading="lazy"></a><figcaption><p><strong>Foreign terminal blocks arise by one-way transfer joined within donor-recipient homology.</strong> (a) Status of the donor arm's telomeric end in the same haplotype assembly, pooled over the 104 forms with &gt;= 10 carrier tips (HPRC Release 2): carriers of form R&gt;D (n = 2,464 assessed donor ends; 1,418 carriers had no assembled named donor end) versus haplotypes whose R end is assessed but does not carry R&gt;D (n = 17,814); chi-square test on the four categories. (b) Distance from the CHM13 recipient telomere at base-resolved switches (= own terminal sequence replaced); filled: all base-resolved tips, outline: one representative per junction cluster. (c) Length of sequence identical between the two CHM13 parental ends at the breakpoint (forward + backward extension from the junction coordinates) for 383 junction-cluster representatives versus 2000 random position pairs per junction in the same two parental ends (5-200 kb from the telomere). (d) Interstitial telomere-like arrays (&gt;= 3 in-phase TTAGGG/CCCTAA copies with &lt;= 1 mismatch each) within +-1 kb of the junction in the carrier and in either parent, versus random positions in the same sequences; '&gt;= 5 kb' = junctions &gt;= 5 kb from the telomere in carrier and both parents; one-sided permutation p. (e) 100 bp rolling identity of three exemplar carriers to the donor (orange) and recipient (blue) CHM13 ends around the junction (single best alignment on each side); ticks below: diagnostic sites where the carrier matches only the donor (orange) or only the recipient (blue, includes bases where the donor does not align). Read support: E2 and E3 are crossed by 42 and 54 ONT UL and 21 and 22 PacBio Revio primary alignments (switch +-5 kb, none clipped at the switch).</p> <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/junctions/figures/junctions_mechanism.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/analyses/junctions/figures/junctions_mechanism.pdf">PDF</a>)</span></figcaption></figure>
+<h2 id="caveats">Caveats</h2>
+<ul><li>Donor-end classification rests on 20 kb (6,158 tips) or 100 kb (5,840 tips) windows; donor ends that were never assembled telomere-to-telomere (36% of carriers) are not assessed. Window labels inherit the CHM13 48-end placement and its paralogy: related donor ends (3q/11p/19p/15q, 4p/15p, 1p/6q) are often near-equivalent, so 'replaced by a third arm' includes paralogous variants of the same block.</li><li>The Release 2 lost-sequence search only covers chromosome ends; the genome-wide test is limited to HG002 (18 ends).</li><li>Breakpoint complementarity has no explicit null model; matches may reflect shared homology boundaries.</li><li>Base-resolved junctions are 1,810/4,594 foreign tips; window-resolved and 'through' tips are not in the junction feature tests. Junction coordinates are CHM13-relative.</li><li>ITS detection uses a strict in-phase tandem definition; degenerate or short interstitial repeats beyond 1 mismatch per copy are not counted.</li></ul>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="../assets/js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Overview | Human subtelomere atlas</title>
+<meta name="description" content="Human subtelomere atlas: structural alleles of human chromosome ends from HPRC Release 2, HG002 Q100 and CHM13.">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="index.html" aria-current="page">Home</a></li><li><a href="arms/index.html">Arms</a></li><li><a href="alleles.html">Alleles</a></li><li><a href="findings/index.html">Findings</a></li><li><a href="methods.html">Methods</a></li><li><a href="validation.html">Validation</a></li><li><a href="query.html">Query tool</a></li><li><a href="downloads.html">Downloads</a></li><li><a href="literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<h1>Human subtelomere atlas</h1>
+<p class="lead">A validated, queryable catalogue of the structural alleles at human chromosome ends. It describes the
+terminal 100 kb next to every telomere in 20,144 telomeric contig ends from HPRC Release 2
+(230 samples), the 92 ends of the HG002 Q100 assembly and the 48
+ends of T2T-CHM13 v2.0, as mosaics of blocks labelled home, by paralog family or by the CHM13 arm they resemble most.</p>
+<p>Concurrent work on the same question: Tan et al. 2026 (<a href="https://doi.org/10.64898/2026.09.03.748401">doi:10.64898/2026.09.03.748401</a>) and Guarracino
+et al. 2026 (<a href="https://doi.org/10.64898/2026.07.10.737660">doi:10.64898/2026.07.10.737660</a>); this atlas is complementary to both
+(<a href="#related">details</a>).</p>
+
+<div class="note" id="definitions-box"><p><strong>How blocks are labelled (catalogue revision 2).</strong> At every 100 bp
+point of an end's subtelomere, the identity of the surrounding 5 kb
+to each of the 48 CHM13 v2.0 ends is read from one alignment of the whole window.</p>
+<ul>
+<li><strong>Home rule.</strong> A point is <em>home</em> if a CHM13 copy of the end's own arm (or of an arm in its pooled
+group) is within 0.5 percentage points of the best identity, so home wins ties.</li>
+<li><strong>Paralog families.</strong> Some CHM13 ends share long, near-identical duplicated blocks, so the single best end
+can flip between them. Ends that are tied with each other at &ge; 0.75 of the points where
+the less often tied one is tied form a family; a non-home block is labelled with the family of its best end, otherwise
+with that end's arm. Families: <strong>PF01</strong> = 4p, 14p, 15p, 21p, 22p; <strong>PF02</strong> = 1p, 5q, 6q; <strong>PF03</strong> = 11p, 15q; <strong>PF04</strong> = 3q, 19p; <strong>PF05</strong> = Xp, Yp; <strong>PF06</strong> = Xq, Yq. The best single CHM13 end of each block is kept as <code>best_end</code>.</li>
+<li><strong>none.</strong> No CHM13 end within 0.80 identity: sequence without a close CHM13 counterpart (neither home nor
+foreign evidence).</li>
+<li><strong>Nativity class</strong> of a core structure: <em>native</em> = only home (and none) blocks; <em>within
+family</em> = every non-home block is in a family that contains the end's own arm; <em>foreign</em> = at least one block
+from another family or arm.</li>
+</ul></div>
+<div class="note"><strong>Terminology.</strong> A <em>switch</em> (junction) is a change in which CHM13 end the sequence
+most resembles; it lies inside shared, paralogous sequence and is not necessarily a structural breakpoint. All labels are
+relative to the CHM13 reference.</div>
+<div class="grid">
+<div class="card"><span class="stat">20,652</span>chromosome ends (20,144 HPRC
+Release 2, 48 CHM13, 92 HG002 Q100, 368 pedigree ends used
+only for validation)</div>
+<div class="card"><span class="stat">647</span>structural alleles on 42 catalogue arms
+(tier A 129, B 166, C 352; native
+67, within family 49, foreign
+531)</div>
+<div class="card"><span class="stat">593</span>sequence haplogroups (k-mer ANI &ge;
+0.995 over the first 80 kb; tier A 131,
+B 152, C 310)</div>
+<div class="card"><span class="stat">4,936</span>Release 2 ends with a foreign core structure
+(native 14,461, within family 747)</div>
+</div>
+<figure><a href="assets/img/figures__atlas__F1_genome_overview.png"><img src="assets/img/figures__atlas__F1_genome_overview.png" alt="Figure 1 | Genome-wide organisation of structural alleles at human chromosome ends (catalogue v0.1).: arms on a ring, chords from the best CHM13 end of terminal blocks to the recipient arm, and nativity classes per arm." loading="lazy"></a><figcaption><strong>Figure 1 | Genome-wide organisation of structural alleles at human chromosome ends (catalogue v0.1).</strong> (a) The 42 catalogue arms (pooled groups: acroP = 13p/14p/15p/21p/22p, PAR1 = Xp/Yp, PAR2 = Xq/Yq) in genome order, clockwise from 1p; ring colour = the arm's own CHM13 v2.0 end (pooled groups: 15p, Xp, Xq). Outer bars: structural alleles per arm, tier A/B and tier C (longest bar 16p, 49; 647 alleles in total). Chords: the 4410 Release 2 ends in tier A/B alleles whose outermost core block (&gt;= 10 kb from the telomere boundary) is labelled neither home nor none, grouped by recipient arm and by the best single CHM13 end of that block into 149 pairs; chord colour = that best end, dot = recipient arm, width = fraction of the recipient arm's Release 2 ends with a structural-allele call; dashed = mostly within-family ends (10 pairs), i.e. the block is closer to another member of a paralog family that contains the arm itself. Largest: 3q&gt;11p 0.51; 8p&gt;1p 0.50; 20q&gt;3q 0.48; 17p&gt;11p 0.48. Blocks are labelled by paralog family in the catalogue (e.g. PF04 = 3q/19p); the chord is drawn to the block's best single end. Labels are relative to CHM13: the switch to home sequence lies inside shared paralogous sequence and is not necessarily a structural breakpoint. (b) Nativity class of each arm's Release 2 ends (n = 426-2049 per arm; acroP pools five arms), from the end's own core structure: native = only home and none blocks; within family = non-home blocks all in a family containing the arm; foreign = at least one block from another family or arm. All Release 2 ends: native 14461, within family 747, foreign 4936, no core structure 0. Arms with native fraction &lt; 0.5: 6p, 19p, 1p, 3q, 17q, 9q, 8p, 11p, 15q, 9p, 16q, 4q, 20p, 20q, 17p, 6q, 5q. Source: data/catalogue/alleles_structural.tsv, ends.tsv, mosaic_blocks.tsv, paralog_families.tsv. <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/atlas/F1_genome_overview.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/atlas/F1_genome_overview.pdf">PDF</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/atlas/F1_genome_overview.svg">SVG</a>)</span></figcaption></figure>
+<h2 id="findings">Key findings</h2>
+<p class="muted">Finding 1 uses catalogue revision 2. Findings 2-4 come from the three analyses, which used the earlier
+per-window best-end form calls (e.g. <code>20q&gt;3q</code>); their counts are not directly comparable with revision-2
+S20 or nativity counts (<a href="findings/index.html#definitions">definitions and concordance table</a>).</p>
+<ol>
+<li><strong>Non-native terminal sequence is common.</strong> Of 20,144 Release 2 ends,
+4,936 (24.5%) have a foreign and
+747 (3.7%) a within-family core
+structure; the first 20 kb are mostly foreign in 17.4% (S20 state). The fraction depends on the
+window and on the labelling rule: the earlier per-window best-end calls gave 49.8%,
+41.1% and 34.2% for the first 5, 10 and 20 kb of
+11,998 chromosome-named tips.</li>
+<li><strong>Common forms are old, recurrent structural alleles with independent validation.</strong> For example, <a href="arms/20q.html#SA-20q-01">SA-20q-01</a> (structure <code>PF04|home</code>: 20q carrying a terminal block of paralog family PF04 (3q, 19p), best single end 3q; median switch 31.5 kb from the telomere boundary) is carried by 146 samples (Release 2 frequency 0.4829; tier A).
+In the analyses, unrelated people share base-identical switch points:
+34 of 39 junction
+clusters with &ge; 10 samples contain both continental African and non-African samples. Median-based clock ages of 17 of 23 clustered forms fall between 0.2 and 1.5 Myr (median 502 kyr); these ages depend on the mutation-rate and genealogy model. None of the
+70 recurrent junctions tested was found in the T2T great-ape genomes
+(0 candidates after all 31 probe hits
+were diagnosed as shared duplicons); absence is weak evidence, because orthology of ape chromosome ends could be assigned
+only in part.</li>
+<li><strong>The transfer is one-way and homology-mediated.</strong> The donor arm's end in carrier haplotypes looks like
+that of non-carriers (reciprocal configuration 3.86% vs 3.91%; chi-square
+p = 0.88), and 327 of
+383 junction clusters
+(85%) lie within
+donor-recipient homology. Interstitial telomeric sequence is not a general feature of junctions.</li>
+<li><strong>The terminal allele does not set telomere length in cis.</strong> Arm-specific telomere lengths in the assemblies
+reproduce published nanopore measurements (Spearman &rho; = 0.73,
+38 arms), but foreign and own terminal alleles in the same individual do not differ in
+telomere length; an earlier positive association was an artefact of a telomere-length-dependent classification window.</li>
+</ol>
+<p><a href="findings/index.html">Findings in detail</a> &middot; <a href="validation.html">Validation</a> &middot;
+<a href="arms/index.html">Browse arms</a> &middot; <a href="alleles.html">Search alleles</a></p>
+<h2 id="related">Relation to concurrent work</h2>
+<p>This atlas is not the first population catalogue of human subtelomeres. It complements two concurrent preprints:</p>
+<ul>
+<li>Tan et al. 2026, <em>Widespread structural variations at human chromosome ends</em>, bioRxiv, <a href="https://doi.org/10.64898/2026.09.03.748401">doi:10.64898/2026.09.03.748401</a>: complete
+subtelomeres from 860 haplotypes over 500 kb, organised into paralogy-block haplotypes; sequences released under CC BY 4.0
+(<a href="https://doi.org/10.5281/zenodo.21807156">doi:10.5281/zenodo.21807156</a>).</li>
+<li>Guarracino et al. 2026, <em>Concerted evolution and unorthodox recombination of human subtelomeres</em>, bioRxiv, <a href="https://doi.org/10.64898/2026.07.10.737660">doi:10.64898/2026.07.10.737660</a>:
+all-vs-all comparison of chromosome ends in near-complete assemblies, grouping pseudo-homologous regions into sequence
+communities and reporting candidate subtelomere recombination in a pedigree.</li>
+</ul>
+<p>The atlas contributes per-end membership for every HPRC Release 2 telomeric tip, telomere-boundary-anchored structural
+alleles labelled by paralog family with nativity classes, sequence haplogroups with explicit evidence tiers (Verkko, read
+and pedigree support), boundary-shift stability tests, representative sequences, frequencies by superpopulation, a query
+tool, and hypothesis tests of mechanism, age and telomere-length effects. A same-haplotype cross-check against the
+independent Tan et al. sequences is on the <a href="validation.html#tan2026">validation page</a>; see the
+<a href="literature.html">literature review</a> for a fuller comparison.</p>
+<h2 id="cite">How to cite</h2>
+<p>Human subtelomere atlas, allele catalogue v0.1 (2026). https://github.com/jlanej/human-subtelomere-atlas. Please cite the concurrent studies above
+where relevant, and the underlying data: HPRC (Liao et al. 2023,
+<a href="https://doi.org/10.1038/s41586-023-05896-x">doi:10.1038/s41586-023-05896-x</a>; Release 2 data at
+<a href="https://humanpangenome.org/">humanpangenome.org</a>), T2T-CHM13 (Nurk et al. 2022,
+<a href="https://doi.org/10.1126/science.abj6987">doi:10.1126/science.abj6987</a>), and the HG002 Q100 assembly. Allele
+identifiers are specific to release v0.1 (revision 2); the mapping from earlier identifiers is in
+<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/data/catalogue/id_history.tsv">id_history.tsv</a>.</p>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="assets/js/common.js"></script>
+
+</body>
+</html>
