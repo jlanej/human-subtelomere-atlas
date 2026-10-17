@@ -19,8 +19,9 @@ dist/
 *.cram.crai.tmp
 /_view_*.png
 _view_*.png
-# uncompressed copy of large evidence table (gzip is committed)
+# full per-read population tables (8.8 MB gz; shipped in the subtel_read_evidence_v1_tables.tar.gz release asset)
 evidence/population/reads.tsv
+evidence/population/reads.tsv.gz
 # reviewer showcase read evidence (small; committed, see evidence/showcase/README.md)
 !evidence/showcase/**/*.bam
 !evidence/showcase/**/*.bam.bai

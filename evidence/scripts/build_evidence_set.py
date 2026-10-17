@@ -549,6 +549,24 @@ def _sums(root, out, exclude=('SHA256SUMS',)):
     with open(out, 'w') as fh: fh.write('\n'.join(sorted(lines, key=lambda x: x.split('  ')[1])) + '\n')
 
 
+TABLES_CONTENT = ('claims.tsv, reads.tsv.gz, controls.tsv, criteria, population_reads_all.tsv.gz '
+                  '(all 77,333 evaluated 1KG-ONT read rows)')
+
+
+def release_tables(rd, filt):
+    """tables bundle. evidence/population/reads.tsv.gz (every evaluated population read row; written by
+    population_report.py, git-ignored because of its size) ships here as read_evidence_v1/population_reads_all.tsv.gz."""
+    import tarfile
+    out = os.path.join(rd, 'subtel_read_evidence_v1_tables.tar.gz')
+    with tarfile.open(out, 'w:gz') as tf:
+        for f in ('claims.tsv', 'reads.tsv.gz', 'controls.tsv', 'criteria_v1.json'):
+            tf.add(os.path.join(REPO, 'evidence', f), arcname=f'read_evidence_v1/{f}', filter=filt)
+        tf.add(os.path.join(B, 'claims_manifest.tsv'), arcname='read_evidence_v1/claims_manifest.tsv', filter=filt)
+        tf.add(os.path.join(REPO, 'evidence', 'population', 'reads.tsv.gz'),
+               arcname='read_evidence_v1/population_reads_all.tsv.gz', filter=filt)
+    return dict(file=os.path.basename(out), bytes=os.path.getsize(out), content=TABLES_CONTENT)
+
+
 def release(a):
     """work/evidence/release/: one tar.gz per cohort (claim directories) + tables, SHA256SUMS, MANIFEST.tsv"""
     import tarfile, pandas as pd
@@ -562,12 +580,7 @@ def release(a):
         with tarfile.open(out, 'w:gz') as tf:
             tf.add(os.path.join(B, 'claims', cohort), arcname=f'read_evidence_v1/{cohort}', filter=filt)
         man.append(dict(file=os.path.basename(out), bytes=os.path.getsize(out), content=f'per-claim CRAM/BAM/window FASTA, {cohort}'))
-    out = os.path.join(rd, 'subtel_read_evidence_v1_tables.tar.gz')
-    with tarfile.open(out, 'w:gz') as tf:
-        for f in ('claims.tsv', 'reads.tsv.gz', 'controls.tsv', 'criteria_v1.json'):
-            tf.add(os.path.join(REPO, 'evidence', f), arcname=f'read_evidence_v1/{f}', filter=filt)
-        tf.add(os.path.join(B, 'claims_manifest.tsv'), arcname='read_evidence_v1/claims_manifest.tsv', filter=filt)
-    man.append(dict(file=os.path.basename(out), bytes=os.path.getsize(out), content='claims.tsv, reads.tsv.gz, controls.tsv, criteria'))
+    man.append(release_tables(rd, filt))
     for m in man: m['sha256'] = L.sha256(os.path.join(rd, m['file']))
     M = pd.DataFrame(man)[['file', 'bytes', 'sha256', 'content']]
     M.to_csv(os.path.join(rd, 'MANIFEST.tsv'), sep='\t', index=False)

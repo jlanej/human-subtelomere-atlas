@@ -207,8 +207,10 @@ verdicts in this table are unchanged.
   include read id, sample, CRAM URL, slice region, read group (RG), CRAM alignment, read length, orientation, terminal telomere,
   unit counts and segments, switch and 95% CI (read subtelomere and CHM13 P coordinates), concordance, anchor, integrity and
   verdict.
-* [reads.tsv.gz](reads.tsv.gz): every evaluated row (77,333; carrier rows include the excluded donor-slice reads), with the
-  genome-wide alignments.
+* `reads.tsv.gz`: every evaluated row (77,333; carrier rows include the excluded donor-slice reads), with the
+  genome-wide alignments. Not in git because of its size (8.8 MB). It ships as `read_evidence_v1/population_reads_all.tsv.gz`
+  in the `subtel_read_evidence_v1_tables.tar.gz` release asset (checksums in [../release_manifest.tsv](../release_manifest.tsv)),
+  and `python evidence/scripts/population_report.py` rewrites it here from a population run.
 * [controls.tsv](controls.tsv): one row per control sample-arm x allele model.
 * [alleles.tsv](alleles.tsv): per-allele aggregates.
 * Evidence BAMs (git-ignored, regenerable): `work/evidence/population/bam/<sample>.chm13.bam` and `<sample>.own.bam` hold the 210

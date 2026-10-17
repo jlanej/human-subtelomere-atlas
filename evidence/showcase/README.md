@@ -45,7 +45,7 @@ support. Read groups name the public source file (`DS` = source URL, index, regi
 | `subtel_read_evidence_v1_1KG_ONT.tar.gz` | 23.7 MB | `b7fe1917993a945980e716e1e5837d0725555e1e7e9cbb06f0935b2b193dd324` | per-claim CRAM/BAM/window FASTA, 1KG_ONT |
 | `subtel_read_evidence_v1_HG002_Q100.tar.gz` | 190.3 MB | `a27bab22dac5c1eae2d18ded829fbcdbec286e38b2d6af02c76265ae9f51f74a` | per-claim CRAM/BAM/window FASTA, HG002_Q100 |
 | `subtel_read_evidence_v1_HG002_trio.tar.gz` | 16.3 MB | `0e5a08c9ceb9e95a39c5d568648d350d156815444f16442cad5a55635517f505` | per-claim CRAM/BAM/window FASTA, HG002_trio |
-| `subtel_read_evidence_v1_tables.tar.gz` | 0.7 MB | `1de8d53fcec15780edf15faaaeda0292c08668f14d29ccec0a9e86406883111b` | claims.tsv, reads.tsv.gz, controls.tsv, criteria |
+| `subtel_read_evidence_v1_tables.tar.gz` | 9.7 MB | `629debd17045347a694e07ef2826069120bfcffc9e72a662052168e6828f3872` | claims.tsv, reads.tsv.gz, controls.tsv, criteria, population_reads_all.tsv.gz (all 77,333 evaluated 1KG-ONT read rows) |
 
 Each `subtel_read_evidence_v1_<cohort>.tar.gz` unpacks to `read_evidence_v1/<cohort>/<claim>/` with the same file set as here
 (CHM13 CRAM + BAM, own-window BAM + FASTA, reads TSV), for every claim with at least one v1-conclusive read. Every read can

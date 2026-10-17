@@ -114,6 +114,8 @@ minimap2 is required for results that match the catalogue exactly; the `mappy` f
 - `analyses/*/run.sh`, `pipeline/validation/run_tan2026.sh`, `literature/reproduce.sh`: analyses, cross-check and
   literature review.
 - `website/build_site.py`: regenerates `docs/` from the data files.
+- [REGENERATE.md](REGENERATE.md): what the git-ignored `work/` directory held (about 77 GB of downloads, indexes and
+  alignments) and the command that rebuilds each part.
 
 ## Repository layout
 
