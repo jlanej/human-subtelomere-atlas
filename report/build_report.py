@@ -52,8 +52,11 @@ def pdf(out):
                                     ('TOPPADDING', (0, 0), (-1, -1), 3), ('BOTTOMPADDING', (0, 0), (-1, -1), 3)]))
             st.extend([KeepTogether(([pending] if pending else []) + [tt]), Spacer(1, 4)]); pending = None
             continue
+        if b[0] == 'p':
+            para = Paragraph(mono(b[1]), base)
+            st.append(KeepTogether([pending, para]) if pending else para); pending = None
+            continue
         if pending: st.append(pending); pending = None
-        if b[0] == 'p': st.append(Paragraph(mono(b[1]), base))
     st += [Paragraph('References', h1)] + [Paragraph(r, base) for r in C.REFS]
     def foot(c, d):
         c.saveState(); c.setFont('DejaVu', 7); c.setFillColor(colors.HexColor('#888888')); c.drawRightString(letter[0] - 0.75 * inch, 0.45 * inch, f'{C.TITLE} · page {d.page}'); c.restoreState()
@@ -66,7 +69,7 @@ def md(out):
     for b in C.BODY:
         if b[0] == 'h1': L += ['', f'## {b[1]}', '']
         elif b[0] == 'p': L += [strip2(b[1]), '']
-        elif b[0] == 'fig': L += [f'![{os.path.basename(b[1])}]({b[1]})', '', strip2(b[2]), '']
+        elif b[0] == 'fig': L += [f'![{os.path.basename(b[1])}]({b[3] if len(b) > 3 else b[1]})', '', strip2(b[2]), '']   # optional md-relative path
         elif b[0] == 'table':
             r = b[1]; L.append('| ' + ' | '.join(strip2(c) for c in r[0]) + ' |'); L.append('|' + '---|' * len(r[0]))
             L += ['| ' + ' | '.join(strip2(c).replace('|', '/') for c in x) + ' |' for x in r[1:]]; L.append('')

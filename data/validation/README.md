@@ -119,8 +119,9 @@ labels are the same for 7,376 verified pairs and opposite for 3,732. Median iden
   and 6q (87–88%), and 15q.
 - Of the 398 allele disagreements, 89% involve a different core structure.
 - In the independent-assembler pairs, 9,764 base-level switches in 3,992 pairs were compared (figure panel b): 96% fall at the
-  identical base after projection. Measured from each record's own boundary, only 39.3% are identical, but 83.5% are within
-  100 bp.
+  identical base after projection. Without projection (each record measured from its own boundary), across all primary
+  pairs (10,769 base-level switches, including hifiasm-vs-hifiasm pairs; not computed for the independent-assembler subset
+  alone), only 39.3% are identical, but 83.5% are within 100 bp.
 
 **Artefact candidates and junk-flagged ends.**
 - Three of the four artefact candidates reproduce exactly (same structure and allele) in Tan's Verkko assemblies: HG02647 16q

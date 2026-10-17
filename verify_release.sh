@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Verify an atlas release from a fresh checkout.
 #   bash verify_release.sh              offline checks (checksums, tests, report/site inputs)
-#   bash verify_release.sh --network    also re-fetch a sample of windows from public sources and check SHA-256
+#   bash verify_release.sh --network    also re-fetch a sample of windows from public sources and check SHA-256, and re-derive one
+#                                       read-evidence claim from public reads (evidence/replicate_claim.sh; needs samtools, minimap2,
+#                                       mappy, pysam, ~1 GB download of CHM13 v2.0 on first use and ~8 GB RAM)
 # Requires python3 with pandas, numpy and pytest; --network also needs minimap2/samtools-free HTTP range access (S3).
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -30,8 +32,32 @@ need = [f'{len(r2):,}', f'{len(sa)}', f'{len(hg)}', f'{(r2.nativity_class == "fo
 missing = [n for n in need if n not in readme]
 assert not missing, missing
 PY
+echo "5. Read evidence"
+sumcheck evidence SHA256SUMS
+sumcheck evidence/showcase SHA256SUMS
+python3 - <<'PY' && ok "criteria hash a89c5eaf023ed032 (repository and package copies)" || bad "criteria hash"
+import json, hashlib
+h = lambda p: hashlib.sha256(json.dumps(json.load(open(p))['thresholds'], sort_keys=True).encode()).hexdigest()[:16]
+a, b, c = h('evidence/criteria_v1.json'), h('atlas/subtel_atlas/data/criteria_v1.json'), h('evidence/criteria_v1_preregistered.json')
+assert a == b == 'a89c5eaf023ed032', (a, b)
+PY
+python3 - <<'PY' && ok "evidence tables consistent (claims vs reads, definitive tier only removes v1-confirmed claims)" || bad "evidence tables"
+import pandas as pd
+C = pd.read_csv('evidence/claims.tsv', sep='\t'); R = pd.read_csv('evidence/reads.tsv.gz', sep='\t', low_memory=False)
+d = C[C.definitive_verdict.str.startswith('definitive')]
+assert (d.v1_verdict == 'confirmed').all()
+n = R[(R.tier == 'definitive') & (R.counted == True)].groupby('claim_id').size()
+assert all(n.get(c, 0) == k for c, k in zip(C.claim_id, C.n_definitive)), 'n_definitive'
+assert (C.criteria_sha == 'a89c5eaf023ed032').all()
+PY
 if [ "$NET" = 1 ]; then
-  echo "5. Public re-fetch of a window sample"
+  echo "6. Read evidence re-derived from public reads (one claim)"
+  mkdir -p work
+  # scratch and reference cache stay inside the repository's git-ignored work/ unless the user set SUBTEL_REPLICATE_CACHE
+  if SUBTEL_REPLICATE_CACHE="${SUBTEL_REPLICATE_CACHE:-$PWD/work/replicate_cache}" \
+     bash evidence/replicate_claim.sh 'HG01258|20q|SA-20q-01' -t 4 > work/verify_release_replicate.log 2>&1; then
+    ok "evidence/replicate_claim.sh HG01258|20q|SA-20q-01 matches"; else bad "replicate_claim (see work/verify_release_replicate.log)"; fi
+  echo "7. Public re-fetch of a window sample"
   out=work/verify_release; mkdir -p "$out"
   if python3 pipeline/fetch_end_window.py --sample 30 --seed 1 --out "$out/windows.fa" --report "$out/report.tsv" >/dev/null 2>&1 \
      && python3 -c "import pandas as pd,sys; d=pd.read_csv(sys.argv[1],sep='\t'); print(f'    {(d.status==\"OK\").sum()}/{len(d)} OK'); sys.exit(0 if len(d) and (d.status=='OK').all() else 1)" "$out/report.tsv"; then
