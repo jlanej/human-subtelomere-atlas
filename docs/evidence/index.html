@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Read evidence | Human subtelomere atlas</title>
+<meta name="description" content="Read-level evidence for non-native terminal blocks of human chromosome ends.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../arms/index.html">Arms</a></li><li><a href="../alleles.html">Alleles</a></li><li><a href="../findings/index.html">Findings</a></li><li><a href="../methods.html">Methods</a></li><li><a href="../validation.html">Validation</a></li><li><a href="../evidence/index.html" aria-current="page">Read evidence</a></li><li><a href="../query.html">Query tool</a></li><li><a href="../downloads.html">Downloads</a></li><li><a href="../literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<nav class="arm-nav" aria-label="Read evidence"><a href="../evidence/index.html" aria-current=page>Overview</a><a href="../evidence/claims.html">Claims table</a><a href="../evidence/verify.html">Verify it yourself</a><a href="../evidence/faq.html">FAQ for skeptics</a></nav>
+<h1>Read-level evidence</h1>
+<p class="lead">Are the non-native terminal blocks of the catalogue real chromosome ends, or assembly artefacts? Single long
+reads that were not used to build the assemblies answer this independently: a read that starts in the telomere, carries
+the donor arm's paralog-diagnostic alleles up to a switch, continues with the recipient arm's alleles, and then anchors
+uniquely in the recipient chromosome is a physical molecule with the claimed structure.</p>
+<div class="grid">
+<div class="card"><span class="stat">15 / 15</span>HG002 Q100 claims confirmed under the pre-registered
+criteria are also <em>definitive</em> (12 with definitive reads from &ge; 2 independent datasets; 301
+definitive reads; 24 claims tested).</div>
+<div class="card"><span class="stat">4 / 16</span>HG002 claims confirmed in the
+transmitting parent (HG003 or HG004, GIAB reads; 2 definitive).</div>
+<div class="card"><span class="stat">24 / 43</span>1000 Genomes ONT claims confirmed under v1 are
+definitive (74 definitive reads; 14 individuals, 14 alleles,
+8 arms; 822 claims in 42 individuals tested, most not assessable).</div>
+<div class="card"><span class="stat">0</span>conclusive reads in negative controls: 0 of 297 eligible HG002 other-haplotype
+read tests (95% upper bound 1.00%) and 0 of 1,010 1KG-ONT read &times; model tests of strictly native
+individuals (318 cited control reads; upper bound 0.30%).</div>
+</div>
+<div class="note"><strong>Two tiers.</strong> The <em>v1</em> verdicts follow criteria registered and frozen before any
+population read was inspected (<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/CRITERIA.md">CRITERIA.md</a>). The stricter <em>definitive</em> tier was
+defined afterwards, from the population diagnostics (<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/population/DIAGNOSTICS.md">DIAGNOSTICS.md</a>).
+It is used for reporting only and can only remove claims from the v1-confirmed set; it never adds one.</div>
+<figure><a href="../assets/img/evidence__figures__fig_showcase_readthrough.png"><img src="../assets/img/evidence__figures__fig_showcase_readthrough.png" alt="Eight exemplar reads drawn from the telomere to the anchor" loading="lazy"></a><figcaption>Showcase reads, one per exemplar claim, drawn from the telomeric end (left). Ticks: paralog-diagnostic units (upper row: SNV sites, lower row: private 200 bp bins) coloured by the CHM13 allele they carry (orange donor D, blue recipient or proximal comparator P, grey neither). Yellow band: 95% interval of the switch; green: genome-wide MAPQ-60 anchor; boxes below: the CHM13 coordinates the donor and recipient segments map to. <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/figures/fig_showcase_readthrough.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/figures/fig_showcase_readthrough.pdf">PDF</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/figures/fig_showcase_readthrough.svg">SVG</a>)</span></figcaption></figure>
+<h2 id="tiers">Tier definitions</h2>
+<div class="table-wrap free"><table><thead><tr><th scope="col">criterion</th><th scope="col">status</th><th scope="col">definition</th></tr></thead><tbody><tr><td>v1 conclusive read</td><td>pre-registered (criteria v1, frozen hash a89c5eaf023ed032)</td><td>terminal telomere; donor alleles distal and recipient/proximal alleles proximal to a maximum-likelihood switch (each segment &ge; 10 units at &ge; 80% purity, both log10 likelihood ratios &ge; 5); a &ge; 10 kb MAPQ-60 genome-wide anchor on the recipient chromosome within 2 Mb of its telomere; no internal telomere, adapter or foldback; &ge; 90% aligned</td></tr><tr><td>switch-concordant</td><td>pre-registered (amendment C2)</td><td>the read's switch interval (&plusmn; 2 kb) overlaps the switch of the person's own assembly window analysed with the same unit model</td></tr><tr><td>unique anchor</td><td>reported in v1, required only for <em>definitive</em></td><td>&ge; 1 kb of the anchor on CHM13 recipient positions that no other CHM13 end covers at &ge; 95% identity over &ge; 1 kb</td></tr><tr><td>own-assembly placement</td><td>post hoc (diagnostics)</td><td>the read aligns with more matching bases to the claimed end window of the same person's assembly than to any other end window of that person (HG002: the 92 Q100 windows; 1KG-ONT individuals: their ~90 HPRC Release 2 windows)</td></tr><tr><td><strong>definitive read</strong></td><td>post hoc, reporting only</td><td>all four rows above</td></tr><tr><td><strong>definitive claim</strong></td><td>post hoc, reporting only</td><td>v1 <em>confirmed</em> and &ge; 2 definitive reads from distinct molecules; <em>multi-dataset</em> when they come from &ge; 2 independent datasets</td></tr></tbody></table></div>
+<h2 id="results">Results by cohort</h2>
+<ul>
+<li><strong>HG002 Q100</strong> (phased by the diploid Q100 assembly; 24 non-native ends; 16 public read alignment files, 12
+independent datasets after molecule de-duplication; HERRO-corrected reads are derived and never counted): 15
+confirmed, 1 supported; all 15 confirmed claims are definitive, 12 with definitive reads
+from &ge; 2 datasets.</li>
+<li><strong>Trio</strong>: HG003 (father) and HG004 (mother), unphased GIAB reads; the transmitting parent confirms
+4 HG002 claims and supports 1; 2 are definitive (placement on the transmitted
+HG002 haplotype is a proxy for the parent's own assembly).</li>
+<li><strong>1000 Genomes ONT</strong> (R9.4.1, 42 HPRC Release 2 individuals; unphased): 43 confirmed,
+17 supported, 24 definitive. The 19 confirmed-but-not-definitive claims rest on anchors in
+CHM13-shared sequence (mostly SA-2q-02) or on reads that place best on another end of the same person.</li>
+</ul>
+<figure><a href="../assets/img/evidence__figures__fig_evidence_summary.png"><img src="../assets/img/evidence__figures__fig_evidence_summary.png" alt="Claims by cohort and tier, controls, dataset independence and trio" loading="lazy"></a><figcaption>(a) Claims by cohort and tier. (b) Negative controls with exact one-sided 95% upper bounds. (c) HG002 definitive reads per claim and dataset. (d) Trio transmission: verdict in the transmitting and in the other parent. <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/figures/fig_evidence_summary.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/figures/fig_evidence_summary.pdf">PDF</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/figures/fig_evidence_summary.svg">SVG</a>)</span></figcaption></figure>
+<h2 id="showcase">Showcase claims</h2>
+<p>Eight exemplar claims are in the repository with their reads (CRAM and BAM on CHM13 v2.0, BAM on the person's own assembly
+windows, window FASTA, IGV sessions and a "what you should see" note):</p>
+<ul><li><a href="claim/HG002_2_chr3_MATERNAL_R.html">HG002#2#chr3_MATERNAL#R</a> (3 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/HG002_2_chr3_MATERNAL_R">files and IGV sessions</a>)</li><li><a href="claim/HG002_2_chr9_MATERNAL_L.html">HG002#2#chr9_MATERNAL#L</a> (6 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/HG002_2_chr9_MATERNAL_L">files and IGV sessions</a>)</li><li><a href="claim/HG002_2_chr19_MATERNAL_R.html">HG002#2#chr19_MATERNAL#R</a> (6 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/HG002_2_chr19_MATERNAL_R">files and IGV sessions</a>)</li><li><a href="claim/HG002_1_chr17_PATERNAL_L.html">HG002#1#chr17_PATERNAL#L</a> (3 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/HG002_1_chr17_PATERNAL_L">files and IGV sessions</a>)</li><li><a href="claim/HG004__HG002_2_chr9_MATERNAL_L.html">HG004|HG002#2#chr9_MATERNAL#L</a> (6 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/HG004__HG002_2_chr9_MATERNAL_L">files and IGV sessions</a>)</li><li><a href="claim/HG01258__20q__SA-20q-01.html">HG01258|20q|SA-20q-01</a> (4 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/HG01258__20q__SA-20q-01">files and IGV sessions</a>)</li><li><a href="claim/HG01258__17p__SA-17p-02.html">HG01258|17p|SA-17p-02</a> (5 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/HG01258__17p__SA-17p-02">files and IGV sessions</a>)</li><li><a href="claim/NA20346__2q__SA-2q-04.html">NA20346|2q|SA-2q-04</a> (2 reads; <a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase/NA20346__2q__SA-2q-04">files and IGV sessions</a>)</li></ul>
+<h2 id="downloads">Downloads</h2>
+<ul>
+<li><a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/claims.tsv">claims.tsv</a>: one row per claim (894 claims: v1 and definitive verdicts, read
+counts by tier and dataset, model, assembly switch, diagnostics note).</li>
+<li><a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/reads.tsv.gz">reads.tsv.gz</a>: one row per cited read (5,937 rows): public source URL,
+region, read group, units, purity, switch interval, anchor, own-assembly placement, tier and the samtools command that fetches the
+read.</li>
+<li><a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/controls.tsv">controls.tsv</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/criteria_v1.json">criteria_v1.json</a>,
+<a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase">showcase/</a>.</li>
+</ul>
+<p>Full evidence set (every v1-conclusive read of every claim) as GitHub release assets:</p>
+<div class="table-wrap free"><table><thead><tr><th scope="col">file</th><th scope="col" class="num">size</th>
+<th scope="col">SHA-256</th><th scope="col">content</th></tr></thead><tbody><tr><td><code>subtel_read_evidence_v1_1KG_ONT.tar.gz</code></td><td class=num>23.7 MB</td><td><code>b7fe1917993a9459&hellip;</code></td><td>per-claim CRAM/BAM/window FASTA, 1KG_ONT</td></tr><tr><td><code>subtel_read_evidence_v1_HG002_Q100.tar.gz</code></td><td class=num>190.3 MB</td><td><code>a27bab22dac5c1ea&hellip;</code></td><td>per-claim CRAM/BAM/window FASTA, HG002_Q100</td></tr><tr><td><code>subtel_read_evidence_v1_HG002_trio.tar.gz</code></td><td class=num>16.3 MB</td><td><code>0e5a08c9ceb9e95a&hellip;</code></td><td>per-claim CRAM/BAM/window FASTA, HG002_trio</td></tr><tr><td><code>subtel_read_evidence_v1_tables.tar.gz</code></td><td class=num>0.7 MB</td><td><code>1de8d53fcec15780&hellip;</code></td><td>claims.tsv, reads.tsv.gz, controls.tsv, criteria</td></tr></tbody></table></div>
+<p>Replication test from a clean copy of the repository (no <code>work/</code> directory): 9 of 9 claims and controls re-derived from the public sources gave identical per-read and claim verdicts (<a href="verify.html#test">details</a>).</p>
+<p><a href="claims.html">Search all claims</a> &middot; <a href="verify.html">Verify it yourself</a> &middot;
+<a href="faq.html">FAQ for skeptics</a> &middot; <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/READ_EVIDENCE.md">full report</a>
+(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/READ_EVIDENCE.pdf">PDF</a>)</p>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="../assets/js/common.js"></script>
+
+</body>
+</html>

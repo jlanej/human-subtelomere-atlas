@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://human-pangenomics.s3.amazonaws.com/T2T/CHM13/assemblies/chm13v2.0.fa" locus="chr7:1-20696 chr2:242581293-242696752" version="8">
+    <Resources>
+        <Resource name="read segments split at the switch (distal / proximal)" path="NA20346__2q__SA-2q-04.segments.chm13.bam" index="NA20346__2q__SA-2q-04.segments.chm13.bam.bai" type="bam"/>
+        <Resource name="whole reads on CHM13 v2.0" path="NA20346__2q__SA-2q-04.chm13.bam" index="NA20346__2q__SA-2q-04.chm13.bam.bai" type="bam"/>
+        <Resource name="claim model (chr7p vs chr2q)" path="NA20346__2q__SA-2q-04.diagnostic_sites.chm13.bed" type="bed"/>
+    </Resources>
+</Session>

@@ -1,0 +1,9 @@
+claim_id	slug	cohort	n_definitive_reads_in_claim	n_reads_in_showcase	datasets
+HG002#2#chr3_MATERNAL#R	HG002_2_chr3_MATERNAL_R	HG002_Q100	3	3	ont_lc24_ulk,ont_q28,ont_ul_dorado
+HG002#2#chr9_MATERNAL#L	HG002_2_chr9_MATERNAL_L	HG002_Q100	62	6	ont_duplex,ont_lc24_ulk,ont_q28,ont_r941_recall,ont_ul_dorado
+HG002#2#chr19_MATERNAL#R	HG002_2_chr19_MATERNAL_R	HG002_Q100	91	6	hifi_vega_24hr,ont_duplex,ont_lc24_ulk,ont_q28,ont_r941_recall,ont_ul_dorado
+HG002#1#chr17_PATERNAL#L	HG002_1_chr17_PATERNAL_L	HG002_Q100	3	3	ont_duplex,ont_ul_dorado
+HG004|HG002#2#chr9_MATERNAL#L	HG004__HG002_2_chr9_MATERNAL_L	HG002_trio	10	6	HG004_ont_r10_PAO98462_c3dbcd08,HG004_ont_ul_r941
+HG01258|20q|SA-20q-01	HG01258__20q__SA-20q-01	1KG_ONT	4	4	1KG_ONT_HG01258
+HG01258|17p|SA-17p-02	HG01258__17p__SA-17p-02	1KG_ONT	5	5	1KG_ONT_HG01258
+NA20346|2q|SA-2q-04	NA20346__2q__SA-2q-04	1KG_ONT	2	2	1KG_ONT_NA20346

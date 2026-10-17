@@ -1,0 +1,10 @@
+claim_id	kind	n_cited	published	replicated	reads_identical	wall_s	result	references_s	assembly_window_s	fetch_s	stage1_s	genome_mapping_s	placement_s	minimap2	samtools	n_fetch_requests
+HG002#2#chr3_MATERNAL#R	HG002 Q100	136	confirmed / definitive_multi_dataset (7 conclusive)	confirmed / definitive_multi_dataset (7 conclusive)	136/136	328	MATCH	0.2	3.1	14.3	206.3	52.5	50.0	2.31-r1302	samtools 1.24	7
+HG002#1#chr17_PATERNAL#L	HG002 Q100	107	confirmed / definitive_multi_dataset (7 conclusive)	confirmed / definitive_multi_dataset (7 conclusive)	107/107	907	MATCH	0.2	33.3	44.5	481.9	268.9	77.1	2.31-r1302	samtools 1.24	7
+HG002#1#chr15_PATERNAL#R	HG002 Q100	36	confirmed / definitive (2 conclusive)	confirmed / definitive (2 conclusive)	36/36	295	MATCH	0.2	33.4	73.1	83.1	60.2	43.4	2.31-r1302	samtools 1.24	10
+HG002#2#chr9_MATERNAL#L	HG002 Q100	190	confirmed / definitive_multi_dataset (74 conclusive)	confirmed / definitive_multi_dataset (74 conclusive)	190/190	528	MATCH	0.2	37.9	56.1	306.8	67.2	57.8	2.31-r1302	samtools 1.24	10
+HG01258|20q|SA-20q-01	1KG-ONT	5	confirmed / definitive (4 conclusive)	confirmed / definitive (4 conclusive)	5/5	126	MATCH	0.2	32.0	9.8	0.9	45.9	35.6	2.31-r1302	samtools 1.24	1
+HG01258|17p|SA-17p-02	1KG-ONT	6	confirmed / definitive (5 conclusive)	confirmed / definitive (5 conclusive)	6/6	135	MATCH	0.2	4.3	12.0	18.8	55.4	43.6	2.31-r1302	samtools 1.24	2
+NA20346|2q|SA-2q-04	1KG-ONT	10	confirmed / definitive (3 conclusive)	confirmed / definitive (3 conclusive)	10/10	131	MATCH	0.2	32.8	3.9	6.1	46.7	39.5	2.31-r1302	samtools 1.24	1
+NA18960|2q|SA-2q-02	1KG-ONT	16	confirmed / confirmed_not_definitive (8 conclusive)	confirmed / confirmed_not_definitive (8 conclusive)	16/16	106	MATCH	0.2	3.0	6.2	5.6	46.5	43.2	2.31-r1302	samtools 1.24	2
+control|HG00133|20p|SA-20p-10	control (1KG-ONT)	20	0 conclusive	0 conclusive	20/20	106	MATCH	0.2	48.1	4.5	2.0	49.9		2.31-r1302	samtools 1.24	1

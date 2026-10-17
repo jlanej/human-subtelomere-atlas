@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="HG01258__17p__SA-17p-02.own_windows.fa" locus="HG01258_1_CM088120.1_L:1-100000" version="8">
+    <Resources>
+        <Resource name="reads on the person's own assembly end windows" path="HG01258__17p__SA-17p-02.own.bam" index="HG01258__17p__SA-17p-02.own.bam.bai" type="bam"/>
+    </Resources>
+</Session>

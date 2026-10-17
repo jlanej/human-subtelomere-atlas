@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="NA20346__2q__SA-2q-04.own_windows.fa" locus="NA20346_2_JBIRDS010000056.1_R:1-100000" version="8">
+    <Resources>
+        <Resource name="reads on the person's own assembly end windows" path="NA20346__2q__SA-2q-04.own.bam" index="NA20346__2q__SA-2q-04.own.bam.bai" type="bam"/>
+    </Resources>
+</Session>

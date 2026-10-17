@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="https://human-pangenomics.s3.amazonaws.com/T2T/CHM13/assemblies/chm13v2.0.fa" locus="chr15:99720713-99753195 chr9:1-228088" version="8">
+    <Resources>
+        <Resource name="read segments split at the switch (distal / proximal)" path="HG002_2_chr9_MATERNAL_L.segments.chm13.bam" index="HG002_2_chr9_MATERNAL_L.segments.chm13.bam.bai" type="bam"/>
+        <Resource name="whole reads on CHM13 v2.0" path="HG002_2_chr9_MATERNAL_L.chm13.bam" index="HG002_2_chr9_MATERNAL_L.chm13.bam.bai" type="bam"/>
+        <Resource name="claim model (chr15q vs chr9p)" path="HG002_2_chr9_MATERNAL_L.diagnostic_sites.chm13.bed" type="bed"/>
+    </Resources>
+</Session>

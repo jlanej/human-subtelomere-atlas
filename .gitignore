@@ -21,3 +21,6 @@ dist/
 _view_*.png
 # uncompressed copy of large evidence table (gzip is committed)
 evidence/population/reads.tsv
+# reviewer showcase read evidence (small; committed, see evidence/showcase/README.md)
+!evidence/showcase/**/*.bam
+!evidence/showcase/**/*.bam.bai

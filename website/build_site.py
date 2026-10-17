@@ -23,6 +23,7 @@ from collections import Counter, OrderedDict
 import pandas as pd
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # website/evidence_pages.py
 DOCS = os.path.join(ROOT, "docs")
 STATIC = os.path.join(ROOT, "website", "static")
 CAT = os.path.join(ROOT, "data", "catalogue")
@@ -346,6 +347,7 @@ def md_paragraphs_starting(src_rel, start_regex, prefix):
 # ------------------------------------------------------------------ page template
 NAV = [("index.html", "Home"), ("arms/index.html", "Arms"), ("alleles.html", "Alleles"),
        ("findings/index.html", "Findings"), ("methods.html", "Methods"), ("validation.html", "Validation"),
+       ("evidence/index.html", "Read evidence"),
        ("query.html", "Query tool"), ("downloads.html", "Downloads"), ("literature.html", "Literature")]
 
 
@@ -952,6 +954,30 @@ from another family or arm.</li>
 </ul></div>"""
 
 
+_EVL = {}
+
+
+def evidence_arm_links():
+    """definitive read-evidence claims per (arm, allele), linked from the arm pages' allele tables"""
+    if not _EVL:
+        import evidence_pages
+        _EVL.update(evidence_pages.arm_links(rp))
+    return _EVL
+
+
+def evidence_finding():
+    import evidence_pages
+    E = evidence_pages.load(rp); N = evidence_pages.numbers(E)
+    h, t, k = N["HG002_Q100"], N["HG002_trio"], N["1KG_ONT"]
+    (nh, _), (nk, _) = N["ctl_hg002"], N["ctl_1kg"]
+    return (f'<p><strong>Read-level evidence.</strong> Single long reads that were not used for the assemblies span the telomere, '
+            f'the claimed switch and a unique recipient anchor: all {h["confirmed"]} confirmed HG002 Q100 claims are '
+            f'<em>definitive</em> ({h["multi"]} with reads from &ge; 2 independent datasets), the transmitting parent confirms '
+            f'{t["confirmed"]}, and {k["definitive"]} of {k["confirmed"]} confirmed 1000 Genomes ONT claims are definitive; no '
+            f'negative-control read was conclusive (0 of {nh:,} and 0 of {nk:,} tests). <a href="evidence/index.html">Read evidence</a>, '
+            f'<a href="evidence/verify.html">verify it yourself</a>.</p>')
+
+
 def page_index(D, H, AG, repb):
     pre = ""
     caps = D["captions"]
@@ -1042,7 +1068,9 @@ reproduce published nanopore measurements (Spearman &rho; = {base.get('mean_rel_
 {base.get('n_arms_compared', '')} arms), but foreign and own terminal alleles in the same individual do not differ in
 telomere length; an earlier positive association was an artefact of a telomere-length-dependent classification window.</li>
 </ol>
+{evidence_finding()}
 <p><a href="findings/index.html">Findings in detail</a> &middot; <a href="validation.html">Validation</a> &middot;
+<a href="evidence/index.html">Read evidence</a> &middot;
 <a href="arms/index.html">Browse arms</a> &middot; <a href="alleles.html">Search alleles</a></p>
 <h2 id="related">Relation to concurrent work</h2>
 <p>This atlas is not the first population catalogue of human subtelomeres. It complements two concurrent preprints:</p>
@@ -1084,6 +1112,8 @@ def page_arm(D, arm, data, AS, pal, repb):
     for df, key in [(sa, "allele_id"), (hg, "haplogroup_id")]:
         for p in POPS:
             df[p] = [frp.loc[i, p] if i in frp.index and p in frp.columns else None for i in df[key]]
+    evl = evidence_arm_links()
+    sa["read_evidence"] = ["; ".join(f'<a href="{h}">{esc(l)}</a>' for l, h in evl.get((arm, a), [])) for a in sa.allele_id]
     sa["best_ends"] = ["|".join(("home" if b[2] == "home" else "none" if b[2] == "none" else (b[3][3:] if b[3] else "-"))
                                 for b in repb.get(r, [])) for r in sa.representative_end_id]
     f3 = lambda v, r: "" if pd.isna(v) else f"{v:.3f}"
@@ -1093,9 +1123,10 @@ def page_arm(D, arm, data, AS, pal, repb):
     sa_tbl = table_html(sa, [("allele_id", "Allele"), ("structure", "Structure"), ("best_ends", "Best end per block"),
                              ("nativity_class", "Nativity"), ("switches_median", "Median switch(es), bp"),
                              ("tier", "Tier"), ("evidence", "Evidence"), ("n_ends", "Ends"), ("n_samples", "Samples"),
-                             ("r2_freq", "R2 freq.")] + [(p, p) for p in POPS] + [("haplogroups_top", "Haplogroups")],
+                             ("r2_freq", "R2 freq.")] + [(p, p) for p in POPS] + [("haplogroups_top", "Haplogroups"),
+                                                                                  ("read_evidence", "Definitive read evidence")],
                         num=num_cols, id_col="allele_id",
-                        fmt={"tier": lambda v, r: tier_badge(v), "r2_freq": f3, **{p: f2 for p in POPS},
+                        fmt={"tier": lambda v, r: tier_badge(v), "read_evidence": lambda v, r: v or "", "r2_freq": f3, **{p: f2 for p in POPS},
                              "structure": lambda v, r: famre.sub(lambda m: f'<abbr title="{esc(fam_text(D, m.group(0)))}">'
                                                                       f'{m.group(0)}</abbr>', esc(str(v))),
                              "nativity_class": lambda v, r: esc(str(v).replace("_", " ")) if isinstance(v, str) else ""})
@@ -1547,7 +1578,7 @@ def main():
     AS = arm_stats(D)
     # static assets
     for src, dst in [("site.css", "assets/css/site.css"), ("common.js", "assets/js/common.js"),
-                     ("arm.js", "assets/js/arm.js"), ("alleles.js", "assets/js/alleles.js")]:
+                     ("arm.js", "assets/js/arm.js"), ("alleles.js", "assets/js/alleles.js"), ("evidence.js", "assets/js/evidence.js")]:
         os.makedirs(os.path.dirname(os.path.join(DOCS, dst)), exist_ok=True)
         shutil.copyfile(os.path.join(STATIC, src), os.path.join(DOCS, dst))
     write(".nojekyll", "")
@@ -1565,6 +1596,9 @@ def main():
     page_findings(D)
     page_methods(D, pal)
     page_validation(D)
+    import evidence_pages
+    EVR = evidence_pages.build(dict(rp=rp, write=write, page=page, figure=figure, BLOB=BLOB, TREE=TREE))
+    print(f"read evidence: {EVR['n_claim_pages']} claim pages")
     page_query()
     page_downloads(D)
     page_literature()

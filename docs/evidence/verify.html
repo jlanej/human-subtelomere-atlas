@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verify the read evidence | Human subtelomere atlas</title>
+<meta name="description" content="Human subtelomere atlas: structural alleles of human chromosome ends from HPRC Release 2, HG002 Q100 and CHM13.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../arms/index.html">Arms</a></li><li><a href="../alleles.html">Alleles</a></li><li><a href="../findings/index.html">Findings</a></li><li><a href="../methods.html">Methods</a></li><li><a href="../validation.html">Validation</a></li><li><a href="../evidence/index.html" aria-current="page">Read evidence</a></li><li><a href="../query.html">Query tool</a></li><li><a href="../downloads.html">Downloads</a></li><li><a href="../literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<nav class="arm-nav" aria-label="Read evidence"><a href="../evidence/index.html">Overview</a><a href="../evidence/claims.html">Claims table</a><a href="../evidence/verify.html" aria-current=page>Verify it yourself</a><a href="../evidence/faq.html">FAQ for skeptics</a></nav>
+<h1>Verify it yourself</h1>
+<p>Every verdict can be re-derived from public data with one command. Nothing produced by the authors is needed beyond this
+repository: the reads come from the public alignment files, the person's assembly windows from the public assembly FASTA (checked
+against the SHA-256 in <code>data/catalogue/ends.tsv</code>), CHM13 v2.0 from its public URL, and the thresholds from the frozen
+criteria file.</p>
+<h2 id="setup">1. Set up</h2>
+<pre><code>git clone https://github.com/jlanej/human-subtelomere-atlas &amp;&amp; cd human-subtelomere-atlas
+conda create -n atlas -c conda-forge -c bioconda python=3.11 samtools minimap2 mappy pysam numpy pandas scipy
+conda activate atlas</code></pre>
+<p>Needs internet, about 1 GB of disk for CHM13 v2.0 (downloaded once into <code>~/.cache/subtel-atlas/replicate</code>) and about
+8 GB of RAM for the in-memory minimap2 index.</p>
+<h2 id="run">2. Pick a claim and run it</h2>
+<pre><code>evidence/replicate_claim.sh --list                       # claims with reads, grouped by definitive tier
+evidence/replicate_claim.sh 'HG002#2#chr9_MATERNAL#L'      # HG002 maternal 9p (also confirmed in the mother)
+evidence/replicate_claim.sh 'HG01258|20q|SA-20q-01'        # a 1000 Genomes ONT claim
+evidence/replicate_claim.sh 'control|HG00133|20p|SA-20p-10'  # a strictly native control</code></pre>
+<p>The script:</p>
+<ol>
+<li>checks that <code>evidence/criteria_v1.json</code> and the packaged copy hash to <code>a89c5eaf023ed032</code>;</li>
+<li>downloads CHM13 v2.0 and extracts its 48 chromosome ends (<code>subtel-atlas fetch-refs</code>, checksum-verified);</li>
+<li>builds the claim model (donor, comparator, pattern, switch) from the catalogue tables in the repository;</li>
+<li>cuts the person's end windows from the public assembly by range and checks their SHA-256;</li>
+<li>fetches the cited reads by region from the public alignment file and keeps them by read ID
+(<code>samtools view -F 0x900 -N ids.txt -X URL URL.bai REGION</code>);</li>
+<li>evaluates every read with <code>subtel_atlas.readevidence</code> (the module behind <code>subtel-atlas reads-evidence</code>):
+diagnostic units, switch, genome-wide anchor, integrity, verdict, concordance with the assembly switch;</li>
+<li>prints each read's published and replicated verdict, the claim verdict, and the definitive tier (own-assembly placement on
+all of the person's end windows);</li>
+<li>exits 0 when everything matches.</li>
+</ol>
+<h2 id="one-read">3. Look at one read without the script</h2>
+<p>Each row of <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/reads.tsv.gz">reads.tsv.gz</a> has a <code>samtools_command</code>. For example, the first
+definitive read of HG002 maternal 9p in the R10 ultra-long data:</p>
+<pre><code>samtools view -F 0x900 -X &#x27;https://human-pangenomics.s3.amazonaws.com/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_r10_ul_dorado/hg002v1.1_ont_r10_ul_dorado.pri.bam&#x27; &#x27;https://human-pangenomics.s3.amazonaws.com/T2T/HG002/assemblies/polishing/HG002/v1.1/mapping/ont_r10_ul_dorado/hg002v1.1_ont_r10_ul_dorado.pri.bam.bai&#x27; &#x27;chr9_MATERNAL:1-52422&#x27; | awk -v r=&#x27;7f6d888f-4c3f-4b04-a10d-c1f1caffa110&#x27; &#x27;$1==r&#x27;</code></pre>
+<p>Align it to CHM13 v2.0 (<code>minimap2 -ax map-ont -Y</code>) and to the person's end window, or open the showcase IGV
+sessions (<a href="https://github.com/jlanej/human-subtelomere-atlas/tree/main/evidence/showcase">evidence/showcase/</a>).</p>
+<h2 id="test">Replication test</h2><p>Run from a copy of the repository without <code>work/</code>, with a fresh cache (CHM13 downloaded from the public URL), on one laptop (3 threads per run): see <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/REPLICATION_TEST.md">REPLICATION_TEST.md</a>.</p><div class="table-wrap free"><table><thead><tr><th scope=col>claim</th><th scope=col>kind</th><th scope=col class=num>cited reads</th><th scope=col>published</th><th scope=col>replicated</th><th scope=col class=num>reads identical</th><th scope=col class=num>wall (s)</th><th scope=col>result</th></tr></thead><tbody><tr><td><code>HG002#2#chr3_MATERNAL#R</code></td><td>HG002 Q100</td><td class=num>136</td><td>confirmed / definitive_multi_dataset (7 conclusive)</td><td>confirmed / definitive_multi_dataset (7 conclusive)</td><td class=num>136/136</td><td class=num>328</td><td>MATCH</td></tr><tr><td><code>HG002#1#chr17_PATERNAL#L</code></td><td>HG002 Q100</td><td class=num>107</td><td>confirmed / definitive_multi_dataset (7 conclusive)</td><td>confirmed / definitive_multi_dataset (7 conclusive)</td><td class=num>107/107</td><td class=num>907</td><td>MATCH</td></tr><tr><td><code>HG002#1#chr15_PATERNAL#R</code></td><td>HG002 Q100</td><td class=num>36</td><td>confirmed / definitive (2 conclusive)</td><td>confirmed / definitive (2 conclusive)</td><td class=num>36/36</td><td class=num>295</td><td>MATCH</td></tr><tr><td><code>HG002#2#chr9_MATERNAL#L</code></td><td>HG002 Q100</td><td class=num>190</td><td>confirmed / definitive_multi_dataset (74 conclusive)</td><td>confirmed / definitive_multi_dataset (74 conclusive)</td><td class=num>190/190</td><td class=num>528</td><td>MATCH</td></tr><tr><td><code>HG01258|20q|SA-20q-01</code></td><td>1KG-ONT</td><td class=num>5</td><td>confirmed / definitive (4 conclusive)</td><td>confirmed / definitive (4 conclusive)</td><td class=num>5/5</td><td class=num>126</td><td>MATCH</td></tr><tr><td><code>HG01258|17p|SA-17p-02</code></td><td>1KG-ONT</td><td class=num>6</td><td>confirmed / definitive (5 conclusive)</td><td>confirmed / definitive (5 conclusive)</td><td class=num>6/6</td><td class=num>135</td><td>MATCH</td></tr><tr><td><code>NA20346|2q|SA-2q-04</code></td><td>1KG-ONT</td><td class=num>10</td><td>confirmed / definitive (3 conclusive)</td><td>confirmed / definitive (3 conclusive)</td><td class=num>10/10</td><td class=num>131</td><td>MATCH</td></tr><tr><td><code>NA18960|2q|SA-2q-02</code></td><td>1KG-ONT</td><td class=num>16</td><td>confirmed / confirmed_not_definitive (8 conclusive)</td><td>confirmed / confirmed_not_definitive (8 conclusive)</td><td class=num>16/16</td><td class=num>106</td><td>MATCH</td></tr><tr><td><code>control|HG00133|20p|SA-20p-10</code></td><td>control (1KG-ONT)</td><td class=num>20</td><td>0 conclusive</td><td>0 conclusive</td><td class=num>20/20</td><td class=num>106</td><td>MATCH</td></tr></tbody></table></div>
+<h2 id="limits">What replication does and does not test</h2>
+<ul>
+<li>It re-derives each published verdict from the same public reads under the same frozen thresholds. It does not re-select the
+reads: the cited set is every read of the claim's read set that was conclusive, consistent or contradicting. Non-informative
+reads cannot change a verdict and are not fetched.</li>
+<li>Results depend on minimap2/mappy versions (the published run used minimap2 2.31 and mappy 2.31). Other versions can move
+individual alignments, and with them, rarely, a verdict near a threshold.</li>
+<li>HG003/HG004 ONT reads are stored as GRCh38 CRAMs; decoding them needs a GRCh38 FASTA (<code>--grch38</code>).</li>
+</ul>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="../assets/js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Read evidence NA20346 20q | Human subtelomere atlas</title>
+<meta name="description" content="Read-level evidence for NA20346|20q|SA-20q-01.">
+<link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../../index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="../../index.html">Home</a></li><li><a href="../../arms/index.html">Arms</a></li><li><a href="../../alleles.html">Alleles</a></li><li><a href="../../findings/index.html">Findings</a></li><li><a href="../../methods.html">Methods</a></li><li><a href="../../validation.html">Validation</a></li><li><a href="../../evidence/index.html" aria-current="page">Read evidence</a></li><li><a href="../../query.html">Query tool</a></li><li><a href="../../downloads.html">Downloads</a></li><li><a href="../../literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<nav class="arm-nav" aria-label="Read evidence"><a href="../../evidence/index.html">Overview</a><a href="../../evidence/claims.html">Claims table</a><a href="../../evidence/verify.html">Verify it yourself</a><a href="../../evidence/faq.html">FAQ for skeptics</a></nav>
+<h1>NA20346 20q: SA-20q-01</h1>
+<p class="muted">Claim <code>NA20346|20q|SA-20q-01</code>. <a href="../claims.html">All claims</a></p>
+<dl class="facts"><dt>cohort</dt><dd>1000 Genomes ONT</dd><dt>individual</dt><dd>NA20346</dd><dt>haplotype</dt><dd>hap1</dd><dt>arm</dt><dd>20q</dd><dt>allele</dt><dd><a href="../../arms/20q.html#SA-20q-01">SA-20q-01</a> (foreign)</dd><dt>model</dt><dd>donor CHM13 3q, proximal CHM13 20q, recipient CHM13 20q, pattern DP</dd><dt>claimed end(s)</dt><dd><code>NA20346#1#CM094258.1#R</code></dd><dt>assembly switch</dt><dd>31,936 bp from the telomere boundary; on CHM13 chr20:66177732; own-window projection 23500-33300 bp</dd><dt>v1 verdict</dt><dd><strong>supported</strong> (supported)</dd><dt>definitive tier</dt><dd><strong>-</strong></dd><dt>reads</dt><dd>1 conclusive switch-concordant, 0 discordant, 0 contradicting, 2 consistent; 1 definitive (1KG_ONT_NA20346)</dd><dt>by tier</dt><dd>definitive:1;consistent:2</dd><dt>source</dt><dd>https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1KG_ONT_VIENNA/t2t/NA20346.t2t.cram</dd></dl>
+
+<h2 id="reads">Conclusive and contradicting reads (1)</h2>
+<p>2 further reads are <em>consistent</em> (switch test passed, but no terminal telomere, anchor or integrity); they are
+listed in <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/evidence/reads.tsv.gz">reads.tsv.gz</a>. Switch: 95% interval in subtelomere coordinates (kb from the
+telomere boundary) and projected on CHM13 20q. Each <em>samtools</em> command prints the read's record
+from its public file (CRAM: add the CHM13 v2.0 FASTA as <code>-T</code>).</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">read</th><th scope="col">dataset</th><th scope="col">tier</th><th scope="col">length</th><th scope="col">switch (subtelomere, kb)</th><th scope="col">switch on CHM13</th><th scope="col">donor units / purity</th><th scope="col">proximal units / purity</th><th scope="col">anchor (CHM13, MAPQ, unique)</th><th scope="col">own-assembly best end</th><th scope="col">fetch</th></tr></thead><tbody><tr><td><code>b245a565-fca3-456a-b6e6-f0995c6b5404</code></td><td>1KG_ONT_NA20346</td><td>definitive</td><td class=num>64,380</td><td>23.9-33.7</td><td>chr20:66176482-66186282</td><td>14 / 1.00</td><td>144 / 1.00</td><td>chr20:66147594-66176482, 60, 20.6 kb</td><td>NA20346#1#CM094258.1#R (97.2%) &#10003;</td><td><details><summary>samtools</summary><code>samtools view -F 0x900 -T chm13v2.0.fa.gz -X &#x27;https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1KG_ONT_VIENNA/t2t/NA20346.t2t.cram&#x27; &#x27;https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1KG_ONT_VIENNA/t2t/NA20346.t2t.cram.crai&#x27; &#x27;chr20:66205256-66210255&#x27; | awk -v r=&#x27;b245a565-fca3-456a-b6e6-f0995c6b5404&#x27; &#x27;$1==r&#x27;</code></details></td></tr></tbody></table></div>
+<h2 id="files">Files</h2><p>CRAM/BAM on CHM13 v2.0, BAM on the person's own assembly windows and the window FASTA: release asset <code>subtel_read_evidence_v1_1KG_ONT.tar.gz</code>, directory <code>read_evidence_v1/1KG_ONT/NA20346__20q__SA-20q-01/</code> (<a href="../index.html#downloads">downloads</a>).</p>
+<h2 id="replicate">Re-derive this verdict</h2>
+<pre><code>git clone https://github.com/jlanej/human-subtelomere-atlas &amp;&amp; cd human-subtelomere-atlas
+evidence/replicate_claim.sh 'NA20346|20q|SA-20q-01'</code></pre>
+<p>The script fetches the cited reads from the public source by region and read ID, re-runs the frozen criteria and compares
+every per-read and claim verdict with this page (<a href="../verify.html">details</a>).</p>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="../../assets/js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+read_id	segment	tip_frame_read_interval	length	chrom	pos	end	mapq	strand	has_supplementary
+c432e9c6-4c02-4053-9203-35b1a45c37bd	distal	1706-7378	5672	chr5	182040075	182045435	42	-	False
+c432e9c6-4c02-4053-9203-35b1a45c37bd	proximal	8361-99021	90660	chr2	242599932	242689560	60	-	False
+2795f061-e8e9-4bf6-bea5-9766dfe09ad4	distal	1125-6484	5359	chr5	182040075	182044283	1	-	True
+2795f061-e8e9-4bf6-bea5-9766dfe09ad4	proximal	7464-115731	108267	chr2	242581149	242689560	60	-	False

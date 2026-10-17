@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="HG002_2_chr3_MATERNAL_R.own_windows.fa" locus="HG002_2_chr3_MATERNAL_R:1-100000" version="8">
+    <Resources>
+        <Resource name="reads on the person's own assembly end windows" path="HG002_2_chr3_MATERNAL_R.own.bam" index="HG002_2_chr3_MATERNAL_R.own.bam.bai" type="bam"/>
+    </Resources>
+</Session>

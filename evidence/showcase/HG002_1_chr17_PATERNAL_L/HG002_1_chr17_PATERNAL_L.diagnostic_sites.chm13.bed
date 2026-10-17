@@ -1,0 +1,3 @@
+track name="claim model HG002#1#chr17_PATERNAL#L" itemRgb="On" description="CHM13 chr11p (orange) vs chr17p (blue): diagnostic SNV sites, private sequence, homologous blocks (grey), criteria v1"
+chr11	192104	227760	donor_private	0	.	192104	227760	213,94,0
+chr17	0	247760	proximal_private	0	.	0	247760	0,114,178

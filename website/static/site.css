@@ -83,3 +83,9 @@ dl.kv dd { margin: 0; }
 .arm-nav a[aria-current="page"] { background: var(--accent); color: #fff; }
 @media (max-width: 40rem) { h1 { font-size: 1.35rem; } main { padding: .7rem .6rem 2rem; } }
 @media print { header.site, footer.site, .controls { display: none; } }
+
+/* read-evidence claim pages */
+dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: .2rem 1rem; margin: 1rem 0; }
+dl.facts dt { font-weight: 600; } dl.facts dd { margin: 0; }
+details summary { cursor: pointer; color: var(--accent); }
+details code { display: block; white-space: pre-wrap; word-break: break-all; max-width: 36rem; }
