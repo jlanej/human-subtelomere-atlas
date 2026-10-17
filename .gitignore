@@ -13,3 +13,11 @@ build/
 dist/
 *.egg-info/
 .pytest_cache/
+
+# remote-index caches and image-viewer previews
+/*.crai
+*.cram.crai.tmp
+/_view_*.png
+_view_*.png
+# uncompressed copy of large evidence table (gzip is committed)
+evidence/population/reads.tsv

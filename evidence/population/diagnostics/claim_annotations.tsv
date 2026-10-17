@@ -1,0 +1,108 @@
+claim_id	allele	verdict	verdict_class	assessability	diagnostic_notes	recommendation
+HG00099|16q|SA-16q-03	SA-16q-03	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 2	no contradiction of the claimed haplotype
+HG00099|17p|SA-17p-15	SA-17p-15	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 2, other chromosome end 0	no contradiction of the claimed haplotype
+HG00099|17q|SA-17q-04	SA-17q-04	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+HG00099|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	3 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+HG00128|10p|SA-10p-03	SA-10p-03	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (one_unique_anchor)	keep; note anchor in CHM13-shared sequence
+HG00128|19p|SA-19p-04	SA-19p-04	confirmed	confirmed	assessed_confirmed	confirmed:not_independently_supported (reads_place_on_other_end;shared_anchor_only)	annotate: reads not attributable to the claimed end
+HG00128|20p|SA-20p-41	SA-20p-41	not_confirmed	assessed_not_confirmed	contradicting_only	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence | contradicting reads placed: claimed end 0, other haplotype 9, other chromosome end 0	treat as not assessable under v1 (model limitation)
+HG00128|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00128|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (one_unique_anchor)	keep; note anchor in CHM13-shared sequence
+HG00133|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00133|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	5 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+HG00133|9q|SA-9q-02	SA-9q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 5, other chromosome end 0	no contradiction of the claimed haplotype
+HG00146|20p|SA-20p-03	SA-20p-03	not_confirmed	assessed_not_confirmed	contradicting_only	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence | contradicting reads placed: claimed end 0, other haplotype 4, other chromosome end 5	treat as not assessable under v1 (model limitation)
+HG00146|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00146|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+HG00146|5q|SA-5q-02	SA-5q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 2, other chromosome end 2	no contradiction of the claimed haplotype
+HG00235|17p|SA-17p-17	SA-17p-17	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00235|19q|SA-19q-02	SA-19q-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00235|19q|SA-19q-08	SA-19q-08	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00235|20p|SA-20p-03	SA-20p-03	not_confirmed	assessed_not_confirmed	contradicting_only	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence | contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 18	treat as not assessable under v1 (model limitation)
+HG00235|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:not_independently_supported (reads_shared_with_other_allele)	annotate: reads not attributable to the claimed end
+HG00235|20q|SA-20q-06	SA-20q-06	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00321|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG00321|9q|SA-9q-116	SA-9q-116	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 7, other chromosome end 0	no contradiction of the claimed haplotype
+HG00323|15q|SA-15q-02	SA-15q-02	confirmed	confirmed	assessed_confirmed	confirmed:not_independently_supported (reads_place_on_other_end)	annotate: reads not attributable to the claimed end
+HG00323|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+HG01167|19p|SA-19p-03	SA-19p-03	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+HG01167|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+HG01167|3q|SA-3q-10	SA-3q-10	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+HG01167|5q|SA-5q-41	SA-5q-41	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 2, other chromosome end 1	no contradiction of the claimed haplotype
+HG01258|17p|SA-17p-02	SA-17p-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG01258|19p|SA-19p-03	SA-19p-03	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 1	no contradiction of the claimed haplotype
+HG01258|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG01258|6q|SA-6q-02	SA-6q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 2, other chromosome end 0	no contradiction of the claimed haplotype
+HG01530|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+HG01786|19p|SA-19p-62	SA-19p-62	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 1	no contradiction of the claimed haplotype
+HG01786|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+HG01786|5q|SA-5q-50	SA-5q-50	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 2	no contradiction of the claimed haplotype
+HG02155|20p|SA-20p-03	SA-20p-03	not_confirmed	assessed_not_confirmed	contradicting_only	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence | contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	treat as not assessable under v1 (model limitation)
+HG02165|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+HG02178|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+HG02922|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+HG02922|5q|SA-5q-02	SA-5q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 1	no contradiction of the claimed haplotype
+HG02976|12p|SA-12p-04	SA-12p-04	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG02976|19p|SA-19p-02	SA-19p-02	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+HG02976|19p|SA-19p-04	SA-19p-04	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 4	no contradiction of the claimed haplotype
+HG02976|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG03130|17p|SA-17p-02	SA-17p-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG03130|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	2 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+HG03470|20p|SA-20p-39	SA-20p-39	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 3, other chromosome end 0	no contradiction of the claimed haplotype
+HG03521|17q|SA-17q-02	SA-17q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 1, other haplotype 0, other chromosome end 0	review: contradicting read(s) place on the claimed end
+HG03521|7p|SA-7p-13	SA-7p-13	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+HG03742|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+HG03742|5q|SA-5q-51	SA-5q-51	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG03742|6q|SA-6q-45	SA-6q-45	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+HG03742|9p|SA-9p-08	SA-9p-08	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 1, other haplotype 0, other chromosome end 0	review: contradicting read(s) place on the claimed end
+HG03784|16q|SA-16q-03	SA-16q-03	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 2	no contradiction of the claimed haplotype
+HG03816|15q|SA-15q-02	SA-15q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+HG03816|17p|SA-17p-02	SA-17p-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+HG03816|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+NA18565|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA18570|20p|SA-20p-03	SA-20p-03	not_confirmed	assessed_not_confirmed	contradicting_only	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence | contradicting reads placed: claimed end 0, other haplotype 2, other chromosome end 0	treat as not assessable under v1 (model limitation)
+NA18570|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+NA18570|3q|SA-3q-10	SA-3q-10	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA18940|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	no_reads	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA18944|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA18944|5q|SA-5q-50	SA-5q-50	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+NA18944|6q|SA-6q-04	SA-6q-04	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 4, other chromosome end 1	no contradiction of the claimed haplotype
+NA18960|20p|SA-20p-03	SA-20p-03	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 2	no contradiction of the claimed haplotype
+NA18960|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+NA18960|4q|SA-4q-05	SA-4q-05	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+NA18960|6q|SA-6q-45	SA-6q-45	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 2, other chromosome end 3	no contradiction of the claimed haplotype
+NA18971|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA18971|5q|SA-5q-02	SA-5q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 2	no contradiction of the claimed haplotype
+NA18974|11p|SA-11p-05	SA-11p-05	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 8	no contradiction of the claimed haplotype
+NA18983|17p|SA-17p-16	SA-17p-16	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA18983|19q|SA-19q-02	SA-19q-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA18983|20p|SA-20p-02	SA-20p-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA19043|17q|SA-17q-02	SA-17q-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA19043|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	3 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+NA19338|19q|SA-19q-04	SA-19q-04	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA19391|17p|SA-17p-02	SA-17p-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA19391|19p|SA-19p-18	SA-19p-18	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+NA19391|19q|SA-19q-04	SA-19q-04	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA19391|19q|SA-19q-14	SA-19q-14	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA19391|20q|SA-20q-01	SA-20q-01	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA19835|4q|SA-4q-05	SA-4q-05	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+NA19835|9q|SA-9q-116	SA-9q-116	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+NA19909|7p|SA-7p-09	SA-7p-09	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA20346|17q|SA-17q-02	SA-17q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 3, other chromosome end 0	no contradiction of the claimed haplotype
+NA20346|20p|SA-20p-37	SA-20p-37	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA20346|2q|SA-2q-04	SA-2q-04	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA20346|3q|SA-3q-01	SA-3q-01	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+NA20503|17p|SA-17p-02	SA-17p-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+NA20503|17q|SA-17q-32	SA-17q-32	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+NA20503|19p|SA-19p-04	SA-19p-04	confirmed	confirmed	assessed_confirmed	confirmed:not_independently_supported (reads_place_on_other_end;shared_anchor_only)	annotate: reads not attributable to the claimed end
+NA20503|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA20503|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+NA20762|19p|SA-19p-62	SA-19p-62	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 0, other chromosome end 1	no contradiction of the claimed haplotype
+NA20762|19q|SA-19q-02	SA-19q-02	confirmed	confirmed	assessed_confirmed	confirmed:robust	keep
+NA20762|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA21102|20p|SA-20p-03	SA-20p-03	not_confirmed	not_assessable	read_length	donor-window-edge switch: assembly switch is the end of the v1 D window; switch test does not separate the allele from native donor-arm sequence	treat as not assessable under v1 (model limitation)
+NA21102|2q|SA-2q-02	SA-2q-02	confirmed	confirmed	assessed_confirmed	confirmed:shared_anchor_on_arm_placement (shared_anchor_only)	keep; note anchor in CHM13-shared sequence
+NA21110|19p|SA-19p-04	SA-19p-04	confirmed	confirmed	assessed_confirmed	confirmed:not_independently_supported (reads_place_on_other_end;shared_anchor_only)	annotate: reads not attributable to the claimed end
+NA21110|3q|SA-3q-04	SA-3q-04	not_confirmed	assessed_not_confirmed	discordant	1 discordant conclusive read(s) place on another chromosome end	discordant reads not from the claimed end; no evidence against the assembly switch
+NA21110|6q|SA-6q-04	SA-6q-04	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype
+NA21110|9q|SA-9q-02	SA-9q-02	not_confirmed	assessed_not_confirmed	contradicting_only	contradicting reads placed: claimed end 0, other haplotype 1, other chromosome end 0	no contradiction of the claimed haplotype

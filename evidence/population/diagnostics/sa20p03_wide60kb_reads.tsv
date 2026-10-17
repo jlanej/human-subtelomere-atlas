@@ -1,0 +1,596 @@
+claim	read	read_len	terminal	segments	switch_pass	donor_interval_units	donor_interval_P_purity	anchor_pass	anchor_tier	verdict
+HG00235|20p|SA-20p-03	ee23cc3b-3c0c-4070-907f-10903360e906	57500	True	D:1:0.0;P:178:0.9775	False	40	0.95	True	unique	non-informative
+HG00235|20p|SA-20p-03	94607647-2467-4843-bdaf-7a16db6f946a	24496	True	D:1:0.0;P:71:0.8732	False	52	0.9423	False		non-informative
+HG00235|20p|SA-20p-03	2d1a8532-2792-42c4-a331-4e91d71eae4b	61052	False	D:1:0.0;P:174:0.931	False	12	0.9167	True	unique	non-informative
+HG00235|20p|SA-20p-03	ffeff444-7ece-4a9c-b90a-54644f31e6fb	77630	False	D:1:0.0;P:182:0.9615	False	35	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	e0926ce4-43ae-4aea-a761-9855565c6571	33205	False	D:2:0.5;P:87:0.9195	False	41	0.9268	True	unique	non-informative
+HG00235|20p|SA-20p-03	3c43f04f-fa30-4a49-981a-09a39e53cedd	24943	False	D:1:0.0;P:76:0.9342	False	58	0.9828	False		non-informative
+HG00235|20p|SA-20p-03	9a8153c2-57f2-4c74-a926-e8bb2c279362	53587	True	D:1:0.0;P:180:0.95	False	59	0.8983	True	unique	contradicts
+HG00235|20p|SA-20p-03	8fef6d8f-78f2-4334-a540-60334e8328ff	28392	True	D:1:0.0;P:73:0.9315	False	28	0.8929	True	unique	non-informative
+HG00235|20p|SA-20p-03	40671cd1-849b-4f06-99b9-2d542c9485d1	6414	True	D:1:0.0;P:41:0.9268	False	42	0.9286	False		non-informative
+HG00235|20p|SA-20p-03	de081e64-dfa3-409f-8396-92f1b6c28cb7	58384	True	D:2:0.5;P:180:0.9722	False	56	0.9286	True	unique	non-informative
+HG00235|20p|SA-20p-03	07336130-9db8-4185-b5b6-f82df73558e4	21941	True	D:2:1.0;P:72:0.9444	False	57	0.9123	False		non-informative
+HG00235|20p|SA-20p-03	baa56fca-7a8b-4cf5-a3b0-c38c25e4f2e5	76776	True	D:1:0.0;P:172:0.9477	False	55	0.9091	True	unique	contradicts
+HG00235|20p|SA-20p-03	a330ef64-fe2a-4da4-a070-a77365237c9f	8021	True	D:1:0.0;P:27:1.0	False	28	1.0	False		non-informative
+HG00235|20p|SA-20p-03	f60b3784-3022-4af4-ad9d-7731d053b95c	21831	True	D:1:0.0;P:72:0.9167	False	56	0.9286	False		non-informative
+HG00235|20p|SA-20p-03	d61d3cbd-505a-4934-b1c8-3bb6f3aaedda	14583	True	D:1:0.0;P:50:0.72	False	51	0.7255	False		non-informative
+HG00235|20p|SA-20p-03	abecba6e-db75-46de-9225-b9d85a0dc7fb	66913	True	D:1:0.0;P:176:0.983	False	62	0.9839	True	unique	contradicts
+HG00235|20p|SA-20p-03	a340520a-2c42-4eb8-b653-4341c387057e	15428	True	D:1:0.0;P:51:0.7843	False	52	0.7885	False		non-informative
+HG00235|20p|SA-20p-03	b103f2f2-b717-4f4a-a56c-dd13a7519fd9	16928	True	D:1:0.0;P:20:0.8	False	21	0.8095	False		non-informative
+HG00235|20p|SA-20p-03	21a9a1d2-3e51-4628-ae32-4ed73faa42e3	61353	True	D:1:0.0;P:178:0.9831	False	59	0.9831	True	unique	contradicts
+HG00235|20p|SA-20p-03	d0f692cf-2d53-4c31-88d2-95a95f22bd60	50081	True	D:1:0.0;P:181:0.9779	False	63	0.9841	True	unique	contradicts
+HG00235|20p|SA-20p-03	bde19158-23fb-408e-ace8-b9b231a9efe2	29827	False	D:1:0.0;P:90:0.9333	False	57	0.9298	False		non-informative
+HG00235|20p|SA-20p-03	804e6fbf-befa-4814-b4e4-252f70772d74	20952	True	D:1:0.0;P:67:0.8955	False	56	0.8929	False		non-informative
+HG00235|20p|SA-20p-03	a1eaf1cb-c23e-4f20-8e7b-229071e44256	19283	True	D:1:0.0;P:62:0.9355	False	53	0.9434	False		non-informative
+HG00235|20p|SA-20p-03	0fd28647-dd67-47ef-8aea-4af2749d95da	69517	True	D:1:0.0;P:183:0.9672	False	58	0.931	True	unique	contradicts
+HG00235|20p|SA-20p-03	eab8a800-6906-405c-8080-b22adb14d3d0	69593	True	D:1:0.0;P:179:0.9721	False	62	0.9677	True	unique	contradicts
+HG00235|20p|SA-20p-03	29190bb9-2906-48d7-a2b3-fc5fe8f5d4c2	73342	True	D:1:0.0;P:180:0.9778	False	62	0.9839	True	unique	contradicts
+HG00235|20p|SA-20p-03	93e28748-23bb-4a95-99ec-8c327fffe8ab	15216	False	D:1:0.0;P:68:0.9706	False	63	0.9841	False		non-informative
+HG00235|20p|SA-20p-03	e21e46fe-b351-4dbe-bb0d-35383a65669d	13339	True	D:1:0.0;P:56:0.8929	False	57	0.8947	False		non-informative
+HG00235|20p|SA-20p-03	7f679a1b-0f81-437f-8e37-ee75c2d834cc	14718	True	D:1:0.0;P:61:0.9672	False	62	0.9677	False		non-informative
+HG00235|20p|SA-20p-03	3357fd43-7706-4ed0-9c60-e12d95fe4da6	92605	True	D:1:0.0;P:183:0.9781	False	64	0.9844	True	unique	contradicts
+HG00235|20p|SA-20p-03	402c6725-f5d5-46dd-955e-1095ec4dcb9b	30885	True	D:1:0.0;P:87:0.931	False	61	0.9508	False		non-informative
+HG00235|20p|SA-20p-03	0573f586-7e23-4717-be33-103e330b1b1d	26484	True	D:1:0.0;P:78:0.9103	False	58	0.9138	True	unique	contradicts
+HG00235|20p|SA-20p-03	7755b506-f0ad-4498-a99a-91704c1db892	23295	True	D:2:0.5;P:71:0.9577	False	63	0.9683	False		non-informative
+HG00235|20p|SA-20p-03	cf7edc15-3cc1-4397-95d8-6a302db7e760	53248	True	D:3:0.6667;P:176:0.9773	False	56	0.9107	True	unique	contradicts
+HG00235|20p|SA-20p-03	5242f453-a06b-460e-b4ef-5dbdc071ebf9	44356	True	D:1:0.0;P:147:0.9796	False	54	0.9444	True	unique	contradicts
+HG00235|20p|SA-20p-03	5dfd016a-c848-4ccd-8da8-89460f1d95a3	43981	True	D:3:0.3333;P:157:0.9554	False	59	0.8983	True	unique	contradicts
+HG00235|20p|SA-20p-03	d84aba3d-29c5-416e-8154-0b4515d2bdb7	56378	True	D:1:0.0;P:182:0.9615	False	57	0.9298	True	unique	contradicts
+HG00235|20p|SA-20p-03	c629420e-f8ba-46eb-9ab8-dc5e0453b39a	14924	True	D:1:0.0;P:56:0.7143	False	56	0.7321	False		non-informative
+HG00235|20p|SA-20p-03	b1ca9fb8-b934-4a17-bb57-9e1a5b67fb14	15664	True	D:2:0.5;P:46:0.8261	False	48	0.8125	False		non-informative
+HG00235|20p|SA-20p-03	f5a54698-7745-4585-ab7c-0773b9f9abbd	14913	True	D:1:0.0;P:64:0.9844	False	64	0.9844	False		non-informative
+HG00235|20p|SA-20p-03	1ce313f6-9e13-4586-ba61-ff0ec6387c8d	17300	False	D:1:0.0;P:61:0.9672	False	45	0.9778	False		non-informative
+HG00235|20p|SA-20p-03	750ec52b-2762-445b-bf08-22228613b620	37157	True	D:1:0.0;P:120:0.925	False	56	0.875	True	unique	contradicts
+HG00235|20p|SA-20p-03	34ed80e4-ce7d-4fd6-9bbc-ec7ef38c8d26	29728	True	D:2:0.5;P:79:0.9114	False	54	0.8889	False		non-informative
+HG00235|20p|SA-20p-03	e616f323-5d32-4b50-baa6-d3be44102844	5578	True		False	0		False		non-informative
+HG00235|20p|SA-20p-03	cc262f5e-7b61-4ceb-a516-0d4dd71f00a2	69527	True	D:1:0.0;P:177:0.9661	False	54	0.9259	True	unique	contradicts
+HG00235|20p|SA-20p-03	3b4b7268-15a3-442a-a627-37ed2c11f14e	6180	True	D:1:0.0;P:2:1.0	False	3	1.0	False		non-informative
+HG00235|20p|SA-20p-03	89e1597c-06ed-4b2a-ae2e-9b92b0e86564	50814	True	D:3:0.3333;P:160:0.9563	False	54	0.9074	False		non-informative
+HG00235|20p|SA-20p-03	509f1145-e195-4def-81d3-ab6641c58cb1	50476	False	D:1:1.0;P:96:0.8646	False	40	0.85	False		non-informative
+HG00235|20p|SA-20p-03	02876a9a-82f7-4033-aa74-c385432a68e3	7690	True	D:1:0.0;P:29:1.0	False	30	1.0	False		non-informative
+HG00235|20p|SA-20p-03	a570693c-f2ec-4c2e-a608-9ae66ef116b9	61655	True	D:1:0.0;P:176:0.9602	False	60	0.9333	True	unique	contradicts
+HG00235|20p|SA-20p-03	79c4395a-0b61-4efd-85c5-1d6cbeaa940e	17981	True	D:1:1.0;P:61:0.9344	False	55	0.9455	False		non-informative
+HG00235|20p|SA-20p-03	da3e4968-4ae6-456b-9570-536bcf3902d0	72416	True	D:1:0.0;P:179:0.9609	False	56	0.9107	True	unique	contradicts
+HG00235|20p|SA-20p-03	35e4f4f5-fb1d-4197-a30d-cbae43ff1ac1	12422	True	D:1:0.0;P:47:0.8723	False	48	0.875	False		non-informative
+HG00235|20p|SA-20p-03	c7858dc1-cac9-431b-85ba-4cea316dfb29	9667	True	D:1:0.0;P:4:0.75	False	5	0.8	False		non-informative
+HG00235|20p|SA-20p-03	9933b8da-cc63-4f97-aa4f-69d44d70a4b7	15350	True	D:1:0.0;P:59:0.9492	False	51	0.9608	False		non-informative
+HG00235|20p|SA-20p-03	7a79310f-05dd-49eb-b68c-b14cd7d26c48	52071	True	D:1:0.0;P:173:0.9711	False	50	0.92	False		non-informative
+HG00235|20p|SA-20p-03	49a3c24b-4ba4-45bb-8c4b-3fa990f8ed4d	12447	True	D:1:0.0;P:53:0.9245	False	54	0.9259	False		non-informative
+HG00235|20p|SA-20p-03	4f1bee4a-2863-4cbd-928e-8f5bf09b25c2	45897	False	D:1:0.0;P:156:0.9231	False	49	0.9184	False		non-informative
+HG00235|20p|SA-20p-03	29985c61-cbfb-49d6-9e41-d45b37a01baf	32361	False	D:1:0.0;P:119:0.9496	False	66	0.9394	True	unique	non-informative
+HG00235|20p|SA-20p-03	9c071c46-341a-48a1-913f-d85ea9da30cd	7671	False	D:1:0.0;P:49:0.898	False	50	0.9	False		non-informative
+HG00235|20p|SA-20p-03	a188a7e6-c663-4781-943a-a240adb29925	55452	False	D:1:0.0;P:182:0.9615	False	67	0.9104	True	unique	non-informative
+HG00235|20p|SA-20p-03	ec222273-a448-4820-9259-17aa8d868182	7813	True	D:1:0.0;P:27:0.9259	False	28	0.9286	False		non-informative
+HG00235|20p|SA-20p-03	d65710a9-88f8-44e8-9725-f7f581192dea	23803	True	D:3:0.6667;P:52:0.7115	False	50	0.76	False		non-informative
+HG00235|20p|SA-20p-03	361af24c-422b-41bc-9410-4014083f5351	15042	False	D:1:0.0;P:60:0.9167	False	58	0.9138	False		non-informative
+HG00235|20p|SA-20p-03	fe29b64e-8f30-42fe-855a-2c68cc08e36d	91119	False	D:1:0.0;P:168:0.9583	False	51	0.9608	True	unique	non-informative
+HG00235|20p|SA-20p-03	fc29300b-a13b-423e-807b-d283b7f9490b	13068	False	D:1:0.0;P:43:0.9302	False	42	0.9524	False		non-informative
+HG00235|20p|SA-20p-03	04e104ae-6939-46bf-987a-cfa07e219315	30235	False	D:1:0.0;P:94:0.9362	False	41	0.878	True	unique	non-informative
+HG00235|20p|SA-20p-03	de6caf85-be9e-49e5-a08e-abb56fae614e	12191	False	D:1:0.0;P:30:0.9333	False	31	0.9355	False		non-informative
+HG00235|20p|SA-20p-03	60ce171a-7c0d-46ce-9ab8-c78a8c10a8ea	49591	False	D:2:1.0;P:131:0.9771	False	20	0.85	True	unique	non-informative
+HG00235|20p|SA-20p-03	360e536a-5487-45a4-9e4e-3d739867a4c2	9218	False	D:1:0.0;P:17:0.9412	False	18	0.9444	False		non-informative
+HG00235|20p|SA-20p-03	9be2bccc-eeae-4381-9247-5d47d73cf1a2	6464	False	D:1:1.0;P:15:0.8667	False	16	0.8125	False		non-informative
+HG00235|20p|SA-20p-03	458a51e0-dd15-4b66-af2c-4161d92fe652	12799	False	D:1:0.0;P:15:0.8	False	16	0.8125	False		non-informative
+HG00235|20p|SA-20p-03	05ae8778-d624-42cc-8d49-f2031c6c821c	11054	False	D:1:0.0;P:11:0.9091	False	12	0.9167	False		non-informative
+HG00235|20p|SA-20p-03	818fe574-5264-4e88-8738-4fae17fbce3f	47517	False	D:2:0.5;P:26:0.8462	False	0		False		non-informative
+HG00235|20p|SA-20p-03	d38abe8c-114a-4e8f-8668-5a2280c05895	11164	False	D:1:1.0;P:13:0.9231	False	14	0.8571	False		non-informative
+HG00235|20p|SA-20p-03	3862a2bb-8de7-48e0-973a-6473bd731e47	40481	False	D:1:0.0;P:63:0.6984	False	25	0.72	False		non-informative
+HG00235|20p|SA-20p-03	da69f25c-a77c-4d86-bff7-a5978c756e3f	35667	False	D:1:1.0;P:116:0.9914	False	15	0.8667	True	unique	non-informative
+HG00235|20p|SA-20p-03	c52897a7-550d-453f-ba7f-5b9cc0348344	8296	False	D:1:0.0;P:6:1.0	False	7	1.0	False		non-informative
+HG00235|20p|SA-20p-03	63b44621-5e3b-48eb-b3b3-f5d0d1a0445d	16362	False	D:1:1.0;P:43:1.0	False	24	0.9583	False		non-informative
+HG00235|20p|SA-20p-03	2f92b697-0522-43a4-b820-cdf2708a55a1	61776	False	D:1:0.0;P:74:1.0	False	25	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	3a507b32-f3ad-40b4-af1b-cd370e85f096	14980	False	D:1:1.0;P:36:1.0	False	27	0.963	False		non-informative
+HG00235|20p|SA-20p-03	af5e7705-5d5c-4343-98db-d944a4d72b39	17468	False	D:1:1.0;P:51:1.0	False	26	0.9615	False		non-informative
+HG00235|20p|SA-20p-03	e2f7c7e0-69b6-4565-abef-e00817e86306	29237	False	D:1:0.0;P:53:1.0	False	16	1.0	False		non-informative
+HG00235|20p|SA-20p-03	499950cc-be3e-4d34-89f2-5dd72f53871f	43245	False	D:1:0.0;P:49:0.7551	False	24	0.875	False		non-informative
+HG00235|20p|SA-20p-03	a8239666-4dea-41d1-969d-cf8313c70a9a	66218	False	D:1:0.0;P:106:1.0	False	30	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	60d8bcbe-faeb-4d49-a828-0f13b006ba4a	9432	False	D:3:0.6667;P:9:1.0	False	12	0.8333	False		non-informative
+HG00235|20p|SA-20p-03	50d58ff1-9b78-48c7-8bfb-4a9a30e691c5	22665	False	D:1:1.0;P:86:1.0	False	35	0.9714	False		non-informative
+HG00235|20p|SA-20p-03	7127f9ee-3044-497d-a296-77359846dae4	20502	False	D:2:0.5;P:69:0.9855	False	35	0.9429	False		non-informative
+HG00235|20p|SA-20p-03	a05dc807-ee62-48ec-b940-794f35b76b59	14237	False	D:1:0.0;P:51:1.0	False	42	1.0	False		non-informative
+HG00235|20p|SA-20p-03	1d968ba4-6f72-4fd6-a4e5-59df05480afb	7383	False	D:1:0.0;P:11:1.0	False	12	1.0	False		non-informative
+HG00235|20p|SA-20p-03	c7320fbf-3302-406f-aeed-4c6278ab6e13	25795	False	D:1:0.0;P:104:1.0	False	51	1.0	True	mapq60_shared	non-informative
+HG00235|20p|SA-20p-03	8b60f9b9-8cf2-401d-be1b-d91ab2c5a300	24124	False	D:1:0.0;P:101:1.0	False	54	1.0	False		non-informative
+HG00235|20p|SA-20p-03	0ff4a979-100b-44e2-8aa8-651a74f1aa62	12752	False	D:1:0.0;P:56:1.0	False	55	1.0	False		non-informative
+HG00235|20p|SA-20p-03	efc1c2c0-ed31-420e-b07d-dd79981cc056	16332	False	D:1:0.0;P:77:1.0	False	58	1.0	False		non-informative
+HG00235|20p|SA-20p-03	c6fcad3c-b36c-4767-88ea-04fbe695ac36	11028	False	D:1:0.0;P:52:1.0	False	53	1.0	False		non-informative
+HG00235|20p|SA-20p-03	81239eba-a82b-4ba1-abd2-b35e9de1f357	36023	False	D:1:0.0;P:100:1.0	False	59	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	e668b372-dbd1-4433-8da6-4dcb236f3a8b	25363	False	D:1:0.0;P:82:1.0	False	22	1.0	False		non-informative
+HG00235|20p|SA-20p-03	c3c62b56-bd68-49e1-bf09-a9bafefa368f	23383	False	D:1:0.0;P:73:1.0	False	48	1.0	False		non-informative
+HG00235|20p|SA-20p-03	689cec45-6761-4008-9413-5f19b4437b3c	60140	False	D:1:0.0;P:89:1.0	False	60	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	51009ef6-4a1f-469e-b83b-ff96effda716	10954	False	D:1:0.0;P:53:1.0	False	54	1.0	False		non-informative
+HG00235|20p|SA-20p-03	3d01cd07-e082-4492-96b3-dc1cd2c15a35	37008	False	D:1:0.0;P:89:1.0	False	61	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	e3112062-45ff-4906-8281-6a6f361aae17	18382	False	D:1:0.0;P:79:1.0	False	61	1.0	False		non-informative
+HG00235|20p|SA-20p-03	8c56b4f9-0aae-4ba8-a1d9-f54ce1a9a595	7475	False	D:1:0.0;P:36:1.0	False	37	1.0	False		non-informative
+HG00235|20p|SA-20p-03	3292690f-5e43-45e6-a6bd-4afdbf3be7bd	16865	False	D:1:0.0;P:61:1.0	False	61	1.0	False		non-informative
+HG00235|20p|SA-20p-03	0b767641-1d8a-4bf3-9615-2f7a9c146ee9	8393	False	D:1:0.0;P:40:1.0	False	41	1.0	False		non-informative
+HG00235|20p|SA-20p-03	4d411b03-874e-4d34-846e-da82dda5e70f	79095	False	D:1:0.0;P:63:0.9365	False	57	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	9972a1b8-bfbc-4b10-a9dc-b1a521484d4a	55207	False	D:1:0.0;P:31:1.0	False	32	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	be8c8b03-d70f-4341-9fd6-ec0d4446c30e	18475	False	D:1:0.0;P:54:1.0	False	55	1.0	False		non-informative
+HG00235|20p|SA-20p-03	c661bf1e-6d1f-4f2d-ae60-a9b70d85319c	8871	False	D:1:0.0;P:43:1.0	False	44	1.0	False		non-informative
+HG00235|20p|SA-20p-03	1e0c866c-b0b3-4acb-80bc-82ad189f47ec	44013	False	D:1:0.0;P:44:1.0	False	0		True	unique	non-informative
+HG00235|20p|SA-20p-03	a6ab4e35-991c-4544-abe0-18ffbd1ca601	11402	False	D:1:0.0;P:42:1.0	False	43	1.0	False		non-informative
+HG00235|20p|SA-20p-03	86424454-9506-4512-9266-5db341ec85bd	5396	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+HG00235|20p|SA-20p-03	37d7f26f-1e90-4488-ab68-a4ba0f51ef3c	20302	False	D:1:0.0;P:32:1.0	False	33	1.0	False		non-informative
+HG00235|20p|SA-20p-03	3fda5ef8-d6f4-4ac9-9d16-ea80559af192	15309	False	D:1:0.0;P:31:1.0	False	32	1.0	False		non-informative
+HG00235|20p|SA-20p-03	0d8c5fac-d2d7-4c3d-bb2e-16f10cefd1f6	17726	False	D:1:0.0;P:29:1.0	False	30	1.0	False		non-informative
+HG00235|20p|SA-20p-03	37b4594b-df37-4cb6-9237-5234ca34dc46	50214	False	D:1:0.0;P:24:1.0	False	25	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	bd427b9a-1f0d-49e9-8841-24d91d2c908e	24963	False	D:1:0.0;P:21:1.0	False	22	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	586fb77a-044b-42c9-9dbf-48fc8531e596	49968	False	D:1:0.0;P:14:1.0	False	15	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	e548b7fb-c602-4132-b9b7-9830a34f387c	19168	False	D:1:0.0;P:14:1.0	False	15	1.0	False		non-informative
+HG00235|20p|SA-20p-03	d7be3d2e-cba2-4e3d-bfbf-26261079c33f	13323	False	D:1:0.0;P:12:1.0	False	13	1.0	False		non-informative
+HG00235|20p|SA-20p-03	bb03fdf6-fe95-44c4-85f6-81220e6a2193	25153	False	D:1:0.0;P:8:1.0	False	9	1.0	True	unique	non-informative
+HG00235|20p|SA-20p-03	bc2a36d4-ff6f-4ded-87fd-5762bb1890d5	23523	False	D:1:0.0;P:5:1.0	False	6	1.0	False		non-informative
+HG00235|20p|SA-20p-03	923880b5-78ce-4f45-9088-7c8edebc4bf5	23618	False	D:1:0.0;P:5:1.0	False	6	1.0	False		non-informative
+HG00235|20p|SA-20p-03	3f239963-b6f2-4618-86e9-515ebc8baafb	13155	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	24e535b7-68cb-4f62-9090-4c50af4dddb8	47756	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	7bef259b-db52-4e9a-8a8f-299d416b4d74	29356	False		False	0		True	unique	non-informative
+HG00235|20p|SA-20p-03	282eeb77-a001-42e7-9a46-3cf8091ab95a	19990	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	7ae1e802-e9ef-4e1d-9db6-f7ee0411cb60	7271	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	13c9a085-5659-4ae9-bc14-5923d87d48a6	49121	False		False	0		True	unique	non-informative
+HG00235|20p|SA-20p-03	b81727f3-10e6-493d-939e-f196d8e7a661	8612	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	8632f5b0-f069-4205-8a08-2f2f98199552	40506	False		False	0		True	unique	non-informative
+HG00235|20p|SA-20p-03	8425fbdd-e0cf-4675-930f-6415257542df	11065	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	6b17eaeb-1882-4059-b189-e16e08239023	34779	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	c26140ea-1874-47ec-bf96-fc2e3ad5a284	6110	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	cd7a90c7-5dfc-4df5-ac92-ee1237da1f40	5285	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	1fe7b393-d11e-4096-9998-e8f61e32b826	15739	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	3fe90eb5-4d41-41e7-b2bb-5a12768e61c8	15029	False	D:4:0.75;P:2:0.5	False	0		False		non-informative
+HG00235|20p|SA-20p-03	c9140c4e-2047-4fbe-b496-019f64892ba5	15684	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	5ed1c09b-4522-485d-921b-a64e70580334	9926	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	fd891ff1-cc78-4266-aedb-40997398c306	22369	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	002e88b0-1675-4786-b67a-9fffe1367eb0	19000	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	b0d83584-7497-4748-97b0-f4855ff8d1b8	47235	False		False	0		True	unique	non-informative
+HG00235|20p|SA-20p-03	4f964543-34b7-41f3-bd2f-d0ec4b7fd092	6687	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	a2723c01-1173-4797-9392-bdb3ebe83576	23057	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	c83c07c6-17d2-46c7-90c4-02707431a41e	9939	False		False	0		False		non-informative
+HG00235|20p|SA-20p-03	a8199d6a-ab73-4913-8d7e-ee4b875ae73d	34463	False		False	0		True	mapq60_shared	non-informative
+HG00146|20p|SA-20p-03	5b805f97-caaa-41b2-ac73-747656487009	77224	True	D:1:0.0;P:182:0.956	False	56	0.9286	True	unique	non-informative
+HG00146|20p|SA-20p-03	a6f65ae7-2207-431a-81ba-dbe7760788a6	48253	False	D:1:0.0;P:137:0.9708	False	53	0.9623	False		non-informative
+HG00146|20p|SA-20p-03	4e09b23d-7536-4654-bc82-57efcba6d6fa	32277	False	D:1:0.0;P:68:0.8971	False	49	0.898	False		non-informative
+HG00146|20p|SA-20p-03	52b434cf-d849-4e82-88a4-0e417183ff7f	32817	True	D:1:0.0;P:79:0.9367	False	71	0.9577	False		non-informative
+HG00146|20p|SA-20p-03	7f41ad94-6cbc-4790-9a62-7876894fa2c6	25173	True	D:1:0.0;P:75:0.9067	False	60	0.95	False		non-informative
+HG00146|20p|SA-20p-03	506e5c85-9839-46b6-8809-eed9d519c94c	20689	False	D:1:0.0;P:71:0.9296	False	61	0.9344	False		non-informative
+HG00146|20p|SA-20p-03	4acd767b-f812-45ff-b145-4a08a44bb092	34834	True	D:1:0.0;P:78:0.9487	False	54	0.963	True	unique	non-informative
+HG00146|20p|SA-20p-03	96b784f9-d11e-40eb-ab12-db54fffef44d	20231	False	D:1:0.0;P:68:0.9412	False	54	0.963	False		non-informative
+HG00146|20p|SA-20p-03	1292ec39-512f-4acc-ac8c-240b8ec764f9	19359	False	D:1:0.0;P:66:0.9394	False	61	0.9344	False		non-informative
+HG00146|20p|SA-20p-03	3571b75f-842c-43a7-81cf-f5e1b2c78969	27925	True	D:1:0.0;P:75:0.9467	False	56	0.9643	False		non-informative
+HG00146|20p|SA-20p-03	03a3ae43-2fb5-4d12-bf52-e20e3858ecb4	29863	True	D:1:0.0;P:69:0.971	False	56	0.9821	False		non-informative
+HG00146|20p|SA-20p-03	b71cc096-156b-4192-bfb7-3bf3010c22e5	12565	True	D:1:0.0;P:51:0.9608	False	52	0.9615	False		non-informative
+HG00146|20p|SA-20p-03	639d4810-fa75-44bf-b4cf-c205d2268e62	17188	True	D:1:0.0;P:9:1.0	False	10	1.0	False		non-informative
+HG00146|20p|SA-20p-03	a873fc15-a732-4ef2-b77e-c3421c0d359e	25217	True	D:2:0.5;P:64:0.9688	False	59	0.9661	False		non-informative
+HG00146|20p|SA-20p-03	34db1958-0f85-492a-bcc1-6ccf97b5d3f0	48779	True	D:1:1.0;P:180:0.9889	False	69	0.971	True	unique	contradicts
+HG00146|20p|SA-20p-03	f401ad4b-eac8-4617-b880-11bbc195b2f0	11899	True	D:1:0.0;P:34:0.9706	False	35	0.9714	False		non-informative
+HG00146|20p|SA-20p-03	66ab79fb-052e-49fd-aee4-02a4196df99d	63197	True	D:1:1.0;P:176:0.9773	False	64	0.9375	True	unique	contradicts
+HG00146|20p|SA-20p-03	ac1cf4bc-b60f-4198-a973-ed7ed9a39763	14223	True	D:1:0.0;P:44:0.8182	False	45	0.8222	False		non-informative
+HG00146|20p|SA-20p-03	3b03a3d7-52d8-437e-b932-b45dddb08882	83169	False	D:2:1.0;P:176:0.9716	False	0		True	unique	non-informative
+HG00146|20p|SA-20p-03	90d6ef09-b1cc-407e-b32d-66104167acab	89857	False	D:2:0.5;P:179:0.9721	False	0		True	unique	non-informative
+HG00146|20p|SA-20p-03	f49f7e26-7510-41e7-81fe-a7c266a8e041	10600	True	D:3:0.3333;P:21:1.0	False	24	0.9583	False		non-informative
+HG00146|20p|SA-20p-03	6a0411ba-5bb6-493e-9463-8dbb31f8a9ae	13073	True	D:1:0.0;P:16:1.0	False	17	1.0	False		non-informative
+HG00146|20p|SA-20p-03	1ce48b22-450c-4359-a78e-24f92f49a56c	78159	True	D:1:0.0;P:182:0.978	False	64	0.9844	True	unique	contradicts
+HG00146|20p|SA-20p-03	c6478544-1a8b-474b-bad5-78a6b2defb88	17913	True	D:2:0.5;P:71:0.9859	False	71	0.9718	False		non-informative
+HG00146|20p|SA-20p-03	d8861fe4-cb3f-4b00-8370-a08f4cdd03c9	31413	True	D:1:0.0;P:83:0.9518	False	65	0.9692	True	unique	contradicts
+HG00146|20p|SA-20p-03	c3a9eb4f-6eed-471b-a40c-79f771a763c1	6879	True		False	0		False		non-informative
+HG00146|20p|SA-20p-03	10885912-2d48-45b5-8f2f-d3a65ee46df8	39449	False	D:2:0.5;P:114:0.9474	False	48	0.9167	False		non-informative
+HG00146|20p|SA-20p-03	25025c2c-4d77-44e1-8036-6d45163f41db	6756	True		False	0		False		non-informative
+HG00146|20p|SA-20p-03	22b4f026-bd37-452b-96a7-c01e01a603d7	51554	True	D:2:0.5;P:181:0.9779	False	64	0.9531	True	unique	contradicts
+HG00146|20p|SA-20p-03	f3faed8e-a1b9-49e5-a45e-bb1ef0a3bac2	41667	False	D:1:0.0;P:131:0.9618	False	55	0.9636	False		non-informative
+HG00146|20p|SA-20p-03	b8c52196-1c12-4486-8715-4fd047cd9987	16961	True	D:1:0.0;P:55:0.9455	False	54	0.9444	False		non-informative
+HG00146|20p|SA-20p-03	cc5eac7c-585d-4bb3-90d7-b891f92c6cdd	19224	True	D:3:0.3333;P:21:1.0	False	24	0.9583	False		non-informative
+HG00146|20p|SA-20p-03	a8368b0f-4114-41ca-a584-a57c5d8f823e	19720	True	D:1:0.0;P:68:0.9559	False	69	0.9565	False		non-informative
+HG00146|20p|SA-20p-03	48eb2910-a98c-4c1a-982a-b290fc67d8e2	9945	True	D:1:0.0;P:49:0.9592	False	50	0.96	False		non-informative
+HG00146|20p|SA-20p-03	88537745-91db-4b0e-84e9-a3426a1192b2	7940	True		False	0		False		non-informative
+HG00146|20p|SA-20p-03	c30be9a3-2d90-4752-a748-2ec5fc48a71a	14834	True	D:1:0.0;P:39:0.8205	False	40	0.825	False		non-informative
+HG00146|20p|SA-20p-03	c9ad03ee-3a77-4a73-9b0e-4b13e82215a6	12818	True	D:1:1.0;P:49:0.9592	False	50	0.94	False		non-informative
+HG00146|20p|SA-20p-03	1a2c545e-aaab-4c35-9e34-fdf66ac877d3	19064	False	D:1:0.0;P:50:0.98	False	18	0.9444	False		non-informative
+HG00146|20p|SA-20p-03	fcaa597c-1d37-45f3-8494-543667b4fb8a	54901	False	D:2:1.0;P:80:0.8875	False	39	0.8462	False		non-informative
+HG00146|20p|SA-20p-03	4800d586-299e-4620-9f44-a5591fe8b751	57107	True	D:3:0.3333;P:174:0.9828	False	67	0.9552	True	unique	contradicts
+HG00146|20p|SA-20p-03	fbab59ae-2f60-4de2-becf-0f238b9fdc84	26334	True	D:1:0.0;P:73:0.9452	False	64	0.9531	False		non-informative
+HG00146|20p|SA-20p-03	81b3843f-e73e-4fd0-8b32-715c38f53e47	22771	False	D:1:0.0;P:70:0.9429	False	53	0.9623	False		non-informative
+HG00146|20p|SA-20p-03	28dae881-70fa-4c32-acd9-9887693800a7	12230	True	D:1:0.0;P:42:0.9762	False	43	0.9767	False		non-informative
+HG00146|20p|SA-20p-03	79334210-5b7f-40b3-804f-6c859d44739a	43083	True	D:1:0.0;P:128:0.9688	False	71	0.9577	True	unique	contradicts
+HG00146|20p|SA-20p-03	7544ed88-3a90-4b29-adae-ad84fc53487f	14172	True	D:1:0.0;P:55:0.9818	False	56	0.9821	False		non-informative
+HG00146|20p|SA-20p-03	4bea87c6-2dc8-478e-8ce0-a1e350f56027	13928	True	D:1:0.0;P:40:0.95	False	41	0.9512	False		non-informative
+HG00146|20p|SA-20p-03	a366689a-3d14-492c-a080-c4cc3e0de0ff	40401	True	D:2:0.5;P:126:0.9762	False	65	0.9538	False		non-informative
+HG00146|20p|SA-20p-03	b1949e00-e63e-4631-849d-f2684beb3655	6509	True	D:1:0.0;P:10:0.9	False	11	0.9091	False		non-informative
+HG00146|20p|SA-20p-03	ee29472d-e987-4059-a923-824491f52e89	12098	True	D:1:0.0;P:47:0.9787	False	48	0.9792	False		non-informative
+HG00146|20p|SA-20p-03	add8a9ab-84fd-486a-af06-a09bab162fdc	9158	True	D:1:0.0;P:32:1.0	False	33	1.0	False		non-informative
+HG00146|20p|SA-20p-03	eaefa949-8119-4844-8a11-332496ecca28	6329	False	D:1:0.0;P:14:1.0	False	15	1.0	False		non-informative
+HG00146|20p|SA-20p-03	1a91e228-8908-46fc-bfef-85b755fcbcf2	20395	False	D:3:0.3333;P:55:0.9818	False	58	0.9655	False		non-informative
+HG00146|20p|SA-20p-03	8ae23023-9bc7-4393-8dc6-dada54eae53e	12852	False	D:1:0.0;P:25:0.96	False	26	0.9615	False		non-informative
+HG00146|20p|SA-20p-03	64b6ad53-b9bc-438d-9ece-48c6ebcdeb65	70042	True	D:1:0.0;P:178:0.9719	False	68	0.9559	True	unique	contradicts
+HG00146|20p|SA-20p-03	947a91ec-f5e7-4b79-bb15-3b61e645f599	57728	True	D:1:0.0;P:135:0.9481	False	51	0.902	True	unique	contradicts
+HG00146|20p|SA-20p-03	d9ca6d3d-4e87-4b3a-a583-2c70d5a33c13	35861	False	D:1:0.0;P:132:0.9697	False	69	0.971	True	unique	non-informative
+HG00146|20p|SA-20p-03	d120dac2-64c4-49fd-8ee2-3d72a1038c3c	22821	True	D:1:0.0;P:61:0.9016	False	34	0.9412	False		non-informative
+HG00146|20p|SA-20p-03	d0d91728-1647-4b43-b68f-af77b5a4ffad	9018	False	D:1:0.0;P:55:0.9636	False	56	0.9643	False		non-informative
+HG00146|20p|SA-20p-03	d3311261-b067-41f3-80cd-8e8c50f95102	32597	False	D:2:0.5;P:44:0.8182	False	41	0.8537	False		non-informative
+HG00146|20p|SA-20p-03	c55c0394-fd42-4aaf-b111-64557fd07f87	14572	True	D:1:0.0;P:41:0.8293	False	42	0.8333	False		non-informative
+HG00146|20p|SA-20p-03	8c4a5f2d-d7c8-4344-84a5-acaaef94fb54	12679	False	D:1:0.0;P:61:0.918	False	62	0.9194	False		non-informative
+HG00146|20p|SA-20p-03	9d31649e-2ea7-4d86-bd59-cd07f096bc13	27681	False	D:2:0.5;P:81:0.9012	False	58	0.8793	False		non-informative
+HG00146|20p|SA-20p-03	113e0388-f148-4b87-98bd-981dda87dfa3	106712	False	D:1:0.0;P:138:0.9275	False	51	0.8627	True	unique	non-informative
+HG00146|20p|SA-20p-03	e31f06e6-87ae-483f-9bf2-1e2ef5ec3d95	12159	True	D:2:0.5;P:24:0.875	False	26	0.8462	False		non-informative
+HG00146|20p|SA-20p-03	c40c6dc2-9dc6-4f55-98d5-3deea23bb4ef	8365	False	D:1:0.0;P:41:0.9756	False	42	0.9762	False		non-informative
+HG00146|20p|SA-20p-03	a624d4a4-0b46-434b-a3b1-415f3312c2ac	10381	False	D:1:0.0;P:34:0.7941	False	35	0.8	False		non-informative
+HG00146|20p|SA-20p-03	787678f9-379c-4dda-87b9-270a5b58092f	5410	False	D:1:0.0;P:32:0.9688	False	33	0.9697	False		non-informative
+HG00146|20p|SA-20p-03	d7d709f1-65e6-4c5b-968a-2f571df09ffa	11821	False	D:1:0.0;P:37:0.9459	False	38	0.9474	False		non-informative
+HG00146|20p|SA-20p-03	6ae63dbd-a0a3-492a-8a65-2d2c065cc9f6	6142	False	D:1:0.0;P:16:0.75	False	17	0.7647	False		non-informative
+HG00146|20p|SA-20p-03	9a057fea-fc5a-4b57-b04e-2cfff54c73d9	10432	False	D:1:0.0;P:29:0.931	False	30	0.9333	False		non-informative
+HG00146|20p|SA-20p-03	0c37e5fa-2eba-48b7-a232-fa91bec2ae2d	7501	False	D:1:0.0;P:2:1.0	False	3	1.0	False		non-informative
+HG00146|20p|SA-20p-03	5021e181-7b7f-40c8-b001-b8c7a584c72b	5302	False	D:1:0.0;P:14:1.0	False	15	1.0	False		non-informative
+HG00146|20p|SA-20p-03	776ed9b8-87ab-4b7f-b312-91868c0280c0	10432	False	D:3:0.3333;P:13:1.0	False	16	0.9375	False		non-informative
+HG00146|20p|SA-20p-03	99d80d56-5528-43ce-a727-306ec871d455	9606	False	D:1:0.0;P:14:0.8571	False	15	0.8667	False		non-informative
+HG00146|20p|SA-20p-03	1a1eb403-ef24-4d00-a37f-7a20fbad8174	13156	False	D:1:1.0;P:12:1.0	False	13	0.9231	False		non-informative
+HG00146|20p|SA-20p-03	f5ef9ba4-fa34-4665-a785-a1b4bed105e2	41858	False	D:1:0.0;P:114:0.9912	False	26	0.9615	True	unique	non-informative
+HG00146|20p|SA-20p-03	f3865d6c-8807-4fbe-8b4f-008cf6c2b213	65972	False	D:1:0.0;P:110:0.9909	False	33	0.9697	True	unique	non-informative
+HG00146|20p|SA-20p-03	818c1118-8703-4360-b2a2-e970cc168f47	5437	False	D:1:1.0;P:2:1.0	False	3	0.6667	False		non-informative
+HG00146|20p|SA-20p-03	e8714560-ec5b-467e-86fc-c89d548230a8	5882	False	D:1:1.0;P:2:1.0	False	3	0.6667	False		non-informative
+HG00146|20p|SA-20p-03	9126fba5-14d6-440d-9bcf-ad9e01481757	19121	False	D:1:1.0;P:61:1.0	False	41	0.9756	False		non-informative
+HG00146|20p|SA-20p-03	1a8d0b2b-55d1-49a7-bede-469a1e154749	10201	False	D:1:1.0;P:22:1.0	False	23	0.9565	False		non-informative
+HG00146|20p|SA-20p-03	3eb391be-6bb0-40d8-b1e2-d4f95a9271c7	5775	False	D:1:1.0;P:4:1.0	False	5	0.8	False		non-informative
+HG00146|20p|SA-20p-03	a2639d05-3d49-4bf4-b920-5123731f16c0	9930	False	D:1:0.0;P:27:1.0	False	28	1.0	False		non-informative
+HG00146|20p|SA-20p-03	74ccaab9-62f6-4cff-96cb-93283c987bb1	9824	False	D:1:0.0;P:27:1.0	False	28	1.0	False		non-informative
+HG00146|20p|SA-20p-03	477f89a5-142c-4b25-9fed-a831b9b315ee	23549	False	D:1:0.0;P:89:1.0	False	48	1.0	False		non-informative
+HG00146|20p|SA-20p-03	e51effae-686f-44df-883f-a8c95d120320	7392	False	D:1:0.0;P:18:1.0	False	19	1.0	False		non-informative
+HG00146|20p|SA-20p-03	7447cfc1-096a-4132-85de-c2d23d9ea489	11325	False	D:1:0.0;P:42:1.0	False	43	1.0	False		non-informative
+HG00146|20p|SA-20p-03	82f722ac-5c5f-4e34-8420-0da86a8ce096	9869	False	D:1:0.0;P:35:1.0	False	36	1.0	False		non-informative
+HG00146|20p|SA-20p-03	4f3fd2dd-4d79-487c-8848-0bd7ed75309f	13018	False	D:2:1.0;P:54:1.0	False	56	0.9643	False		non-informative
+HG00146|20p|SA-20p-03	87bb92a2-ef88-43a4-aa72-68aea970d30f	9058	False	D:1:1.0;P:36:1.0	False	37	0.973	False		non-informative
+HG00146|20p|SA-20p-03	f1841fae-3552-402f-b950-67aa4bbbf198	5105	False	D:1:0.0;P:11:1.0	False	12	1.0	False		non-informative
+HG00146|20p|SA-20p-03	b3d6469a-dfe0-463a-975e-2a2a00b00ce0	19393	False	D:1:0.0;P:36:1.0	False	28	1.0	False		non-informative
+HG00146|20p|SA-20p-03	9b95154a-2132-4ed6-9885-b63232307056	6654	False	D:1:0.0;P:32:1.0	False	33	1.0	False		non-informative
+HG00146|20p|SA-20p-03	e963d545-f163-4d59-bbec-6c5e763b21a1	6405	False	D:1:0.0;P:31:1.0	False	32	1.0	False		non-informative
+HG00146|20p|SA-20p-03	6c5ae8e1-3fe4-4776-9375-c25787006c8a	22753	False	D:1:0.0;P:98:1.0	False	74	1.0	False		non-informative
+HG00146|20p|SA-20p-03	2532fe7f-f99b-4555-8df0-a115d4823667	10781	False	D:1:0.0;P:52:1.0	False	53	1.0	False		non-informative
+HG00146|20p|SA-20p-03	ab3683c7-afc7-497e-821d-350ccf5bb149	13162	False	D:1:0.0;P:64:1.0	False	65	1.0	False		non-informative
+HG00146|20p|SA-20p-03	73dde173-dd63-4e8b-9db5-dc844973805c	6351	False	D:1:0.0;P:29:1.0	False	30	1.0	False		non-informative
+HG00146|20p|SA-20p-03	b2e5ed48-2fe1-477b-99f7-6b4248ae112b	10348	False	D:1:0.0;P:47:1.0	False	48	1.0	False		non-informative
+HG00146|20p|SA-20p-03	9a7b1afe-fbc2-4aa8-8d76-138bbab84ce9	10758	False	D:1:0.0;P:52:1.0	False	53	1.0	False		non-informative
+HG00146|20p|SA-20p-03	e9556ce4-321f-4410-bf1d-e912e3cbdb29	5657	False	D:1:0.0;P:27:1.0	False	28	1.0	False		non-informative
+HG00146|20p|SA-20p-03	6ef46a5b-80a5-46f6-b3f5-8b71e71ab0b3	22554	False	D:1:0.0;P:41:1.0	False	40	1.0	False		non-informative
+HG00146|20p|SA-20p-03	9a0d2b4d-ae38-4831-8b1c-013d9e368e22	10497	False	D:1:0.0;P:51:1.0	False	52	1.0	False		non-informative
+HG00146|20p|SA-20p-03	320d8183-5080-4233-9652-4f27bf819782	6372	False	D:1:0.0;P:13:1.0	False	14	1.0	False		non-informative
+HG00146|20p|SA-20p-03	d7c02a82-7d5d-4bdd-92e0-71f2a27e596c	31439	False	D:1:0.0;P:72:1.0	False	73	1.0	True	unique	non-informative
+HG00146|20p|SA-20p-03	eade275c-19c0-42c1-9444-241992e7c3c4	5511	False	D:1:0.0;P:19:1.0	False	20	1.0	False		non-informative
+HG00146|20p|SA-20p-03	8a595c28-dc83-4154-ac25-1604fb6bdd5b	7768	False	D:1:0.0;P:30:1.0	False	31	1.0	False		non-informative
+HG00146|20p|SA-20p-03	eb2e8b5b-12b3-4808-87c7-e28945e73428	24340	False	D:1:0.0;P:63:1.0	False	17	1.0	False		non-informative
+HG00146|20p|SA-20p-03	311ad3df-0712-42e3-a8af-360c1f42384c	18669	False	D:1:0.0;P:69:1.0	False	70	1.0	False		non-informative
+HG00146|20p|SA-20p-03	a309d2d8-026b-48a2-bde3-df5f8619012c	12882	False	D:1:0.0;P:47:1.0	False	48	1.0	False		non-informative
+HG00146|20p|SA-20p-03	36629164-a60f-4569-b97a-b9cc59ef9992	21357	False	D:1:0.0;P:63:1.0	False	64	1.0	False		non-informative
+HG00146|20p|SA-20p-03	af85b4c9-8bd8-4e0c-bb55-f7ff66784e99	5594	False	D:1:0.0;P:16:1.0	False	17	1.0	False		non-informative
+HG00146|20p|SA-20p-03	b47717fb-1fb9-4d30-8a7c-e10ea2554db2	22843	False	D:1:0.0;P:61:1.0	False	62	1.0	False		non-informative
+HG00146|20p|SA-20p-03	9b68acff-2437-47e9-81f9-d8a2d9f69720	5222	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+HG00146|20p|SA-20p-03	67d7a3da-b2d3-423b-a89a-e95e76d3765f	5437	False	D:1:0.0;P:26:1.0	False	27	1.0	False		non-informative
+HG00146|20p|SA-20p-03	dc614996-f664-4a14-88f2-1077ba81ea17	19650	False	D:1:0.0;P:20:1.0	False	21	1.0	False		non-informative
+HG00146|20p|SA-20p-03	1a203ed0-6e88-4044-b79b-e0e990b650ac	10377	False	D:1:0.0;P:49:1.0	False	50	1.0	False		non-informative
+HG00146|20p|SA-20p-03	3c218c3f-cd09-402c-98c3-653daab4168e	20341	False	D:1:0.0;P:48:1.0	False	49	1.0	False		non-informative
+HG00146|20p|SA-20p-03	74947f95-3f7f-429d-b4b4-497bfa81c60f	11491	False	D:1:0.0;P:46:1.0	False	47	1.0	False		non-informative
+HG00146|20p|SA-20p-03	f390589e-013d-446f-ae46-0541c272e5f0	8725	False	D:1:0.0;P:39:1.0	False	40	1.0	False		non-informative
+HG00146|20p|SA-20p-03	9e74f3cd-03e9-4069-bc58-03b75a513a33	34314	False	D:1:0.0;P:45:1.0	False	46	1.0	True	unique	non-informative
+HG00146|20p|SA-20p-03	7244fd93-1a28-4ea4-b196-d3e6ab803954	34563	False	D:1:0.0;P:45:1.0	False	46	1.0	True	unique	non-informative
+HG00146|20p|SA-20p-03	1638f199-bed3-4dd4-b073-6dc546a02dee	10995	False	D:1:0.0;P:44:1.0	False	45	1.0	False		non-informative
+HG00146|20p|SA-20p-03	b64458f4-4b45-4608-8ad8-77ba0c873979	7169	False	D:1:0.0;P:34:1.0	False	35	1.0	False		non-informative
+HG00146|20p|SA-20p-03	7f3505da-fd95-4ea5-9ffa-41f6edb4e276	11298	False	D:1:0.0;P:44:1.0	False	45	1.0	False		non-informative
+HG00146|20p|SA-20p-03	30e8651f-dbed-4f12-b6cd-16e95ba79591	13684	False	D:1:0.0;P:39:1.0	False	40	1.0	False		non-informative
+HG00146|20p|SA-20p-03	6da095a9-81e1-4fe2-ac37-effd41f3cb22	6234	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+HG00146|20p|SA-20p-03	763f2dc4-1a95-4859-a794-3db00bc35e0a	5534	False	D:1:0.0;P:14:1.0	False	15	1.0	False		non-informative
+HG00146|20p|SA-20p-03	7bcff6f9-be81-4da4-a40a-23c67be7e233	7955	False	D:1:0.0;P:29:1.0	False	30	1.0	False		non-informative
+HG00146|20p|SA-20p-03	cfbdab3f-8dfd-43df-9009-a23dba1f91fc	5245	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+HG00146|20p|SA-20p-03	e5ca4b88-e0ec-4d13-98a9-cb8d339a9811	5589	False	D:1:0.0;P:18:1.0	False	19	1.0	False		non-informative
+HG00146|20p|SA-20p-03	c2aff30c-c071-4a33-943b-ce5e22afbfec	14760	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+HG00146|20p|SA-20p-03	d9a8dd32-a7da-494b-9506-75172bf4a882	5025	False	D:1:0.0;P:18:1.0	False	19	1.0	False		non-informative
+HG00146|20p|SA-20p-03	93ee1c86-7ee5-42d8-9f76-7953460030be	24027	False	D:1:0.0;P:23:1.0	False	24	1.0	False		non-informative
+HG00146|20p|SA-20p-03	c4883db8-c782-4281-aa9c-2a7c93d79ac2	8284	False	D:1:0.0;P:19:1.0	False	20	1.0	False		non-informative
+HG00146|20p|SA-20p-03	203025f7-0400-44d2-b7b7-ba6e0bc0097c	27283	False	D:1:0.0;P:6:1.0	False	7	1.0	True	unique	non-informative
+HG00146|20p|SA-20p-03	2badc915-240e-4b54-859d-fa2cb5a8632c	6365	False	D:1:0.0;P:6:1.0	False	7	1.0	False		non-informative
+HG00146|20p|SA-20p-03	43c7880a-9ef4-4755-ac84-f6812fab8dad	19012	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	7b81bc82-6cb1-4d28-88c2-41496ee42850	8395	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	3294bc01-0129-410c-9d78-ebdc8e49c5f6	6550	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	b8ba42b8-8df4-4343-a865-43195ef03217	37548	False		False	0		True	unique	non-informative
+HG00146|20p|SA-20p-03	dfbe949e-e049-4f65-ba84-91c7c37a478e	9801	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	f7036f47-3d6f-4900-9c28-70bf268c7a04	17408	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	715e5e4c-6aa5-4794-bf15-3759a3d9d95f	9104	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	52cc9c01-9d4d-4e8d-8c70-72560099d5d5	13203	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	b72d8ae6-a301-40f5-972a-28b77e16cc79	10405	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	b7e9607c-7ad2-4578-bdf6-6cb1084390da	7847	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	9137332c-184a-4b85-8802-fc686baee7f2	61144	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	39f6189b-6965-4b98-8ab9-f46b9c49215f	20315	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	65ea233a-9db2-4061-98d7-02014c39f4bc	8761	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	dfbbbce4-b35f-4fbb-a675-11c9cbb2b9b1	6682	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	91e63b48-d549-4aae-8cd8-02a7f94f7cc8	30197	False		False	0		True	unique	non-informative
+HG00146|20p|SA-20p-03	3271a86f-a924-49ab-80af-412fbe4d0a0a	70922	False		False	0		True	unique	non-informative
+HG00146|20p|SA-20p-03	0ce1aa48-5d0c-40b8-9409-88e7e6a4ce68	5878	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	c4fd31b1-b4bc-4c44-b123-f8c85cd7fc28	24140	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	e3eed759-0b9a-42e6-98f3-7fcaabf99dbf	5507	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	d73697c4-8407-45da-9a77-b917cdadbbab	40288	False		False	0		True	unique	non-informative
+HG00146|20p|SA-20p-03	c480ab58-cc7c-4528-9e60-fe2959d00538	6760	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	a1e7775d-cb80-4f0b-8d3f-e7e58ddd69bd	5322	False		False	0		False		non-informative
+HG00146|20p|SA-20p-03	51fbc877-fb28-42ba-8692-8aad4bfa7924	33466	False		False	0		True	mapq60_shared	non-informative
+HG00146|20p|SA-20p-03	22a3dda4-f5f3-4149-bf95-daccb0da5455	6659	False		False	0		False		non-informative
+NA18960|20p|SA-20p-03	5aee4099-7990-416f-b339-90bf23e405e7	37126	True	D:1:0.0;P:116:0.9741	False	58	0.9483	False		non-informative
+NA18960|20p|SA-20p-03	6710cfde-1a5e-495d-9def-bdf8bbb34137	69468	True	D:1:0.0;P:179:0.9888	False	54	0.9815	True	unique	contradicts
+NA18960|20p|SA-20p-03	c2d3b9ce-5dcb-494d-bc26-ca6d4a9d28bf	8194	True	D:1:0.0;P:39:0.8205	False	40	0.825	False		non-informative
+NA18960|20p|SA-20p-03	3f934732-ec5e-489c-b9c6-c637d21d4aff	29054	False	D:1:0.0;P:96:0.9792	False	66	0.9848	True	unique	non-informative
+NA18960|20p|SA-20p-03	46287397-7c2a-47ce-a72f-54d4531e7c4a	12690	True	D:1:0.0;P:44:0.9318	False	45	0.9333	False		non-informative
+NA18960|20p|SA-20p-03	4d371e88-ce7d-4276-b1fa-2ab9b840aa71	17160	True	D:1:0.0;P:51:0.7843	False	52	0.7885	False		non-informative
+NA18960|20p|SA-20p-03	dda3effc-73b5-46d5-9a81-c849ce1c51fc	20100	False	D:1:0.0;P:73:0.9726	False	63	0.9841	False		non-informative
+NA18960|20p|SA-20p-03	89a721e5-b6fa-4c88-b569-349e3016ade7	11331	True	D:1:0.0;P:61:0.9672	False	62	0.9677	False		non-informative
+NA18960|20p|SA-20p-03	fbdeba7d-e169-43c0-beb4-2584e2bb1a00	15568	True	D:2:0.5;P:49:0.8367	False	51	0.8235	False		non-informative
+NA18960|20p|SA-20p-03	c9ce6300-a9d1-448c-af66-0393d74b7333	15893	True	D:1:0.0;P:42:0.881	False	43	0.8837	False		non-informative
+NA18960|20p|SA-20p-03	f811177e-114e-4d47-97df-4dae6a49c875	12509	True	D:1:0.0;P:40:0.875	False	41	0.878	False		non-informative
+NA18960|20p|SA-20p-03	abdf1fca-cc43-4053-94d4-66ac909b275f	13573	True	D:1:0.0;P:54:0.9815	False	55	0.9818	False		non-informative
+NA18960|20p|SA-20p-03	58bc0a8f-c834-4fd0-8fff-9a9d774f7344	12122	True	D:1:0.0;P:38:0.9211	False	39	0.9231	False		non-informative
+NA18960|20p|SA-20p-03	3d0478fb-ab87-4ee4-9aab-51e5b88db801	11922	True	D:1:0.0;P:54:0.9815	False	55	0.9818	False		non-informative
+NA18960|20p|SA-20p-03	f55d7dc4-7ca1-4c48-9048-e9a2d013337c	15891	True	D:1:0.0;P:52:0.8462	False	53	0.8491	False		non-informative
+NA18960|20p|SA-20p-03	ca15b7e4-5115-4d29-87c4-2c5c7ef04eb1	9422	True	D:1:1.0;P:52:0.9808	False	53	0.9623	False		non-informative
+NA18960|20p|SA-20p-03	caef9d6a-cc66-42c2-a423-897280cdc6e8	37235	True	D:1:0.0;P:100:0.98	False	64	0.9844	False		non-informative
+NA18960|20p|SA-20p-03	a4cfa1c0-d7cd-43a3-8b40-4a73e78d0dfa	18367	False	D:1:1.0;P:48:0.9167	False	22	0.9091	False		non-informative
+NA18960|20p|SA-20p-03	1b00244d-26d4-4f6f-a5d8-f0715d793148	14128	True	D:1:0.0;P:62:0.9677	False	63	0.9683	False		non-informative
+NA18960|20p|SA-20p-03	ac66f5b3-8f00-4c4d-8f52-a379241b35e4	24402	True	D:1:0.0;P:76:0.9474	False	64	0.9688	False		non-informative
+NA18960|20p|SA-20p-03	cafd0019-1245-4351-85d4-16540c262fd9	8035	True		False	0		False		non-informative
+NA18960|20p|SA-20p-03	40eb44be-21c5-4640-8585-18d6e32d65c0	20572	True	D:1:0.0;P:72:0.9861	False	66	0.9848	False		non-informative
+NA18960|20p|SA-20p-03	6111ff9b-91f5-4490-8bf0-5685b0aa53cf	25749	True	D:1:0.0;P:62:0.871	False	54	0.8704	False		non-informative
+NA18960|20p|SA-20p-03	ed554af9-eae2-4c6a-8d5f-a2e45d336201	37447	True	D:1:0.0;P:131:0.9847	False	66	0.9848	True	unique	contradicts
+NA18960|20p|SA-20p-03	1ef6556a-8359-4c0f-bf79-b731bf99c355	13245	False	D:1:0.0;P:69:0.971	False	69	0.971	False		non-informative
+NA18960|20p|SA-20p-03	399448f7-c1c0-43d2-8834-d0777b8fc8ed	12723	False	D:1:0.0;P:65:0.9692	False	66	0.9697	False		non-informative
+NA18960|20p|SA-20p-03	d8de037e-da0c-449f-8556-b0f9575d32ee	7674	False	D:1:0.0;P:39:0.9744	False	40	0.975	False		non-informative
+NA18960|20p|SA-20p-03	e7723d71-d261-49a7-8699-880e104586c0	15093	False	D:2:0.5;P:37:0.9189	False	38	0.9211	False		non-informative
+NA18960|20p|SA-20p-03	5de11929-92cc-46dd-b8e4-bd2ccf21416e	34107	False	D:5:1.0;P:56:0.9464	False	17	0.5294	False		non-informative
+NA18960|20p|SA-20p-03	81cb26f8-13c0-48d5-a699-00f79edfacec	13118	False	D:1:0.0;P:20:0.95	False	20	0.95	False		non-informative
+NA18960|20p|SA-20p-03	b65304f0-96b4-44fc-b136-3319672db930	37743	False	D:1:1.0;P:123:0.9837	False	20	0.85	True	unique	non-informative
+NA18960|20p|SA-20p-03	b360aa2f-a2a0-4b09-af19-de12c8d17b95	40778	False	D:1:0.0;P:123:0.9919	False	20	0.95	True	unique	non-informative
+NA18960|20p|SA-20p-03	0ce40e9a-ef7b-4d31-a8f1-afcbbd4733b7	29847	False	D:1:0.0;P:96:0.9896	False	15	0.9333	True	unique	non-informative
+NA18960|20p|SA-20p-03	ff7b8d7d-6a17-4e27-86f3-839ebc80baea	6555	False	D:1:0.0;P:4:0.75	False	5	0.8	False		non-informative
+NA18960|20p|SA-20p-03	57d4905a-c9eb-4388-8c53-b2b99a3f31b8	40909	False	D:6:0.6667;P:101:1.0	False	38	0.8947	False		non-informative
+NA18960|20p|SA-20p-03	f751372d-f8d2-4f67-b6d6-a76191c98e80	14184	False	D:1:0.0;P:52:1.0	False	47	1.0	False		non-informative
+NA18960|20p|SA-20p-03	790da9cc-068c-4986-a6b3-486a362d6613	8016	False	D:1:0.0;P:33:1.0	False	34	1.0	False		non-informative
+NA18960|20p|SA-20p-03	4ef74f80-7521-4fd6-bab1-c21c122035ab	17595	False	D:1:0.0;P:44:1.0	False	22	1.0	False		non-informative
+NA18960|20p|SA-20p-03	84a4cefd-3d0c-446b-9a28-77aff75a8540	12350	False	D:1:0.0;P:60:1.0	False	61	1.0	False		non-informative
+NA18960|20p|SA-20p-03	24de8ae5-35f6-43e0-97ad-5e3b4efd8f12	11476	False	D:1:0.0;P:56:1.0	False	57	1.0	False		non-informative
+NA18960|20p|SA-20p-03	15f274d2-f682-44cb-a893-bb9920572e32	12184	False	D:1:0.0;P:59:1.0	False	60	1.0	False		non-informative
+NA18960|20p|SA-20p-03	155f166b-cc7c-41fe-b19f-be2197cec68f	5254	False	D:1:0.0;P:22:1.0	False	23	1.0	False		non-informative
+NA18960|20p|SA-20p-03	49ca5fe3-16a2-4dc9-8c24-ac261667ed97	8086	False	D:1:0.0;P:39:1.0	False	40	1.0	False		non-informative
+NA18960|20p|SA-20p-03	0fbb4f88-d703-4701-9e7c-7ad869ff3644	6690	False	D:1:0.0;P:32:1.0	False	33	1.0	False		non-informative
+NA18960|20p|SA-20p-03	27eb71b0-3ede-400c-959e-cdef2cc7f98d	6226	False	D:1:0.0;P:29:1.0	False	30	1.0	False		non-informative
+NA18960|20p|SA-20p-03	8ed33a0b-7888-40c5-948e-830467a01d30	6853	False	D:1:0.0;P:33:1.0	False	34	1.0	False		non-informative
+NA18960|20p|SA-20p-03	23ed961d-0000-436d-9862-a7d3e67c2e19	14853	False	D:1:0.0;P:72:1.0	False	64	1.0	False		non-informative
+NA18960|20p|SA-20p-03	44211495-0688-44a7-87ec-bc16cf777992	53729	False	D:1:0.0;P:67:1.0	False	64	1.0	True	unique	non-informative
+NA18960|20p|SA-20p-03	8e97773e-558e-43a9-a9df-b5c5314ff7e2	25652	False	D:1:0.0;P:50:1.0	False	51	1.0	True	unique	non-informative
+NA18960|20p|SA-20p-03	035d35c4-ee88-45f8-a5a4-3964ad6778a2	7774	False	D:1:0.0;P:37:1.0	False	38	1.0	False		non-informative
+NA18960|20p|SA-20p-03	d6f9bdd2-559d-4732-adef-a6fd3b9a95e4	38632	False	D:1:0.0;P:41:1.0	False	42	1.0	True	unique	non-informative
+NA18960|20p|SA-20p-03	160ac8a0-f1c4-457b-80ab-79f38bac6b2d	7915	False	D:1:0.0;P:38:1.0	False	39	1.0	False		non-informative
+NA18960|20p|SA-20p-03	b5e34541-7d99-4d4d-860d-ef98f642061a	7113	False	D:1:0.0;P:32:1.0	False	33	1.0	False		non-informative
+NA18960|20p|SA-20p-03	e9ff626a-8747-4837-a591-6ccb1bf2af69	11883	False	D:1:0.0;P:11:1.0	False	12	1.0	False		non-informative
+NA18960|20p|SA-20p-03	fef0715f-3cc0-4890-a16c-25e15d41f973	39254	False		False	0		True	unique	non-informative
+NA18960|20p|SA-20p-03	c0e45b12-6239-48be-b4b8-aab84852c8a8	32817	False		False	0		True	mapq60_shared	non-informative
+NA18960|20p|SA-20p-03	42d7d8a6-2f9c-4e67-a930-b305f89fbd0a	71280	False		False	0		True	unique	non-informative
+NA18960|20p|SA-20p-03	57c1a048-9122-43c7-b905-69c22d2d8d1c	146482	False		False	0		True	unique	non-informative
+NA18960|20p|SA-20p-03	8590a350-ea15-4140-8c38-084fa59dd4bd	38409	False		False	0		True	mapq60_shared	non-informative
+NA18960|20p|SA-20p-03	91ef2d88-1d6c-4dbb-97ad-1e6508998c7e	12680	False		False	0		False		non-informative
+NA18960|20p|SA-20p-03	dedc9915-31bc-4188-a1ed-af93c686465d	55075	False		False	0		True	unique	non-informative
+NA18960|20p|SA-20p-03	7397c3fa-a817-45f4-b6b1-d246a250f031	54164	False		False	0		True	unique	non-informative
+NA18960|20p|SA-20p-03	b5cd972e-c464-4bd9-97c8-ab26a656f72d	11798	False		False	0		False		non-informative
+HG02155|20p|SA-20p-03	1cb4fdb1-50bb-405d-a6da-dc94d7fe66c6	62888	True	D:1:0.0;P:172:0.9709	False	49	0.9592	True	unique	contradicts
+HG02155|20p|SA-20p-03	99844272-3a9c-490a-bb0e-0737c66b1600	19882	True	D:1:0.0;P:70:0.9571	False	59	0.9661	False		non-informative
+HG02155|20p|SA-20p-03	0b11e01e-6aaf-4de7-b923-4e197b58deb3	11359	True	D:1:0.0;P:56:0.7679	False	57	0.7719	False		non-informative
+HG02155|20p|SA-20p-03	092758bf-b59d-4ebc-887a-8fd71336865b	8268	True	D:1:0.0;P:47:0.8085	False	48	0.8125	False		non-informative
+HG02155|20p|SA-20p-03	0723c3fb-ef68-4e29-9b92-e7399215ecf4	18035	True	D:1:0.0;P:57:0.9825	False	58	0.9828	False		non-informative
+HG02155|20p|SA-20p-03	355a3f01-3b53-4646-b0a0-952e9a6283cd	5825	True	D:2:0.5;P:12:0.9167	False	14	0.8571	False		non-informative
+HG02155|20p|SA-20p-03	e2e6dc46-0125-4f24-97ac-b85df0763632	23327	True	D:1:0.0;P:74:0.9595	False	66	0.9848	False		non-informative
+HG02155|20p|SA-20p-03	b30c48f4-33ca-420d-a8ee-b9b0441d2e23	13930	True	D:1:0.0;P:58:0.8276	False	59	0.8305	False		non-informative
+HG02155|20p|SA-20p-03	888cc2c1-8b85-4f4c-9d5a-3b3b12fe868a	17066	False	D:2:1.0;P:65:0.8308	False	53	0.7736	False		non-informative
+HG02155|20p|SA-20p-03	d744bda8-a782-431f-8186-a0af9eb7c28e	17641	False	D:1:1.0;P:67:0.8209	False	61	0.8197	False		non-informative
+HG02155|20p|SA-20p-03	c95e00f9-7bd2-4ab8-90c1-15d2c73fd357	13441	True	D:1:0.0;P:39:0.7949	False	40	0.8	False		non-informative
+HG02155|20p|SA-20p-03	72522ab6-1693-4474-8250-8df0d3335de2	6973	True	D:1:0.0;P:37:0.9189	False	38	0.9211	False		non-informative
+HG02155|20p|SA-20p-03	7d400d42-bb12-4bad-8989-828724f77632	20108	False	D:1:0.0;P:70:0.9714	False	54	0.9815	False		non-informative
+HG02155|20p|SA-20p-03	dc626fda-8a73-481d-8b7e-78bcbdbe1f68	24459	False	D:1:0.0;P:78:0.9487	False	66	0.9697	False		non-informative
+HG02155|20p|SA-20p-03	4d943e45-8654-4191-839c-fbdf3b2bc9c6	9690	False	D:1:0.0;P:44:0.9773	False	45	0.9778	False		non-informative
+HG02155|20p|SA-20p-03	371de02c-6064-4187-9bb3-8337d3d50ba9	5338	False	D:1:0.0;P:31:0.8387	False	32	0.8438	False		non-informative
+HG02155|20p|SA-20p-03	cf61fd48-7310-4011-8aa6-36d766d040b1	7445	False	D:1:0.0;P:21:0.7619	False	22	0.7727	False		non-informative
+HG02155|20p|SA-20p-03	33be50e8-0bca-4390-bb42-4cdd3ac21d7d	9144	False	D:1:0.0;P:17:0.9412	False	18	0.9444	False		non-informative
+HG02155|20p|SA-20p-03	9a6bdd6d-9a39-42f1-9894-c91e1b738bb9	28899	False	D:2:0.5;P:93:0.9785	False	16	0.8125	True	unique	non-informative
+HG02155|20p|SA-20p-03	a3ec4ef8-9731-4675-8618-141d396dd575	32516	False	D:1:0.0;P:111:0.982	False	18	0.8889	True	unique	non-informative
+HG02155|20p|SA-20p-03	a3b83f36-6b0f-40ad-aaff-e18fc2eac537	10250	False	D:2:0.5;P:8:0.875	False	10	0.8	False		non-informative
+HG02155|20p|SA-20p-03	3ba8d14f-3afe-4bc8-8076-d38f68f810f8	9359	False	D:1:1.0;P:7:0.8571	False	8	0.75	False		non-informative
+HG02155|20p|SA-20p-03	be6a41af-4314-4e8a-b92e-f69ce8567937	8203	False	D:1:1.0;P:10:1.0	False	11	0.9091	False		non-informative
+HG02155|20p|SA-20p-03	1f99539b-6d68-4365-bb69-6fa2c406ba78	15567	False	D:5:0.6;P:49:1.0	False	40	0.925	False		non-informative
+HG02155|20p|SA-20p-03	32f271b3-2f76-4c1e-835d-bcf0c0965007	5236	False	D:1:0.0;P:6:1.0	False	7	1.0	False		non-informative
+HG02155|20p|SA-20p-03	23c7843c-a539-49c8-8e82-c379c45da4b7	17700	False	D:1:0.0;P:69:1.0	False	45	1.0	False		non-informative
+HG02155|20p|SA-20p-03	243d6f7c-e904-4c8e-9d49-128380dbf152	9688	False	D:1:0.0;P:29:1.0	False	30	1.0	False		non-informative
+HG02155|20p|SA-20p-03	91b43686-450b-449e-b1e1-10a8c88cd308	6935	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+HG02155|20p|SA-20p-03	eade8734-b024-4b12-a4c7-319aa48541fe	12115	False	D:1:0.0;P:55:1.0	False	56	1.0	False		non-informative
+HG02155|20p|SA-20p-03	63fd3247-c061-46fa-a2b9-afbdc6c1852d	7556	False	D:1:0.0;P:36:1.0	False	37	1.0	False		non-informative
+HG02155|20p|SA-20p-03	d2383b60-3d5a-47e8-b6ab-4533e0666620	24368	False	D:1:0.0;P:83:1.0	False	60	1.0	False		non-informative
+HG02155|20p|SA-20p-03	2d0beaa8-9139-460c-bcb1-748d588719a2	13788	False	D:1:0.0;P:67:1.0	False	63	1.0	False		non-informative
+HG02155|20p|SA-20p-03	c8ff720a-3147-4b0a-8d6c-586f8db88b6e	15827	False	D:1:0.0;P:41:1.0	False	42	1.0	False		non-informative
+HG02155|20p|SA-20p-03	501d869e-5e51-4731-84a8-5f6704a56625	5555	False	D:1:0.0;P:26:1.0	False	27	1.0	False		non-informative
+HG02155|20p|SA-20p-03	f68c2c16-4e1d-471d-b6ed-9f8ed9ebc10b	15737	False	D:1:0.0;P:14:1.0	False	15	1.0	False		non-informative
+HG02155|20p|SA-20p-03	cc21ebda-5a8c-49d6-968d-aacd9fa66952	17296	False	D:1:0.0;P:11:1.0	False	12	1.0	False		non-informative
+HG02155|20p|SA-20p-03	b26f68f4-20b0-489d-bfa6-19f30480344d	17471	False	D:1:0.0;P:5:1.0	False	6	1.0	False		non-informative
+HG02155|20p|SA-20p-03	14c5171f-73f6-4c56-8026-afc1fcd066b5	12179	False		False	0		False		non-informative
+HG02155|20p|SA-20p-03	7a46f26d-4be5-457f-a933-96ad634a6e39	12007	False		False	0		False		non-informative
+HG02155|20p|SA-20p-03	ca4a7447-f7d0-4685-8213-b5d0106d1120	30425	False	D:4:0.75;P:2:0.5	False	0		True	unique	non-informative
+HG02155|20p|SA-20p-03	eadc54df-ecd2-4d48-a1b1-28ca6aeb3e63	36642	False		False	0		True	mapq60_shared	non-informative
+NA18570|20p|SA-20p-03	56c2f71c-b93f-440e-96c1-3c56ac2e24a9	37757	True	D:1:0.0;P:116:0.9655	False	59	0.9492	True	unique	contradicts
+NA18570|20p|SA-20p-03	60fee36f-b0d8-4fd8-9378-24bddf7bcfa1	8746	True	D:1:0.0;P:13:0.9231	False	14	0.9286	False		non-informative
+NA18570|20p|SA-20p-03	e695c5f6-0a08-4008-b31e-5467c8b3dac3	18641	True	D:1:0.0;P:67:0.9403	False	63	0.9365	False		non-informative
+NA18570|20p|SA-20p-03	52a9a6b3-d6d6-4c20-ba7b-b5f0f4f57b3e	46020	True	D:1:0.0;P:159:0.9811	False	64	0.9531	True	unique	contradicts
+NA18570|20p|SA-20p-03	c2ed864d-16bf-42a3-8046-18b83d348e77	7425	False		False	1	1.0	False		non-informative
+NA18570|20p|SA-20p-03	122fe530-c327-4623-9ed1-bab26f119ac6	7648	False	D:1:0.0;P:31:0.9032	False	32	0.9062	False		non-informative
+NA18570|20p|SA-20p-03	7e42985c-10db-4749-8bb0-aad96a400d71	7125	False	D:2:0.5;P:36:0.7222	False	38	0.7105	False		non-informative
+NA18570|20p|SA-20p-03	8ff7f990-3356-4f05-a636-a04c92e71693	10667	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	566893b6-e533-4891-b855-afe1b20c0397	13506	False	D:1:0.0;P:50:0.94	False	51	0.9412	False		non-informative
+NA18570|20p|SA-20p-03	ef20198f-524a-44e5-bbe6-d14278bcab54	6947	False	D:1:0.0;P:16:0.9375	False	17	0.9412	False		non-informative
+NA18570|20p|SA-20p-03	b4e2429d-2d42-4036-bfbd-0afd2634093f	25300	False	D:1:0.0;P:80:0.9875	False	26	0.9615	False		non-informative
+NA18570|20p|SA-20p-03	8f60fc0d-841c-4836-85ec-231102afc88f	23201	False	D:1:0.0;P:77:0.987	False	33	0.9697	False		non-informative
+NA18570|20p|SA-20p-03	6992b415-f549-44f6-8b12-97acc57fc53c	16460	False	D:3:0.6667;P:43:1.0	False	35	0.9429	False		non-informative
+NA18570|20p|SA-20p-03	4ebd1599-f50a-4232-9441-7523a5c3b012	19546	False	D:1:1.0;P:63:1.0	False	38	0.9737	False		non-informative
+NA18570|20p|SA-20p-03	2fa4b78b-6393-48a1-bd98-95a409c9ff41	10207	False	D:1:0.0;P:21:1.0	False	22	1.0	False		non-informative
+NA18570|20p|SA-20p-03	c3ccddc2-1b10-4513-9957-effb12ae9392	12143	False	D:1:1.0;P:31:1.0	False	32	0.9688	False		non-informative
+NA18570|20p|SA-20p-03	07e6cbc3-ce4b-40af-aa53-0a966a5472a4	10757	False	D:6:0.5;P:20:1.0	False	26	0.8846	False		non-informative
+NA18570|20p|SA-20p-03	24b54fd1-541c-4d22-95af-b8058ae0a086	11663	False	D:1:0.0;P:34:1.0	False	35	1.0	False		non-informative
+NA18570|20p|SA-20p-03	bdaf9f37-8aa4-4bad-9354-fb3042131407	7616	False	D:2:0.5;P:24:1.0	False	26	0.9615	False		non-informative
+NA18570|20p|SA-20p-03	4a249015-bfa3-4547-9645-0b910d691868	8683	False	D:1:0.0;P:34:1.0	False	35	1.0	False		non-informative
+NA18570|20p|SA-20p-03	82ab2bc4-2b9b-4e91-b317-9f505a84c7c2	5483	False	D:1:1.0;P:21:1.0	False	22	0.9545	False		non-informative
+NA18570|20p|SA-20p-03	cf9174a9-7da8-4b1b-8ee9-34dfad488911	7294	False	D:1:0.0;P:30:1.0	False	31	1.0	False		non-informative
+NA18570|20p|SA-20p-03	2f2e3c14-fedf-4722-a467-4d953a0dec80	5714	False	D:1:0.0;P:27:1.0	False	28	1.0	False		non-informative
+NA18570|20p|SA-20p-03	5a7687c6-fec1-483b-a39f-50e059ea4c40	5918	False	D:1:0.0;P:28:1.0	False	29	1.0	False		non-informative
+NA18570|20p|SA-20p-03	5d6ffbce-6eee-4439-b1b9-e61b86b0115d	17952	False	D:1:0.0;P:83:1.0	False	71	1.0	False		non-informative
+NA18570|20p|SA-20p-03	11cbb114-29b0-400e-a761-acd704e96014	5819	False	D:1:0.0;P:28:1.0	False	29	1.0	False		non-informative
+NA18570|20p|SA-20p-03	3dc32996-54ed-4f12-ab48-074421ee90d0	21385	False	D:1:0.0;P:75:1.0	False	71	1.0	False		non-informative
+NA18570|20p|SA-20p-03	4df59d24-c248-4097-b004-98ffa433a937	5257	False	D:1:0.0;P:24:1.0	False	25	1.0	False		non-informative
+NA18570|20p|SA-20p-03	a7d93c39-4855-4b35-a282-a1042d12cb9d	6274	False	D:1:0.0;P:30:1.0	False	31	1.0	False		non-informative
+NA18570|20p|SA-20p-03	7b01978e-57a9-4de9-8e69-a1f15d905217	12687	False	D:1:0.0;P:62:1.0	False	63	1.0	False		non-informative
+NA18570|20p|SA-20p-03	42489b2d-72ae-4fc4-98fd-a5b9072445cd	6336	False	D:1:0.0;P:30:1.0	False	31	1.0	False		non-informative
+NA18570|20p|SA-20p-03	31c7a41f-f78e-4b55-9105-5f25d6cfb2f0	5639	False	D:1:0.0;P:22:1.0	False	23	1.0	False		non-informative
+NA18570|20p|SA-20p-03	c06bd996-ebbf-474c-8a58-a1d525cb1d66	25326	False	D:1:0.0;P:47:1.0	False	48	1.0	False		non-informative
+NA18570|20p|SA-20p-03	5dd97629-97c1-41b9-a2e1-e28653a35533	14516	False	D:1:0.0;P:40:1.0	False	41	1.0	False		non-informative
+NA18570|20p|SA-20p-03	5f49cfc9-d18c-4a53-b37d-adb95ee3039d	15880	False		False	1	1.0	False		non-informative
+NA18570|20p|SA-20p-03	6f603cff-0db0-4c77-84e4-fb61ff261191	6102	False	D:1:0.0;P:20:1.0	False	21	1.0	False		non-informative
+NA18570|20p|SA-20p-03	f704ca78-1743-4752-9b13-e1b8a3a442ed	21432	False	D:1:0.0;P:19:1.0	False	20	1.0	False		non-informative
+NA18570|20p|SA-20p-03	ddd2487b-e947-43d4-b3c1-fba58f01ebcc	8126	False	D:1:0.0;P:15:1.0	False	16	1.0	False		non-informative
+NA18570|20p|SA-20p-03	35aa0039-a50f-4302-9c11-ad9c4b198389	5156	False	D:1:0.0;P:8:1.0	False	9	1.0	False		non-informative
+NA18570|20p|SA-20p-03	8fa05bc3-3385-44f4-8481-54535ab6fa2d	26344	False	D:1:0.0;P:13:1.0	False	14	1.0	True	unique	non-informative
+NA18570|20p|SA-20p-03	f787defc-de0b-4f88-940a-9820bbdbc4c6	6908	False	D:1:0.0;P:10:1.0	False	11	1.0	False		non-informative
+NA18570|20p|SA-20p-03	14844e25-30cd-4de4-97ee-9937cbcc66c1	21856	False	D:1:0.0;P:7:1.0	False	8	1.0	False		non-informative
+NA18570|20p|SA-20p-03	ae3a2aa1-792d-49b8-af7d-df99240b4f9a	6536	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	5eb1cf32-bb67-471f-ae6b-ff0ea99385b8	11990	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	a0840530-3594-439d-8708-e35be09ad070	22091	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	3917b712-5d26-462f-ba34-4384ec32894d	11750	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	92e1bf02-3a81-4ed4-a894-6a72adf889d6	44985	False		False	0		True	unique	non-informative
+NA18570|20p|SA-20p-03	d6d43050-09ac-4f16-9d86-40edc75c33a9	7315	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	88decfb4-c14b-4c71-9b24-dbeb52b8a378	26020	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	855ef1e4-96fe-4c39-b18d-1ba0c81e36ff	22724	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	fcf07240-4822-46e3-9814-dc8fc92393f8	15455	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	16bedf82-4afc-4bf5-933c-2c24b771830c	16223	False		False	0		False		non-informative
+NA18570|20p|SA-20p-03	8c9f94b2-62e9-4ed3-9424-7f8daf34e3e7	26186	False		False	0		False		non-informative
+NA18940|20p|SA-20p-03	feb9cf37-c852-4bac-8131-aa0d6ceacd67	18324	False	D:1:0.0;P:47:1.0	False	34	1.0	False		non-informative
+NA18940|20p|SA-20p-03	063f499d-a5cc-4e80-81dc-e6cf0a689ed0	5316	False	D:1:0.0;P:4:1.0	False	5	1.0	False		non-informative
+NA18940|20p|SA-20p-03	9ec2b895-b7f2-47c3-ac2c-1aeff53a9280	14540	False	D:1:0.0;P:2:1.0	False	3	1.0	False		non-informative
+NA18940|20p|SA-20p-03	6cf1a4e9-3321-4961-a904-80ad64a0868a	8764	False	D:1:0.0;P:42:1.0	False	43	1.0	False		non-informative
+NA18940|20p|SA-20p-03	01821d83-cc2d-4f03-8746-c2330609e222	5321	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+NA18940|20p|SA-20p-03	b315bc96-621e-49b6-b6f8-57794d14842b	13358	False	D:1:0.0;P:65:1.0	False	66	1.0	False		non-informative
+NA18940|20p|SA-20p-03	ed3fa648-1d7f-4bf7-b51a-a8ac7be849c8	7574	False	D:1:0.0;P:36:1.0	False	37	1.0	False		non-informative
+NA18940|20p|SA-20p-03	e63e6873-0076-4ee4-b227-1d7b0d54f847	13972	False	D:1:0.0;P:57:1.0	False	58	1.0	False		non-informative
+NA18940|20p|SA-20p-03	95b2ef0f-24ba-4123-ab00-2317f5d56dc8	5200	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+NA18940|20p|SA-20p-03	1a31729a-7a79-4390-b99f-59ed0a026ff1	7676	False	D:1:0.0;P:27:1.0	False	28	1.0	False		non-informative
+NA18940|20p|SA-20p-03	67a4c804-699b-432a-94eb-aee06866af13	6104	False	D:1:0.0;P:16:1.0	False	17	1.0	False		non-informative
+NA18940|20p|SA-20p-03	16d6e760-5660-46be-9c68-4d6bc45a51cc	6340	False		False	0		False		non-informative
+NA18940|20p|SA-20p-03	cdbc43ce-e6f8-4e61-8f99-4362c8adfcf6	10050	False		False	0		False		non-informative
+NA18940|20p|SA-20p-03	849a3552-6984-4a82-a55a-b5774ec6dcff	5243	False		False	0		False		non-informative
+NA18940|20p|SA-20p-03	d9e7892c-5993-4299-822c-ec268e3de4d4	13889	False		False	0		False		non-informative
+NA18940|20p|SA-20p-03	1b0f0609-0c2c-4d12-9e9b-5997e06788c7	5981	False		False	0		False		non-informative
+NA18940|20p|SA-20p-03	ba6ec866-fbe0-494c-a992-adcdfe2165bd	13104	False		False	0		False		non-informative
+NA18940|20p|SA-20p-03	9f78cdbe-55f5-4fe6-acc0-4afcfac38a2b	5274	False		False	0		False		non-informative
+HG01530|20p|SA-20p-03	78577f66-5dd7-4a40-89d9-e872f085fe93	9024	True	D:1:0.0;P:32:0.7812	False	33	0.7879	False		non-informative
+HG01530|20p|SA-20p-03	f798122f-7795-47b8-9d5a-fd7ce6fad762	11633	False	D:1:0.0;P:25:0.84	False	26	0.8462	False		non-informative
+HG01530|20p|SA-20p-03	12698dee-5eac-43ac-9985-dc2823ae5443	21973	True	D:1:0.0;P:66:0.803	False	59	0.8136	False		non-informative
+HG01530|20p|SA-20p-03	37eb4459-d248-4929-a227-c6c308780d75	8086	True		False	1	1.0	False		non-informative
+HG01530|20p|SA-20p-03	b6eb9fe3-9da5-435f-b5e8-9b5f59dbb389	12819	True	D:1:0.0;P:51:0.7255	False	52	0.7308	False		non-informative
+HG01530|20p|SA-20p-03	8d630acc-b1e8-4575-b998-5151457efd16	5220	True	D:3:0.3333;P:4:1.0	False	7	0.8571	False		non-informative
+HG01530|20p|SA-20p-03	8548fc37-49d0-48fa-b7fb-fd189bc7c9a2	28407	False	D:1:0.0;P:95:0.9474	False	62	0.9355	True	unique	non-informative
+HG01530|20p|SA-20p-03	bc974d47-93f0-4a2b-a4bd-8b5ab3b89a2d	18664	False	D:1:0.0;P:54:0.8519	False	52	0.8846	False		non-informative
+HG01530|20p|SA-20p-03	27ba1dad-027c-46b0-8830-83e19f178970	9211	False	D:1:0.0;P:40:0.975	False	41	0.9756	False		non-informative
+HG01530|20p|SA-20p-03	5f623b39-6a0c-4678-8f54-4f00f289b31b	5900	False	D:1:0.0;P:23:0.8261	False	24	0.8333	False		non-informative
+HG01530|20p|SA-20p-03	deaca7b7-efd2-4ee9-ac11-2e7e208781e7	6852	False	D:1:0.0;P:21:0.9048	False	22	0.9091	False		non-informative
+HG01530|20p|SA-20p-03	efd5d94f-1cc0-44b1-b270-65b5ab81f0c0	8032	False	D:1:1.0;P:20:0.95	False	21	0.9048	False		non-informative
+HG01530|20p|SA-20p-03	55683aca-adb7-4b0d-b77d-db2d779e9445	9831	False	D:1:0.0;P:16:0.9375	False	17	0.9412	False		non-informative
+HG01530|20p|SA-20p-03	e4419bb7-a59e-4075-a314-1aa5b9d210e5	6118	False	D:1:0.0;P:7:0.8571	False	8	0.875	False		non-informative
+HG01530|20p|SA-20p-03	811b00ec-e29a-4cf2-b193-5745924536f5	5731	False	D:1:0.0;P:4:0.75	False	5	0.8	False		non-informative
+HG01530|20p|SA-20p-03	419282bf-9132-491f-87b9-c89c2f42447e	5618	False	D:1:1.0;P:3:1.0	False	4	0.75	False		non-informative
+HG01530|20p|SA-20p-03	5f29c4b3-46bb-47d8-9c2c-a2ce30db83b3	6303	False	D:1:0.0;P:9:1.0	False	10	1.0	False		non-informative
+HG01530|20p|SA-20p-03	1f97fd74-4c20-49a8-87c9-0d52ef82f229	8309	False	D:3:0.6667;P:18:0.9444	False	21	0.8571	False		non-informative
+HG01530|20p|SA-20p-03	ab526037-41e6-4f03-ae09-1a6719012a65	7434	False	D:1:0.0;P:33:1.0	False	34	1.0	False		non-informative
+HG01530|20p|SA-20p-03	510eeb58-aa79-4a6e-9837-9eec86bf40fb	77582	False	D:1:0.0;P:104:0.9615	False	64	1.0	True	unique	non-informative
+HG01530|20p|SA-20p-03	8e55bcb3-32c8-40ef-a18d-9b391ae2d693	9437	False	D:1:0.0;P:46:1.0	False	47	1.0	False		non-informative
+HG01530|20p|SA-20p-03	779bddc6-303a-42b9-975d-8564775f6862	12732	False	D:1:0.0;P:39:1.0	False	40	1.0	False		non-informative
+HG01530|20p|SA-20p-03	46a5aa7e-5cc4-4e95-84a8-465e3e212870	6108	False	D:1:0.0;P:27:1.0	False	28	1.0	False		non-informative
+HG01530|20p|SA-20p-03	f89f407a-7f2a-4e81-bbf1-a4d8b6847c74	7707	False		False	0		False		non-informative
+HG01530|20p|SA-20p-03	52d81606-d139-443d-8fc7-036afd1f20c3	7471	False		False	0		False		non-informative
+HG01530|20p|SA-20p-03	ce03bbf3-1d0f-4607-8251-3b445ae7c2aa	6189	False		False	0		False		non-informative
+HG01530|20p|SA-20p-03	b692381c-b9e7-43b3-a149-97d430b3aadc	5521	False		False	0		False		non-informative
+HG01530|20p|SA-20p-03	c28a3781-89c4-43dc-886d-9ca8716fe9bb	7067	False		False	0		False		non-informative
+HG01530|20p|SA-20p-03	ac81ab59-761f-4fce-b5c9-9de796371eb9	14086	False		False	0		False		non-informative
+HG01530|20p|SA-20p-03	f3e1fecd-6659-4921-92da-e2cb5f2485d4	67773	False		False	0		True	unique	non-informative
+NA21102|20p|SA-20p-03	38919fb9-e1a3-4ffb-8add-b952740c6ef0	71936	False	D:1:0.0;P:180:0.9667	False	55	0.9818	True	unique	non-informative
+NA21102|20p|SA-20p-03	5c4a0d94-44ba-4ce0-bc6f-825784652376	9070	False	D:3:0.3333;P:42:0.9762	False	45	0.9556	False		non-informative
+NA21102|20p|SA-20p-03	197ec365-121f-47a2-a78a-a21055b3d443	9793	True	D:1:0.0;P:45:0.8889	False	46	0.8913	False		non-informative
+NA21102|20p|SA-20p-03	61e60666-5460-4237-9882-1ac83517632b	12094	False	D:1:1.0;P:44:0.9318	False	45	0.9111	False		non-informative
+NA21102|20p|SA-20p-03	99e6ba39-17c2-40c7-8421-e2d452d1fe08	10205	False	D:1:0.0;P:53:0.9811	False	54	0.9815	False		non-informative
+NA21102|20p|SA-20p-03	fa3609a3-947a-4804-838b-b31712c72350	7718	True	D:1:0.0;P:44:0.9773	False	45	0.9778	False		non-informative
+NA21102|20p|SA-20p-03	7bb5e8fb-861c-4fb4-9062-6964ccf2eb16	8793	True	D:1:0.0;P:50:0.98	False	51	0.9804	False		non-informative
+NA21102|20p|SA-20p-03	838c88df-69e7-4440-af58-66ef21aa330f	13993	False	D:1:0.0;P:63:0.9683	False	63	0.9683	False		non-informative
+NA21102|20p|SA-20p-03	2d0fddf9-a9f8-4d7c-8911-14af2c25bf03	7075	True	D:2:0.5;P:20:1.0	False	22	0.9545	False		non-informative
+NA21102|20p|SA-20p-03	8b098788-6bdb-4122-bffa-0eccb09c4142	18712	False	D:1:0.0;P:62:0.9516	False	36	1.0	False		non-informative
+NA21102|20p|SA-20p-03	161311d6-8c17-4afe-b312-c48093c48000	10910	True	D:1:0.0;P:24:0.875	False	25	0.88	False		non-informative
+NA21102|20p|SA-20p-03	d87f9404-465a-4d1f-9570-f4f2134c17ca	8814	True	D:1:0.0;P:26:0.9615	False	27	0.963	False		non-informative
+NA21102|20p|SA-20p-03	ee7d5cdd-87b9-4cd2-b383-880cab177541	7172	True	D:1:0.0;P:41:0.9512	False	42	0.9524	False		non-informative
+NA21102|20p|SA-20p-03	48cf1dd1-b72c-476d-a7de-2b5769c25ea7	5366	True	D:3:0.3333;P:25:1.0	False	28	0.9643	False		non-informative
+NA21102|20p|SA-20p-03	147d7503-3e8c-4fb9-8c3f-be2d4c5283a4	44369	False	D:1:0.0;P:128:0.9766	False	32	1.0	True	unique	non-informative
+NA21102|20p|SA-20p-03	90bacf53-561d-44fc-ae61-0882e143c282	13937	True	D:2:0.5;P:52:0.8654	False	54	0.8519	False		non-informative
+NA21102|20p|SA-20p-03	1a6789e4-7bff-4ae3-8f1a-69b6a024acc3	5688	True		False	0		False		non-informative
+NA21102|20p|SA-20p-03	f9dec084-2e1e-4842-8683-b4c306d6c5fe	5407	False	D:3:0.3333;P:21:0.9524	False	24	0.9167	False		non-informative
+NA21102|20p|SA-20p-03	7f7499f8-64e7-4c90-a3ac-748481ab5e18	5519	False	D:1:0.0;P:23:0.913	False	24	0.9167	False		non-informative
+NA21102|20p|SA-20p-03	62acde78-4462-46a0-b487-ee1d0573a702	21260	True	D:1:0.0;P:61:0.9836	False	62	0.9839	False		non-informative
+NA21102|20p|SA-20p-03	6a8ab5d5-9cd3-4056-8f69-9aac798d5e6c	6857	True	D:1:0.0;P:13:0.8462	False	14	0.8571	False		non-informative
+NA21102|20p|SA-20p-03	7cf75e20-06da-43ac-aaab-26d4dccea29f	18454	True	D:1:0.0;P:48:0.9583	False	32	0.9688	False		non-informative
+NA21102|20p|SA-20p-03	e3a29891-8a91-4b5c-85b5-4d1224b3c633	13526	True	D:1:0.0;P:34:0.9706	False	35	0.9714	False		non-informative
+NA21102|20p|SA-20p-03	223e5b2a-89ac-4c5d-b6ac-945afdd0319e	14155	True	D:1:0.0;P:46:0.9565	False	47	0.9574	False		non-informative
+NA21102|20p|SA-20p-03	39088930-7183-4fea-86e6-274b6d42f8b2	33335	False	D:1:0.0;P:45:1.0	False	0		False		non-informative
+NA21102|20p|SA-20p-03	a8c6393e-ee1d-4aa9-b480-75ed2e9b66b0	15438	True	D:1:0.0;P:28:1.0	False	29	1.0	False		non-informative
+NA21102|20p|SA-20p-03	73756e39-91a3-46ba-bc2d-75d034673141	15622	True	D:2:0.5;P:21:0.9048	False	23	0.8696	False		non-informative
+NA21102|20p|SA-20p-03	a4e38300-18eb-4fd3-802a-833dc7a71051	11887	True	D:1:0.0;P:17:0.7647	False	18	0.7778	False		non-informative
+NA21102|20p|SA-20p-03	2a47a355-c58c-4f8c-8c1e-0d65c05c6d6a	7484	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	393785f3-2c87-47d0-b822-3b7344ff3183	11131	False	D:1:0.0;P:61:0.918	False	62	0.9194	False		non-informative
+NA21102|20p|SA-20p-03	3a835669-089c-42e7-b2b2-b426b388dba0	8069	False	D:1:0.0;P:47:0.9149	False	48	0.9167	False		non-informative
+NA21102|20p|SA-20p-03	157229a8-597b-4a23-8c70-65d6e9fb7f96	24985	False	D:2:0.5;P:43:0.8605	False	15	0.9333	False		non-informative
+NA21102|20p|SA-20p-03	24112c54-8f1c-468a-9cd4-e2c1b4321d1e	7001	False	D:2:0.5;P:45:0.9333	False	47	0.9149	False		non-informative
+NA21102|20p|SA-20p-03	ee929d37-6fa4-487d-91ec-43369e1372a8	8168	False	D:1:0.0;P:44:1.0	False	45	1.0	False		non-informative
+NA21102|20p|SA-20p-03	c9c6a26a-dc76-401a-91e8-0dac8285d378	40255	False	D:1:0.0;P:149:0.9597	False	55	0.9273	True	unique	non-informative
+NA21102|20p|SA-20p-03	45b93960-2e7a-44f3-8942-64ec3672bc60	7156	False	D:1:0.0;P:28:1.0	False	29	1.0	False		non-informative
+NA21102|20p|SA-20p-03	6c3ab4fc-2e83-4893-af2a-b937e1d5496d	7233	False	D:1:0.0;P:22:0.9545	False	23	0.9565	False		non-informative
+NA21102|20p|SA-20p-03	ebd698d0-7001-4730-9d68-5298f59ce39e	12058	False	D:1:0.0;P:31:0.871	False	32	0.875	False		non-informative
+NA21102|20p|SA-20p-03	560b715c-6968-4159-8734-8bba01998925	5823	False	D:1:0.0;P:19:0.9474	False	20	0.95	False		non-informative
+NA21102|20p|SA-20p-03	c45269de-23e4-494a-a259-50edc0926826	5370	False	D:1:0.0;P:18:0.8889	False	19	0.8947	False		non-informative
+NA21102|20p|SA-20p-03	85b8f1f1-09fc-4717-8f40-e61cb65971c1	6913	False	D:1:1.0;P:17:1.0	False	18	0.9444	False		non-informative
+NA21102|20p|SA-20p-03	cf90deca-130c-436b-9203-061ccc970cc3	25436	False	D:1:0.0;P:67:0.9851	False	21	0.9524	True	unique	non-informative
+NA21102|20p|SA-20p-03	916d7444-9f40-4c17-a709-188e21642a03	14926	False	D:1:0.0;P:24:0.8333	False	21	0.8095	False		non-informative
+NA21102|20p|SA-20p-03	3104b0b1-0260-44c8-9b29-b12f2fbdfe71	6817	False	D:1:0.0;P:14:0.8571	False	15	0.8667	False		non-informative
+NA21102|20p|SA-20p-03	69f4a9cd-bd66-4021-a9e3-bbcc0494cbff	18293	False	D:3:0.3333;P:5:1.0	False	8	0.875	False		non-informative
+NA21102|20p|SA-20p-03	e3bc5df1-85ed-4e0f-9f78-d163acdeaa6e	5709	False	D:1:0.0;P:1:1.0	False	2	1.0	False		non-informative
+NA21102|20p|SA-20p-03	d42ae3e4-3595-4e81-9dc7-c70c03ca94d4	7817	False	D:1:1.0;P:6:0.8333	False	7	0.7143	False		non-informative
+NA21102|20p|SA-20p-03	dcc93252-f34c-46ae-bdf3-1fb6127e3a1b	11076	False	D:1:1.0;P:19:1.0	False	20	0.95	False		non-informative
+NA21102|20p|SA-20p-03	2b41b99b-650e-402e-bd21-fd079ad346e3	6563	False	D:1:1.0;P:5:1.0	False	6	0.8333	False		non-informative
+NA21102|20p|SA-20p-03	469c13a7-2bde-4e6d-ac33-c98a612a2275	6343	False	D:1:0.0;P:4:1.0	False	5	1.0	False		non-informative
+NA21102|20p|SA-20p-03	5c69ea91-f535-490d-aea7-044b82a4dccd	7579	False	D:1:0.0;P:16:1.0	False	17	1.0	False		non-informative
+NA21102|20p|SA-20p-03	b2cc95b5-fb78-4a52-a3ee-8ae59f9ca7de	7236	False	D:1:1.0;P:28:1.0	False	29	0.9655	False		non-informative
+NA21102|20p|SA-20p-03	4f89bd8c-9b2e-403c-8dd2-0a2f3d7b458f	7838	False	D:1:0.0;P:38:1.0	False	39	1.0	False		non-informative
+NA21102|20p|SA-20p-03	3908fa48-31c4-4921-ac74-c10ae04ed502	82792	False	D:1:0.0;P:100:1.0	False	64	1.0	True	unique	non-informative
+NA21102|20p|SA-20p-03	3fbd4608-e83f-41be-86c3-e7114a1d1682	5838	False	D:1:0.0;P:28:1.0	False	29	1.0	False		non-informative
+NA21102|20p|SA-20p-03	c177dfa1-97eb-48e3-a471-d40758c7f02e	6331	False	D:1:0.0;P:30:1.0	False	31	1.0	False		non-informative
+NA21102|20p|SA-20p-03	353fd822-3d95-4a62-acff-477c13bbce2d	8606	False	D:1:0.0;P:42:1.0	False	43	1.0	False		non-informative
+NA21102|20p|SA-20p-03	8963ff87-ed8a-4b32-8c82-75c895f39c15	12664	False	D:1:0.0;P:62:1.0	False	63	1.0	False		non-informative
+NA21102|20p|SA-20p-03	71b8d288-21f6-428d-8ea9-a27c0c46cd60	8490	False	D:1:0.0;P:41:1.0	False	42	1.0	False		non-informative
+NA21102|20p|SA-20p-03	9bf03f85-1d6a-454e-8cf6-ad844f46eb54	5957	False	D:1:0.0;P:17:1.0	False	18	1.0	False		non-informative
+NA21102|20p|SA-20p-03	2b6543bc-fd0c-4a37-87b9-2ceee38bea3f	9517	False	D:1:0.0;P:46:1.0	False	47	1.0	False		non-informative
+NA21102|20p|SA-20p-03	ed08ed1c-fd87-48ec-883c-1ef50cda0fe0	7229	False	D:1:0.0;P:34:1.0	False	35	1.0	False		non-informative
+NA21102|20p|SA-20p-03	60c964f2-c871-46ba-bde5-632c67ee9c6a	6489	False	D:1:0.0;P:31:1.0	False	32	1.0	False		non-informative
+NA21102|20p|SA-20p-03	eec29ea6-7b79-439f-b709-6aa4da1113d8	5245	False		False	1	1.0	False		non-informative
+NA21102|20p|SA-20p-03	e64f159c-6fb0-4af5-bc4c-0b016884325a	11934	False	D:1:0.0;P:25:1.0	False	26	1.0	False		non-informative
+NA21102|20p|SA-20p-03	74c2f4a3-3b45-4dc8-b2e8-aad01dd9a18d	14136	False	D:1:0.0;P:24:1.0	False	25	1.0	False		non-informative
+NA21102|20p|SA-20p-03	5710eaaf-4b1a-4d29-9fa1-a8c2817cd271	16711	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	ad408017-5731-41fa-963b-18a581d83004	11887	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	95735ec6-93f3-4a5f-ad4a-17fb055fb455	10288	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	70b08474-3d28-4192-a827-9c2966a5b8a9	5083	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	a00cd177-2cc3-47e4-aaa6-5b6b4d1396b6	5191	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	7671fa11-b126-43c8-8f5c-00be11e2206e	18293	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	0a7af26b-e174-46aa-a2f3-00bf2efd0fc6	10635	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	eaf754b9-fa61-4a2f-8928-213f12c48de2	60290	False		False	0		True	unique	non-informative
+NA21102|20p|SA-20p-03	d44161a9-43a0-4518-a619-8b40d53b4316	26730	False		False	0		True	mapq60_shared	non-informative
+NA21102|20p|SA-20p-03	0cdca5ae-4c77-4ba5-a0e9-86dffa7cd141	34852	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	9d1aad16-efc4-4229-b1ca-28950358f405	9484	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	73caed49-ce6a-491b-9390-7eff4a249628	5452	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	bbd6c276-a4ec-467d-b028-8a8de77b4295	17348	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	124b03b9-69d7-4659-9635-a9a78764b691	13170	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	2da5247c-46a7-402a-ae83-12a2cb515c26	5172	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	a9b96432-2db5-4c54-872d-2e148dea4237_1	5944	False		False	0		False		non-informative
+NA21102|20p|SA-20p-03	2eb2e096-d925-430a-9820-d57e41bab8b2	12847	False		False	0		False		non-informative

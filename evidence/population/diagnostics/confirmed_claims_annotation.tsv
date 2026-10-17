@@ -1,0 +1,44 @@
+claim_id	allele	n_conclusive_concordant	other_haplotype	allele_specific_confirmed	n_unique_anchor	n_placed_on_arm	n_unique_and_on_arm	annotation	class
+HG00128|10p|SA-10p-03	SA-10p-03	2	native_core	True	1	2	1	one_unique_anchor	shared_anchor_on_arm_placement
+HG00128|19p|SA-19p-04	SA-19p-04	2	native_strict	True	0	1	0	reads_place_on_other_end;shared_anchor_only	not_independently_supported
+HG00128|20q|SA-20q-01	SA-20q-01	2	native_core	True	2	2	2		robust
+HG00128|2q|SA-2q-02	SA-2q-02	7	nonnative_other_allele	True	1	7	1	one_unique_anchor	shared_anchor_on_arm_placement
+HG00133|20q|SA-20q-01	SA-20q-01	2	native_core	True	2	2	2		robust
+HG00146|20q|SA-20q-01	SA-20q-01	3	native_core	True	3	3	3		robust
+HG00235|17p|SA-17p-17	SA-17p-17	4	native_strict	True	4	4	4		robust
+HG00235|19q|SA-19q-02	SA-19q-02	6	nonnative_other_allele	True	6	6	6		robust
+HG00235|19q|SA-19q-08	SA-19q-08	7	nonnative_other_allele	True	7	7	7		robust
+HG00235|20q|SA-20q-01	SA-20q-01	2	nonnative_other_allele	False	2	2	2	reads_shared_with_other_allele	not_independently_supported
+HG00235|20q|SA-20q-06	SA-20q-06	4	nonnative_other_allele	True	3	4	3		robust
+HG00321|20q|SA-20q-01	SA-20q-01	2	native_core	True	2	2	2		robust
+HG00323|15q|SA-15q-02	SA-15q-02	2	nonnative_other_allele	True	2	1	1	reads_place_on_other_end	not_independently_supported
+HG01258|17p|SA-17p-02	SA-17p-02	5	native_core	True	5	5	5		robust
+HG01258|20q|SA-20q-01	SA-20q-01	4	native_strict	True	4	4	4		robust
+HG01786|2q|SA-2q-02	SA-2q-02	4	native_core	True	0	4	0	shared_anchor_only	shared_anchor_on_arm_placement
+HG02165|2q|SA-2q-02	SA-2q-02	2	nonnative_other_allele	True	0	2	0	shared_anchor_only	shared_anchor_on_arm_placement
+HG02178|2q|SA-2q-02	SA-2q-02	2	nonnative_other_allele	True	0	2	0	shared_anchor_only	shared_anchor_on_arm_placement
+HG02976|12p|SA-12p-04	SA-12p-04	2	native_core	True	2	2	2		robust
+HG02976|20q|SA-20q-01	SA-20q-01	3	same_allele	True	3	3	3		robust
+HG03130|17p|SA-17p-02	SA-17p-02	3	native_core	True	3	3	3		robust
+HG03742|5q|SA-5q-51	SA-5q-51	4	native_strict	True	4	4	4		robust
+HG03816|17p|SA-17p-02	SA-17p-02	5	native_core	True	5	5	5		robust
+NA18570|2q|SA-2q-02	SA-2q-02	2	native_core	True	0	2	0	shared_anchor_only	shared_anchor_on_arm_placement
+NA18960|2q|SA-2q-02	SA-2q-02	8	same_allele	True	0	8	0	shared_anchor_only	shared_anchor_on_arm_placement
+NA18960|4q|SA-4q-05	SA-4q-05	3	nonnative_other_allele	True	0	3	0	shared_anchor_only	shared_anchor_on_arm_placement
+NA18983|17p|SA-17p-16	SA-17p-16	2	same_allele	True	2	2	2		robust
+NA18983|19q|SA-19q-02	SA-19q-02	3	native_core	True	3	3	3		robust
+NA18983|20p|SA-20p-02	SA-20p-02	2	same_allele	True	2	2	2		robust
+NA19043|17q|SA-17q-02	SA-17q-02	2	same_allele	True	2	2	2		robust
+NA19338|19q|SA-19q-04	SA-19q-04	3	native_core	True	3	3	3		robust
+NA19391|17p|SA-17p-02	SA-17p-02	2	native_core	True	2	2	2		robust
+NA19391|19q|SA-19q-04	SA-19q-04	7	nonnative_other_allele	True	7	7	7		robust
+NA19391|19q|SA-19q-14	SA-19q-14	3	nonnative_other_allele	True	3	3	3		robust
+NA19391|20q|SA-20q-01	SA-20q-01	3	same_allele	True	3	3	3		robust
+NA19835|4q|SA-4q-05	SA-4q-05	2	native_core	True	0	2	0	shared_anchor_only	shared_anchor_on_arm_placement
+NA20346|20p|SA-20p-37	SA-20p-37	3	native_strict	True	3	3	3		robust
+NA20346|2q|SA-2q-04	SA-2q-04	3	native_core	True	2	3	2		robust
+NA20503|19p|SA-19p-04	SA-19p-04	3	not_assembled	True	0	0	0	reads_place_on_other_end;shared_anchor_only	not_independently_supported
+NA20503|2q|SA-2q-02	SA-2q-02	2	native_core	True	0	2	0	shared_anchor_only	shared_anchor_on_arm_placement
+NA20762|19q|SA-19q-02	SA-19q-02	3	native_core	True	3	3	3		robust
+NA21102|2q|SA-2q-02	SA-2q-02	5	same_allele	True	0	5	0	shared_anchor_only	shared_anchor_on_arm_placement
+NA21110|19p|SA-19p-04	SA-19p-04	4	nonnative_other_allele	True	0	0	0	reads_place_on_other_end;shared_anchor_only	not_independently_supported
