@@ -4,6 +4,8 @@ A validated, queryable catalogue of the terminal 100 kb of human chromosome ends
 HPRC Release 2 assemblies (230 individuals, 455 haplotype assemblies, 20,144 telomeric contig ends), with T2T-CHM13 v2.0
 and HG002 Q100 v1.1 as references and WashU pedigree assemblies used for validation.
 
+- **Two-minute introduction:** [report/PITCH.pdf](report/PITCH.pdf) ([Markdown](report/PITCH.md)): one 513 kb DNA molecule
+  that starts in the telomere, reads like chromosome 11, then switches to chromosome 3, and what the atlas found around it
 - **Browse:** https://jlanej.github.io/human-subtelomere-atlas/ (static site in [`docs/`](docs/))
 - **Download:** [`data/catalogue/`](data/catalogue/) (tables, JSON, representative sequences; [SCHEMA](data/catalogue/SCHEMA.md), [QC](data/catalogue/QC.md))
 - **Query your own assembly:** [`atlas/`](atlas/README.md) (`subtel-atlas query assembly.fa.gz`)

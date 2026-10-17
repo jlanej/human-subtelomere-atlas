@@ -30,6 +30,9 @@ h4 { font-size: 1rem; margin: 1.1rem 0 .3rem; }
 p, li { max-width: 52rem; }
 .lead { font-size: 1.1rem; }
 .note { background: var(--accent-bg); border-left: 4px solid var(--accent); padding: .6rem .9rem; margin: 1rem 0; }
+.note.callout { font-size: 1.05rem; border-left-width: 6px; padding: .8rem 1rem; }
+ol.steps { padding-left: 1.4rem; }
+ol.steps li { margin: .35rem 0; }
 .warn { background: #fff4e5; border-left: 4px solid var(--warn); padding: .6rem .9rem; margin: 1rem 0; }
 .muted { color: var(--muted); }
 code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .88em; }

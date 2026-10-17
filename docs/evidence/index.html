@@ -17,6 +17,25 @@
 
 <nav class="arm-nav" aria-label="Read evidence"><a href="../evidence/index.html" aria-current=page>Overview</a><a href="../evidence/claims.html">Claims table</a><a href="../evidence/verify.html">Verify it yourself</a><a href="../evidence/faq.html">FAQ for skeptics</a></nav>
 <h1>Read-level evidence</h1>
+
+<h2 id="one-picture">The evidence in one picture</h2>
+<p>A DNA molecule that was never used to build an assembly, read from one end to the other. If the atlas is right, a
+foreign chromosome end should look like this in a single molecule. It does.</p>
+<figure><a href="../assets/img/figures__pitch__fig_pitch_molecule.png"><img src="../assets/img/figures__pitch__fig_pitch_molecule.png" alt="One 513 kb molecule: telomere, chromosome-11-like DNA, then chromosome 3" loading="lazy"></a><figcaption>Nanopore read <code>3788f60a-2f28-4b28-917b-f1ecae3645e3</code> (ont_ul_dorado, HG002 Q100 public alignments). (a) Drawn to scale against the CHM13 ends of chromosomes 11 and 3; cut at the switch, its parts align to CHM13 chr11:600-31,925 and chr3:200,589,764-201,062,020 (both MAPQ 60). (b) Every site where the CHM13 chr11 and chr3 copies differ: which letter the molecule carries. (c) The letters at 6 evenly spaced sites on each side. (d) 24 of 25 molecules of five showcase claims turn from donor-like to recipient-like at their switch (2 kb window comparison; the 17p and 2q showcase claims are not shown because this simple comparison does not work there, see the <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/report/PITCH.md">pitch</a> caption). Data: <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/report/pitch_data">report/pitch_data/</a>. <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/pitch/fig_pitch_molecule.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/pitch/fig_pitch_molecule.pdf">PDF</a>)</span></figcaption></figure>
+<ol class="steps">
+<li><strong>It starts with telomere</strong> (1.7 kb of TTAGGG repeats), so it is the real end of a chromosome.</li>
+<li><strong>Then it reads like chromosome 11.</strong> At 163 of 166 sites where chromosomes 11 and 3 differ, it carries chromosome
+11's letter, and this part maps uniquely to the end of chromosome 11.</li>
+<li><strong>Then it switches to chromosome 3 and stays there</strong>: chromosome 3's letter at 26 of 27 sites, and
+472 kb aligned to chromosome 3 at MAPQ 60. One molecule, 513 kb long.</li>
+</ol>
+<p>The same flip appears in molecule after molecule: in different people, in HG002's mother, and on Oxford Nanopore
+and PacBio data. The allele in the picture, SA-3q-01, is carried by 162 people, and some foreign ends are
+carried by more than half of all people (below). Two-minute version:
+<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/report/PITCH.pdf">PITCH.pdf</a> (<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/report/PITCH.md">Markdown</a>).</p>
+<figure><a href="../assets/img/figures__pitch__fig_pitch_common.png"><img src="../assets/img/figures__pitch__fig_pitch_common.png" alt="The 12 most frequent foreign chromosome ends" loading="lazy"></a><figcaption>The 12 foreign structural alleles with the highest Release 2 frequency. Filled: at least one definitive read-evidence claim; open: none yet (not testable with the available reads, or not confirmed). <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/pitch/fig_pitch_common.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/pitch/fig_pitch_common.pdf">PDF</a>)</span></figcaption></figure>
+<h2 id="formal-test">The formal test</h2>
+
 <p class="lead">Are the non-native terminal blocks of the catalogue real chromosome ends, or assembly artefacts? Single long
 reads that were not used to build the assemblies answer this independently: a read that starts in the telomere, carries
 the donor arm's paralog-diagnostic alleles up to a switch, continues with the recipient arm's alleles, and then anchors

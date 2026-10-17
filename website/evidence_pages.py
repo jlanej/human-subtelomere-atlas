@@ -120,6 +120,65 @@ def tier_table():
             "".join(f"<tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>" for a, b, c in rows) + "</tbody></table></div>")
 
 
+def _pitch(rp):
+    """the numbers of report/PITCH (report/pitch_content.py), so the site and the PDF quote the same values"""
+    import importlib, os, sys
+    cwd = os.getcwd(); os.chdir(rp('.'))
+    try:
+        if rp('report') not in sys.path: sys.path.insert(0, rp('report'))
+        return importlib.import_module('pitch_content')
+    finally:
+        os.chdir(cwd)
+
+
+def one_picture(rp, figure, BLOB, pre):
+    """'The evidence in one picture': the pitch figure of one molecule, read in three steps"""
+    Q = _pitch(rp); hr, hp, hg = Q.hr, Q.hp, Q.hg
+    nD, nPre = int((Q.pre.call == 'D').sum()), len(Q.pre); nP, nPost = int((Q.post.call == 'P').sum()), len(Q.post)
+    fig = figure('figures/pitch/fig_pitch_molecule.png', 'One 513 kb molecule: telomere, chromosome-11-like DNA, then chromosome 3',
+                 f'Nanopore read <code>{esc(Q.HERO)}</code> ({esc(hr.dataset)}, HG002 Q100 public alignments). (a) Drawn to scale '
+                 f'against the CHM13 ends of chromosomes 11 and 3; cut at the switch, its parts align to CHM13 '
+                 f'chr11:{hg.loc["distal", "pos"]:,}-{hg.loc["distal", "end"]:,} and chr3:{hg.loc["proximal", "pos"]:,}-'
+                 f'{hg.loc["proximal", "end"]:,} (both MAPQ 60). (b) Every site where the CHM13 chr11 and chr3 copies differ: '
+                 f'which letter the molecule carries. (c) The letters at 6 evenly spaced sites on each side. (d) {Q.n_flip} of '
+                 f'{Q.n_mol} molecules of five showcase claims turn from donor-like to recipient-like at their switch (2 kb '
+                 f'window comparison; the 17p and 2q showcase claims are not shown because this simple comparison does not work '
+                 f'there, see the <a href="{BLOB}report/PITCH.md">pitch</a> caption). Data: '
+                 f'<a href="{BLOB}report/pitch_data">report/pitch_data/</a>.', pre)
+    common = figure('figures/pitch/fig_pitch_common.png', 'The 12 most frequent foreign chromosome ends',
+                    'The 12 foreign structural alleles with the highest Release 2 frequency. Filled: at least one definitive '
+                    'read-evidence claim; open: none yet (not testable with the available reads, or not confirmed).', pre)
+    return f"""
+<h2 id="one-picture">The evidence in one picture</h2>
+<p>A DNA molecule that was never used to build an assembly, read from one end to the other. If the atlas is right, a
+foreign chromosome end should look like this in a single molecule. It does.</p>
+{fig}
+<ol class="steps">
+<li><strong>It starts with telomere</strong> ({hr.telo_len / 1e3:.1f} kb of TTAGGG repeats), so it is the real end of a chromosome.</li>
+<li><strong>Then it reads like chromosome 11.</strong> At {nD} of {nPre} sites where chromosomes 11 and 3 differ, it carries chromosome
+11's letter, and this part maps uniquely to the end of chromosome 11.</li>
+<li><strong>Then it switches to chromosome 3 and stays there</strong>: chromosome 3's letter at {nP} of {nPost} sites, and
+{hg.loc['proximal', 'aligned_bp'] / 1e3:.0f} kb aligned to chromosome 3 at MAPQ 60. One molecule, {hr.read_len / 1e3:.0f} kb long.</li>
+</ol>
+<p>The same flip appears in molecule after molecule: in different people, in HG002's mother, and on Oxford Nanopore
+and PacBio data. The allele in the picture, SA-3q-01, is carried by {Q.a3.n_samples} people, and some foreign ends are
+carried by more than half of all people (below). Two-minute version:
+<a href="{BLOB}report/PITCH.pdf">PITCH.pdf</a> (<a href="{BLOB}report/PITCH.md">Markdown</a>).</p>
+{common}
+<h2 id="formal-test">The formal test</h2>
+"""
+
+
+def pitch_callout(rp, pre, BLOB):
+    """short home-page box pointing at the one-molecule picture"""
+    Q = _pitch(rp)
+    return (f'<div class="note callout"><strong>New here? Start with one molecule.</strong> A single {Q.hr.read_len / 1e3:.0f} kb '
+            f'DNA molecule from HG002 starts in the telomere, reads like chromosome 11 for {(Q.hp.switch_lo - Q.hp.telo_len) / 1e3:.0f} kb, '
+            f'then switches and runs along chromosome 3 (MAPQ 60). Every one of the {Q.n_people} Release 2 people carries foreign '
+            f'chromosome ends (median {Q.per.f.median():.0f} of about 90 assembled ends). <a href="{pre}evidence/index.html#one-picture">See the molecule</a> &middot; '
+            f'<a href="{BLOB}report/PITCH.pdf">two-minute PDF</a></div>')
+
+
 def page_index(ctx, E, N):
     pre = "../"; BLOB, TREE, figure = ctx["BLOB"], ctx["TREE"], ctx["figure"]
     h, t, k = N["HG002_Q100"], N["HG002_trio"], N["1KG_ONT"]
@@ -138,6 +197,7 @@ def page_index(ctx, E, N):
     body = f"""
 {subnav(pre, "evidence/index.html")}
 <h1>Read-level evidence</h1>
+{one_picture(ctx["rp"], figure, BLOB, pre)}
 <p class="lead">Are the non-native terminal blocks of the catalogue real chromosome ends, or assembly artefacts? Single long
 reads that were not used to build the assemblies answer this independently: a read that starts in the telomere, carries
 the donor arm's paralog-diagnostic alleles up to a switch, continues with the recipient arm's alleles, and then anchors

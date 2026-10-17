@@ -965,6 +965,11 @@ def evidence_arm_links():
     return _EVL
 
 
+def evidence_callout():
+    import evidence_pages
+    return evidence_pages.pitch_callout(rp, '', BLOB)
+
+
 def evidence_finding():
     import evidence_pages
     E = evidence_pages.load(rp); N = evidence_pages.numbers(E)
@@ -1013,6 +1018,7 @@ def page_index(D, H, AG, repb):
 terminal 100 kb next to every telomere in {fnum(bs.get('HPRC_R2', 0))} telomeric contig ends from HPRC Release 2
 ({H['r2_samples']} samples), the {bs.get('HG002_Q100', 0)} ends of the HG002 Q100 assembly and the {bs.get('CHM13', 0)}
 ends of T2T-CHM13 v2.0, as mosaics of blocks labelled home, by paralog family or by the CHM13 arm they resemble most.</p>
+{evidence_callout()}
 <p>Concurrent work on the same question: Tan et al. 2026 (<a href="https://doi.org/{TAN}">doi:{TAN}</a>) and Guarracino
 et al. 2026 (<a href="https://doi.org/{GUARRACINO}">doi:{GUARRACINO}</a>); this atlas is complementary to both
 (<a href="#related">details</a>).</p>
