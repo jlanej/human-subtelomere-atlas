@@ -50,6 +50,7 @@ hr = RD[RD.read_id == HERO].iloc[0]
 hp = PR[PR.read_id == HERO].iloc[0]; hs = ST[ST.read_id == HERO]; hg = SG[SG.read_id == HERO].set_index('segment')
 pre, post = hs[hs.read_pos < hp.switch_lo], hs[hs.read_pos > hp.switch_hi]
 import sys; sys.path.insert(0, 'report'); import pitch_figures as PF  # noqa: E402
+sys.path.insert(0, 'website'); import tour_pages as _TP  # noqa: E402
 SUM = PF.read_summary(PR); SUM = SUM[SUM.slug.isin([s for s, _ in PF.SLOPE_CLAIMS])]
 n_flip, n_mol = int(((SUM.before > 0) & (SUM.after < 0)).sum()), len(SUM)
 ALL = PF.read_summary(PR)
@@ -121,9 +122,13 @@ BODY = [
     ('p', f'The same picture holds molecule after molecule (Figure 1d). It holds in different sequencing technologies '
           f'(Oxford Nanopore R9 and R10, PacBio HiFi), at different chromosome ends, in different people, and in HG002\'s '
           f'mother HG004, who passed the 9p end on.'),
+    ('fig', 'figures/pitch/fig_consolidated.png',
+     '<b>Figure 2. Molecules, assembly and reference genome tell the same story.</b> ' + _TP.consolidated_caption(
+         lambda q: q, html=False).replace('guided tour.', 'guided tour on the project website.'),
+     '../figures/pitch/fig_consolidated.png'),
     ('h1', '3. Common, inherited and replicated'),
     ('fig', 'figures/pitch/fig_pitch_common.png',
-     '<b>Figure 2. The most frequent foreign chromosome ends.</b> The 12 foreign structural alleles with the highest Release 2 '
+     '<b>Figure 3. The most frequent foreign chromosome ends.</b> The 12 foreign structural alleles with the highest Release 2 '
      'frequency (share of the arm\'s assembled ends). People = distinct individuals carrying the allele. Filled markers: at '
      'least one claim for this allele is definitive at read level; open markers: no definitive claim yet. This means not '
      'testable with the available reads or not confirmed; it is not evidence against the allele.',

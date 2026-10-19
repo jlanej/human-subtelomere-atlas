@@ -20,6 +20,7 @@ and `ATLAS_INPUT_DIR` for builds from an analysis home. Builds from public data 
 | `evidence/hg002/`, `evidence/trio/`, `evidence/population/` (2.9, 1.4, 5.4 GB) | HG002 Q100 multi-platform, HG003/HG004 and 1000 Genomes ONT read slices | `evidence/scripts/hg002_multiplatform.py`, `trio_reads.py fetch/eval/report` (`evidence/hg002/README.md`) |
 | `evidence/release_build/`, `evidence/release/` | per-claim CRAM/BAM directories and the four release tarballs | `evidence/scripts/build_evidence_set.py` (`release` writes the tarballs, `SHA256SUMS` and `evidence/release_manifest.tsv`) |
 | `literature/` (50 MB) | Crossref, OpenAlex and PubMed caches | `bash literature/reproduce.sh` (`literature/README.md`, section "Reproduce"; needs an OpenAlex API key) |
+| `tour/` (about 0.7 GB) | the four v0.1.0 read-evidence release tarballs unpacked under `tour/release/`, CHM13 end ranges, temporary files of the guided tour | download the assets from the GitHub release v0.1.0, unpack to `work/tour/release/`, then the commands in `website/README.md`, section "Guided tour" |
 | `verify_release/`, `replicate_cache/`, `site_check/` | outputs of the checks | `bash verify_release.sh [--network]`, `python website/check_site.py` |
 | `scratch_public/`, `scratch07/`, `test/`, `proto/`, `tmp*/` | clean-clone rebuild tests and prototypes | none needed (`pipeline/verify_public_rebuild.py` compares a subset rebuild with the released `ends.tsv`) |
 

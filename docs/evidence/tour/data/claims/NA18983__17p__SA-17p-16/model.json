@@ -1,0 +1,1 @@
+{"claim_id": "NA18983|17p|SA-17p-16", "model_end": "NA18983#1#JBHDWU010000062.1#L", "D": "chr11p", "P": "chr17p", "R": "chr17p", "pattern": "DP", "d_win": [192747, 228978], "p_win": [0, 248978], "sites": [], "blocks": [], "private": {"donor": [[192747, 228978]], "proximal": [[0, 248978]]}, "criteria": "a89c5eaf023ed032"}

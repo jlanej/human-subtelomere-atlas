@@ -1584,7 +1584,9 @@ def main():
     AS = arm_stats(D)
     # static assets
     for src, dst in [("site.css", "assets/css/site.css"), ("common.js", "assets/js/common.js"),
-                     ("arm.js", "assets/js/arm.js"), ("alleles.js", "assets/js/alleles.js"), ("evidence.js", "assets/js/evidence.js")]:
+                     ("arm.js", "assets/js/arm.js"), ("alleles.js", "assets/js/alleles.js"), ("evidence.js", "assets/js/evidence.js"),
+                     ("tour.js", "assets/js/tour.js"), ("vendor/igv.min.js", "assets/js/vendor/igv.min.js"),
+                     ("vendor/IGV_LICENSE.txt", "assets/js/vendor/IGV_LICENSE.txt")]:
         os.makedirs(os.path.dirname(os.path.join(DOCS, dst)), exist_ok=True)
         shutil.copyfile(os.path.join(STATIC, src), os.path.join(DOCS, dst))
     write(".nojekyll", "")

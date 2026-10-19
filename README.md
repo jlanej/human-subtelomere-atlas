@@ -7,6 +7,9 @@ and HG002 Q100 v1.1 as references and WashU pedigree assemblies used for validat
 - **Two-minute introduction:** [report/PITCH.pdf](report/PITCH.pdf) ([Markdown](report/PITCH.md)): one 513 kb DNA molecule
   that starts in the telomere, reads like chromosome 11, then switches to chromosome 3, and what the atlas found around it
 - **Browse:** https://jlanej.github.io/human-subtelomere-atlas/ (static site in [`docs/`](docs/))
+- **See the molecules:** [guided tour](https://jlanej.github.io/human-subtelomere-atlas/evidence/tour.html) in a genome
+  browser (igv.js, nothing to install): every definitive claim with the person's own assembly, the reference genome and
+  the molecules on one screen
 - **Download:** [`data/catalogue/`](data/catalogue/) (tables, JSON, representative sequences; [SCHEMA](data/catalogue/SCHEMA.md), [QC](data/catalogue/QC.md))
 - **Query your own assembly:** [`atlas/`](atlas/README.md) (`subtel-atlas query assembly.fa.gz`)
 
@@ -89,6 +92,8 @@ The definitive tier was defined after the population diagnostics and only remove
 [evidence/showcase](evidence/showcase/README.md). Full CRAM/BAM set: release assets listed in
 [evidence/release_manifest.tsv](evidence/release_manifest.tsv). Re-derive any verdict from public data with
 `evidence/replicate_claim.sh CLAIM_ID` ([clean-tree test](evidence/REPLICATION_TEST.md): 9 of 9 runs identical).
+Guided tour of the molecules in igv.js: [`docs/evidence/tour.html`](https://jlanej.github.io/human-subtelomere-atlas/evidence/tour.html)
+(data in `docs/evidence/tour/data/`, built from the release assets by `website/tour_build.py`).
 
 ## Quick start: query tool
 
@@ -115,7 +120,9 @@ minimap2 is required for results that match the catalogue exactly; the `mappy` f
   [pipeline/INPUTS.md](pipeline/INPUTS.md) for inputs and the rebuild-from-public-data recipe).
 - `analyses/*/run.sh`, `pipeline/validation/run_tan2026.sh`, `literature/reproduce.sh`: analyses, cross-check and
   literature review.
-- `website/build_site.py`: regenerates `docs/` from the data files.
+- `website/build_site.py`: regenerates `docs/` from the data files. The guided-tour data (`docs/evidence/tour/data/`,
+  about 50 MB) is regenerated first by `website/tour_build.py`, `website/tour_models.py` and
+  `website/tour_build.py --sites-only` (see [website/README.md](website/README.md)).
 - [REGENERATE.md](REGENERATE.md): what the git-ignored `work/` directory held (about 77 GB of downloads, indexes and
   alignments) and the command that rebuilds each part.
 

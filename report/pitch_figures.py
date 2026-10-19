@@ -95,7 +95,8 @@ def fig_molecule():
     ax.text((telo + lo) / 2, yM, 'chromosome-11-like', ha='center', va='center', color='white', fontsize=7)
     ax.text((hi + XMAX) / 2, yM, f'chromosome 3 (continues {L - XMAX:.0f} kb further)', ha='center', va='center',
             color='white', fontsize=7)
-    ax.text(r_off / 2, y3, 'not in this molecule', ha='center', va='center', color=RECIP, fontsize=6)
+    ax.text(r_off / 2, y3, 'related sequence, but the molecule matches chr11 better here', ha='center', va='center',
+            color=RECIP, fontsize=6)
     ax.annotate('telomere', (telo / 2, yM - h / 2), (2.2, yM - 0.48), fontsize=6, ha='left', va='center',
                 arrowprops=dict(arrowstyle='-', lw=0.6, color=TELO))
     ax.annotate('switch', ((lo + hi) / 2, yM - h / 2), ((lo + hi) / 2 - 6, yM - 0.48), fontsize=6, ha='center',

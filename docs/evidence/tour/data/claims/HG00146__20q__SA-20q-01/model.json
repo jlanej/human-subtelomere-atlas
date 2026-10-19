@@ -1,0 +1,1 @@
+{"claim_id": "HG00146|20q|SA-20q-01", "model_end": "HG00146#2#CM090043.1#R", "D": "chr3q", "P": "chr20q", "R": "chr20q", "pattern": "DP", "d_win": [0, 45692], "p_win": [0, 65692], "sites": [], "blocks": [], "private": {"donor": [[0, 45692]], "proximal": [[0, 65692]]}, "criteria": "a89c5eaf023ed032"}

@@ -89,11 +89,14 @@ def build(ctx):
     n = page_claim_all(ctx, E, N)
     page_verify(ctx, E, N)
     page_faq(ctx, E, N)
-    return dict(numbers=N, n_claim_pages=n)
+    import tour_pages
+    n_ch, n_gal = tour_pages.build(ctx)
+    return dict(numbers=N, n_claim_pages=n, tour_chapters=n_ch, tour_claims=n_gal)
 
 
 def subnav(pre, cur):
-    items = [("evidence/index.html", "Overview"), ("evidence/claims.html", "Claims table"), ("evidence/verify.html", "Verify it yourself"),
+    items = [("evidence/index.html", "Overview"), ("evidence/tour.html", "Guided tour"), ("evidence/claims.html", "Claims table"),
+             ("evidence/verify.html", "Verify it yourself"),
              ("evidence/faq.html", "FAQ for skeptics")]
     return '<nav class="arm-nav" aria-label="Read evidence">' + "".join(
         f'<a href="{pre}{h}"{" aria-current=page" if h == cur else ""}>{l}</a>' for h, l in items) + "</nav>"
@@ -148,10 +151,16 @@ def one_picture(rp, figure, BLOB, pre):
     common = figure('figures/pitch/fig_pitch_common.png', 'The 12 most frequent foreign chromosome ends',
                     'The 12 foreign structural alleles with the highest Release 2 frequency. Filled: at least one definitive '
                     'read-evidence claim; open: none yet (not testable with the available reads, or not confirmed).', pre)
+    import tour_pages
+    combo = figure('figures/pitch/fig_consolidated.png', 'Molecules, assembly and reference genome tell the same story',
+                   tour_pages.consolidated_caption(rp), pre)
     return f"""
 <h2 id="one-picture">The evidence in one picture</h2>
 <p>A DNA molecule that was never used to build an assembly, read from one end to the other. If the atlas is right, a
 foreign chromosome end should look like this in a single molecule. It does.</p>
+<div class="note callout"><strong>See the molecules yourself, in a genome browser:</strong> <a href="tour.html">guided tour</a>
+(nothing to install; every definitive claim, with the person's own assembly, the reference genome and the molecules on one
+screen).</div>
 {fig}
 <ol class="steps">
 <li><strong>It starts with telomere</strong> ({hr.telo_len / 1e3:.1f} kb of TTAGGG repeats), so it is the real end of a chromosome.</li>
@@ -164,6 +173,9 @@ foreign chromosome end should look like this in a single molecule. It does.</p>
 and PacBio data. The allele in the picture, SA-3q-01, is carried by {Q.a3.n_samples} people, and some foreign ends are
 carried by more than half of all people (below). Two-minute version:
 <a href="{BLOB}report/PITCH.pdf">PITCH.pdf</a> (<a href="{BLOB}report/PITCH.md">Markdown</a>).</p>
+<p>The same story from three directions at once: the molecules on the person's own assembly, the assembly on the reference
+genome, and the molecules on the reference genome.</p>
+{combo}
 {common}
 <h2 id="formal-test">The formal test</h2>
 """
@@ -176,6 +188,7 @@ def pitch_callout(rp, pre, BLOB):
             f'DNA molecule from HG002 starts in the telomere, reads like chromosome 11 for {(Q.hp.switch_lo - Q.hp.telo_len) / 1e3:.0f} kb, '
             f'then switches and runs along chromosome 3 (MAPQ 60). Every one of the {Q.n_people} Release 2 people carries foreign '
             f'chromosome ends (median {Q.per.f.median():.0f} of about 90 assembled ends). <a href="{pre}evidence/index.html#one-picture">See the molecule</a> &middot; '
+            f'<a href="{pre}evidence/tour.html">guided tour in a genome browser</a> &middot; '
             f'<a href="{BLOB}report/PITCH.pdf">two-minute PDF</a></div>')
 
 

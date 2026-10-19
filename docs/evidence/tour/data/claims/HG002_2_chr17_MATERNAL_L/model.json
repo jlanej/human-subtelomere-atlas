@@ -1,0 +1,1 @@
+{"claim_id": "HG002#2#chr17_MATERNAL#L", "model_end": "HG002#2#chr17_MATERNAL#L", "D": "chr11p", "P": "chr17p", "R": "chr17p", "pattern": "DP", "d_win": [192319, 223826], "p_win": [0, 243826], "sites": [], "blocks": [], "private": {"donor": [[192319, 223826]], "proximal": [[0, 243826]]}, "criteria": "a89c5eaf023ed032"}

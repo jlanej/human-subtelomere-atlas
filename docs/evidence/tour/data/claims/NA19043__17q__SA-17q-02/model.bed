@@ -1,0 +1,5 @@
+track name="diagnostic sites (claim model)" itemRgb="On"
+CHM13_chr6q_end	11	2752	shared block (91.0% identical)	0	.	11	11	170,170,170
+CHM13_chr17q_end	55	2608	shared block (91.0% identical)	0	.	55	55	170,170,170
+CHM13_chr6q_end	2752	24480	donor-only sequence	0	.	2752	2752	213,94,0
+CHM13_chr17q_end	2608	54356	proximal-only sequence	0	.	2608	2608	0,114,178

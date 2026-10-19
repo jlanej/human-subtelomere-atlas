@@ -25,6 +25,10 @@ import os, sys, argparse, subprocess
 import numpy as np, pandas as pd, pysam, mappy as mp
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import sys
+sys.path.insert(0, os.path.join(REPO, 'atlas'))
+from subtel_atlas import readevidence as RE  # noqa: E402
+TH = RE.load_criteria(os.path.join(REPO, 'evidence', 'criteria_v1.json'))['thresholds']
 SHOW = os.path.join(REPO, 'evidence', 'showcase')
 OUT = os.path.join(REPO, 'report', 'pitch_data')
 CACHE = os.path.join(REPO, 'work', 'pitch')
@@ -51,11 +55,16 @@ def end_seq(end, lens):
     return s if arm == 'p' else rc(s)
 
 
-def tip_frame(seq):
-    """orient a read so that its telomeric end comes first (CCCTAA-rich start, as CHM13 p-arm tips)"""
-    # as read: telomere first if the start is CCCTAA-rich; reversed: telomere first if the end is TTAGGG-rich
-    keep, flip = seq[:5000].count('CCCTAA'), seq[-5000:].count('TTAGGG')
-    return seq if keep >= flip else rc(seq)
+def tip_frame(seq, platform, telo_len):
+    """Tip-frame orientation (telomeric end first) exactly as the release (atlas readevidence.orient, criteria v1 telomere
+    motifs incl. the ONT R9 basecalling artefacts): the orientation whose terminal telomere block reproduces the release's
+    telo_len. A simple CCCTAA/TTAGGG count mis-orients R9 reads with artefact-rich telomeres."""
+    hits = []
+    for t in (seq, rc(seq)):
+        b = RE.find_block(t[:70000], motifs=RE.telomere_motifs(TH, platform), maxjunk=max(TH['telomere_max_offset'] + 1, 1))
+        if b and int(b['telo_len']) == int(telo_len): hits.append(t)
+    assert len(hits) == 1, ('tip frame not reproduced', len(hits), telo_len)
+    return hits[0]
 
 
 def main():
@@ -77,7 +86,7 @@ def main():
         Dseq, Rseq = end_seq(c.D, lens), end_seq(c.R, lens)
         AD, AR = mp.Aligner(seq=Dseq, preset='map-ont'), mp.Aligner(seq=Rseq, preset='map-ont')
         for x in R.itertuples():
-            t = tip_frame(reads[x.read_id])
+            t = tip_frame(reads[x.read_id], x.platform, x.telo_len)
             for st in range(0, min(len(t), SPAN) - WIN + 1, STEP):
                 w = t[st:st + WIN]; v = []
                 for A in (AD, AR):

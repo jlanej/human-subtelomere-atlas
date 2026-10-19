@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guided read tour | Human subtelomere atlas</title>
+<meta name="description" content="Guided igv.js tour of single DNA molecules that span non-native human chromosome ends.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Human subtelomere atlas <small>catalogue v0.1</small></a>
+<nav class="main" aria-label="Main"><ul><li><a href="../index.html">Home</a></li><li><a href="../arms/index.html">Arms</a></li><li><a href="../alleles.html">Alleles</a></li><li><a href="../findings/index.html">Findings</a></li><li><a href="../methods.html">Methods</a></li><li><a href="../validation.html">Validation</a></li><li><a href="../evidence/index.html" aria-current="page">Read evidence</a></li><li><a href="../query.html">Query tool</a></li><li><a href="../downloads.html">Downloads</a></li><li><a href="../literature.html">Literature</a></li></ul></nav>
+</div></header>
+<main id="main" class="wrap">
+
+<nav class="arm-nav" aria-label="Read evidence"><a href="index.html">Overview</a><a href="tour.html" aria-current=page>Guided tour</a><a href="claims.html">Claims table</a><a href="verify.html">Verify it yourself</a><a href="faq.html">FAQ for skeptics</a></nav>
+<h1>Guided tour: see the molecules</h1>
+<p class="lead">Real DNA molecules from public sequencing data, in a genome browser, with nothing to install. Use
+<b>Next</b> (or the arrow keys). Each stop loads its own data; drag to pan, scroll or use + / &minus; to zoom. Prefer a static picture? <a href="#one-figure">The whole argument in one figure</a>.</p>
+<div class="tour-bar"><button id="tour-prev" type="button" aria-label="previous stop">&larr; Previous</button>
+<ol id="tour-steps" class="tour-steps"></ol><button id="tour-next" type="button" aria-label="next stop">Next &rarr;</button></div>
+<section class="tour-card" aria-live="polite"><h2 id="tour-title"></h2><p id="tour-lead"></p><div id="tour-views" class="tour-views"></div>
+<div id="tour-gallery" class="tour-gallery" hidden><label for="tour-claim">Claim</label> <select id="tour-claim"></select>
+<button id="gal-prev" type="button">&larr;</button><button id="gal-next" type="button">&rarr;</button> <a id="gal-page" href="#">claim page</a></div>
+<ul id="tour-notes" class="tour-notes"></ul></section>
+<div id="tour-status" class="muted" role="status"></div>
+<div id="igv" class="igv-host"></div>
+<h2 id="one-figure">The whole argument in one figure</h2>
+<figure><a href="../assets/img/figures__pitch__fig_consolidated.png"><img src="../assets/img/figures__pitch__fig_consolidated.png" alt="Molecules, assembly and reference genome tell the same story" loading="lazy"></a><figcaption>Each panel stacks four tracks, all starting at the telomere: the CHM13 reference end the claim names as donor (top), the person's own two assembled copies of the chromosome end (middle; claimed copy in bold) and the CHM13 end of the chromosome itself (bottom). Shaded bands place each block of the person's assembly on the reference end its catalogue label names (minimap2 asm10). Black lines are single DNA molecules from public sequencing runs that were not used to build the assemblies: whole, on the claimed copy; cut at their switch interval (criteria v1), part 1 aligned to the donor end and part 2 to the recipient end. (a) HG002 chromosome 3q: 3 molecules of the claim <code>HG002#2#chr3_MATERNAL#R</code>. (b) HG01258 chromosome 20q, allele SA-20q-01: 4 1000 Genomes nanopore molecules of the claim <code>HG01258|20q|SA-20q-01</code>. Tracks are cut at 100 kb. The interactive version of every definitive claim is the guided tour. <span class="muted">(<a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/pitch/fig_consolidated.png">full resolution</a>, <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/figures/pitch/fig_consolidated.pdf">PDF</a>)</span></figcaption></figure>
+<details class="note"><summary>What the tracks are</summary><ul>
+<li><b>assembly blocks (catalogue)</b>: the atlas's labels for the person's own chromosome end (telomere; blocks named
+after the CHM13 end they match best; home = the chromosome's own sequence).</li>
+<li><b>diagnostic sites (claim model)</b>: the pre-registered claim model (criteria v1): single-base sites where the donor and
+comparator CHM13 ends differ (orange on the donor end, blue on the comparator end; the label gives both letters), sequence found
+only in one of them, and their shared blocks in grey (<a href="faq.html">FAQ</a>, <a href="verify.html">verify</a>).</li>
+<li><b>assembly blocks &rarr; CHM13</b>: each block of the person's assembly placed on the reference end its label names.</li>
+<li><b>molecules &rarr; own assembly</b>: whole molecules aligned to the person's own chromosome ends.</li>
+<li><b>molecules &rarr; CHM13 (cut at switch)</b>: each molecule cut at its switch interval (criteria v1); part 1
+(telomere to switch) aligned to the donor end, part 2 to the recipient end. Names end in <code>/part1</code>, <code>/part2</code>.</li>
+<li>All reference panels are in <b>tip frame</b>: position 1 is the telomeric tip; q-arm ends are shown reverse-complemented
+so that every panel reads from the telomere inward. Data and the script that made them: <a href="https://github.com/jlanej/human-subtelomere-atlas/blob/main/website/tour_build.py">website/tour_build.py</a>.</li>
+</ul></details>
+<noscript><p>The tour needs JavaScript. The same files are listed on each <a href="claims.html">claim page</a>.</p></noscript>
+
+</main>
+<footer class="site"><div class="wrap">
+<p>Human subtelomere atlas, catalogue v0.1. Static pages generated by <code>website/build_site.py</code> from the
+release tables in <code>data/</code> and the analyses in <code>analyses/</code>.
+Source: <a href="https://github.com/jlanej/human-subtelomere-atlas">github.com/jlanej/human-subtelomere-atlas</a>. No cookies, trackers or external resources.</p>
+</div></footer>
+<script src="../assets/js/common.js"></script>
+<script src="../assets/js/vendor/igv.min.js"></script>
+<script src="../assets/js/tour.js"></script>
+</body>
+</html>

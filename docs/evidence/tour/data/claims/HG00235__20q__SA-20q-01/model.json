@@ -1,0 +1,1 @@
+{"claim_id": "HG00235|20q|SA-20q-01", "model_end": "HG00235#1#CM094379.1#R", "D": "chr3q", "P": "chr20q", "R": "chr20q", "pattern": "DP", "d_win": [0, 44580], "p_win": [0, 64580], "sites": [], "blocks": [], "private": {"donor": [[0, 44580]], "proximal": [[0, 64580]]}, "criteria": "a89c5eaf023ed032"}

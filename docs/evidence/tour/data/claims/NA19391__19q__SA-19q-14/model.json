@@ -1,0 +1,1 @@
+{"claim_id": "NA19391|19q|SA-19q-14", "model_end": "NA19391#2#CM087812.1#R", "D": "chr21q", "P": "chr19q", "R": "chr19q", "pattern": "DP", "d_win": [0, 25462], "p_win": [0, 45462], "sites": [], "blocks": [], "private": {"donor": [[0, 25462]], "proximal": [[0, 45462]]}, "criteria": "a89c5eaf023ed032"}

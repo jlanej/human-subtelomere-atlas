@@ -1,0 +1,1 @@
+{"claim_id": "HG03742|5q|SA-5q-51", "model_end": "HG03742#2#JBHDXM010000002.1#R", "D": "chr6q", "P": "chr5q", "R": "chr5q", "pattern": "DP", "d_win": [0, 24607], "p_win": [0, 50394], "sites": [], "blocks": [], "private": {"donor": [[0, 24607]], "proximal": [[0, 50394]]}, "criteria": "a89c5eaf023ed032"}

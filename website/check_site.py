@@ -12,7 +12,7 @@ Checks
   4. no external resources are loaded at runtime (script/link/img src must be relative);
   5. every JSON file and every data/*.js payload (window.X = {...};) parses;
   6. no absolute local paths or user names leak into the output;
-  7. size report (total, per page with its data file) and the 20 MB budget.
+  7. size report (total, per page with its data file) and the size budget.
 Exit status 1 if any check fails.
 """
 import argparse
@@ -26,7 +26,7 @@ from urllib.parse import urlparse, unquote
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DOCS = os.path.join(ROOT, "docs")
 REPO = "https://github.com/jlanej/human-subtelomere-atlas/"
-BUDGET = 20e6
+BUDGET = 150e6   # includes the guided-tour read data (docs/evidence/tour/data)
 _HOME_DIRS = "|".join(["/" + "Users" + "/[A-Za-z]", "/" + "home" + "/[a-z]+/", "[A-Z]:" + r"\\" + "Users"])
 LEAK = re.compile("(" + _HOME_DIRS + "|file:///)")
 
