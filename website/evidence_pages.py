@@ -176,6 +176,8 @@ carried by more than half of all people (below). Two-minute version:
 <p>The same story from three directions at once: the molecules on the person's own assembly, the assembly on the reference
 genome, and the molecules on the reference genome.</p>
 {combo}
+<p>And piece by piece: every 2 kb of every molecule, aligned on its own to both reference ends.</p>
+{figure('figures/pitch/fig_alignment_contrast.png', 'Window-by-window alignment contrast of every tour molecule', tour_pages.alignment_caption(rp), pre)}
 {common}
 <h2 id="formal-test">The formal test</h2>
 """

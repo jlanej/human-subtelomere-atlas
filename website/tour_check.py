@@ -30,7 +30,7 @@ def main():
             for loc in v['locus']:
                 c, rg = loc.rsplit(':', 1); a, b = (int(x.replace(',', '')) for x in rg.split('-'))
                 if c not in L or not (1 <= a < b <= L[c]): err.append(f'{name}: locus {loc} outside reference')
-        for t in s['tracks']:
+        for t in [u for x in s['tracks'] for u in (x['tracks'] if x.get('type') == 'merged' else [x])]:
             f = os.path.join(EV, t['url'])
             if not os.path.exists(f): err.append(f'{name}: missing {t["url"]}'); continue
             if t.get('format') == 'bam':
@@ -39,7 +39,7 @@ def main():
                 with pysam.AlignmentFile(f) as b:
                     bad = [c for c in b.references if c not in L]
                 if bad: err.append(f'{name}: {t["url"]} contigs not in reference: {bad[:3]}')
-            elif t.get('format') == 'bed':
+            elif t.get('format') in ('bed', 'bedgraph'):
                 op = gzip.open if f.endswith('.gz') else open
                 bad = {l.split('\t')[0] for l in op(f, 'rt') if l.strip() and not l.startswith(('#', 'track', 'browser'))} - set(L)
                 if bad: err.append(f'{name}: {t["url"]} contigs not in reference: {sorted(bad)[:3]}')
@@ -47,7 +47,7 @@ def main():
     refs = set()
     for _, s in stops(T):
         refs |= {s['ref'][k] for k in ('fastaURL', 'indexURL', 'compressedIndexURL')}
-        for t in s['tracks']:
+        for t in [u for x in s['tracks'] for u in (x['tracks'] if x.get('type') == 'merged' else [x])]:
             refs.add(t['url'])
             if t.get('format') == 'bam': refs.add(t.get('indexURL', t['url'] + '.bai'))
     g = subprocess.run(['git', 'ls-files', '--others', '--ignored', '--exclude-standard', '--', os.path.join(EV, 'tour')],

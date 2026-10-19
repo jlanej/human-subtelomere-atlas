@@ -567,6 +567,57 @@
      "n": 122,
      "private_bp": 46526
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "5448c6a9-91c6-47e9-8d03-9fb645a87a39",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "9c2cd4f5-4009-4fce-b85a-26a1c8f59d61",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    }
+   ],
+   "block_check": {
+    "start": 3060,
+    "end": 27034,
+    "D": {
+     "ident": 0.9929,
+     "matches": 23833,
+     "r_start": 4902,
+     "r_end": 28872,
+     "q_start": 1,
+     "q_end": 23974,
+     "cost": 7.2
+    },
+    "P": {
+     "ident": 0.8979,
+     "matches": 21651,
+     "r_start": 3532,
+     "r_end": 25604,
+     "q_start": 1,
+     "q_end": 23973,
+     "cost": 102.8
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 23974,
+    "block_cost_D": 7.2,
+    "block_ident_D": 0.9929,
+    "block_matches_D": 23833,
+    "block_cost_P": 102.8,
+    "block_ident_P": 0.8979,
+    "block_matches_P": 21651,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -863,6 +914,63 @@
      "n": 0,
      "private_bp": 165905
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "f3a4ea5c-cf24-4b1e-a3a2-4e4967f01e66",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 90
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "eb68b377-3746-4671-8c67-6fc458e4b992;bcc38a28-2d93-4c23-be1b-4ac75015ef83",
+     "dataset": "ont_duplex",
+     "n_windows": 31
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "2c63b082-2c60-4211-8e56-5c15d502d166",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 47
+    }
+   ],
+   "block_check": {
+    "start": 2296,
+    "end": 21001,
+    "D": {
+     "ident": 0.9364,
+     "matches": 10295,
+     "r_start": 209792,
+     "r_end": 220782,
+     "q_start": 7837,
+     "q_end": 18704,
+     "cost": 456.4
+    },
+    "P": {
+     "ident": 0.7608,
+     "matches": 10484,
+     "r_start": 1129,
+     "r_end": 12303,
+     "q_start": 0,
+     "q_end": 13459,
+     "cost": 456.7
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 0,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 18705,
+    "block_cost_D": 456.4,
+    "block_ident_D": 0.9364,
+    "block_matches_D": 10295,
+    "block_cost_P": 456.7,
+    "block_ident_P": 0.7608,
+    "block_matches_P": 10484,
+    "block_verdict": "tie (within 2 per 1,000)"
    }
   },
   {
@@ -1249,6 +1357,69 @@
      "n": 0,
      "private_bp": 0
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "df724291-307e-4eca-ac1c-b0f51e366789",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 90
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "9902476c-67bc-4734-99de-dc5d60c2fedf",
+     "dataset": "ont_q28",
+     "n_windows": 90
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "a4f93a60-f432-4080-8f71-fa290e6b1b33",
+     "dataset": "ont_r941_recall",
+     "n_windows": 90
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "5b430449-7c20-48d8-8f33-415ce8e7d1af",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 90
+    }
+   ],
+   "block_check": {
+    "start": 2416,
+    "end": 12245,
+    "D": {
+     "ident": 0.9953,
+     "matches": 9784,
+     "r_start": 1988,
+     "r_end": 11789,
+     "q_start": 0,
+     "q_end": 9829,
+     "cost": 4.7
+    },
+    "P": {
+     "ident": 0.9813,
+     "matches": 9518,
+     "r_start": 4483,
+     "r_end": 14135,
+     "q_start": 148,
+     "q_end": 9829,
+     "cost": 33.5
+    }
+   },
+   "goodness": {
+    "n_molecules": 4,
+    "before_as_claimed": 4,
+    "before_assessable": 4,
+    "after_as_claimed": 4,
+    "after_assessable": 4,
+    "block_bp": 9829,
+    "block_cost_D": 4.7,
+    "block_ident_D": 0.9953,
+    "block_matches_D": 9784,
+    "block_cost_P": 33.5,
+    "block_ident_P": 0.9813,
+    "block_matches_P": 9518,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -1727,6 +1898,81 @@
      "n": 6,
      "private_bp": 98286
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "93d4bbd8-a626-4ea6-aebd-e6b858024225",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "1194c4ee-8637-462d-888f-f7bd4be78d95",
+     "dataset": "ont_r941_recall",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "39a78a03-cf66-4f26-bce8-6d982ed137f4",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "c03e84bb-1cad-4faa-97b5-27c0549d7de7",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 98
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "ca566567-3108-4114-9611-d3f21fad76f6",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "dd249307-64ec-40c0-9486-707ae5fedd52",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    }
+   ],
+   "block_check": {
+    "start": 8377,
+    "end": 36675,
+    "D": {
+     "ident": 0.9983,
+     "matches": 28255,
+     "r_start": 9162,
+     "r_end": 37464,
+     "q_start": 0,
+     "q_end": 28298,
+     "cost": 1.7
+    },
+    "P": {
+     "ident": 0.9181,
+     "matches": 27880,
+     "r_start": 10835,
+     "r_end": 41088,
+     "q_start": 0,
+     "q_end": 28294,
+     "cost": 88.0
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 0,
+    "after_assessable": 6,
+    "block_bp": 28298,
+    "block_cost_D": 1.7,
+    "block_ident_D": 0.9983,
+    "block_matches_D": 28255,
+    "block_cost_P": 88.0,
+    "block_ident_P": 0.9181,
+    "block_matches_P": 27880,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -2174,6 +2420,81 @@
      "n": 0,
      "private_bp": 271514
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "fa55cc3b-a3e3-4711-9362-bd8f9b978417",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "b0b15874-5a9b-4fe2-b995-79d3a9f58178",
+     "dataset": "ont_r941_recall",
+     "n_windows": 98
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "f341e1d5-9ee2-49ac-a60f-67aaeb3d89ff",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "71c51e08-3ad5-42d4-9d22-9177e01b8088",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "34c7100e-ccb7-42ed-b5ba-ab8454908bdc",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "b75761a0-f20e-40a7-8296-fbcf2351c30f",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    }
+   ],
+   "block_check": {
+    "start": 1668,
+    "end": 29750,
+    "D": {
+     "ident": 0.9043,
+     "matches": 27824,
+     "r_start": 2982,
+     "r_end": 33728,
+     "q_start": 114,
+     "q_end": 28082,
+     "cost": 108.9
+    },
+    "P": {
+     "ident": 0.4995,
+     "matches": 9152,
+     "r_start": 13673,
+     "r_end": 24519,
+     "q_start": 6539,
+     "q_end": 23784,
+     "cost": 712.5
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 28082,
+    "block_cost_D": 108.9,
+    "block_ident_D": 0.9043,
+    "block_matches_D": 27824,
+    "block_cost_P": 712.5,
+    "block_ident_P": 0.4995,
+    "block_matches_P": 9152,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -2588,6 +2909,69 @@
      "n": 147,
      "private_bp": 127004
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "371d8ad9-18e3-4869-9538-2e42c00735e2",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "0e5a1416-53f6-4c3e-a35d-a5a17161495f",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "98467e7e-ac5b-4366-a41b-d6906d4dcaf5",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "50db752c-40da-4ee0-a29c-99f7edc9ccc6",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    }
+   ],
+   "block_check": {
+    "start": 657,
+    "end": 11897,
+    "D": {
+     "ident": 0.9576,
+     "matches": 11030,
+     "r_start": 496,
+     "r_end": 11919,
+     "q_start": 31,
+     "q_end": 11240,
+     "cost": 46.2
+    },
+    "P": {
+     "ident": 0.9026,
+     "matches": 3984,
+     "r_start": 144906,
+     "r_end": 149266,
+     "q_start": 4310,
+     "q_end": 8658,
+     "cost": 651.4
+    }
+   },
+   "goodness": {
+    "n_molecules": 4,
+    "before_as_claimed": 4,
+    "before_assessable": 4,
+    "after_as_claimed": 4,
+    "after_assessable": 4,
+    "block_bp": 11240,
+    "block_cost_D": 46.2,
+    "block_ident_D": 0.9576,
+    "block_matches_D": 11030,
+    "block_cost_P": 651.4,
+    "block_ident_P": 0.9026,
+    "block_matches_P": 3984,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -3065,6 +3449,81 @@
      "n": 0,
      "private_bp": 0
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "57fbae73-b81e-4700-8064-8c45724e6a24",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "37d06699-3e75-4635-ac37-d6e2e4a01a06",
+     "dataset": "ont_q28",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "228fd309-a4f1-4f2b-9b11-983e83951abe",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "1f172b36-25bd-4a4b-a9b5-467d8dd2a16d",
+     "dataset": "ont_r941_recall",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "8e4e4d70-5e09-4fe3-9a79-3a6212607a0e",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "01563d8b-afcb-4944-98af-f2ac8b5ae008",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 95
+    }
+   ],
+   "block_check": {
+    "start": 16950,
+    "end": 87390,
+    "D": {
+     "ident": 0.952,
+     "matches": 69418,
+     "r_start": 24188,
+     "r_end": 96321,
+     "q_start": 0,
+     "q_end": 70439,
+     "cost": 49.7
+    },
+    "P": {
+     "ident": 0.9216,
+     "matches": 16249,
+     "r_start": 71695,
+     "r_end": 88202,
+     "q_start": 52884,
+     "q_end": 70439,
+     "cost": 770.4
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 4,
+    "after_assessable": 6,
+    "block_bp": 70440,
+    "block_cost_D": 49.7,
+    "block_ident_D": 0.952,
+    "block_matches_D": 69418,
+    "block_cost_P": 770.4,
+    "block_ident_P": 0.9216,
+    "block_matches_P": 16249,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -3581,6 +4040,81 @@
      "n": 25,
      "private_bp": 177288
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "1f2a9c0a-9589-4cba-818f-831cd9214752",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "5d030d09-f37e-4fa1-b77a-48746424ae92",
+     "dataset": "ont_r941_recall",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "f5cb1499-4a22-42d3-8183-55be8bd67f9f",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "93a566c1-a0c1-4e1d-ac0c-2dfeb2cdee6d",
+     "dataset": "ont_q28",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "93deb9fc-0c5f-417a-b593-126719ce9fea",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "e95d7e35-ddfb-4432-bdf5-e6fee62a1e3e",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    }
+   ],
+   "block_check": {
+    "start": 2037,
+    "end": 14358,
+    "D": {
+     "ident": 0.9959,
+     "matches": 12271,
+     "r_start": 1988,
+     "r_end": 14281,
+     "q_start": 0,
+     "q_end": 12321,
+     "cost": 4.1
+    },
+    "P": {
+     "ident": 0.9862,
+     "matches": 12189,
+     "r_start": 3301,
+     "r_end": 15651,
+     "q_start": 17,
+     "q_end": 12320,
+     "cost": 15.3
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 12321,
+    "block_cost_D": 4.1,
+    "block_ident_D": 0.9959,
+    "block_matches_D": 12271,
+    "block_cost_P": 15.3,
+    "block_ident_P": 0.9862,
+    "block_matches_P": 12189,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -4033,6 +4567,81 @@
      "n": 0,
      "private_bp": 1059933
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "4e9aac66-fc52-4a5a-ab01-036eaaddb738",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "cc8a34e1-11e8-4399-afb0-c44557ba3c34",
+     "dataset": "ont_q28",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "8c3df949-262a-42ea-8645-2633bed79308",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 98
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "bfbe2086-3bd0-48be-9531-623a1be83246",
+     "dataset": "ont_r941_recall",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "352dea17-71cc-4a34-b057-39902f9c45a1;ef82e849-0654-41b2-b56f-1d6c06d5f75c",
+     "dataset": "ont_duplex",
+     "n_windows": 45
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "c6f4f323-fd42-4f6c-92e9-35427e20afd9",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    }
+   ],
+   "block_check": {
+    "start": 1743,
+    "end": 18244,
+    "D": {
+     "ident": 0.863,
+     "matches": 15780,
+     "r_start": 202319,
+     "r_end": 220564,
+     "q_start": 52,
+     "q_end": 16501,
+     "cost": 155.0
+    },
+    "P": {
+     "ident": 0.7117,
+     "matches": 9867,
+     "r_start": 2158,
+     "r_end": 12303,
+     "q_start": 508,
+     "q_end": 14371,
+     "cost": 402.1
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 0,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 16501,
+    "block_cost_D": 155.0,
+    "block_ident_D": 0.863,
+    "block_matches_D": 15780,
+    "block_cost_P": 402.1,
+    "block_ident_P": 0.7117,
+    "block_matches_P": 9867,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -4367,6 +4976,63 @@
      "n": 0,
      "private_bp": 0
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "65ced107-eb21-42ac-abcf-2599e7c1c108",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 91
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "b72d6049-8966-412d-8c84-572cc2e553d2",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 90
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "a0674094-705f-49e2-9e4f-f22acdadccd1",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 90
+    }
+   ],
+   "block_check": {
+    "start": 456,
+    "end": 12218,
+    "D": {
+     "ident": 0.9658,
+     "matches": 11529,
+     "r_start": 0,
+     "r_end": 11789,
+     "q_start": 4,
+     "q_end": 11762,
+     "cost": 35.0
+    },
+    "P": {
+     "ident": 0.8707,
+     "matches": 11519,
+     "r_start": 944,
+     "r_end": 14135,
+     "q_start": 0,
+     "q_end": 11762,
+     "cost": 145.4
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 11762,
+    "block_cost_D": 35.0,
+    "block_ident_D": 0.9658,
+    "block_matches_D": 11529,
+    "block_cost_P": 145.4,
+    "block_ident_P": 0.8707,
+    "block_matches_P": 11519,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -4984,6 +5650,99 @@
      "n": 475,
      "private_bp": 124105
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "5d1efb88-0939-4219-9675-006fbda0ad0b",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "bc7ffbee-7fad-40da-9fc1-c192477371d7",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "166f995d-7a8f-4a35-bb34-eb33aefcfded",
+     "dataset": "ont_r941_recall",
+     "n_windows": 95
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "8daebd44-d8bd-4737-90f6-eac6bee0100d",
+     "dataset": "ont_q28",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "b41a3e52-1a5f-4742-904a-0bc86c40ee76;dd7eb292-3893-4cc3-b9e7-3ed23d7cfee9",
+     "dataset": "ont_duplex",
+     "n_windows": 57
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "m21009_241011_231051/64619700/ccs",
+     "dataset": "hifi_vega_24hr",
+     "n_windows": 28
+    },
+    {
+     "file": "trace_7.bedgraph",
+     "read_id": "m84030_241023_014024_s2/12780218/ccs",
+     "dataset": "hifi_sprq_30hr",
+     "n_windows": 26
+    },
+    {
+     "file": "trace_8.bedgraph",
+     "read_id": "m84031_231217_062403_s3/249958551/ccs",
+     "dataset": "hifi_revio_pbmay24",
+     "n_windows": 23
+    },
+    {
+     "file": "trace_9.bedgraph",
+     "read_id": "m84011_220902_175841_s1/244122128/ccs",
+     "dataset": "hifi_revio_3cells",
+     "n_windows": 22
+    }
+   ],
+   "block_check": {
+    "start": 2873,
+    "end": 14517,
+    "D": {
+     "ident": 0.9673,
+     "matches": 11627,
+     "r_start": 2844,
+     "r_end": 14858,
+     "q_start": 0,
+     "q_end": 11644,
+     "cost": 33.8
+    },
+    "P": {
+     "ident": 0.8935,
+     "matches": 9921,
+     "r_start": 2936,
+     "r_end": 12989,
+     "q_start": 545,
+     "q_end": 11643,
+     "cost": 148.5
+    }
+   },
+   "goodness": {
+    "n_molecules": 9,
+    "before_as_claimed": 9,
+    "before_assessable": 9,
+    "after_as_claimed": 9,
+    "after_assessable": 9,
+    "block_bp": 11644,
+    "block_cost_D": 33.8,
+    "block_ident_D": 0.9673,
+    "block_matches_D": 11627,
+    "block_cost_P": 148.5,
+    "block_ident_P": 0.8935,
+    "block_matches_P": 9921,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -5306,6 +6065,63 @@
      "n": 84,
      "private_bp": 59961
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "3788f60a-2f28-4b28-917b-f1ecae3645e3",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "cb301498-6330-44c0-a51f-2add6b72a7cb",
+     "dataset": "ont_q28",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "f07a24e0-5080-48f9-b975-8c733c6086a5",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    }
+   ],
+   "block_check": {
+    "start": 1518,
+    "end": 38094,
+    "D": {
+     "ident": 0.9937,
+     "matches": 36423,
+     "r_start": 570,
+     "r_end": 37170,
+     "q_start": 46,
+     "q_end": 36576,
+     "cost": 7.5
+    },
+    "P": {
+     "ident": 0.9039,
+     "matches": 35696,
+     "r_start": 2463,
+     "r_end": 41744,
+     "q_start": 261,
+     "q_end": 36575,
+     "cost": 110.9
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 36576,
+    "block_cost_D": 7.5,
+    "block_ident_D": 0.9937,
+    "block_matches_D": 36423,
+    "block_cost_P": 110.9,
+    "block_ident_P": 0.9039,
+    "block_matches_P": 35696,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -5824,6 +6640,81 @@
      "n": 221,
      "private_bp": 178656
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "86668b7a-ff7e-42ed-98b6-75a3ab33edc9",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "b62a553c-0167-457a-a9ab-c2896898db58",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "e948aa43-3401-4eac-9a61-76fb3cafe3a3",
+     "dataset": "ont_r941_recall",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "7917d20d-324a-4b45-bf8a-581cd387bfbc",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "8cecb9e5-659c-4b81-8867-675030a0c76e",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "0239ac49-3325-411e-a2fa-756ae92e5d00",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    }
+   ],
+   "block_check": {
+    "start": 1141,
+    "end": 9225,
+    "D": {
+     "ident": 0.9521,
+     "matches": 7779,
+     "r_start": 1833,
+     "r_end": 9791,
+     "q_start": 7,
+     "q_end": 8084,
+     "cost": 49.2
+    },
+    "P": {
+     "ident": 0.9028,
+     "matches": 3983,
+     "r_start": 144906,
+     "r_end": 149266,
+     "q_start": 3283,
+     "q_end": 7630,
+     "cost": 515.3
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 8084,
+    "block_cost_D": 49.2,
+    "block_ident_D": 0.9521,
+    "block_matches_D": 7779,
+    "block_cost_P": 515.3,
+    "block_ident_P": 0.9028,
+    "block_matches_P": 3983,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -6296,6 +7187,81 @@
      "n": 0,
      "private_bp": 0
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "5a3b4d18-1d54-48d8-8c9d-63392e735db4",
+     "dataset": "ont_q28",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "4b6cfebe-eed6-4fc4-a591-b9de087f56f5",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "dd644ab6-6e53-4607-91e0-e3cc7bfbbfe6",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "21da6c57-3d5d-43e7-9fc4-743c69dd5c5c",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "5583b40c-3ac2-4833-9e71-cad4fe506b2b",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 97
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "819187ec-2ae8-462e-8294-d344791e313a",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 90
+    }
+   ],
+   "block_check": {
+    "start": 28911,
+    "end": 87668,
+    "D": {
+     "ident": 0.9038,
+     "matches": 58450,
+     "r_start": 29942,
+     "r_end": 94522,
+     "q_start": 1,
+     "q_end": 58756,
+     "cost": 105.9
+    },
+    "P": {
+     "ident": 0.9207,
+     "matches": 16234,
+     "r_start": 71695,
+     "r_end": 88202,
+     "q_start": 41207,
+     "q_end": 58756,
+     "cost": 725.1
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 4,
+    "after_assessable": 6,
+    "block_bp": 58757,
+    "block_cost_D": 105.9,
+    "block_ident_D": 0.9038,
+    "block_matches_D": 58450,
+    "block_cost_P": 725.1,
+    "block_ident_P": 0.9207,
+    "block_matches_P": 16234,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -6750,6 +7716,81 @@
      "n": 120,
      "private_bp": 119964
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "9fbe833e-4473-4c1e-ad12-f7cf197d8648",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "573abf3b-5953-49f5-9682-488692b04a99",
+     "dataset": "ont_q28",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "9978a845-7bd8-4f49-ba24-a17b7679f7d0",
+     "dataset": "ont_lc24_ulk",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "de5637d0-0c27-4232-aae6-14fbb0d55fcc",
+     "dataset": "ont_r941_recall",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "bfe86476-a57f-40df-8e2f-74d9a5235940;6743edc6-209f-433c-aa63-23141bc49844",
+     "dataset": "ont_duplex",
+     "n_windows": 49
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "e579902c-07f3-4203-92e3-e9cc10042d89",
+     "dataset": "ont_ul_dorado",
+     "n_windows": 96
+    }
+   ],
+   "block_check": {
+    "start": 6150,
+    "end": 22422,
+    "D": {
+     "ident": 0.9998,
+     "matches": 16269,
+     "r_start": 6209,
+     "r_end": 22482,
+     "q_start": 0,
+     "q_end": 16272,
+     "cost": 0.2
+    },
+    "P": {
+     "ident": 0.9901,
+     "matches": 16120,
+     "r_start": 7190,
+     "r_end": 23458,
+     "q_start": 0,
+     "q_end": 16271,
+     "cost": 10.0
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 16272,
+    "block_cost_D": 0.2,
+    "block_ident_D": 0.9998,
+    "block_matches_D": 16269,
+    "block_cost_P": 10.0,
+    "block_ident_P": 0.9901,
+    "block_matches_P": 16120,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -7046,6 +8087,63 @@
      "n": 0,
      "private_bp": 85019
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "6655d7c5-3654-4ba2-bbcf-0abc6a7efeb7",
+     "dataset": "HG003_ont_r10_PAQ00476_291af615",
+     "n_windows": 33
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "bef7e5fe-07d6-44c3-a040-6fa1f80ae08a",
+     "dataset": "HG003_ont_ul_r941",
+     "n_windows": 42
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "7dc0d0d6-3aed-440f-868b-423a93234167",
+     "dataset": "HG003_ont_r10_PAO98397_289a47d8",
+     "n_windows": 17
+    }
+   ],
+   "block_check": {
+    "start": 1743,
+    "end": 18244,
+    "D": {
+     "ident": 0.863,
+     "matches": 15780,
+     "r_start": 202319,
+     "r_end": 220564,
+     "q_start": 52,
+     "q_end": 16501,
+     "cost": 155.0
+    },
+    "P": {
+     "ident": 0.7117,
+     "matches": 9867,
+     "r_start": 2158,
+     "r_end": 12303,
+     "q_start": 508,
+     "q_end": 14371,
+     "cost": 402.1
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 0,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 16501,
+    "block_cost_D": 155.0,
+    "block_ident_D": 0.863,
+    "block_matches_D": 15780,
+    "block_cost_P": 402.1,
+    "block_ident_P": 0.7117,
+    "block_matches_P": 9867,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -7507,6 +8605,81 @@
      "n": 309,
      "private_bp": 81093
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "3c8a5973-a761-412b-8219-8d96555b3cd3",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 61
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "5237ac01-c2b5-4403-8d44-b40ffa886ba5",
+     "dataset": "HG004_ont_r10_PAO98462_c3dbcd08",
+     "n_windows": 36
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "e9f18cbc-d0cc-492c-ad3c-a426a3491ae6",
+     "dataset": "HG004_ont_r10_PAO98462_947941d1",
+     "n_windows": 22
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "4761a080-969e-4399-97d5-ddf2c0c4f2af",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 60
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "21ca37f1-e9d9-4837-89da-e85164c24854",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 40
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "8949ca43-3c88-4665-a700-48a1e8462df4",
+     "dataset": "HG004_ont_r10_PAO98462_c3dbcd08",
+     "n_windows": 21
+    }
+   ],
+   "block_check": {
+    "start": 2873,
+    "end": 14517,
+    "D": {
+     "ident": 0.9673,
+     "matches": 11627,
+     "r_start": 2844,
+     "r_end": 14858,
+     "q_start": 0,
+     "q_end": 11644,
+     "cost": 33.8
+    },
+    "P": {
+     "ident": 0.8935,
+     "matches": 9921,
+     "r_start": 2936,
+     "r_end": 12989,
+     "q_start": 545,
+     "q_end": 11643,
+     "cost": 148.5
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 11644,
+    "block_cost_D": 33.8,
+    "block_ident_D": 0.9673,
+    "block_matches_D": 11627,
+    "block_cost_P": 148.5,
+    "block_ident_P": 0.8935,
+    "block_matches_P": 9921,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -7961,6 +9134,81 @@
      "n": 114,
      "private_bp": 112101
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "ae32ed45-2c53-4f9f-b365-493a4c82fb18",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 94
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "9ec30631-03c6-403a-a52f-9dbfd9a9dff0",
+     "dataset": "HG004_ont_r10_PAO98462_c3dbcd08",
+     "n_windows": 40
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "e7856129-6c3a-405b-bb62-3df23e70aafd",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 95
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "a2d5d5f8-13c2-4ac0-8791-8bd96243d676",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 58
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "c0d1e406-5bea-4e0c-86a2-04c7b37c4276",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 57
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "c244b1c8-f2dd-4d1b-abfe-214bab2e41a5",
+     "dataset": "HG004_ont_ul_r941",
+     "n_windows": 59
+    }
+   ],
+   "block_check": {
+    "start": 6150,
+    "end": 22422,
+    "D": {
+     "ident": 0.9998,
+     "matches": 16269,
+     "r_start": 6209,
+     "r_end": 22482,
+     "q_start": 0,
+     "q_end": 16272,
+     "cost": 0.2
+    },
+    "P": {
+     "ident": 0.9901,
+     "matches": 16120,
+     "r_start": 7190,
+     "r_end": 23458,
+     "q_start": 0,
+     "q_end": 16271,
+     "cost": 10.0
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 16272,
+    "block_cost_D": 0.2,
+    "block_ident_D": 0.9998,
+    "block_matches_D": 16269,
+    "block_cost_P": 10.0,
+    "block_ident_P": 0.9901,
+    "block_matches_P": 16120,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -8193,6 +9441,57 @@
      "n": 0,
      "private_bp": 47573
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "fa87cfd8-bbb5-4a1d-9379-1edf5b18a691",
+     "dataset": "1KG_ONT_HG00128",
+     "n_windows": 95
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "62fb6d18-7c08-4695-b71d-a699866955f4",
+     "dataset": "1KG_ONT_HG00128",
+     "n_windows": 46
+    }
+   ],
+   "block_check": {
+    "start": 2717,
+    "end": 33675,
+    "D": {
+     "ident": 0.9968,
+     "matches": 30923,
+     "r_start": 4617,
+     "r_end": 35638,
+     "q_start": 0,
+     "q_end": 30957,
+     "cost": 3.2
+    },
+    "P": {
+     "ident": 0.9163,
+     "matches": 28483,
+     "r_start": 3525,
+     "r_end": 32521,
+     "q_start": 17,
+     "q_end": 30957,
+     "cost": 84.6
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 30958,
+    "block_cost_D": 3.2,
+    "block_ident_D": 0.9968,
+    "block_matches_D": 30923,
+    "block_cost_P": 84.6,
+    "block_ident_P": 0.9163,
+    "block_matches_P": 28483,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -8425,6 +9724,57 @@
      "n": 0,
      "private_bp": 63508
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "cdc968e6-0faa-4e55-b75f-6de5975dc228",
+     "dataset": "1KG_ONT_HG00133",
+     "n_windows": 96
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "93c1a963-189c-4928-9a24-bbcbc0e016ab",
+     "dataset": "1KG_ONT_HG00133",
+     "n_windows": 62
+    }
+   ],
+   "block_check": {
+    "start": 2752,
+    "end": 33924,
+    "D": {
+     "ident": 0.9932,
+     "matches": 31117,
+     "r_start": 4314,
+     "r_end": 35638,
+     "q_start": 0,
+     "q_end": 31171,
+     "cost": 6.9
+    },
+    "P": {
+     "ident": 0.9157,
+     "matches": 28458,
+     "r_start": 3525,
+     "r_end": 32521,
+     "q_start": 259,
+     "q_end": 31171,
+     "cost": 92.4
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 1,
+    "before_assessable": 1,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 31172,
+    "block_cost_D": 6.9,
+    "block_ident_D": 0.9932,
+    "block_matches_D": 31117,
+    "block_cost_P": 92.4,
+    "block_ident_P": 0.9157,
+    "block_matches_P": 28458,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -8709,6 +10059,63 @@
      "n": 0,
      "private_bp": 58506
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "abe69a2a-cd5c-41ad-b6c4-df03ccbec467",
+     "dataset": "1KG_ONT_HG00146",
+     "n_windows": 51
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "a26768ea-167b-4445-b377-497877f7e35b",
+     "dataset": "1KG_ONT_HG00146",
+     "n_windows": 56
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "552490a6-779e-463e-b25b-167c1cc99138",
+     "dataset": "1KG_ONT_HG00146",
+     "n_windows": 41
+    }
+   ],
+   "block_check": {
+    "start": 6090,
+    "end": 38085,
+    "D": {
+     "ident": 0.9811,
+     "matches": 31794,
+     "r_start": 3292,
+     "r_end": 35692,
+     "q_start": 159,
+     "q_end": 31995,
+     "cost": 24.1
+    },
+    "P": {
+     "ident": 0.9164,
+     "matches": 28536,
+     "r_start": 3525,
+     "r_end": 32574,
+     "q_start": 994,
+     "q_end": 31994,
+     "cost": 112.5
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 31995,
+    "block_cost_D": 24.1,
+    "block_ident_D": 0.9811,
+    "block_matches_D": 31794,
+    "block_cost_P": 112.5,
+    "block_ident_P": 0.9164,
+    "block_matches_P": 28536,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -9064,6 +10471,69 @@
      "n": 0,
      "private_bp": 107211
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "d8467f00-ec04-4fac-8d23-35027d6d26d5",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 48
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "52806e2b-4801-43e1-a727-6f5ab1772890",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 31
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "48b699d1-90bf-443f-826c-5f6bc2bdd10d",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 44
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "bf16c694-abc5-4d8e-8239-25c8d1ee4887",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 31
+    }
+   ],
+   "block_check": {
+    "start": 770,
+    "end": 12227,
+    "D": {
+     "ident": 0.7103,
+     "matches": 11048,
+     "r_start": 202757,
+     "r_end": 218308,
+     "q_start": 118,
+     "q_end": 11444,
+     "cost": 404.8
+    },
+    "P": {
+     "ident": 0.8893,
+     "matches": 10189,
+     "r_start": 2056,
+     "r_end": 12315,
+     "q_start": 0,
+     "q_end": 11456,
+     "cost": 110.8
+    }
+   },
+   "goodness": {
+    "n_molecules": 4,
+    "before_as_claimed": 0,
+    "before_assessable": 4,
+    "after_as_claimed": 4,
+    "after_assessable": 4,
+    "block_bp": 11457,
+    "block_cost_D": 404.8,
+    "block_ident_D": 0.7103,
+    "block_matches_D": 11048,
+    "block_cost_P": 110.8,
+    "block_ident_P": 0.8893,
+    "block_matches_P": 10189,
+    "block_verdict": "closer to P"
    }
   },
   {
@@ -9324,6 +10794,57 @@
      "n": 0,
      "private_bp": 55047
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "2a0300aa-e26d-48ce-b253-58a5c02fc5d5",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 51
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "47d7ca75-1a33-425d-a204-49c97c58c673",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 47
+    }
+   ],
+   "block_check": {
+    "start": 10660,
+    "end": 16347,
+    "D": {
+     "ident": 0.9897,
+     "matches": 5652,
+     "r_start": 3072,
+     "r_end": 8782,
+     "q_start": 0,
+     "q_end": 5687,
+     "cost": 10.4
+    },
+    "P": {
+     "ident": 0.925,
+     "matches": 5264,
+     "r_start": 3341,
+     "r_end": 8689,
+     "q_start": 0,
+     "q_end": 5687,
+     "cost": 75.1
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 5687,
+    "block_cost_D": 10.4,
+    "block_ident_D": 0.9897,
+    "block_matches_D": 5652,
+    "block_cost_P": 75.1,
+    "block_ident_P": 0.925,
+    "block_matches_P": 5264,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -9792,6 +11313,81 @@
      "n": 315,
      "private_bp": 85367
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "be987867-7639-41c6-8710-268f7d590684",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 50
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "0e4bc5cd-fd25-442e-bfec-e7d49fe215db",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 32
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "ef6b7aef-cdca-4316-bd24-1a88e9612229",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 35
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "1442a406-2542-41b1-87a3-40148b0d36f6",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 35
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "e4b81d09-fbc6-4e5b-a5df-a41b6424c948",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 33
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "a63c1211-d486-455e-8057-c6a101c3aec1",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 31
+    }
+   ],
+   "block_check": {
+    "start": 8281,
+    "end": 18954,
+    "D": {
+     "ident": 0.9654,
+     "matches": 10665,
+     "r_start": 3812,
+     "r_end": 14858,
+     "q_start": 0,
+     "q_end": 10673,
+     "cost": 35.8
+    },
+    "P": {
+     "ident": 0.8916,
+     "matches": 9520,
+     "r_start": 3341,
+     "r_end": 12989,
+     "q_start": 0,
+     "q_end": 10672,
+     "cost": 108.6
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 10673,
+    "block_cost_D": 35.8,
+    "block_ident_D": 0.9654,
+    "block_matches_D": 10665,
+    "block_cost_P": 108.6,
+    "block_ident_P": 0.8916,
+    "block_matches_P": 9520,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -10038,6 +11634,57 @@
      "n": 0,
      "private_bp": 57876
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "ae11511a-a3a4-44fe-8cbd-cd8fbe17618e",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 68
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "44c767a6-c7df-4bcf-a325-31a18cb5d325",
+     "dataset": "1KG_ONT_HG00235",
+     "n_windows": 57
+    }
+   ],
+   "block_check": {
+    "start": 6435,
+    "end": 38418,
+    "D": {
+     "ident": 0.9603,
+     "matches": 31875,
+     "r_start": 1421,
+     "r_end": 34580,
+     "q_start": 0,
+     "q_end": 31983,
+     "cost": 41.2
+    },
+    "P": {
+     "ident": 0.8769,
+     "matches": 29374,
+     "r_start": 150,
+     "r_end": 31462,
+     "q_start": 18,
+     "q_end": 31982,
+     "cost": 129.5
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 31983,
+    "block_cost_D": 41.2,
+    "block_ident_D": 0.9603,
+    "block_matches_D": 31875,
+    "block_cost_P": 129.5,
+    "block_ident_P": 0.8769,
+    "block_matches_P": 29374,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -10277,6 +11924,57 @@
      "n": 0,
      "private_bp": 31431
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "ee3324ef-79f2-41b9-849e-56dd801bd5e6",
+     "dataset": "1KG_ONT_HG00321",
+     "n_windows": 52
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "1f6aa7dd-df94-48c1-9133-487bdb64bb4e",
+     "dataset": "1KG_ONT_HG00321",
+     "n_windows": 42
+    }
+   ],
+   "block_check": {
+    "start": 4794,
+    "end": 35825,
+    "D": {
+     "ident": 0.9978,
+     "matches": 30967,
+     "r_start": 4599,
+     "r_end": 35604,
+     "q_start": 0,
+     "q_end": 31030,
+     "cost": 2.2
+    },
+    "P": {
+     "ident": 0.9148,
+     "matches": 28474,
+     "r_start": 3525,
+     "r_end": 32487,
+     "q_start": 35,
+     "q_end": 31030,
+     "cost": 86.7
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 31031,
+    "block_cost_D": 2.2,
+    "block_ident_D": 0.9978,
+    "block_matches_D": 30967,
+    "block_cost_P": 86.7,
+    "block_ident_P": 0.9148,
+    "block_matches_P": 28474,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -10677,6 +12375,75 @@
      "n": 68,
      "private_bp": 106576
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "ad2528fe-dbdb-4e18-93ba-1995d868f928",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 33
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "b65e11e9-e2a2-4fc2-a2fe-c1b728feedba",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 54
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "069a57e6-13da-436c-831b-a628a5c896f6",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 40
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "48568c91-e036-4bae-b8cb-f7fbad3267cc",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 36
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "cb38b5db-42ad-455b-acbc-3ea05e84305a",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 32
+    }
+   ],
+   "block_check": {
+    "start": 12700,
+    "end": 29413,
+    "D": {
+     "ident": 0.8817,
+     "matches": 16003,
+     "r_start": 202371,
+     "r_end": 220479,
+     "q_start": 7,
+     "q_end": 16701,
+     "cost": 129.7
+    },
+    "P": {
+     "ident": 0.7314,
+     "matches": 9864,
+     "r_start": 2158,
+     "r_end": 12303,
+     "q_start": 415,
+     "q_end": 13900,
+     "cost": 409.9
+    }
+   },
+   "goodness": {
+    "n_molecules": 5,
+    "before_as_claimed": 0,
+    "before_assessable": 5,
+    "after_as_claimed": 5,
+    "after_assessable": 5,
+    "block_bp": 16713,
+    "block_cost_D": 129.7,
+    "block_ident_D": 0.8817,
+    "block_matches_D": 16003,
+    "block_cost_P": 409.9,
+    "block_ident_P": 0.7314,
+    "block_matches_P": 9864,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -11013,6 +12780,69 @@
      "n": 0,
      "private_bp": 101182
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "30a25f04-4069-425c-aa44-15cc0de6b642",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 86
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "20484773-6243-40c1-95ec-6c45f8df6777",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 61
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "65ebf806-a239-4e26-b3b2-afa852384110",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 50
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "5323223e-1ba4-43b9-9cab-2fa9bb01dfc2",
+     "dataset": "1KG_ONT_HG01258",
+     "n_windows": 49
+    }
+   ],
+   "block_check": {
+    "start": 9150,
+    "end": 40572,
+    "D": {
+     "ident": 0.9833,
+     "matches": 31370,
+     "r_start": 3739,
+     "r_end": 35638,
+     "q_start": 0,
+     "q_end": 31421,
+     "cost": 17.0
+    },
+    "P": {
+     "ident": 0.9157,
+     "matches": 28442,
+     "r_start": 3525,
+     "r_end": 32521,
+     "q_start": 539,
+     "q_end": 31421,
+     "cost": 100.5
+    }
+   },
+   "goodness": {
+    "n_molecules": 4,
+    "before_as_claimed": 4,
+    "before_assessable": 4,
+    "after_as_claimed": 4,
+    "after_assessable": 4,
+    "block_bp": 31422,
+    "block_cost_D": 17.0,
+    "block_ident_D": 0.9833,
+    "block_matches_D": 31370,
+    "block_cost_P": 100.5,
+    "block_ident_P": 0.9157,
+    "block_matches_P": 28442,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -11266,6 +13096,57 @@
      "n": 0,
      "private_bp": 0
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "d2a3ad12-7d76-4755-9329-2e8f68905b74",
+     "dataset": "1KG_ONT_HG02976",
+     "n_windows": 41
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "47217f93-951a-43a6-a519-7bac2e8a7beb",
+     "dataset": "1KG_ONT_HG02976",
+     "n_windows": 39
+    }
+   ],
+   "block_check": {
+    "start": 5351,
+    "end": 13523,
+    "D": {
+     "ident": 0.9983,
+     "matches": 8163,
+     "r_start": 3655,
+     "r_end": 11832,
+     "q_start": 0,
+     "q_end": 8172,
+     "cost": 1.7
+    },
+    "P": {
+     "ident": 0.988,
+     "matches": 8078,
+     "r_start": 4983,
+     "r_end": 13154,
+     "q_start": 0,
+     "q_end": 8171,
+     "cost": 12.1
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 8172,
+    "block_cost_D": 1.7,
+    "block_ident_D": 0.9983,
+    "block_matches_D": 8163,
+    "block_cost_P": 12.1,
+    "block_ident_P": 0.988,
+    "block_matches_P": 8078,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -11562,6 +13443,63 @@
      "n": 0,
      "private_bp": 70002
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "4eb7ccab-2a58-43b6-a653-78259850c110",
+     "dataset": "1KG_ONT_HG02976",
+     "n_windows": 73
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "ad9a17b0-9aea-45fb-8053-af97fc9e3962",
+     "dataset": "1KG_ONT_HG02976",
+     "n_windows": 51
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "29be6254-f223-4c72-9ab5-1afe35020ad9",
+     "dataset": "1KG_ONT_HG02976",
+     "n_windows": 48
+    }
+   ],
+   "block_check": {
+    "start": 10228,
+    "end": 43319,
+    "D": {
+     "ident": 0.9834,
+     "matches": 32861,
+     "r_start": 2278,
+     "r_end": 35638,
+     "q_start": 1,
+     "q_end": 33090,
+     "cost": 16.9
+    },
+    "P": {
+     "ident": 0.8816,
+     "matches": 30415,
+     "r_start": 210,
+     "r_end": 32521,
+     "q_start": 1,
+     "q_end": 33090,
+     "cost": 123.4
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 33091,
+    "block_cost_D": 16.9,
+    "block_ident_D": 0.9834,
+    "block_matches_D": 32861,
+    "block_cost_P": 123.4,
+    "block_ident_P": 0.8816,
+    "block_matches_P": 30415,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -11858,6 +13796,63 @@
      "n": 0,
      "private_bp": 53412
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "b8791dce-ddf3-48fd-8150-adbb32273a39",
+     "dataset": "1KG_ONT_HG03130",
+     "n_windows": 41
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "48f2de55-b8ba-4b13-877d-a2d92e9be0d5",
+     "dataset": "1KG_ONT_HG03130",
+     "n_windows": 38
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "85eb1f64-194f-4cb4-a6bd-3fe7cf1e050e",
+     "dataset": "1KG_ONT_HG03130",
+     "n_windows": 37
+    }
+   ],
+   "block_check": {
+    "start": 5287,
+    "end": 25317,
+    "D": {
+     "ident": 0.8684,
+     "matches": 17393,
+     "r_start": 202717,
+     "r_end": 220850,
+     "q_start": 0,
+     "q_end": 20026,
+     "cost": 131.8
+    },
+    "P": {
+     "ident": 0.7353,
+     "matches": 9870,
+     "r_start": 2158,
+     "r_end": 12303,
+     "q_start": 30,
+     "q_end": 13453,
+     "cost": 507.2
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 0,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 20030,
+    "block_cost_D": 131.8,
+    "block_ident_D": 0.8684,
+    "block_matches_D": 17393,
+    "block_cost_P": 507.2,
+    "block_ident_P": 0.7353,
+    "block_matches_P": 9870,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -12201,6 +14196,69 @@
      "n": 0,
      "private_bp": 84612
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "161689db-c7fa-4032-8011-dbf4d36a1b04",
+     "dataset": "1KG_ONT_HG03742",
+     "n_windows": 50
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "a5a005b6-add6-4995-bdf9-fd01501ee482",
+     "dataset": "1KG_ONT_HG03742",
+     "n_windows": 33
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "24d49ba8-f6f9-401e-b111-203a1d67daaa",
+     "dataset": "1KG_ONT_HG03742",
+     "n_windows": 28
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "6973b914-ca1e-4829-af54-1c072db90b24",
+     "dataset": "1KG_ONT_HG03742",
+     "n_windows": 30
+    }
+   ],
+   "block_check": {
+    "start": 9497,
+    "end": 20240,
+    "D": {
+     "ident": 0.9956,
+     "matches": 10549,
+     "r_start": 4012,
+     "r_end": 14607,
+     "q_start": 147,
+     "q_end": 10742,
+     "cost": 18.2
+    },
+    "P": {
+     "ident": 0.9855,
+     "matches": 7822,
+     "r_start": 12506,
+     "r_end": 20392,
+     "q_start": 2805,
+     "q_end": 10742,
+     "cost": 271.9
+    }
+   },
+   "goodness": {
+    "n_molecules": 4,
+    "before_as_claimed": 4,
+    "before_assessable": 4,
+    "after_as_claimed": 4,
+    "after_assessable": 4,
+    "block_bp": 10743,
+    "block_cost_D": 18.2,
+    "block_ident_D": 0.9956,
+    "block_matches_D": 10549,
+    "block_cost_P": 271.9,
+    "block_ident_P": 0.9855,
+    "block_matches_P": 7822,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -12469,6 +14527,57 @@
      "n": 0,
      "private_bp": 97571
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "ac963944-a50d-4652-a767-0af356123805",
+     "dataset": "1KG_ONT_NA18983",
+     "n_windows": 71
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "45c7a802-0062-4517-b8fd-2ff913db611c",
+     "dataset": "1KG_ONT_NA18983",
+     "n_windows": 68
+    }
+   ],
+   "block_check": {
+    "start": 7946,
+    "end": 36738,
+    "D": {
+     "ident": 0.7724,
+     "matches": 14373,
+     "r_start": 205815,
+     "r_end": 220891,
+     "q_start": 0,
+     "q_end": 18609,
+     "cost": 500.8
+    },
+    "P": {
+     "ident": 0.6311,
+     "matches": 6814,
+     "r_start": 5224,
+     "r_end": 12303,
+     "q_start": 0,
+     "q_end": 10797,
+     "cost": 763.3
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 0,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 28792,
+    "block_cost_D": 500.8,
+    "block_ident_D": 0.7724,
+    "block_matches_D": 14373,
+    "block_cost_P": 763.3,
+    "block_ident_P": 0.6311,
+    "block_matches_P": 6814,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -12767,6 +14876,63 @@
      "n": 0,
      "private_bp": 81771
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "10e80ed2-e248-4fa4-bb70-9018c3a48dfb",
+     "dataset": "1KG_ONT_NA18983",
+     "n_windows": 46
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "a06cb3ce-15d8-4fbc-bca2-fa67db66bfa7",
+     "dataset": "1KG_ONT_NA18983",
+     "n_windows": 44
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "8aef113b-bb7b-4e77-94a9-827be8db8d6b",
+     "dataset": "1KG_ONT_NA18983",
+     "n_windows": 37
+    }
+   ],
+   "block_check": {
+    "start": 8530,
+    "end": 14217,
+    "D": {
+     "ident": 0.9897,
+     "matches": 5652,
+     "r_start": 3072,
+     "r_end": 8782,
+     "q_start": 0,
+     "q_end": 5687,
+     "cost": 10.4
+    },
+    "P": {
+     "ident": 0.925,
+     "matches": 5264,
+     "r_start": 3341,
+     "r_end": 8689,
+     "q_start": 0,
+     "q_end": 5687,
+     "cost": 75.1
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 5687,
+    "block_cost_D": 10.4,
+    "block_ident_D": 0.9897,
+    "block_matches_D": 5652,
+    "block_cost_P": 75.1,
+    "block_ident_P": 0.925,
+    "block_matches_P": 5264,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -13011,6 +15177,57 @@
      "n": 40,
      "private_bp": 52130
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "fe7ef235-c109-4f69-9c02-26c837c60914",
+     "dataset": "1KG_ONT_NA18983",
+     "n_windows": 60
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "34668c40-faa4-440f-89c9-14b2a168040e",
+     "dataset": "1KG_ONT_NA18983",
+     "n_windows": 40
+    }
+   ],
+   "block_check": {
+    "start": 9286,
+    "end": 21069,
+    "D": {
+     "ident": 0.9689,
+     "matches": 11599,
+     "r_start": 2769,
+     "r_end": 14618,
+     "q_start": 0,
+     "q_end": 11783,
+     "cost": 31.6
+    },
+    "P": {
+     "ident": 0.9231,
+     "matches": 11193,
+     "r_start": 2814,
+     "r_end": 14542,
+     "q_start": 0,
+     "q_end": 11782,
+     "cost": 79.3
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 11783,
+    "block_cost_D": 31.6,
+    "block_ident_D": 0.9689,
+    "block_matches_D": 11599,
+    "block_cost_P": 79.3,
+    "block_ident_P": 0.9231,
+    "block_matches_P": 11193,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -13274,6 +15491,57 @@
      "n": 0,
      "private_bp": 61586
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "60501dd5-b7e6-4b8a-b1cb-4d51f2fc4453",
+     "dataset": "1KG_ONT_NA19043",
+     "n_windows": 30
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "fb091757-1b20-43be-936f-a5baa3d41b2e",
+     "dataset": "1KG_ONT_NA19043",
+     "n_windows": 28
+    }
+   ],
+   "block_check": {
+    "start": 6694,
+    "end": 20217,
+    "D": {
+     "ident": 0.9441,
+     "matches": 13342,
+     "r_start": 390,
+     "r_end": 14480,
+     "q_start": 10,
+     "q_end": 13523,
+     "cost": 59.2
+    },
+    "P": {
+     "ident": 0.4561,
+     "matches": 9024,
+     "r_start": 4629,
+     "r_end": 24354,
+     "q_start": 4224,
+     "q_end": 13522,
+     "cost": 1108.3
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 2,
+    "before_assessable": 2,
+    "after_as_claimed": 2,
+    "after_assessable": 2,
+    "block_bp": 13523,
+    "block_cost_D": 59.2,
+    "block_ident_D": 0.9441,
+    "block_matches_D": 13342,
+    "block_cost_P": 1108.3,
+    "block_ident_P": 0.4561,
+    "block_matches_P": 9024,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -13723,6 +15991,81 @@
      "n": 0,
      "private_bp": 127094
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "15af083a-4873-4ae3-8c56-fb00ff81ce4c",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 38
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "40ef2f89-d74d-4ac8-9f74-daf756674322",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 36
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "96af06a7-1182-48d1-b4ca-8bbf69b6d4ed",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 25
+    },
+    {
+     "file": "trace_4.bedgraph",
+     "read_id": "f7a1d85a-a302-4f8d-a2b8-ac5d034ef0ff",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 29
+    },
+    {
+     "file": "trace_5.bedgraph",
+     "read_id": "74a1d848-fb53-4db3-b7ff-d6ac35a13588",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 23
+    },
+    {
+     "file": "trace_6.bedgraph",
+     "read_id": "8e6c2b45-379c-40cf-91ec-8f1373aa8e30",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 28
+    }
+   ],
+   "block_check": {
+    "start": 7470,
+    "end": 8972,
+    "D": {
+     "ident": 0.8966,
+     "matches": 1361,
+     "r_start": 208,
+     "r_end": 1692,
+     "q_start": 1,
+     "q_end": 1502,
+     "cost": 105.2
+    },
+    "P": {
+     "ident": 0.8959,
+     "matches": 1360,
+     "r_start": 309,
+     "r_end": 1805,
+     "q_start": 1,
+     "q_end": 1502,
+     "cost": 105.9
+    }
+   },
+   "goodness": {
+    "n_molecules": 6,
+    "before_as_claimed": 6,
+    "before_assessable": 6,
+    "after_as_claimed": 6,
+    "after_assessable": 6,
+    "block_bp": 1502,
+    "block_cost_D": 105.2,
+    "block_ident_D": 0.8966,
+    "block_matches_D": 1361,
+    "block_cost_P": 105.9,
+    "block_ident_P": 0.8959,
+    "block_matches_P": 1360,
+    "block_verdict": "tie (within 2 per 1,000)"
    }
   },
   {
@@ -14021,6 +16364,63 @@
      "n": 0,
      "private_bp": 83756
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "d18fac25-7369-4158-b7c4-578fd17c92b1",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 56
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "1cc2bee6-e4f0-4bd4-8bf3-0111238d5a32",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 49
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "22c67f74-22ba-4f76-aaa0-7ba306a521fc",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 29
+    }
+   ],
+   "block_check": {
+    "start": 11410,
+    "end": 21553,
+    "D": {
+     "ident": 0.9833,
+     "matches": 10095,
+     "r_start": 5200,
+     "r_end": 15462,
+     "q_start": 0,
+     "q_end": 10143,
+     "cost": 16.9
+    },
+    "P": {
+     "ident": 0.9344,
+     "matches": 9486,
+     "r_start": 3159,
+     "r_end": 12778,
+     "q_start": 0,
+     "q_end": 10138,
+     "cost": 66.2
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 10143,
+    "block_cost_D": 16.9,
+    "block_ident_D": 0.9833,
+    "block_matches_D": 10095,
+    "block_cost_P": 66.2,
+    "block_ident_P": 0.9344,
+    "block_matches_P": 9486,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -14317,6 +16717,63 @@
      "n": 0,
      "private_bp": 80274
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "48772000-d82a-4749-9f38-86f41bcfa48d",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 68
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "5ee9ed9a-aacb-4e46-bd7b-5e4c985bc3a4",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 64
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "34b9d490-f15e-4b1a-a42b-1d97388da838",
+     "dataset": "1KG_ONT_NA19391",
+     "n_windows": 46
+    }
+   ],
+   "block_check": {
+    "start": 10091,
+    "end": 43347,
+    "D": {
+     "ident": 0.9537,
+     "matches": 33138,
+     "r_start": 916,
+     "r_end": 35638,
+     "q_start": 1,
+     "q_end": 33255,
+     "cost": 48.4
+    },
+    "P": {
+     "ident": 0.8876,
+     "matches": 30680,
+     "r_start": 42,
+     "r_end": 32521,
+     "q_start": 80,
+     "q_end": 33255,
+     "cost": 119.3
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 33256,
+    "block_cost_D": 48.4,
+    "block_ident_D": 0.9537,
+    "block_matches_D": 33138,
+    "block_cost_P": 119.3,
+    "block_ident_P": 0.8876,
+    "block_matches_P": 30680,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -14615,6 +17072,63 @@
      "n": 31,
      "private_bp": 80541
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "bccad9d4-d62b-407c-8991-f08680df9490",
+     "dataset": "1KG_ONT_NA20346",
+     "n_windows": 91
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "a172e52c-d562-4368-a79f-aeed46f5aca8",
+     "dataset": "1KG_ONT_NA20346",
+     "n_windows": 73
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "50fd8d5a-9822-4b82-b51c-f729bf611d9d",
+     "dataset": "1KG_ONT_NA20346",
+     "n_windows": 49
+    }
+   ],
+   "block_check": {
+    "start": 7136,
+    "end": 11177,
+    "D": {
+     "ident": 0.999,
+     "matches": 4037,
+     "r_start": 3784,
+     "r_end": 7825,
+     "q_start": 0,
+     "q_end": 4041,
+     "cost": 1.0
+    },
+    "P": {
+     "ident": 0.9024,
+     "matches": 3975,
+     "r_start": 3479,
+     "r_end": 7883,
+     "q_start": 0,
+     "q_end": 4041,
+     "cost": 106.4
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 4041,
+    "block_cost_D": 1.0,
+    "block_ident_D": 0.999,
+    "block_matches_D": 4037,
+    "block_cost_P": 106.4,
+    "block_ident_P": 0.9024,
+    "block_matches_P": 3975,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -14861,6 +17375,57 @@
      "n": 64,
      "private_bp": 53106
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "2795f061-e8e9-4bf6-bea5-9766dfe09ad4",
+     "dataset": "1KG_ONT_NA20346",
+     "n_windows": 89
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "c432e9c6-4c02-4053-9203-35b1a45c37bd",
+     "dataset": "1KG_ONT_NA20346",
+     "n_windows": 93
+    }
+   ],
+   "block_check": {
+    "start": 1821,
+    "end": 10882,
+    "D": {
+     "ident": 0.907,
+     "matches": 8968,
+     "r_start": 826,
+     "r_end": 10696,
+     "q_start": 5,
+     "q_end": 9061,
+     "cost": 102.0
+    },
+    "P": {
+     "ident": 0.9373,
+     "matches": 6714,
+     "r_start": 2623,
+     "r_end": 9762,
+     "q_start": 2275,
+     "q_end": 9060,
+     "cost": 300.7
+    }
+   },
+   "goodness": {
+    "n_molecules": 2,
+    "before_as_claimed": 0,
+    "before_assessable": 1,
+    "after_as_claimed": 1,
+    "after_assessable": 1,
+    "block_bp": 9061,
+    "block_cost_D": 102.0,
+    "block_ident_D": 0.907,
+    "block_matches_D": 8968,
+    "block_cost_P": 300.7,
+    "block_ident_P": 0.9373,
+    "block_matches_P": 6714,
+    "block_verdict": "closer to D"
    }
   },
   {
@@ -15173,6 +17738,63 @@
      "n": 0,
      "private_bp": 43874
     }
+   },
+   "traces": [
+    {
+     "file": "trace_1.bedgraph",
+     "read_id": "12431a96-0661-49ce-b388-18aef0fcd2de",
+     "dataset": "1KG_ONT_NA20762",
+     "n_windows": 28
+    },
+    {
+     "file": "trace_2.bedgraph",
+     "read_id": "3d70efab-1147-4501-a28a-79eee52a5421",
+     "dataset": "1KG_ONT_NA20762",
+     "n_windows": 26
+    },
+    {
+     "file": "trace_3.bedgraph",
+     "read_id": "3c01e7e4-3415-4930-9bc4-1e69b5488482",
+     "dataset": "1KG_ONT_NA20762",
+     "n_windows": 22
+    }
+   ],
+   "block_check": {
+    "start": 5872,
+    "end": 11559,
+    "D": {
+     "ident": 0.9897,
+     "matches": 5652,
+     "r_start": 3072,
+     "r_end": 8782,
+     "q_start": 0,
+     "q_end": 5687,
+     "cost": 10.4
+    },
+    "P": {
+     "ident": 0.925,
+     "matches": 5264,
+     "r_start": 3341,
+     "r_end": 8689,
+     "q_start": 0,
+     "q_end": 5687,
+     "cost": 75.1
+    }
+   },
+   "goodness": {
+    "n_molecules": 3,
+    "before_as_claimed": 3,
+    "before_assessable": 3,
+    "after_as_claimed": 3,
+    "after_assessable": 3,
+    "block_bp": 5687,
+    "block_cost_D": 10.4,
+    "block_ident_D": 0.9897,
+    "block_matches_D": 5652,
+    "block_cost_P": 75.1,
+    "block_ident_P": 0.925,
+    "block_matches_P": 5264,
+    "block_verdict": "closer to D"
    }
   }
  ],

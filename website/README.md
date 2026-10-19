@@ -32,6 +32,9 @@ export TOUR_CACHE=work/tour                 # downloads (CHM13 end ranges) and t
 python website/tour_build.py               # molecules, parts, own-assembly and assembly-to-CHM13 alignments
 python website/tour_models.py              # formal claim models (criteria v1) in tip frame
 python website/tour_build.py --sites-only  # per-molecule agreement with the claim model; strips @PG lines from BAMs
+python website/tour_traces.py              # 2 kb window contrast of every molecule vs D and P (bedGraph tracks, ~5 min),
+                                           # whole-block check, report/pitch_data/{trace_*,alignment_goodness_by_claim}.tsv
+python report/pitch_alignment_contrast.py  # figures/pitch/fig_alignment_contrast.png (window contrast, all molecules)
 python website/build_site.py               # writes evidence/tour.html and evidence/tour/tour.json
 python website/tour_check.py               # static check: files, contigs, loci, BAM integrity, file sizes
 python report/pitch_consolidated.py        # static four-track figure figures/pitch/fig_consolidated.png (tour data)
@@ -48,7 +51,7 @@ length. A browser render cannot be tested without a display; check the live page
 | `pipeline/atlas_palette.py` | family-aware CHM13 end palette with CIEDE2000 / deuteranopia QC |
 | `pipeline/figures_atlas.py` | F1 genome overview (chords + nativity classes), F2 allele mosaics, F3 superpopulation frequencies, F4 validation, palette key; captions computed from the tables |
 | `website/build_site.py` | builds every page; renders `QC.md`, `SCHEMA.md`, `CATALOGUE.md` and the verdict sections of the analysis READMEs with a small built-in Markdown renderer; reads the stability tables (QC.md section 9), `tests/validation/VALIDATION.md` and `data/validation/` (Tan et al. cross-check) at build time and shows an "in progress" notice when they are absent; builds the analysis-form vs revision-2 concordance table from `ends.tsv` |
-| `website/tour_build.py`, `tour_models.py`, `tour_pages.py`, `tour_check.py`, `static/tour.js` | guided tour: data, claim models, page and chapter list, static check, carousel |
+| `website/tour_build.py`, `tour_models.py`, `tour_traces.py`, `tour_pages.py`, `tour_check.py`, `static/tour.js` | guided tour: data, claim models, window-contrast tracks and alignment checks, page and chapter list, static check, carousel |
 | `website/static/` | `site.css`, `common.js` (sortable/filterable tables, TSV export, tooltips), `arm.js` (interactive allele mosaic, member mosaic and member table), `alleles.js` (allele and haplogroup search) |
 | `website/check_site.py` | strict HTML5 parse, internal links and anchors, repository links, no external runtime resources, JSON/JS payloads, local-path scan, 150 MB size budget (the tour data are most of it) |
 | `website/render_check.js` | loads every page with its scripts in jsdom, checks that mosaics and tables render and that filters, keyboard selection and deep links work; writes the generated SVG mosaics for inspection |

@@ -43,12 +43,21 @@ def _views(c, ref):
             dict(label='Own assembly (both copies)', locus=wloc)]
 
 
+def _traces(c, order=2):
+    """overlay of every molecule's window contrast on the claimed own window (website/tour_traces.py)"""
+    tr = [dict(type='wig', format='bedgraph', url=f'{D}claims/{c["slug"]}/{t["file"]}', name=t['read_id'][:8],
+               color='#D55E00', altColor='#0072B2') for t in c.get('traces', []) if t['n_windows']]
+    if not tr: return []
+    return [dict(type='merged', name=f'closer to {c["D"]} (up) or {c["P"]} (down), per molecule', height=70, min=-60, max=60,
+                 autoscale=False, alpha=0.45, order=order, tracks=tr)]
+
+
 def _model(c): return _bed(f'{D}claims/{c["slug"]}/model.bed', 'diagnostic sites (claim model)', height=40, order=0)
 
 
 def _claim_tracks(c, ref, mol_name='molecules'):
     s = c['slug']; b = f'{D}claims/{s}/'
-    return [_model(c), _bed(b + 'own_blocks.bed', 'assembly blocks (catalogue)', order=1),
+    return [_model(c), _bed(b + 'own_blocks.bed', 'assembly blocks (catalogue)', order=1), *_traces(c),
             _bam(b + 'asm.bam', 'assembly blocks \u2192 CHM13', height=60, mode='EXPANDED', order=3),
             _bam(b + 'own.bam', f'{mol_name} \u2192 own assembly', height=110, order=4),
             _bam(b + 'parts.bam', f'{mol_name} \u2192 CHM13 (cut at switch)', height=110, order=5)]
@@ -99,6 +108,45 @@ def consolidated_caption(rp, html=True):
             f'(b) HG01258 chromosome 20q, allele SA-20q-01: {len(b["mols"])} 1000 Genomes nanopore molecules of the claim '
             f'{code(b["claim_id"])}. Tracks are cut at 100 kb. The interactive version of every definitive claim is the '
             f'guided tour.')
+
+def _goodness(c):
+    """one-line alignment check for a claim (website/tour_traces.py)"""
+    g = c.get('goodness') or {}
+    if not g: return ''
+    s = (f'Alignment check: before the switch {g["before_as_claimed"]} of {g["before_assessable"]} assessable molecules are '
+         f'closer to {c["D"]}; in the first 20 kb after it, {g["after_as_claimed"]} of {g["after_assessable"]} are closer to '
+         f'{c["P"]}.')
+    if g.get('block_cost_D') is not None:
+        s += (f' The assembled donor block ({g["block_bp"] / 1e3:.1f} kb) differs from {c["D"]} at {g["block_cost_D"]:.0f} and '
+              f'from {c["P"]} at {g["block_cost_P"]:.0f} letters per 1,000 ({g["block_verdict"]}).')
+    return s
+
+
+def alignment_caption(rp, html=True):
+    """caption of figures/pitch/fig_alignment_contrast.png (report/pitch_alignment_contrast.py)"""
+    import pandas as pd
+    H = pd.read_csv(rp('report/pitch_data/trace_halves.tsv'), sep='\t'); H = H[H.after_span == 20000]
+    T = pd.read_csv(rp('report/pitch_data/alignment_goodness_by_claim.tsv'), sep='\t')
+    p17 = H.slug.str.contains('chr17_|17p', regex=True); o = H[~p17]
+    ok = lambda s: int((o[o.side == s].verdict == 'as claimed').sum()); na = lambda s: int((o[o.side == s].verdict != 'not assessable').sum())
+    k17 = H[p17 & (H.side == 'before')]; vc = T.block_verdict.value_counts()
+    odd = T[T.block_verdict != 'closer to D']
+    return (f'Each molecule of the tour ({H.read_id.nunique()} molecules, {H.slug.nunique()} claims) was cut into 2 kb windows every 1 kb, '
+            f'and each window was aligned on its own to the CHM13 end of the donor (D) and to the CHM13 end of the block after '
+            f'the switch (P; the recipient end except in 5 claims). Divergence = differences per 1,000 aligned letters; the read\'s '
+            f'own error rate is the same in both comparisons. (a) Contrast along single molecules of four claims (thin lines; '
+            f'yellow: switch intervals). (b) Each side of each molecule: median divergence to the end it was assigned to against '
+            f'the other end, over windows aligned to both ends (windows within 2 per 1,000 of each other, or more than 100 from both, '
+            f'are left out); the counts use the median contrast, which also includes windows that align to one end only. Before the switch, {ok("before")} of {na("before")} assessable sides outside the 17p claims are '
+            f'closer to D; in the first 20 kb after it, {ok("after")} of {na("after")} are closer to P (top band: windows that '
+            f'align only to P). The window test fails for the 17p claims ({int((k17.verdict == "as claimed").sum())} of '
+            f'{len(k17)} sides before the switch closer to D): their 11p-like block differs from CHM13 11p by large insertions '
+            f'and deletions, so 2 kb windows align better to a related repeat at the 17p tip. Whole-block check (the assembled '
+            f'donor block aligned as one piece; letters not explained per 1,000): {int(vc.get("closer to D", 0))} of {len(T)} '
+            f'claims are closer to D; ' + '; '.join(f'{r.claim_id}: {r.block_verdict} ({r.block_cost_D:.0f} vs {r.block_cost_P:.0f})'
+                                                     for r in odd.itertuples()) +
+            '. Data: report/pitch_data/trace_windows.tsv.gz, trace_halves.tsv, alignment_goodness_by_claim.tsv.')
+
 
 def build(ctx):
     rp = ctx['rp']; J = json.load(open(rp('docs/evidence/tour/data/tour_data.json')))
@@ -217,14 +265,16 @@ def build(ctx):
                              'the reference genome, lies about 200 kb inside the chromosome 11p end.'),
                        notes=[f'{len(s17)} people: ' + ', '.join(_label(c).split(',')[0] for c in s17) + f'. Part 1 covers '
                               f'11p-only sequence in {n1} of {nmol} molecules (left panel, 190-230 kb into 11p).',
-                              'This block is rich in tandem repeats, so alignments look ragged.']))
+                              'This block is rich in tandem repeats and differs from the CHM13 11p copy by large insertions and '
+                              'deletions, so alignments look ragged and the window-by-window contrast fails here. The claims rest on '
+                              'sequence found only in the 11p copy (the claim model), not on letter-by-letter similarity.']))
     gal = []
     for c in J['claims']:
         r = R[c['ref']]
         gal.append(dict(slug=c['slug'], label=_label(c), cohort=c['cohort'], verdict=c['verdict'], n_definitive=c['n_definitive'],
                         n_shown=len(c['mols']), ref=_ref(c['slug'], _label(c)), views=_views(c, r), tracks=_claim_tracks(c, r),
                         donor=c['D'], recipient=c['R'], page=f'claim/{c["slug"]}.html',
-                        note=f'Part 1 carries {_evidence(c, "part1")}; part 2 carries {_evidence(c, "part2")}.'))
+                        note=f'Part 1 carries {_evidence(c, "part1")}; part 2 carries {_evidence(c, "part2")}. {_goodness(c)}'))
     ch.append(dict(id='gallery', short='All claims', title=f'All {len(gal)} definitive claims', gallery=gal,
                    lead=('Every claim with at least two definitive molecules, in the same four-panel view: own assembly '
                          '(both copies), then the CHM13 donor and recipient ends.'),
@@ -247,12 +297,20 @@ def build(ctx):
 <div id="igv" class="igv-host"></div>
 <h2 id="one-figure">The whole argument in one figure</h2>
 {ctx['figure']('figures/pitch/fig_consolidated.png', 'Molecules, assembly and reference genome tell the same story', consolidated_caption(ctx['rp']), '../')}
+<h2 id="alignment-check">How well each piece of each molecule fits</h2>
+{ctx['figure']('figures/pitch/fig_alignment_contrast.png', 'Window-by-window alignment contrast of every tour molecule', alignment_caption(ctx['rp']), '../')}
 <details class="note"><summary>What the tracks are</summary><ul>
 <li><b>assembly blocks (catalogue)</b>: the atlas's labels for the person's own chromosome end (telomere; blocks named
 after the CHM13 end they match best; home = the chromosome's own sequence).</li>
 <li><b>diagnostic sites (claim model)</b>: the pre-registered claim model (criteria v1): single-base sites where the donor and
 comparator CHM13 ends differ (orange on the donor end, blue on the comparator end; the label gives both letters), sequence found
 only in one of them, and their shared blocks in grey (<a href="faq.html">FAQ</a>, <a href="verify.html">verify</a>).</li>
+<li><b>closer to D (up) or P (down), per molecule</b>: every molecule cut into 2 kb windows, each aligned on its own to
+the CHM13 donor end and to the CHM13 end of the block after the switch; bar height = how many more differences per 1,000
+letters the window has to the other end (orange: closer to the donor end; blue: closer to the end after the switch; &plusmn;60
+= capped, or aligns to one end only). Overlapping molecules add up in colour. Not informative in tandem repeats or in
+sequence the two ends share (bars near 0); the 17p claims' indel-rich donor block is a known failure case
+(<a href="{ctx['BLOB']}website/tour_traces.py">website/tour_traces.py</a>).</li>
 <li><b>assembly blocks &rarr; CHM13</b>: each block of the person's assembly placed on the reference end its label names.</li>
 <li><b>molecules &rarr; own assembly</b>: whole molecules aligned to the person's own chromosome ends.</li>
 <li><b>molecules &rarr; CHM13 (cut at switch)</b>: each molecule cut at its switch interval (criteria v1); part 1
