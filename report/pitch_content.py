@@ -15,7 +15,10 @@ E = T_('data/catalogue/ends.tsv'); R2 = E[E.set == 'HPRC_R2']
 n_ends, n_people = len(R2), R2['sample'].nunique()
 n_foreign = int((R2.nativity_class == 'foreign').sum())
 FR = R2[R2.nativity_class == 'foreign']
-n_first = int((FR.core_structure.astype(str).str.split('|').str[0] != 'home').sum())
+_FAM = {r.family: set(r.members.split(',')) for r in T_('data/catalogue/paralog_families.tsv').itertuples()}
+# the block next to the telomere is itself foreign: neither home/none nor a family or arm that contains the own arm
+n_first = int(sum(t not in ('home', 'none') and a not in _FAM.get(t, {t})
+                  for t, a in zip(FR.core_structure.astype(str).str.split('|').str[0], FR.catalogue_arm)))
 per = R2.groupby('sample').agg(n=('end_id', 'size'), f=('nativity_class', lambda s: int((s == 'foreign').sum())))
 A = T_('data/catalogue/alleles_structural.tsv').set_index('allele_id')
 a20, a3 = A.loc['SA-20q-01'], A.loc['SA-3q-01']
@@ -90,7 +93,7 @@ BODY = [
           f'{f0(n_ends)} chromosome ends from {n_people} people with the 48 CHM13 ends and labelled each block by the CHM13 end '
           f'it matches best. An end is <b>foreign</b> if one of its blocks best matches the end of an unrelated chromosome '
           f'(not a known near-identical partner). That is true of {n_foreign / n_ends:.0%} of all ends; in '
-          f'{n_first / n_foreign:.0%} of them it is the block right next to the telomere. The same versions recur in many '
+          f'{n_first / n_foreign:.0%} of them the foreign block is the one right next to the telomere. The same versions recur in many '
           'unrelated people. The atlas catalogues them as structural alleles, such as SA-20q-01.'),
     ('p', 'A skeptic\'s first question: are these real chromosome ends, or assembly mistakes? Assemblies are stitched '
           'together from many reads, and stitching inside near-identical sequence is exactly where assemblers can go wrong. '

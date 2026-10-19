@@ -148,9 +148,12 @@ def build(ctx):
                                _bam(f'{D}claims/{hero["slug"]}/own.bam', 'molecules of the maternal claim (SA-3q-01)', height=110, order=2),
                                _bam(f'{D}claims/{pat["slug"]}/own.bam', 'molecules of the paternal claim (SA-3q-04)', height=110, order=3)],
                        lead=('HG002 inherited two different chromosome 3 ends. Left: his mother\'s copy (a chromosome-11-like '
-                             'block, then 3q). Right: his father\'s copy (19p-like blocks among 3q sequence).'),
+                             'block, then 3q). Right: his father\'s copy (a short chromosome-11-like tip block, then 19p-like blocks among 3q '
+                             'sequence).'),
                        notes=[f'Each set of molecules lands on its own copy: {km} of {nm_} maternal-claim molecules on the '
                               f'left window, {kp} of {np_} paternal-claim molecules on the right one.',
+                              'Both copies start with chromosome-11-like sequence next to the telomere, but it runs about 37 kb '
+                              'on the mother\'s copy and about 6 kb on the father\'s, and what follows differs.',
                               'The built-in control: the same chromosome arm, in the same person, read by the same machines, '
                               'gives two different and internally consistent ends.']))
     kid, mom = CL.get('HG002_2_chr9_MATERNAL_L'), CL.get('HG004__HG002_2_chr9_MATERNAL_L')
