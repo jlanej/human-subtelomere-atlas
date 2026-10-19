@@ -25,3 +25,6 @@ evidence/population/reads.tsv.gz
 # reviewer showcase read evidence (small; committed, see evidence/showcase/README.md)
 !evidence/showcase/**/*.bam
 !evidence/showcase/**/*.bam.bai
+# guided-tour read data served by GitHub Pages (small; committed, see website/README.md)
+!docs/evidence/tour/data/**/*.bam
+!docs/evidence/tour/data/**/*.bam.bai

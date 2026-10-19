@@ -43,6 +43,20 @@ def main():
                 op = gzip.open if f.endswith('.gz') else open
                 bad = {l.split('\t')[0] for l in op(f, 'rt') if l.strip() and not l.startswith(('#', 'track', 'browser'))} - set(L)
                 if bad: err.append(f'{name}: {t["url"]} contigs not in reference: {sorted(bad)[:3]}')
+    # every referenced file must be committed, or GitHub Pages will not serve it (e.g. *.bam / *.bai in .gitignore)
+    refs = set()
+    for _, s in stops(T):
+        refs |= {s['ref'][k] for k in ('fastaURL', 'indexURL', 'compressedIndexURL')}
+        for t in s['tracks']:
+            refs.add(t['url'])
+            if t.get('format') == 'bam': refs.add(t.get('indexURL', t['url'] + '.bai'))
+    g = subprocess.run(['git', 'ls-files', '--others', '--ignored', '--exclude-standard', '--', os.path.join(EV, 'tour')],
+                       cwd=REPO, capture_output=True, text=True)
+    if g.returncode == 0:
+        ign = {os.path.relpath(os.path.join(REPO, x), EV) for x in g.stdout.split()}
+        bad = sorted(refs & ign)
+        if bad: err.append(f'{len(bad)} referenced files are git-ignored (not deployed), e.g. {bad[0]}')
+    else: warn.append('git not available: deploy (git-ignore) check skipped')
     for root, _, fs in os.walk(os.path.join(EV, 'tour')):
         for x in fs:
             sz = os.path.getsize(os.path.join(root, x))
