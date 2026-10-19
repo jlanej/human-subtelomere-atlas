@@ -95,6 +95,7 @@ def main():
     lim = (0.7, 400); ax.plot(lim, lim, color=GREY, lw=0.7, zorder=1)
     ax.set_xscale('log'); ax.set_yscale('log'); ax.set_xlim(lim); ax.set_ylim(2.5, BAND * 1.9)
     tk = [1, 10, 100]; ax.set_xticks(tk); ax.set_yticks(tk); ax.set_xticklabels(['1', '10', '100']); ax.set_yticklabels(['1', '10', '100'])
+    ax.set_xlim(lim); ax.set_ylim(2.5, BAND * 1.9)
     ax.set_xlabel('divergence to the end this side was assigned to\n(differences per 1,000 aligned letters, median)')
     ax.set_ylabel('divergence to the other end')
     ax.text(0.8, 300, 'above the line: closer to\nthe assigned end', fontsize=6, color=TELO, va='top')
